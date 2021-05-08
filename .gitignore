@@ -1,0 +1,2 @@
+excludesfile = *.lock
+excludesfile = /home/pi/Dendron/vault/.git/refs/remotes/origin/main.lock
