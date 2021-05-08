@@ -1,7 +1,0 @@
-version: 1
-imports: []
-schemas:
-  - id: moi
-    children: []
-    title: moi
-    parent: root

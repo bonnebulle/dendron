@@ -1,7 +1,0 @@
-version: 1
-imports: []
-schemas:
-  - id: hello
-    children: []
-    title: hello
-    parent: root
