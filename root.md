@@ -13,5 +13,4 @@ Elle sera dans un premier temps exploratoire avec comme ambition de créer outil
 #Distanciation et défense numérique
 Je veux aller à la rencontre de communautés d'individus hébergés sur des réseaux aux protocoles atypiques qui facilitent le maintien du secret autour de leurs activités illicites ou marginales. Des outils-moyens de défense numérique, de distanciation d'un Autre dont la présence n'est pas consentie mais toujours potentielle.
 
-
 [[Org.parties]]
