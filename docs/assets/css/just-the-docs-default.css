@@ -403,11 +403,7 @@ th {
 
 ::selection {
   color: #fff;
-<<<<<<< HEAD
-  background: #2c84fa;
-=======
   background: #7253ed;
->>>>>>> parent of ccfdb82... darkis
 }
 
 html {
@@ -424,13 +420,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
   font-size: inherit;
   line-height: 1.4;
-<<<<<<< HEAD
-  color: #e6e1e8;
-  background-color: #27262b;
-=======
   color: #5c5962;
   background-color: #fff;
->>>>>>> parent of ccfdb82... darkis
 }
 
 ol,
@@ -458,11 +449,7 @@ h6 {
   margin-bottom: 1em;
   font-weight: 500;
   line-height: 1.25;
-<<<<<<< HEAD
-  color: #f5f6fa;
-=======
   color: #27262b;
->>>>>>> parent of ccfdb82... darkis
 }
 
 p {
@@ -471,31 +458,19 @@ p {
 }
 
 a {
-<<<<<<< HEAD
-  color: #2c84fa;
-=======
   color: #7253ed;
->>>>>>> parent of ccfdb82... darkis
   text-decoration: none;
 }
 
 a:not([class]) {
   text-decoration: none;
-<<<<<<< HEAD
-  background-image: linear-gradient(#44434d 0%, #44434d 100%);
-=======
   background-image: linear-gradient(#eeebee 0%, #eeebee 100%);
->>>>>>> parent of ccfdb82... darkis
   background-repeat: repeat-x;
   background-position: 0 100%;
   background-size: 1px 1px;
 }
 a:not([class]):hover {
-<<<<<<< HEAD
-  background-image: linear-gradient(rgba(44, 132, 250, 0.45) 0%, rgba(44, 132, 250, 0.45) 100%);
-=======
   background-image: linear-gradient(rgba(114, 83, 237, 0.45) 0%, rgba(114, 83, 237, 0.45) 100%);
->>>>>>> parent of ccfdb82... darkis
   background-size: 1px 1px;
 }
 
@@ -523,11 +498,7 @@ hr {
   height: 1px;
   padding: 0;
   margin: 2rem 0;
-<<<<<<< HEAD
-  background-color: #44434d;
-=======
   background-color: #eeebee;
->>>>>>> parent of ccfdb82... darkis
   border: 0;
 }
 
@@ -535,11 +506,7 @@ hr {
   z-index: 0;
   display: flex;
   flex-wrap: wrap;
-<<<<<<< HEAD
-  background-color: #27262b;
-=======
   background-color: #f5f6fa;
->>>>>>> parent of ccfdb82... darkis
 }
 @media (min-width: 50rem) {
   .side-bar {
@@ -548,11 +515,7 @@ hr {
     width: 248px;
     height: 100%;
     flex-direction: column;
-<<<<<<< HEAD
-    border-right: 1px solid #44434d;
-=======
     border-right: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
     align-items: flex-end;
   }
 }
@@ -598,24 +561,15 @@ hr {
 .main-header {
   z-index: 0;
   display: none;
-<<<<<<< HEAD
-  background-color: #27262b;
-=======
   background-color: #f5f6fa;
->>>>>>> parent of ccfdb82... darkis
 }
 @media (min-width: 50rem) {
   .main-header {
     display: flex;
     justify-content: space-between;
     height: 60px;
-<<<<<<< HEAD
-    background-color: #27262b;
-    border-bottom: 1px solid #44434d;
-=======
     background-color: #fff;
     border-bottom: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   }
 }
 .main-header.nav-open {
@@ -665,11 +619,7 @@ hr {
   .site-header {
     height: 60px;
     max-height: 60px;
-<<<<<<< HEAD
-    border-bottom: 1px solid #44434d;
-=======
     border-bottom: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   }
 }
 
@@ -682,11 +632,7 @@ hr {
   align-items: center;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-<<<<<<< HEAD
-  color: #f5f6fa;
-=======
   color: #27262b;
->>>>>>> parent of ccfdb82... darkis
   font-size: 18px !important;
 }
 @media (min-width: 50rem) {
@@ -721,19 +667,11 @@ hr {
   }
 }
 .site-title:hover {
-<<<<<<< HEAD
-  background-image: linear-gradient(-90deg, #201f23 0%, rgba(32, 31, 35, 0.8) 80%, rgba(32, 31, 35, 0) 100%);
-}
-
-.site-button:hover {
-  background-image: linear-gradient(-90deg, #201f23 0%, rgba(32, 31, 35, 0.8) 100%);
-=======
   background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%);
 }
 
 .site-button:hover {
   background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 100%);
->>>>>>> parent of ccfdb82... darkis
 }
 
 body {
@@ -780,11 +718,7 @@ body {
 .icon {
   width: 1.5rem;
   height: 1.5rem;
-<<<<<<< HEAD
-  color: #2c84fa;
-=======
   color: #7253ed;
->>>>>>> parent of ccfdb82... darkis
 }
 
 .main-content {
@@ -907,11 +841,7 @@ body {
   display: inline-block;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-  color: #2c84fa;
-=======
   color: #7253ed;
->>>>>>> parent of ccfdb82... darkis
   visibility: hidden;
 }
 .main-content .anchor-heading:hover svg,
@@ -1027,11 +957,7 @@ body {
   text-decoration: none;
 }
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
-<<<<<<< HEAD
-  background-image: linear-gradient(-90deg, #201f23 0%, rgba(32, 31, 35, 0.8) 80%, rgba(32, 31, 35, 0) 100%);
-=======
   background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%);
->>>>>>> parent of ccfdb82... darkis
 }
 .nav-list .nav-list-item .nav-list-expander {
   position: absolute;
@@ -1042,11 +968,7 @@ body {
   padding-right: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
-<<<<<<< HEAD
-  color: #2c84fa;
-=======
   color: #7253ed;
->>>>>>> parent of ccfdb82... darkis
 }
 @media (min-width: 50rem) {
   .nav-list .nav-list-item .nav-list-expander {
@@ -1059,11 +981,7 @@ body {
   }
 }
 .nav-list .nav-list-item .nav-list-expander:hover {
-<<<<<<< HEAD
-  background-image: linear-gradient(-90deg, #201f23 0%, rgba(32, 31, 35, 0.8) 100%);
-=======
   background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 100%);
->>>>>>> parent of ccfdb82... darkis
 }
 .nav-list .nav-list-item .nav-list-expander svg {
   transform: rotate(90deg);
@@ -1077,17 +995,10 @@ body {
   position: relative;
 }
 .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
-<<<<<<< HEAD
-  color: #959396;
-}
-.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-expander {
-  color: #959396;
-=======
   color: #5c5962;
 }
 .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-expander {
   color: #5c5962;
->>>>>>> parent of ccfdb82... darkis
 }
 .nav-list .nav-list-item.active > .nav-list-expander svg {
   transform: rotate(-90deg);
@@ -1311,19 +1222,11 @@ h6,
   font-size: inherit;
   font-weight: 500;
   line-height: 1.5;
-<<<<<<< HEAD
-  color: #2c84fa;
-  text-decoration: none;
-  vertical-align: baseline;
-  cursor: pointer;
-  background-color: #302d36;
-=======
   color: #7253ed;
   text-decoration: none;
   vertical-align: baseline;
   cursor: pointer;
   background-color: #f7f7f7;
->>>>>>> parent of ccfdb82... darkis
   border-width: 0;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
@@ -1338,16 +1241,6 @@ h6,
   box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.25);
 }
 .btn:hover, .btn.zeroclipboard-is-hover {
-<<<<<<< HEAD
-  color: #227efa;
-}
-.btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active {
-  text-decoration: none;
-  background-color: #2e2b33;
-}
-.btn:active, .btn.selected, .btn.zeroclipboard-is-active {
-  background-color: #29262e;
-=======
   color: #6a4aec;
 }
 .btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active {
@@ -1356,7 +1249,6 @@ h6,
 }
 .btn:active, .btn.selected, .btn.zeroclipboard-is-active {
   background-color: #efefef;
->>>>>>> parent of ccfdb82... darkis
   background-image: none;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
 }
@@ -1372,20 +1264,12 @@ h6,
 }
 
 .btn-outline {
-<<<<<<< HEAD
-  color: #2c84fa;
-=======
   color: #7253ed;
->>>>>>> parent of ccfdb82... darkis
   background: transparent;
   box-shadow: inset 0 0 0 2px #e6e1e8;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline.zeroclipboard-is-hover, .btn-outline.zeroclipboard-is-active {
-<<<<<<< HEAD
-  color: #1878fa;
-=======
   color: #6341eb;
->>>>>>> parent of ccfdb82... darkis
   text-decoration: none;
   background-color: transparent;
   box-shadow: inset 0 0 0 3px #e6e1e8;
@@ -1401,39 +1285,22 @@ h6,
 
 .btn-primary {
   color: #fff;
-<<<<<<< HEAD
-  background-color: #2448a7;
-  background-image: linear-gradient(#2b55c4, #2448a7);
-=======
   background-color: #5739ce;
   background-image: linear-gradient(#6f55d5, #5739ce);
->>>>>>> parent of ccfdb82... darkis
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 .btn-primary:hover, .btn-primary.zeroclipboard-is-hover {
   color: #fff;
-<<<<<<< HEAD
-  background-color: #22459e;
-  background-image: linear-gradient(#2850b7, #22459e);
-}
-.btn-primary:active, .btn-primary.selected, .btn-primary.zeroclipboard-is-active {
-  background-color: #21439a;
-=======
   background-color: #5132cb;
   background-image: linear-gradient(#6549d2, #5132cb);
 }
 .btn-primary:active, .btn-primary.selected, .btn-primary.zeroclipboard-is-active {
   background-color: #4f31c6;
->>>>>>> parent of ccfdb82... darkis
   background-image: none;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 .btn-primary.selected:hover {
-<<<<<<< HEAD
-  background-color: #1d3a85;
-=======
   background-color: #472cb2;
->>>>>>> parent of ccfdb82... darkis
 }
 
 .btn-purple {
@@ -1544,11 +1411,7 @@ h6,
   padding-bottom: 0.5rem;
   padding-left: 2.5rem;
   font-size: 16px;
-<<<<<<< HEAD
-  background-color: #302d36;
-=======
   background-color: #fff;
->>>>>>> parent of ccfdb82... darkis
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
@@ -1561,11 +1424,7 @@ h6,
     padding-bottom: 1rem;
     padding-left: 3.5rem;
     font-size: 14px;
-<<<<<<< HEAD
-    background-color: #27262b;
-=======
     background-color: #fff;
->>>>>>> parent of ccfdb82... darkis
     transition: padding-left linear 200ms;
   }
 }
@@ -1573,11 +1432,7 @@ h6,
   outline: 0;
 }
 .search-input:focus + .search-label .search-icon {
-<<<<<<< HEAD
-  color: #2c84fa;
-=======
   color: #7253ed;
->>>>>>> parent of ccfdb82... darkis
 }
 
 .search-label {
@@ -1606,11 +1461,7 @@ h6,
   width: 100%;
   max-height: calc(100% - 4rem);
   overflow-y: auto;
-<<<<<<< HEAD
-  background-color: #302d36;
-=======
   background-color: #fff;
->>>>>>> parent of ccfdb82... darkis
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
@@ -1658,11 +1509,7 @@ h6,
   padding-left: 0.75rem;
 }
 .search-result:hover, .search-result.active {
-<<<<<<< HEAD
-  background-color: #201f23;
-=======
   background-color: #ebedf5;
->>>>>>> parent of ccfdb82... darkis
 }
 
 .search-result-title {
@@ -1707,11 +1554,7 @@ h6,
   width: 1rem;
   height: 1rem;
   margin-right: 0.5rem;
-<<<<<<< HEAD
-  color: #2c84fa;
-=======
   color: #7253ed;
->>>>>>> parent of ccfdb82... darkis
   flex-shrink: 0;
 }
 .search-result-doc .search-result-doc-title {
@@ -1747,11 +1590,7 @@ h6,
   color: #959396;
   word-wrap: break-word;
   border-left: 1px solid;
-<<<<<<< HEAD
-  border-left-color: #44434d;
-=======
   border-left-color: #eeebee;
->>>>>>> parent of ccfdb82... darkis
   font-size: 11px !important;
 }
 @media (min-width: 31.25rem) {
@@ -1797,13 +1636,8 @@ h6,
   display: flex;
   width: 3.5rem;
   height: 3.5rem;
-<<<<<<< HEAD
-  background-color: #302d36;
-  border: 1px solid rgba(44, 132, 250, 0.3);
-=======
   background-color: #fff;
   border: 1px solid rgba(114, 83, 237, 0.3);
->>>>>>> parent of ccfdb82... darkis
   border-radius: 1.75rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   align-items: center;
@@ -1840,11 +1674,7 @@ h6,
   }
 }
 .search-active .search-input {
-<<<<<<< HEAD
-  background-color: #302d36;
-=======
   background-color: #fff;
->>>>>>> parent of ccfdb82... darkis
 }
 @media (min-width: 50rem) {
   .search-active .search-input {
@@ -1904,15 +1734,9 @@ td {
   padding-right: 0.75rem;
   padding-bottom: 0.5rem;
   padding-left: 0.75rem;
-<<<<<<< HEAD
-  background-color: #302d36;
-  border-bottom: 1px solid rgba(68, 67, 77, 0.5);
-  border-left: 1px solid #44434d;
-=======
   background-color: #fff;
   border-bottom: 1px solid rgba(238, 235, 238, 0.5);
   border-left: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
 }
 @media (min-width: 31.25rem) {
   th,
@@ -1934,21 +1758,13 @@ tbody tr:last-of-type td {
 }
 
 thead th {
-<<<<<<< HEAD
-  border-bottom: 1px solid #44434d;
-=======
   border-bottom: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
 }
 
 code {
   padding: 0.2em 0.15em;
   font-weight: 400;
-<<<<<<< HEAD
-  background-color: #302d36;
-=======
   background-color: #f5f6fa;
->>>>>>> parent of ccfdb82... darkis
   border-radius: 4px;
 }
 
@@ -1957,11 +1773,7 @@ figure.highlight {
   padding: 0.75rem;
   margin-top: 0;
   margin-bottom: 0;
-<<<<<<< HEAD
-  background-color: #302d36;
-=======
   background-color: #f5f6fa;
->>>>>>> parent of ccfdb82... darkis
   border-radius: 4px;
   -webkit-overflow-scrolling: touch;
 }
@@ -2253,26 +2065,16 @@ figure.highlight code {
   padding: 0.75rem;
   margin-bottom: 0.75rem;
   overflow: auto;
-<<<<<<< HEAD
-  border: 1px solid #44434d;
-=======
   border: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   border-radius: 4px;
 }
 .code-example + .highlighter-rouge,
 .code-example + figure.highlight {
   position: relative;
   margin-top: -1rem;
-<<<<<<< HEAD
-  border-right: 1px solid #44434d;
-  border-bottom: 1px solid #44434d;
-  border-left: 1px solid #44434d;
-=======
   border-right: 1px solid #eeebee;
   border-bottom: 1px solid #eeebee;
   border-left: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -8307,11 +8109,7 @@ figure.highlight code {
   }
 
   .site-header {
-<<<<<<< HEAD
-    border-bottom: 1px solid #44434d;
-=======
     border-bottom: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   }
 
   .site-title {
@@ -8324,11 +8122,7 @@ figure.highlight code {
   }
 
   pre.highlight {
-<<<<<<< HEAD
-    border: 1px solid #44434d;
-=======
     border: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   }
 
   .main {
@@ -8536,11 +8330,7 @@ button:focus, a:focus {
 @media (min-width: 1024px) {
   .author__avatar img {
     padding: 5px;
-<<<<<<< HEAD
-    border: 1px solid #44434d;
-=======
     border: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   }
 }
 
@@ -8640,11 +8430,7 @@ button:focus, a:focus {
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
-<<<<<<< HEAD
-  border: 1px solid #44434d;
-=======
   border: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
   border-radius: 4px;
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -8673,11 +8459,7 @@ button:focus, a:focus {
   width: 0;
   border-style: solid;
   border-width: 0 10px 10px;
-<<<<<<< HEAD
-  border-color: #44434d transparent;
-=======
   border-color: #eeebee transparent;
->>>>>>> parent of ccfdb82... darkis
   z-index: 0;
 }
 @media (min-width: 1024px) {
@@ -8969,17 +8751,10 @@ blockquote cite:before {
 
 /* links */
 a:visited {
-<<<<<<< HEAD
-  color: #4c96fb;
-}
-a:hover {
-  color: #2163bc;
-=======
   color: #876df0;
 }
 a:hover {
   color: #563eb2;
->>>>>>> parent of ccfdb82... darkis
   outline: 0;
 }
 
@@ -9006,11 +8781,7 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.8em;
-<<<<<<< HEAD
-  background: #302d36;
-=======
   background: #f5f6fa;
->>>>>>> parent of ccfdb82... darkis
   border-radius: 4px;
 }
 p > code:before, p > code:after,
@@ -9032,11 +8803,7 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-<<<<<<< HEAD
-  border-top: 1px solid #44434d;
-=======
   border-top: 1px solid #eeebee;
->>>>>>> parent of ccfdb82... darkis
 }
 
 /* lists */
@@ -9109,11 +8876,7 @@ figcaption a {
   transition: all 0.2s ease-in-out;
 }
 figcaption a:hover {
-<<<<<<< HEAD
-  color: #2163bc;
-=======
   color: #563eb2;
->>>>>>> parent of ccfdb82... darkis
 }
 
 /* Fix IE9 SVG bug */
