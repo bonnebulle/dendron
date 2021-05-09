@@ -6,4 +6,4 @@ updated: 1620598008588
 created: 1620507875648
 ---
 
-Antithèse
+Contre pied
