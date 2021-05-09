@@ -9,7 +9,7 @@ footer_content: ""
 
 gh_edit_link: false
 
-color_scheme: dark
+
 # seo
 tagline: "A better way to know"
 description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
@@ -26,3 +26,4 @@ defaults:
     values:
       layout: "default"
       image: "/assets/images/logo.png"
+  color_scheme: dark
