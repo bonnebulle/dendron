@@ -2,7 +2,7 @@
 id: root
 title: Thèse
 desc: Art de la rebellion en ligne
-updated: 1620640967937
+updated: 1620656216986
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -15,7 +15,7 @@ La captation des données par une surveillance indolore reste un modèle économ
 
 ---  
 
-> À la fois forme et véhicule de nos idées, ces informations modifient notre perception du présent, lui font écran. Si l'abstraction numérique, ces points dans l'espace, sert bien à gérer les entrées et sorties de marchandises, mais aussi à générer de l'inattention humaine, de l'angoisse, de la perte, du besoin, de la croyance. Elle sert la Culture hégémonique.   
+> À la fois forme et véhicule de nos idées, ces informations modifient notre perception du présent, lui font écran. Si l'abstraction numérique, ces points dans l'espace, sert bien à gérer les entrées et sorties de marchandises, mais aussi à générer de l'inattention humaine, de l'angoisse, de la perte, du besoin, de la croyance. Elle sert la Culture hégémonique.  
    
 En allant explorer les banlieues des réseaux je pensais naïvement rencontrer ce qui n'existe pas, le reste, le refusé. J'avais aussi intégré l'idée-image que les big-data ne pouvaient pas toutes être exploitées, qu'il y aurait toujours un manque, des données mal traitées, non exploitables, oubliées : des dark-data. Dans ce jargon j'ai découvert les Dark-patterns qui consiste à créer des interfaces trompeurs pour dérouter l'internaute, le perdre. Le web, clairvoyant et propre que nous visitons communément dissimule bien souvent ses intérêts manipulateurs, nous habitus à ses rythmes et façon d'être, de faire, de devenir.
 
