@@ -2,7 +2,7 @@
 id: root
 title: Thèse
 desc: Art de la rebellion en ligne
-updated: 1620640818918
+updated: 1620640967937
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -15,17 +15,17 @@ La captation des données par une surveillance indolore reste un modèle économ
 
 ---  
 
-    À la fois forme et véhicule de nos idées, ces informations modifient notre perception du présent, lui font écran. Si l'abstraction numérique, ces points dans l'espace, sert bien à gérer les entrées et sorties de marchandises, mais aussi à générer de l'inattention humaine, de l'angoisse, de la perte, du besoin, de la croyance. Elle sert la Culture hégémonique.   
+> À la fois forme et véhicule de nos idées, ces informations modifient notre perception du présent, lui font écran. Si l'abstraction numérique, ces points dans l'espace, sert bien à gérer les entrées et sorties de marchandises, mais aussi à générer de l'inattention humaine, de l'angoisse, de la perte, du besoin, de la croyance. Elle sert la Culture hégémonique.   
    
 En allant explorer les banlieues des réseaux je pensais naïvement rencontrer ce qui n'existe pas, le reste, le refusé. J'avais aussi intégré l'idée-image que les big-data ne pouvaient pas toutes être exploitées, qu'il y aurait toujours un manque, des données mal traitées, non exploitables, oubliées : des dark-data. Dans ce jargon j'ai découvert les Dark-patterns qui consiste à créer des interfaces trompeurs pour dérouter l'internaute, le perdre. Le web, clairvoyant et propre que nous visitons communément dissimule bien souvent ses intérêts manipulateurs, nous habitus à ses rythmes et façon d'être, de faire, de devenir.
 
-    Je n'ai pas tout vu et j'aime rebroussé chemin parfois. Pourquoi cette envie, ce besoin de se confronter au pire et surtout à ce qui manque d'espace politique. Je fais l'hypothèse, naïve elle aussi, que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise. 
+> Je n'ai pas tout vu et j'aime rebroussé chemin parfois. Pourquoi cette envie, ce besoin de se confronter au pire et surtout à ce qui manque d'espace politique. Je fais l'hypothèse, naïve elle aussi, que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise. 
 
 Mais tous ces inconvénients, ces addictions, ces prédations, paraissent minimes par rapport aux bénéfices sociétaux, aux qualités de reliance qu'offrent les réseaux. Internet et surtout le web restent un objet d'emancipation individuelle, de liberté d'expression et de conscience que certaines institutions limitent-interdisent. 
 
-    Une surveillance du dessus à laquelle s'ajoute celle plus /soft/ de l'auto-surveillance des individus entre eux. Internet c'est aussi le lieu de l'archivage de soi, de nos quotidiennetés, une éloge de l'auto-design et de l'exhibition extravertie de soi. 
+ > Une surveillance du dessus à laquelle s'ajoute celle plus /soft/ de l'auto-surveillance des individus entre eux. Internet c'est aussi le lieu de l'archivage de soi, de nos quotidiennetés, une éloge de l'auto-design et de l'exhibition extravertie de soi. 
     
->> Nous sommes pris dans des chambres d'écho à ne plus nous perdre dans la contradiction de nos pensées. Le world wild web semble avoir perdu sa qualité de lointain et chemins de traverse. Des algorithmes filtrent pour nous ce qui nous ressemble et rassure nos croyances. Le monde par ce billai semble dominé par les ignorances, une diversité insoutenable. 
+> Nous sommes pris dans des chambres d'écho à ne plus nous perdre dans la contradiction de nos pensées. Le world wild web semble avoir perdu sa qualité de lointain et chemins de traverse. Des algorithmes filtrent pour nous ce qui nous ressemble et rassure nos croyances. Le monde par ce billai semble dominé par les ignorances, une diversité insoutenable. 
 
 ---
 
