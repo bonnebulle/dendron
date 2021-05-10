@@ -2,7 +2,7 @@
 id: root
 title: Thèse
 desc: Art de la rebellion en ligne
-updated: 1620675181439
+updated: 1620675800585
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -34,6 +34,7 @@ Mais tous ces inconvénients, ces addictions, ces prédations, paraissent minime
 En dépit des traditions sociales-culturelles les plateformes centralistes dictent leurs lois logicielles, court-circuitent les États, profitent du creux des lois pour créer des marchés aux offres inédites. Ceux qui les imaginent savent comment s'y prendre, produisent des empires, produisent l'hégémonie Culturelle dont ont besoin sociétés pour se maintenir en état, pour que rien ne change. 
 
 Nombreuses sont les applications éthiques et fiables, au service de l'usager et non l'inverse, pensées pour garantir que ce qu'il pense lui est réservé. Les utopies crypto-anarchistes se réalisent au creux de nos smartphones, dans le plis de nos poches. Un marché de niche voit le jour, produit aussi de nouveaux besoins, celui d'une certaine assurance contre les intrusions numériques de la part d'entreprises ou d'organisations sociales allant de l'État au domicil privé. 
+
 
 [[Org.root]]
 [[Org.parties]]
