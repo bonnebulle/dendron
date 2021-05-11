@@ -2,7 +2,7 @@
 id: 47ab5267-5bff-4117-a4fb-84aa12da8929
 title: parties
 desc: ''
-updated: 1620765333892
+updated: 1620765442840
 created: 1620576285224
 ---
-Dans une premier temps ma démarche sera exploratoire...   
+Dans une premier temps ma démarche sera exploratoire...    
