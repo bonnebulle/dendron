@@ -10,16 +10,16 @@
 
   <link
     rel="shortcut icon"
-    href="https://bonnebulle.github.io/dendron/favicon.ico"
+    href="https://bonnebulle.github.io/favicon.ico"
     type="image/x-icon"
   />
   <link
     rel="stylesheet"
-    href="https://bonnebulle.github.io/dendron/assets/css/just-the-docs-default.css"
+    href="https://bonnebulle.github.io/assets/css/just-the-docs-default.css"
   />
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/just-the-docs.js"
+    src="https://bonnebulle.github.io/assets/js/just-the-docs.js"
   ></script>
   <link
     rel="stylesheet"
@@ -32,36 +32,77 @@
     crossorigin="anonymous"
   /><link type="text/css" rel="stylesheet" href="./extra.css" />
 <style>
-    html, html body {
+    html body .table-of-contents-sidebar-fixed-sidebar {
+        background-color: #1e1d21!important;
+        color: #FFF !important;
+    }
+    html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
+    html body .table-of-contents-sidebar-fixed-sidebar ul li a {
+        color: #FFF !important;
+    }
+    
+    html,
+    html body {
         background: #27262b !important;
         color: #FFF;
         font-size: 1.1em;
         font-weight: 300;
     }
+    
     .site-logo {
         color: #FFF !important;
     }
+    
     a {
-    color: #12ef2e !important;
+        color: #87ff96 !important;
     }
+    
+    li.nav-list-item a {
+        color: #adf1b6 !important;
+    }
+    
+    li.nav-list-item a:visited,
+    a:visited {
+        color: #ddd9ff !important
+    }
+    
     blockquote {
-    font-style: normal;
-    padding-right: 0em;
-    margin-left: calc(-1em - 0px);
-    border: 0px;
-    font-weight: 300;
-    color: #DFFF !important;
+        font-style: normal;
+        padding-right: 0em;
+        margin-left: calc(-1em - 0px);
+        border: 0px;
+        font-weight: 300;
+        color: #DFFF !important;
     }
+    
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        margin-top: 1.9em;
+        margin-bottom: 6px;
+    }
+    
     .page__inner-wrap p {
-    line-height: 1.9em !important;
+        line-height: 1.9em !important;
     }
+    
     .site-footer {
         padding-bottom: 2rem;
     }
 </style>
+
+<script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+<script type="text/javascript">
+    window.onload = function(e) {
+        TableOfContents.init({
+            basePath: "https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/",
+            querySelector: "body" // or other css querySelector
+        });
+    }
+</script>
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
+    src="https://bonnebulle.github.io/assets/js/vendor/lunr.min.js"
   ></script>
   
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -127,7 +168,7 @@
 
     <div class="side-bar">
       <div class="site-header">
-        <a href="https://bonnebulle.github.io/dendron" class="site-title lh-tight">
+        <a href="https://bonnebulle.github.io" class="site-title lh-tight">
   Projet de thèse
 
  </a>
@@ -189,7 +230,7 @@
     <meta itemprop="headline" content="Thèse">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-11T13:32:19+00:00">
+    <meta itemprop="dateModified" content="2021-05-11T14:10:49+00:00">
 
     <div class="page__inner-wrap">
 
@@ -200,8 +241,10 @@
         
 
         <h1 id="thèse"><a aria-hidden="true" class="anchor-heading" href="#thèse"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Thèse</h1>
-<p>Moi, administrateur de l'individu nomé Vincent Bonnefille, lance dans l'écriture d'une thèse en arts.
-Elle aura pour sujet les darknets et profondeurs du web au travers de productions d'arts et disciplines diverses. </p>
+<p>Moi, administrateur de l'individu nomé Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts. </p>
+<h2 id="sujet-discipline-motivation"><a aria-hidden="true" class="anchor-heading" href="#sujet-discipline-motivation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sujet, discipline, motivation</h2>
+<p>Elle aura pour sujet les darknets et profondeurs du web au travers de productions d'arts et disciplines diverses. </p>
+<hr>
 <h1 id="darknet-"><a aria-hidden="true" class="anchor-heading" href="#darknet-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknet ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter. </p>
 <h2 id="journalistes-criminels-qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels-qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, qui utilise ces réseaux ?</h2>
@@ -243,20 +286,18 @@ Des acteurs concurrencés par cette innovation et qui amorçent de fait une cont
 <blockquote>
 <p>Nombreuses sont les applications éthiques et fiables, au service de l'usager et non l'inverse, pensées pour garantir que ce qu'il pense lui est réservé. Les utopies crypto-anarchistes se réalisent au creux de nos smartphones, dans le plis de nos poches. Un marché de niche voit le jour, produit aussi de nouveaux besoins, celui d'une certaine assurance contre les intrusions numériques de la part d'entreprises ou d'organisations sociales allant de l'État au domicil privé. </p>
 </blockquote>
-<p><a data-toggle="popover" title="This page has not yet sprouted" style="cursor: pointer" data-content="<a href=&#x22;https://dendron.so/&#x22;>Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page
-
-<img src=&#x27;https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png&#x27;></img>">Frags</a><br>
-<a href="https://bonnebulle.github.io/dendron/notes/47ab5267-5bff-4117-a4fb-84aa12da8929.html">parties</a></p>
+<p><a href="https://bonnebulle.github.io/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">Root_intro</a><br>
+<a href="https://bonnebulle.github.io/notes/47ab5267-5bff-4117-a4fb-84aa12da8929.html">parties</a></p>
 <hr>
 <h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
 <ol>
-<li><a href="https://bonnebulle.github.io/dendron/notes/38cd09c7-019d-4b9d-ab72-3feea335e131.html">Art</a></li>
-<li><a href="https://bonnebulle.github.io/dendron/notes/450c7ac0-4d82-4eca-b077-6fd49ae48bde.html">Comment</a></li>
-<li><a href="https://bonnebulle.github.io/dendron/notes/README.html">Github</a></li>
-<li><a href="https://bonnebulle.github.io/dendron/notes/0889a50c-6d8a-4a52-93af-8b1ada16223f.html">Org</a></li>
-<li><a href="https://bonnebulle.github.io/dendron/notes/169b57d6-1e99-45e4-b7e2-5be50f9dcd95.html">Pourquoi</a></li>
-<li><a href="https://bonnebulle.github.io/dendron/notes/b1d8a9d3-e0b1-42ef-a4c2-0b87bdf0aede.html">Sujet</a></li>
-<li><a href="https://bonnebulle.github.io/dendron/notes/d3cb3b9a-3855-46b2-83f2-35da2a1b9e66.html">Thèse</a></li>
+<li><a href="https://bonnebulle.github.io/notes/38cd09c7-019d-4b9d-ab72-3feea335e131.html">Art</a></li>
+<li><a href="https://bonnebulle.github.io/notes/450c7ac0-4d82-4eca-b077-6fd49ae48bde.html">Comment</a></li>
+<li><a href="https://bonnebulle.github.io/notes/README.html">Github</a></li>
+<li><a href="https://bonnebulle.github.io/notes/0889a50c-6d8a-4a52-93af-8b1ada16223f.html">Org</a></li>
+<li><a href="https://bonnebulle.github.io/notes/169b57d6-1e99-45e4-b7e2-5be50f9dcd95.html">Pourquoi</a></li>
+<li><a href="https://bonnebulle.github.io/notes/b1d8a9d3-e0b1-42ef-a4c2-0b87bdf0aede.html">Sujet</a></li>
+<li><a href="https://bonnebulle.github.io/notes/d3cb3b9a-3855-46b2-83f2-35da2a1b9e66.html">Thèse</a></li>
 </ol><span id="navId" data="root"></span>
 
                 

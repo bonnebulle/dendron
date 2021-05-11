@@ -2,14 +2,18 @@
 id: root
 title: Thèse
 desc: Art de la rebellion en ligne
-updated: 1620732739820
+updated: 1620735049139
 created: 1595961348801
 stub: true
 nav_order: 0
 permalink: /
 ---
-Moi, administrateur de l'individu nomé Vincent Bonnefille, lance dans l'écriture d'une thèse en arts. 
+Moi, administrateur de l'individu nomé Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts. 
+
+## Sujet, discipline, motivation 
 Elle aura pour sujet les darknets et profondeurs du web au travers de productions d'arts et disciplines diverses. 
+
+---
 
 # Darknet ?
 Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter. 
@@ -57,5 +61,5 @@ En dépit des traditions sociales-culturelles les plateformes centralistes dicte
 > Nombreuses sont les applications éthiques et fiables, au service de l'usager et non l'inverse, pensées pour garantir que ce qu'il pense lui est réservé. Les utopies crypto-anarchistes se réalisent au creux de nos smartphones, dans le plis de nos poches. Un marché de niche voit le jour, produit aussi de nouveaux besoins, celui d'une certaine assurance contre les intrusions numériques de la part d'entreprises ou d'organisations sociales allant de l'État au domicil privé. 
 
 
-[[frags]]   
+[[frags.root_intro]]   
 [[Org.parties]]

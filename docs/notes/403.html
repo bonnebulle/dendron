@@ -10,16 +10,16 @@
 
   <link
     rel="shortcut icon"
-    href="https://bonnebulle.github.io/dendron/favicon.ico"
+    href="https://bonnebulle.github.io/favicon.ico"
     type="image/x-icon"
   />
   <link
     rel="stylesheet"
-    href="https://bonnebulle.github.io/dendron/assets/css/just-the-docs-default.css"
+    href="https://bonnebulle.github.io/assets/css/just-the-docs-default.css"
   />
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/just-the-docs.js"
+    src="https://bonnebulle.github.io/assets/js/just-the-docs.js"
   ></script>
   <link
     rel="stylesheet"
@@ -32,36 +32,77 @@
     crossorigin="anonymous"
   /><link type="text/css" rel="stylesheet" href="./extra.css" />
 <style>
-    html, html body {
+    html body .table-of-contents-sidebar-fixed-sidebar {
+        background-color: #1e1d21!important;
+        color: #FFF !important;
+    }
+    html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
+    html body .table-of-contents-sidebar-fixed-sidebar ul li a {
+        color: #FFF !important;
+    }
+    
+    html,
+    html body {
         background: #27262b !important;
         color: #FFF;
         font-size: 1.1em;
         font-weight: 300;
     }
+    
     .site-logo {
         color: #FFF !important;
     }
+    
     a {
-    color: #12ef2e !important;
+        color: #87ff96 !important;
     }
+    
+    li.nav-list-item a {
+        color: #adf1b6 !important;
+    }
+    
+    li.nav-list-item a:visited,
+    a:visited {
+        color: #ddd9ff !important
+    }
+    
     blockquote {
-    font-style: normal;
-    padding-right: 0em;
-    margin-left: calc(-1em - 0px);
-    border: 0px;
-    font-weight: 300;
-    color: #DFFF !important;
+        font-style: normal;
+        padding-right: 0em;
+        margin-left: calc(-1em - 0px);
+        border: 0px;
+        font-weight: 300;
+        color: #DFFF !important;
     }
+    
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        margin-top: 1.9em;
+        margin-bottom: 6px;
+    }
+    
     .page__inner-wrap p {
-    line-height: 1.9em !important;
+        line-height: 1.9em !important;
     }
+    
     .site-footer {
         padding-bottom: 2rem;
     }
 </style>
+
+<script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+<script type="text/javascript">
+    window.onload = function(e) {
+        TableOfContents.init({
+            basePath: "https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/",
+            querySelector: "body" // or other css querySelector
+        });
+    }
+</script>
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
+    src="https://bonnebulle.github.io/assets/js/vendor/lunr.min.js"
   ></script>
   
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -127,7 +168,7 @@
 
     <div class="side-bar">
       <div class="site-header">
-        <a href="https://bonnebulle.github.io/dendron" class="site-title lh-tight">
+        <a href="https://bonnebulle.github.io" class="site-title lh-tight">
   Projet de thèse
 
  </a>
@@ -190,8 +231,8 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="This page has not yet sprouted">
     
-    <meta itemprop="datePublished" content="2021-05-11T13:35:00+00:00">
-    <meta itemprop="dateModified" content="2021-05-11T13:35:00+00:00">
+    <meta itemprop="datePublished" content="2021-05-11T15:27:35+00:00">
+    <meta itemprop="dateModified" content="2021-05-11T15:27:35+00:00">
 
     <div class="page__inner-wrap">
 
@@ -203,7 +244,7 @@
 
         <h1 id="this-page-has-not-yet-sprouted"><a aria-hidden="true" class="anchor-heading" href="#this-page-has-not-yet-sprouted"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>This page has not yet sprouted</h1>
 <p><a href="https://dendron.so/">Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page</p>
-<p><img src="/dendron/https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png"></p><span id="navId" data="403"></span>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png"></p><span id="navId" data="403"></span>
 
                 
       </section>
