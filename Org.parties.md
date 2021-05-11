@@ -2,10 +2,8 @@
 id: 47ab5267-5bff-4117-a4fb-84aa12da8929
 title: parties
 desc: ''
-updated: 1620752998063
+updated: 1620761617548
 created: 1620576285224
 ---
-
 Dans une premier temps ma démarche sera exploratoire.
- 
 [[root]]
