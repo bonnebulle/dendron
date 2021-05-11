@@ -1,14 +1,14 @@
 ---
 id: root
-title: Thèse
+title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1620735049139
+updated: 1620756320203
 created: 1595961348801
 stub: true
 nav_order: 0
 permalink: /
 ---
-Moi, administrateur de l'individu nomé Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts. 
+Moi, administrateur de la personne reconnue entant que Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts. 
 
 ## Sujet, discipline, motivation 
 Elle aura pour sujet les darknets et profondeurs du web au travers de productions d'arts et disciplines diverses. 
@@ -55,11 +55,10 @@ En allant explorer les banlieues des réseaux je pensais naïvement rencontrer c
 > Nous sommes pris dans des chambres d'écho à ne plus nous perdre dans la contradiction de nos pensées. Le world wild web semble avoir perdu sa qualité de lointain et chemins de traverse. Des algorithmes filtrent pour nous ce qui nous ressemble et rassurent nos croyances. Le monde par ce billai semble dominé par les ignorances, une diversité insoutenable dès que l'on sort la tête de l'écran. 
 
 ---
-
+ 
 En dépit des traditions sociales-culturelles les plateformes centralistes dictent leurs lois logicielles, court-circuitent les États, profitent du creux des lois pour créer des marchés aux offres inédites. 
 
 > Nombreuses sont les applications éthiques et fiables, au service de l'usager et non l'inverse, pensées pour garantir que ce qu'il pense lui est réservé. Les utopies crypto-anarchistes se réalisent au creux de nos smartphones, dans le plis de nos poches. Un marché de niche voit le jour, produit aussi de nouveaux besoins, celui d'une certaine assurance contre les intrusions numériques de la part d'entreprises ou d'organisations sociales allant de l'État au domicil privé. 
 
-
-[[frags.root_intro]]   
+[[frags.root_intro]]     
 [[Org.parties]]
