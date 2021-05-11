@@ -2,7 +2,7 @@
 id: 80d205e2-6934-446c-b25d-c096b8c6878b
 title: Frags
 desc: ''
-# published: false
+published: true
 updated: 1620735243973
 created: 1620675181016
 ---
