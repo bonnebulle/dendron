@@ -50,6 +50,8 @@
         background-color: #18171b !important;
     }
 
+
+
     html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
     html body .table-of-contents-sidebar-fixed-sidebar ul li a {
         color: #FFF !important;
@@ -58,64 +60,180 @@
         display: none !important;
     }
 
+
+
     .site-logo {
         color: #FFF !important;
     }
     
     a,
-    .main-content a.anchor-heading {
-        color: #87ff96 !important;
-    }
-    
+    .main-content a.anchor-heading,
     li.nav-list-item a {
-        color: #adf1b6 !important;
+        color: #87ff96 !important;
+        font-weight: 600;
     }
+/*     89dada */
     
     li.nav-list-item a:visited,
     .main-content a.anchor-heading:visited,
     a:visited {
-        color: #ddd9ff !important
+        color: #5bbb60 !important
     }
     
-    blockquote {
+    li.nav-list-item a.nav-list-link.active {
+        color: #FFF !important;
+        background: #302d3a;
+    }
+    .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+        background-image: none !important;
+    }
+    ul.nav-list li.nav-list-item.active {
+        background: #232129;
+        /* border-left: 3px solid #18171b; */
+    }
+    ul.nav-list li.nav-list-item.active ul.nav-list {
+        margin-bottom: 6px;
+    }
+    ul.nav-list li.nav-list-item.active ul li.nav-list-item.active,
+    ul.nav-list ul li.nav-list-item a.nav-list-link.active {
+        background: transparent;
+    }
+
+    .side-bar{
+           background: #1a191d
+    }
+
+    .page__inner-wrap p {
+        line-height: 1.9em !important;
+        font-weight: 400;
+        color: #d6d4d4;
+        font-family: Open sans;
+        font-size: 18px;
+    }
+
+
+    blockquote,
+    .page__inner-wrap blockquote * {
         font-style: normal;
+        font-weight: 300;
+        color: #80eae1 !important;
+    }
+    .main-content blockquote blockquote,
+    .main-content blockquote blockquote * {
+        /* color: #e09749 !important; */
+        opacity: 0.8;
+    }
+    .main-content blockquote blockquote blockquote,
+    .main-content blockquote blockquote blockquote * {
+        /* color: #80eae1 !important; */
+        opacity: 0.45;
+    }
+    blockquote {
         padding-right: 0em;
         margin-left: calc(-1em - 0px) !important;
         border: 0px;
-        font-weight: 300;
-        color: #DFFF !important;
-        margin-top: -10px !important;
+        margin-top: 0px !important;
         margin-bottom: 20px !important;
     }
+    p + blockquote { margin-top: -10px !important;}
+    
+    blockquote + blockquote {
+        margin-top: -15px !important;
+    }
+
+
+
 
     .main-content h1,
     .main-content h2,
-    .main-content h3, 
-    /* {
-        margin-top: 20px;    
-    } */
+    .main-content h3,
     .main-content h4,
     .main-content h5,
     .main-content h6 {
-        margin-top: 40px;
-        margin-bottom: 6px;
-    }
-    .main-content h1 {
-        margin-top: 60px;
+        margin-bottom: 6px; 
+        margin-top: 50px; 
+        text-transform: none !important;
+        letter-spacing: normal !important
     }
 
+    .main-content h1
+    {
+        font-size: 33px !important;
+        margin-top: 60px !important;   
+    }
+    .main-content h2
+    {
+        margin-top: 40px !important;   
+    }
+    /* .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        margin-top: 35px;
+    } */
+
+    /* @media (min-width: 31.25rem) { */
+        /* .text-gamma, */
+        .main-content h3 {
+            margin-top: 40px; 
+            font-size: 22px !important;
+        }
+    /* } */
+    .main-content h4 {
+        margin-top: 25px;
+        font-size: 18px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .main-content h5,
+    .main-content h6 {
+        margin-top: 20px;
+        font-size: 15px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .main-content h1 {
+        margin-top: 55px !important;
+    }
+
+    .main-content h1 + h1,
+    .main-content h2 + h2,
+    .main-content h3 + h3,
+    .main-content h4 + h4,
+    .main-content h5 + h5,
+
+    .main-content h1 + h2,
+    .main-content h2 + h3,
+    .main-content h3 + h4,
+    .main-content h4 + h5,
+    .main-content h5 + h6,
+    .main-content h6 + h5,
+
+    .main-content h1 + h3,
+    .main-content h2 + h4,
+    .main-content h3 + h5,
+    .main-content h4 + h6,
+    
+    .main-content h1 + h4,
+    .main-content h2 + h5,
+    .main-content h3 + h6,
+    
+    .main-content h1 + h5,
+    .main-content h2 + h6,
+
+    .main-content h1 + h6,
+
+    /* .main-content h4 + h4 */
+    .main-content h5 + h5 {
+        margin-top: 12px !important;
+    }
+    .main-content h6 + h6 {
+        margin-top: 6px !important;
+    }
     .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
         margin-top: 0px !important;
     }
 
-    .main-content h4,
-    .main-content h5,
-    .main-content h6 {
-        font-size: 15px !important;
-    }
-    .page__inner-wrap p {
-        line-height: 1.9em !important;
-    }
+
     
     .site-footer {
         padding-bottom: 1rem;
@@ -266,7 +384,7 @@
     <meta itemprop="headline" content="Introduction">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-12T03:25:26+00:00">
+    <meta itemprop="dateModified" content="2021-05-12T16:52:21+00:00">
 
     <div class="page__inner-wrap">
 
@@ -280,54 +398,124 @@
 <p>Moi, administrateur de la personne reconnue entant que Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts. </p>
 <h2 id="sujet-discipline-motivation"><a aria-hidden="true" class="anchor-heading" href="#sujet-discipline-motivation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sujet, discipline, motivation</h2>
 <p>Elle aura pour sujet les darknets et profondeurs du web au travers de productions d'arts et disciplines diverses.</p>
-<h1 id="darknet-"><a aria-hidden="true" class="anchor-heading" href="#darknet-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknet ?</h1>
+<h1 id="littératures-et-état-de-lart"><a aria-hidden="true" class="anchor-heading" href="#littératures-et-état-de-lart"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Littératures et État de l'art</h1>
+<p>Deux littératures au moins s'opposent au sujet des Darknet, l'une techo-pragmatique qui observer les fonctionnements, la <em>reliability</em> protocolaire des réseaux (qui vient expliquer leur nécessité dans le paysage du capitalisme des surveillances). Celle d'une certaine militance qui cherche à démystifier l'aura de ces réseaux.</p>
+<blockquote>
+<p>On pourrait y joindre une littérature à portée historique et politique qui cherchera plutôt à raconter les aventures humaines à l'origine de tel projet triomphants ou abandonnés. À la recherche d'un comment autant que d'un pourquoi. Elle permet un recul sur nos habitudes actuelles et permettent certaines virtualités sur l'à venir.</p>
+</blockquote>
+<hr>
+<p>On peut aussi identifier une littérature critique à leur endroit qui s'alarme des activités criminelles qui y font jour et regréttent le recul de l'État garant de l'ordre. Une inquiétude face à la monté d'activités terroristes, radicalisées, mais aussi du transfert d'informations et objets culturels échappant à leur propriétaire. </p>
+<blockquote>
+<p>On peut penser ici aux oeuvres numériques distribuées dans respect des droits d'auteur ou aux fuite de données (d'institutions étatiques ou d'entreprises) telles les Wiki Leaks.</p>
+</blockquote>
+<hr>
+<p>D'autres tendent vers la science fiction le roman policier.
+Les histoires sensationalistes occupent largement l'imaginaire de ces réseaux. On trouve de nombreuses références dans la culture populaire, des films, des jeux vidéo, des séries mentionnent ces réseaux voire centre leur intrigue autour de ces phénomènes d'épouvante. </p>
+<p>Et puis il y a les approches d'une autre pédagogie s'intéressant aux individus qui font et pratiquent ces réseaux tendant vers les sciences sociales. </p>
+<p>Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.</p>
+<p><a data-toggle="popover" title="This page has not yet sprouted" style="cursor: pointer" data-content="<a href=&#x22;https://dendron.so/&#x22;>Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page
+
+<img src=&#x27;https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png&#x27;></img>">TD/MAJ : corpus d'oeuvres et expositions</a></p>
+<h1 id="darknets-contre-la-censure-"><a aria-hidden="true" class="anchor-heading" href="#darknets-contre-la-censure-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets, contre la censure ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter. </p>
 <h2 id="journalistes-criminels-qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels-qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, qui utilise ces réseaux ?</h2>
-<p>Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.
-.</p>
-<h4 id="neutralité-du-web"><a aria-hidden="true" class="anchor-heading" href="#neutralité-du-web"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(neutralité du web)</h4>
-<p>Des protocoles agnostiques c'est à dire qui assurent une neutralité dans le transport des données en transite par nos réseaux. </p>
+<p>Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.</p>
+<h4 id="neutralité-et-indépendence-du-www-retrouvée-"><a aria-hidden="true" class="anchor-heading" href="#neutralité-et-indépendence-du-www-retrouvée-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(neutralité et indépendence du www retrouvée ?)</h4>
+<p>Des réseaux dont les protocoles sont souvent agnostiques : ils assurent une neutralité dans le transport des données. </p>
 <blockquote>
-<p>[1 contre le rêve] Des outils qui renouent avec une certaine vision du world wild web : celui d'une indépendance des pouvoirs centralisés et gouvernants. Un projet autonomiste, d'emancipation individuelle aux couleurs libertariennes.</p>
+<p>[1 www] Des outils qui renouent avec une certaine vision du world wild web : celui d'une indépendance des pouvoirs centralisés et gouvernants. Un projet autonomiste, d'emancipation individuelle aux couleurs libertariennes.</p>
 </blockquote>
 <p>Une liberté d'expression, de conscience et d'organisation que {malheureusement}, partout dans le monde, des institutions limitent-interdisent par une multitude d'interventions physiques ou logicielles sur les couches du réseau de réseaux. </p>
 <blockquote>
-<p>[1 contre le rêve] Une intervention souvent jugée illégitime, contraire aux principes fondateurs d'un web libéral prônant la liberté de circulation informationnelle.</p>
+<p>[1 www] Une intervention souvent jugée illégitime, contraire aux principes fondateurs d'un web libéral prônant la liberté de circulation informationnelle.</p>
 </blockquote>
-<h4 id="le-chat-et-la-souris---attaque-défense"><a aria-hidden="true" class="anchor-heading" href="#le-chat-et-la-souris---attaque-défense"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(le chat et la souris - attaque, défense)</h4>
-<p>Une lutte infinie entre ceux qui attaquent-interdisent semble se jouer contre ceux qui se défendent pour exister. Une dualité qui fait facilement fantasmer deux camps : celui -du bien du mal, celui -des pirates contre l'Empire.
-.
-Des intérêts contraires qui poussent à une formidable innovation technique, en creux, d'avant-garde. Aussi les artistes s'emparent de cette matière, de ce tremblement social et moral qui s'y produit dès lors que pense-t-on l'autorité régulatrice est dissoute. Ces artistes y observent et détournent des pratiques qui se manifestent dans d'espèces d'espaces autres, hétérotopiques, adjacents.</p>
-<p>Ils ont en commun cette certaine étrangeté sociale, celle d'une liberté de faire dans des temps dédiés qui paraissent décorrélés parfois, excentrés de l'agir habituel, quotidien, normalisé : hégémonique. C'est que l'anonymat porte en lui le début d'une emancipation retrouvée. Celle d'une fête, d'une libération cathartique : le fait de pouvoir exister sans retenue, sans jugement extérieur. </p>
+<p>Une lutte infinie entre ceux qui attaquent-interdisent et ceux qui se défendent pour exister-persister semble ainsi se jouer. Une dualité qui fait facilement fantasmer deux camps : celui -du bien du mal, celui -des pirates contre l'Empire. </p>
+<h1 id="des-pratiques-artistiques-"><a aria-hidden="true" class="anchor-heading" href="#des-pratiques-artistiques-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Des pratiques artistiques ?</h1>
+<h4 id="les-arts-de-la-fuite-et-des-tréfonds"><a aria-hidden="true" class="anchor-heading" href="#les-arts-de-la-fuite-et-des-tréfonds"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(Les arts de la fuite et des tréfonds)</h4>
+<p>Des intérêts contraires poussant à l'innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute. </p>
+<p>Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborantins, penseurs par la forme -l'indicible -l'induit }} pour chercher des alternatives de vie, de représentation, de ressenti, de subjectivité. D'une certaine façon la Culture est comme les darknets, plurielle, et non unique ni certaine, ni sacrée.  </p>
+<h3 id="transgression-et-trouble-dans-lart"><a aria-hidden="true" class="anchor-heading" href="#transgression-et-trouble-dans-lart"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Transgression et trouble dans l'art</h3>
+<p>On retrouve dans certaines pratiques artistiques qui emploient des protocoles atypiques, le goût du trouble_vulnérable, du débordement, de la liberté artistique. </p>
 <blockquote>
+<p>Un travail sur l'élasticité des normes, à partir de ce que j'ai moi, subjectivité inquiète de préserver et pourtant doutante si elle veut. </p>
+<blockquote>
+<p>Un travail sur la faille, le basculement dans la folie, la démesure.
+En observant_agissant à partir de ces coins refoulés iels (les artistes) parleraient à cet inconscient collectif, intime et politique. </p>
+</blockquote>
+</blockquote>
+<h4 id="mondes-isolés-protégés"><a aria-hidden="true" class="anchor-heading" href="#mondes-isolés-protégés"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Mondes isolés, protégés</h4>
+<blockquote>
+<p>L'artiste y serait alors médium, psychanalyste de l'âme, archéologue de nos fondations sociétales. </p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Et on pourrait se demander si Darknets et pratiques artistiques collectivement consommées ne se produisent depuis un <em>bord social</em>. Des pratiques encapsulées, profitant de la temporalité d'espaces_autres, hétérotopiques, adjacents, limitrophes.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Des utopies de poche...</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h4 id="lart-de-la-fête"><a aria-hidden="true" class="anchor-heading" href="#lart-de-la-fête"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>L'art de la fête</h4>
+<p>Ielles ont en commun cette étrangeté sociale, celle d'une liberté de faire dans des temps dédiés pareils à la fête. Des temps à soi. D'une intériorité spéciale à laquelle on propose des objets-formes-activités qui paraissent parfois décorrélées-excentrées de l'agir quotidien-banal (qui finit par ne plus se saisir comme objet de croyances et de principes culturels agrégés). </p>
+<p>Un art qui se déplie-performe-existe autour du scandal qui le médiatise, par la transgression. Une revendication pour le droit au mauvais goût, à un autre régime du <em>bien fait mal fait</em>, des codes. Des arts de la remise de la permission, du doute voire d'une certaine anarchie ontologique. </p>
+<blockquote>
+<p>Mais c'est aussi que l'anonymat porte en lui le début d'une emancipation de soi ; celle d'une fête, d'une libération cathartique : celui de la puissance d'exister sans retenue ni jugement extérieur productiviste. Des à priori <em>hors du monde</em>. </p>
+</blockquote>
+<hr>
+<p>Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le fait d'exprimer ou de brouiller les pistes, de laisser croire, de faire germer dans l'implicite bien plus que par une pédagogie appelant au résonnement logique.</p>
+<hr>
+<blockquote>
+<p>Ces recoins du web, mal indexés, modérés autrement, semblent cristalliser toute l' du monde unifié et propre. Ce CLearWeb qui modère et vend des espaces attentionnels. Ce reste du web qui, lui aussi, produit des monstruosités, des comportements déviants, des compulsions. </p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>L'immodération est partout. Sur <em>le</em> Darknet s'expose ce que nos sociétés ont banni (mais pas que), ce qui n'a plus de place publique. </p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Des communautés exclue du droit à l'expression s'y organisent en réseau, inventent d'autres gouvernementalités, d'autres centralités du pouvoir partagé.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Je fais l'hypothèse que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise.  </p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="économie-vie-parallèle--radicalité-disruptive"><a aria-hidden="true" class="anchor-heading" href="#économie-vie-parallèle--radicalité-disruptive"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Économie, vie parallèle : radicalité disruptive</h1>
 <p>L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.    </p>
-</blockquote>
 <blockquote>
-<p>Les organisations qui ont recours à ces réseaux en tant que moyen organisationel de séparation des États ont très vite saisi l'opportunité d'en faire de même avec un autre réseau : celui des transactions monétaires, avec l'argent.    </p>
+<p>Les organisations qui ont recours à ces réseaux en tant que moyen organisationnel de séparation des États ont très vite saisi l'opportunité d'en faire de même avec un autre réseau : celui des transactions monétaires, avec l'argent.    </p>
 </blockquote>
+<h4 id="le-réseau-informel--léconomie"><a aria-hidden="true" class="anchor-heading" href="#le-réseau-informel--léconomie"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Le réseau informel : l'économie</h4>
 <blockquote>
 <p>Les cryptomonnaies, le bitcoin ou encore Monero, ont prolongé ce que permettent les protocoles chiffrés, les darknets : des transactions décentralisées échappant aux États-surveillants et entreprises monopolistes.   </p>
 </blockquote>
 <blockquote>
 <p>Des acteurs concurrencés par cette innovation et qui amorçent de fait une contre-révolution. Ils se déclarent légitimes à intervenir et légiférer sur des moyens d'organisation sociale dont ils étaient jusqu'alors les intermédiaires naturels-obligatoires.</p>
 </blockquote>
-<hr>
-<p>La captation des données par une surveillance indolore reste un modèle économique et social stratégique. Contrôler l'information sert à modifier nos inflexions, notre consentement.   </p>
-<hr>
-<p>En allant explorer les banlieues des réseaux je pensais naïvement rencontrer ce qui n'existe pas, le reste, le refusé. J'avais aussi intégré l'idée-image que les big-data ne pouvaient pas toutes être exploitées, qu'il y aurait toujours un manque, des données mal traitées, non exploitables, oubliées : des dark-data. Dans ce jargon j'ai découvert les Dark-patterns qui consiste à créer des interfaces trompeurs pour dérouter l'internaute, le perdre. Le web, clairvoyant et propre que nous visitons communément dissimule bien souvent ses intérêts manipulateurs, nous habitus à ses rythmes et façon d'être, de faire, de devenir.</p>
+<h1 id="deep_web--lindex-infini"><a aria-hidden="true" class="anchor-heading" href="#deep_web--lindex-infini"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deep_web : l'index infini</h1>
+<h3 id="lautre-capitalisme--celui-des-données"><a aria-hidden="true" class="anchor-heading" href="#lautre-capitalisme--celui-des-données"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>L'autre capitalisme : celui des données</h3>
+<p>La captation des données comme modèle économique extractiviste produit-encourage à une surveillance indolore parfois ludique et volontaire. Contrôler l'information sert à modifier nos inflexions, notre consentement.</p>
+<p>En allant explorer les banlieues des réseaux je pensais naïvement rencontrer ce qui n'existe pas, le reste, le refusé. J'avais aussi intégré l'idée-image que les big-data ne pouvaient pas toutes être exploitées, qu'il y aurait toujours un manque, des données mal traitées, non exploitables, oubliées : des <strong>dark-data</strong>. </p>
 <blockquote>
-<p>Une surveillance du dessus à laquelle s'ajoute celle plus /soft/ de l'auto-surveillance des individus entre eux. Internet c'est aussi le lieu de l'archivage de soi, de nos quotidiennetés, une éloge de l'auto-design et de l'exhibition extravertie de soi. </p>
+<p>Dans ce jargon j'ai découvert les <strong>Dark-patterns</strong> qui consiste à créer des interfaces trompeurs pour dérouter l'internaute, le perdre. Le web, clairvoyant et propre que nous visitons communément dissimule bien souvent ses intérêts manipulateurs, nous habitue à ses rythmes et façon d'être, de faire, de devenir.</p>
 </blockquote>
+<p>Les profondeurs du web, le <em>deep-web</em> fait fantasmer cette part manquante ou résiduel du savoir humain mis en réseau. Un autre refoulé, celui du non accès des logiciels d'indexation à certaines zones grises du web. Un manque à gagner, un gisement...</p>
 <blockquote>
-<p>Nous sommes pris dans des chambres d'écho à ne plus nous perdre dans la contradiction de nos pensées. Le world wild web semble avoir perdu sa qualité de lointain et chemins de traverse. Des algorithmes filtrent pour nous ce qui nous ressemble et rassurent nos croyances. Le monde par ce billai semble dominé par les ignorances, une diversité insoutenable dès que l'on sort la tête de l'écran. </p>
-</blockquote>
-<hr>
-<p>En dépit des traditions sociales-culturelles les plateformes centralistes dictent leurs lois logicielles, court-circuitent les États, profitent du creux des lois pour créer des marchés aux offres inédites. </p>
+<p>là aussi, un réservoir à des mythologies contemporaines, celui de la clairvoyance par les données comme prisme du réel nouvellement gouvernable par les valeurs numériques. </p>
 <blockquote>
-<p>Nombreuses sont les applications éthiques et fiables, au service de l'usager et non l'inverse, pensées pour garantir que ce qu'il pense lui est réservé. Les utopies crypto-anarchistes se réalisent au creux de nos smartphones, dans le plis de nos poches. Un marché de niche voit le jour, produit aussi de nouveaux besoins, celui d'une certaine assurance contre les intrusions numériques de la part d'entreprises ou d'organisations sociales allant de l'État au domicil privé. </p>
+<p>Avec peut-être l'espoir d'un meilleur diagnostique des risques et spéculations.</p>
 </blockquote>
-<p><a href="https://bonnebulle.github.io/dendron/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">Root_intro</a><br>
-<a href="https://bonnebulle.github.io/dendron/notes/47ab5267-5bff-4117-a4fb-84aa12da8929.html">plan</a><br>
+</blockquote>
+<p>Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.</p>
+<p><a href="https://bonnebulle.github.io/dendron/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">frags.root_intro</a><br>
 <a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources Github</a></p>
 <hr>
 <h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>

@@ -50,6 +50,8 @@
         background-color: #18171b !important;
     }
 
+
+
     html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
     html body .table-of-contents-sidebar-fixed-sidebar ul li a {
         color: #FFF !important;
@@ -58,64 +60,180 @@
         display: none !important;
     }
 
+
+
     .site-logo {
         color: #FFF !important;
     }
     
     a,
-    .main-content a.anchor-heading {
-        color: #87ff96 !important;
-    }
-    
+    .main-content a.anchor-heading,
     li.nav-list-item a {
-        color: #adf1b6 !important;
+        color: #87ff96 !important;
+        font-weight: 600;
     }
+/*     89dada */
     
     li.nav-list-item a:visited,
     .main-content a.anchor-heading:visited,
     a:visited {
-        color: #ddd9ff !important
+        color: #5bbb60 !important
     }
     
-    blockquote {
+    li.nav-list-item a.nav-list-link.active {
+        color: #FFF !important;
+        background: #302d3a;
+    }
+    .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+        background-image: none !important;
+    }
+    ul.nav-list li.nav-list-item.active {
+        background: #232129;
+        /* border-left: 3px solid #18171b; */
+    }
+    ul.nav-list li.nav-list-item.active ul.nav-list {
+        margin-bottom: 6px;
+    }
+    ul.nav-list li.nav-list-item.active ul li.nav-list-item.active,
+    ul.nav-list ul li.nav-list-item a.nav-list-link.active {
+        background: transparent;
+    }
+
+    .side-bar{
+           background: #1a191d
+    }
+
+    .page__inner-wrap p {
+        line-height: 1.9em !important;
+        font-weight: 400;
+        color: #d6d4d4;
+        font-family: Open sans;
+        font-size: 18px;
+    }
+
+
+    blockquote,
+    .page__inner-wrap blockquote * {
         font-style: normal;
+        font-weight: 300;
+        color: #80eae1 !important;
+    }
+    .main-content blockquote blockquote,
+    .main-content blockquote blockquote * {
+        /* color: #e09749 !important; */
+        opacity: 0.8;
+    }
+    .main-content blockquote blockquote blockquote,
+    .main-content blockquote blockquote blockquote * {
+        /* color: #80eae1 !important; */
+        opacity: 0.45;
+    }
+    blockquote {
         padding-right: 0em;
         margin-left: calc(-1em - 0px) !important;
         border: 0px;
-        font-weight: 300;
-        color: #DFFF !important;
-        margin-top: -10px !important;
+        margin-top: 0px !important;
         margin-bottom: 20px !important;
     }
+    p + blockquote { margin-top: -10px !important;}
+    
+    blockquote + blockquote {
+        margin-top: -15px !important;
+    }
+
+
+
 
     .main-content h1,
     .main-content h2,
-    .main-content h3, 
-    /* {
-        margin-top: 20px;    
-    } */
+    .main-content h3,
     .main-content h4,
     .main-content h5,
     .main-content h6 {
-        margin-top: 40px;
-        margin-bottom: 6px;
-    }
-    .main-content h1 {
-        margin-top: 60px;
+        margin-bottom: 6px; 
+        margin-top: 50px; 
+        text-transform: none !important;
+        letter-spacing: normal !important
     }
 
+    .main-content h1
+    {
+        font-size: 33px !important;
+        margin-top: 60px !important;   
+    }
+    .main-content h2
+    {
+        margin-top: 40px !important;   
+    }
+    /* .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        margin-top: 35px;
+    } */
+
+    /* @media (min-width: 31.25rem) { */
+        /* .text-gamma, */
+        .main-content h3 {
+            margin-top: 40px; 
+            font-size: 22px !important;
+        }
+    /* } */
+    .main-content h4 {
+        margin-top: 25px;
+        font-size: 18px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .main-content h5,
+    .main-content h6 {
+        margin-top: 20px;
+        font-size: 15px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .main-content h1 {
+        margin-top: 55px !important;
+    }
+
+    .main-content h1 + h1,
+    .main-content h2 + h2,
+    .main-content h3 + h3,
+    .main-content h4 + h4,
+    .main-content h5 + h5,
+
+    .main-content h1 + h2,
+    .main-content h2 + h3,
+    .main-content h3 + h4,
+    .main-content h4 + h5,
+    .main-content h5 + h6,
+    .main-content h6 + h5,
+
+    .main-content h1 + h3,
+    .main-content h2 + h4,
+    .main-content h3 + h5,
+    .main-content h4 + h6,
+    
+    .main-content h1 + h4,
+    .main-content h2 + h5,
+    .main-content h3 + h6,
+    
+    .main-content h1 + h5,
+    .main-content h2 + h6,
+
+    .main-content h1 + h6,
+
+    /* .main-content h4 + h4 */
+    .main-content h5 + h5 {
+        margin-top: 12px !important;
+    }
+    .main-content h6 + h6 {
+        margin-top: 6px !important;
+    }
     .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
         margin-top: 0px !important;
     }
 
-    .main-content h4,
-    .main-content h5,
-    .main-content h6 {
-        font-size: 15px !important;
-    }
-    .page__inner-wrap p {
-        line-height: 1.9em !important;
-    }
+
     
     .site-footer {
         padding-bottom: 1rem;
@@ -267,8 +385,8 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="This page has not yet sprouted">
     
-    <meta itemprop="datePublished" content="2021-05-12T03:40:06+00:00">
-    <meta itemprop="dateModified" content="2021-05-12T03:40:06+00:00">
+    <meta itemprop="datePublished" content="2021-05-12T16:52:43+00:00">
+    <meta itemprop="dateModified" content="2021-05-12T16:52:43+00:00">
 
     <div class="page__inner-wrap">
 
