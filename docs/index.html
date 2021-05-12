@@ -32,10 +32,24 @@
     crossorigin="anonymous"
   /><link type="text/css" rel="stylesheet" href="./extra.css" />
 <style>
+    
+
+    html,
+    html body {
+        background: #18171b !important;
+        color: #FFF;
+        font-size: 1.1em;
+        font-weight: 300;
+    }
     html body .table-of-contents-sidebar-fixed-sidebar {
-        background-color: #1e1d21!important;
+        background-color: #18171b !important;
         color: #FFF !important;
     }
+    
+    .main-header, .search-input-wrap, .search-input {
+        background-color: #18171b !important;
+    }
+
     html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
     html body .table-of-contents-sidebar-fixed-sidebar ul li a {
         color: #FFF !important;
@@ -44,19 +58,12 @@
         display: none !important;
     }
 
-    html,
-    html body {
-        background: #27262b !important;
-        color: #FFF;
-        font-size: 1.1em;
-        font-weight: 300;
-    }
-    
     .site-logo {
         color: #FFF !important;
     }
     
-    a {
+    a,
+    .main-content a.anchor-heading {
         color: #87ff96 !important;
     }
     
@@ -65,6 +72,7 @@
     }
     
     li.nav-list-item a:visited,
+    .main-content a.anchor-heading:visited,
     a:visited {
         color: #ddd9ff !important
     }
@@ -72,30 +80,50 @@
     blockquote {
         font-style: normal;
         padding-right: 0em;
-        margin-left: calc(-1em - 0px);
+        margin-left: calc(-1em - 0px) !important;
         border: 0px;
         font-weight: 300;
         color: #DFFF !important;
+        margin-top: -10px !important;
+        margin-bottom: 20px !important;
     }
 
     .main-content h1,
     .main-content h2,
-    .main-content h3 {
-        margin-top: 15px;    
-    }
+    .main-content h3, 
+    /* {
+        margin-top: 20px;    
+    } */
     .main-content h4,
     .main-content h5,
     .main-content h6 {
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 6px;
     }
-    
+    .main-content h1 {
+        margin-top: 60px;
+    }
+
+    .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
+        margin-top: 0px !important;
+    }
+
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        font-size: 15px !important;
+    }
     .page__inner-wrap p {
         line-height: 1.9em !important;
     }
     
     .site-footer {
         padding-bottom: 1rem;
+    }
+    @media (min-width: 50rem) {
+        .site-nav {
+            padding-top: 2.4rem;
+        }
     }
 </style>
 
@@ -238,7 +266,7 @@
     <meta itemprop="headline" content="Introduction">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-12T02:46:42+00:00">
+    <meta itemprop="dateModified" content="2021-05-12T03:25:26+00:00">
 
     <div class="page__inner-wrap">
 
@@ -272,11 +300,16 @@
 Des intérêts contraires qui poussent à une formidable innovation technique, en creux, d'avant-garde. Aussi les artistes s'emparent de cette matière, de ce tremblement social et moral qui s'y produit dès lors que pense-t-on l'autorité régulatrice est dissoute. Ces artistes y observent et détournent des pratiques qui se manifestent dans d'espèces d'espaces autres, hétérotopiques, adjacents.</p>
 <p>Ils ont en commun cette certaine étrangeté sociale, celle d'une liberté de faire dans des temps dédiés qui paraissent décorrélés parfois, excentrés de l'agir habituel, quotidien, normalisé : hégémonique. C'est que l'anonymat porte en lui le début d'une emancipation retrouvée. Celle d'une fête, d'une libération cathartique : le fait de pouvoir exister sans retenue, sans jugement extérieur. </p>
 <blockquote>
-<p>L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.
-.
-Les organisations qui ont recours à ces réseaux en tant que moyen organisationel de séparation des États ont très vite saisi l'opportunité d'en faire de même avec un autre réseau : celui des transactions monétaires, avec l'argent. Les cryptomonnaies, le bitcoin ou encore Monero, ont prolongé ce que permettent les protocoles chiffrés, les darknets : des transactions décentralisées échappant aux États-surveillants et entreprises monopolistes.
-.
-Des acteurs concurrencés par cette innovation et qui amorçent de fait une contre-révolution. Ils se déclarent légitimes à intervenir et légiférer sur des moyens d'organisation sociale dont ils étaient jusqu'alors les intermédiaires naturels-obligatoires.</p>
+<p>L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.    </p>
+</blockquote>
+<blockquote>
+<p>Les organisations qui ont recours à ces réseaux en tant que moyen organisationel de séparation des États ont très vite saisi l'opportunité d'en faire de même avec un autre réseau : celui des transactions monétaires, avec l'argent.    </p>
+</blockquote>
+<blockquote>
+<p>Les cryptomonnaies, le bitcoin ou encore Monero, ont prolongé ce que permettent les protocoles chiffrés, les darknets : des transactions décentralisées échappant aux États-surveillants et entreprises monopolistes.   </p>
+</blockquote>
+<blockquote>
+<p>Des acteurs concurrencés par cette innovation et qui amorçent de fait une contre-révolution. Ils se déclarent légitimes à intervenir et légiférer sur des moyens d'organisation sociale dont ils étaient jusqu'alors les intermédiaires naturels-obligatoires.</p>
 </blockquote>
 <hr>
 <p>La captation des données par une surveillance indolore reste un modèle économique et social stratégique. Contrôler l'information sert à modifier nos inflexions, notre consentement.   </p>

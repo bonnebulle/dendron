@@ -32,10 +32,24 @@
     crossorigin="anonymous"
   /><link type="text/css" rel="stylesheet" href="./extra.css" />
 <style>
+    
+
+    html,
+    html body {
+        background: #18171b !important;
+        color: #FFF;
+        font-size: 1.1em;
+        font-weight: 300;
+    }
     html body .table-of-contents-sidebar-fixed-sidebar {
-        background-color: #1e1d21!important;
+        background-color: #18171b !important;
         color: #FFF !important;
     }
+    
+    .main-header, .search-input-wrap, .search-input {
+        background-color: #18171b !important;
+    }
+
     html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
     html body .table-of-contents-sidebar-fixed-sidebar ul li a {
         color: #FFF !important;
@@ -44,19 +58,12 @@
         display: none !important;
     }
 
-    html,
-    html body {
-        background: #27262b !important;
-        color: #FFF;
-        font-size: 1.1em;
-        font-weight: 300;
-    }
-    
     .site-logo {
         color: #FFF !important;
     }
     
-    a {
+    a,
+    .main-content a.anchor-heading {
         color: #87ff96 !important;
     }
     
@@ -65,6 +72,7 @@
     }
     
     li.nav-list-item a:visited,
+    .main-content a.anchor-heading:visited,
     a:visited {
         color: #ddd9ff !important
     }
@@ -72,30 +80,50 @@
     blockquote {
         font-style: normal;
         padding-right: 0em;
-        margin-left: calc(-1em - 0px);
+        margin-left: calc(-1em - 0px) !important;
         border: 0px;
         font-weight: 300;
         color: #DFFF !important;
+        margin-top: -10px !important;
+        margin-bottom: 20px !important;
     }
 
     .main-content h1,
     .main-content h2,
-    .main-content h3 {
-        margin-top: 15px;    
-    }
+    .main-content h3, 
+    /* {
+        margin-top: 20px;    
+    } */
     .main-content h4,
     .main-content h5,
     .main-content h6 {
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 6px;
     }
-    
+    .main-content h1 {
+        margin-top: 60px;
+    }
+
+    .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
+        margin-top: 0px !important;
+    }
+
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        font-size: 15px !important;
+    }
     .page__inner-wrap p {
         line-height: 1.9em !important;
     }
     
     .site-footer {
         padding-bottom: 1rem;
+    }
+    @media (min-width: 50rem) {
+        .site-nav {
+            padding-top: 2.4rem;
+        }
     }
 </style>
 

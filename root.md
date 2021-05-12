@@ -2,7 +2,7 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1620780402544
+updated: 1620782726072
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -41,10 +41,12 @@ Des intérêts contraires qui poussent à une formidable innovation technique, e
 
 Ils ont en commun cette certaine étrangeté sociale, celle d'une liberté de faire dans des temps dédiés qui paraissent décorrélés parfois, excentrés de l'agir habituel, quotidien, normalisé : hégémonique. C'est que l'anonymat porte en lui le début d'une emancipation retrouvée. Celle d'une fête, d'une libération cathartique : le fait de pouvoir exister sans retenue, sans jugement extérieur. 
 
-> L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique. 
-> .
-> Les organisations qui ont recours à ces réseaux en tant que moyen organisationel de séparation des États ont très vite saisi l'opportunité d'en faire de même avec un autre réseau : celui des transactions monétaires, avec l'argent. Les cryptomonnaies, le bitcoin ou encore Monero, ont prolongé ce que permettent les protocoles chiffrés, les darknets : des transactions décentralisées échappant aux États-surveillants et entreprises monopolistes.
-> .
+> L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.    
+
+> Les organisations qui ont recours à ces réseaux en tant que moyen organisationel de séparation des États ont très vite saisi l'opportunité d'en faire de même avec un autre réseau : celui des transactions monétaires, avec l'argent.    
+
+> Les cryptomonnaies, le bitcoin ou encore Monero, ont prolongé ce que permettent les protocoles chiffrés, les darknets : des transactions décentralisées échappant aux États-surveillants et entreprises monopolistes.   
+
 > Des acteurs concurrencés par cette innovation et qui amorçent de fait une contre-révolution. Ils se déclarent légitimes à intervenir et légiférer sur des moyens d'organisation sociale dont ils étaient jusqu'alors les intermédiaires naturels-obligatoires.
 
 * * *
