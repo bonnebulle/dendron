@@ -2,7 +2,7 @@
     "editor.lineHeight": 35,
     "editor.suggestLineHeight": 1,
     "terminal.integrated.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontFamily": "'Georgia','Verdana', sans-serif",
+    "editor.fontFamily": "'Verdana','Verdana', sans-serif",
     "editor.wordWrap": "bounded",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.cursorWidth": 3,

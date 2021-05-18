@@ -1,14 +1,11 @@
 {
-<<<<<<< HEAD
     "recommendations": [
         "ivangabriele.vscode-git-add-and-commit",
         "dendron.dendron",
         "dendron.dendron-markdown-notes",
-        "cweijan.vscode-office"
+        "cweijan.vscode-office",
+        "robole.file-bunny",
+        "streetsidesoftware.code-spell-checker-french",
+        "jannisx11.batch-rename-extension"
     ]
-=======
-	"recommendations": [
-		"cweijan.vscode-office"
-	]
->>>>>>> 1d8b8ad875a60530ecd6ab5c0caf625d7a63f73a
 }
