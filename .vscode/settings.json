@@ -15,5 +15,6 @@
         "editor.wordWrap": "wordWrapColumn",
         "editor.quickSuggestions": false
     },
-    "editor.insertSpaces": false
+    "editor.insertSpaces": false,
+    "vsicons.presets.angular": true
 }
