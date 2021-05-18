@@ -3,3 +3,16 @@ excludesfile = /home/pi/Dendron/vault/.git/refs/remotes/origin/main.lock
 excludesfile = .vscode/
 excludesfile = .vscode/*
 excludesfile = .dendron.port
+
+# __ https://stackoverflow.com/a/57749909
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+**/.history
+# ___
