@@ -1,8 +1,14 @@
 {
+<<<<<<< HEAD
     "recommendations": [
         "ivangabriele.vscode-git-add-and-commit",
         "dendron.dendron",
         "dendron.dendron-markdown-notes",
         "cweijan.vscode-office"
     ]
+=======
+	"recommendations": [
+		"cweijan.vscode-office"
+	]
+>>>>>>> 1d8b8ad875a60530ecd6ab5c0caf625d7a63f73a
 }
