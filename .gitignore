@@ -16,6 +16,6 @@ excludesfile = .dendron.port
 # Ignore all local history of files
 **/.history
 # ___
-.vscode/extensions.json
-.vscode/settings.json
+#.vscode/extensions.json
+#.vscode/settings.json
 .dendron.port
