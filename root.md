@@ -2,7 +2,7 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1621332319589
+updated: 1621332633922
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -13,6 +13,9 @@ Moi, administrateur de la personne de Vincent Bonnefille, me lance dans l'écrit
 ## Sujet, discipline, motivation
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
+
+
+
 
 
 
