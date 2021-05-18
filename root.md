@@ -10,7 +10,7 @@ permalink: /
 ---
 Moi, administrateur de la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
 
-## Sujet, discipline, motivation
+## Sujet, discipline, motivations
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
 
