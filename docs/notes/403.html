@@ -231,7 +231,10 @@
     .main-content h1 + h6,
 
     /* .main-content h4 + h4 */
-    .main-content h5 + h5 {
+    .main-content h5 + h5,
+
+    .main-content :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
+     {
         margin-top: 12px !important;
     }
     .main-content h6 + h6 {
@@ -393,8 +396,8 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="This page has not yet sprouted">
     
-    <meta itemprop="datePublished" content="2021-05-13T08:17:28+00:00">
-    <meta itemprop="dateModified" content="2021-05-13T08:17:28+00:00">
+    <meta itemprop="datePublished" content="2021-05-19T17:41:37+00:00">
+    <meta itemprop="dateModified" content="2021-05-19T17:41:37+00:00">
 
     <div class="page__inner-wrap">
 
