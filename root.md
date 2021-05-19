@@ -2,7 +2,7 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1621332743103
+updated: 1621460391311
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -25,7 +25,9 @@ Deux littératures au moins s'opposent au sujet des Darknet, l'une techo-pragmat
 On peut aussi identifier une littérature critique à leur endroit qui s'alarme des activités criminelles qui y font jour et regréttent le recul de l'État garant de l'ordre. Une inquiétude face à la monté d'activités terroristes, radicalisées, mais aussi du transfert d'informations et objets culturels échappant à leur propriétaire.
 
 > On peut penser ici aux oeuvres numériques distribuées dans respect des droits d'auteur ou aux fuite de données (d'institutions étatiques ou d'entreprises) telles les Wiki Leaks.
+  
 
+  
 ---
 
 D'autres tendent vers la science fiction le roman policier.
@@ -36,6 +38,20 @@ Et puis il y a les approches d'une autre pédagogie s'intéressant aux individus
 Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.
 
 [[TD/MAJ : corpus d'oeuvres et expositions]]
+
+---
+#### conclusion : plusieurs thèses
+Plusieurs façons de faire le récit de ces pratiques, de les raconter, de prendre part à ces pratiques ou de les rejeter du champ d'action commun (préférence répressive ou laxiste). 
+Face à sujet produisant des pratiques socialement marginales il est **normal** d'avoir des points de vu contrastés, d'y retrouver un fort antagonisme. 
+Pourtant ces thèses apportent une complexité au sujet de ces réseaux.
+
+> La division est plus souvent politique. Ces outils-moyens posent la question des limites d'une gouvernance, les moyens de son autonomie. Et, *In fine*, les moyens dont chacun.e se dote pour accéder à ce qu'elle ou lui juge comme étant une "vie bonne".
+  
+[[frags.root_intro.idéologie_sub_pov]]
+
+
+
+---
 
 # Darknets, contre la censure ?
 
@@ -143,5 +159,5 @@ Les profondeurs du web, le *deep-web* fait fantasmer cette part manquante ou ré
 
 Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.
 
-[[frags.root_intro]]
+[[frags.root_intro]]    
 [[README]]

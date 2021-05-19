@@ -1,10 +1,10 @@
 ---
 id: README
-title: Sources Github
+title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621326515149
+updated: 1621460748810
 created: 1595961348801
-nav_order: 100
+nav_order: 10
 ---
 Mise en place d'un système de notes par fiches avec //Dendron   
 Accéder aux notes :

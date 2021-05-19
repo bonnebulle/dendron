@@ -79,7 +79,10 @@
     a:visited {
         color: #5bbb60 !important
     }
-    
+    li.nav-list-item a:hover {
+        color: #7cda88 !important;
+        text-decoration: none;
+    }
     li.nav-list-item a.nav-list-link.active {
         color: #FFF !important;
         background: #302d3a;
@@ -107,6 +110,7 @@
         line-height: 1.9em !important;
         font-weight: 400;
         color: #d6d4d4;
+        color: #e0e0e0;
         font-family: Open sans;
         font-size: 18px;
     }
@@ -118,7 +122,7 @@
     blockquote,
     .page__inner-wrap blockquote * {
         font-style: normal;
-        font-weight: 300;
+        font-weight: 400;
         color: #80eae1 !important;
     }
     strong {
@@ -129,19 +133,26 @@
     .main-content blockquote blockquote,
     .main-content blockquote blockquote * {
         /* color: #e09749 !important; */
-        opacity: 0.8;
+        opacity: 0.85;
     }
     .main-content blockquote blockquote blockquote,
     .main-content blockquote blockquote blockquote * {
         /* color: #80eae1 !important; */
-        opacity: 0.45;
+        opacity: 0.7;
+        font-weight: 200;
+    }
+    .main-content blockquote blockquote blockquote blockquote,
+    .main-content blockquote blockquote blockquote blockquote * {
+        /* color: #80eae1 !important; */
+        opacity: 0.5;
+        font-weight: 200;
     }
     blockquote {
         padding-right: 0em;
         margin-left: calc(-1em - 0px) !important;
         border: 0px;
         margin-top: 0px !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 30px !important;
     }
     p + blockquote { margin-top: -10px !important;}
     
@@ -243,9 +254,20 @@
     .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
         margin-top: 0px !important;
     }
-
-
-    
+    /* .page__inner-wrap p {
+        margin-left: 4px !important;
+    } */
+    .page__inner-wrap hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -6px !important;
+    }
+    .main-content h2#children {
+        margin-top: 30px !important;
+    }
+    .main-content h2#children + ol {
+        margin-bottom: -16px;
+    }
     .site-footer {
         padding-bottom: 1rem;
     }
@@ -254,9 +276,33 @@
             padding-top: 2.4rem;
         }
     }
+
+    @media (min-width: 50rem)
+        .site-nav {
+            display: block;
+            padding-top: 3rem;
+            padding-bottom: 1rem;
+            overflow-y: auto;
+            flex: 1 1 auto;
+            /* position:relative;
+            left: auto;
+            right: auto;
+            float: left; */
+        }
+    }
 </style>
 
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+
 <script type="text/javascript">
     window.onload = function(e) {
         TableOfContents.init({
@@ -264,7 +310,17 @@
             querySelector: "body" // or other css querySelector
         });
     }
-</script>
+</script>  
+
+<script>  
+    $(document).ready(function() {
+         $("a[href]").each(function() {
+            var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
+            console.log(thehref);
+            $(this).attr("href", thehref);
+         });
+    });
+</script>     
   <script
     type="text/javascript"
     src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
@@ -401,7 +457,7 @@
     <meta itemprop="headline" content="thèse">
     
     <meta itemprop="datePublished" content="2021-05-08T23:04:25+00:00">
-    <meta itemprop="dateModified" content="2021-05-11T23:58:34+00:00">
+    <meta itemprop="dateModified" content="2021-05-19T23:47:49+00:00">
 
     <div class="page__inner-wrap">
 

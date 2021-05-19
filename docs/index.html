@@ -79,7 +79,10 @@
     a:visited {
         color: #5bbb60 !important
     }
-    
+    li.nav-list-item a:hover {
+        color: #7cda88 !important;
+        text-decoration: none;
+    }
     li.nav-list-item a.nav-list-link.active {
         color: #FFF !important;
         background: #302d3a;
@@ -107,6 +110,7 @@
         line-height: 1.9em !important;
         font-weight: 400;
         color: #d6d4d4;
+        color: #e0e0e0;
         font-family: Open sans;
         font-size: 18px;
     }
@@ -118,7 +122,7 @@
     blockquote,
     .page__inner-wrap blockquote * {
         font-style: normal;
-        font-weight: 300;
+        font-weight: 400;
         color: #80eae1 !important;
     }
     strong {
@@ -129,19 +133,26 @@
     .main-content blockquote blockquote,
     .main-content blockquote blockquote * {
         /* color: #e09749 !important; */
-        opacity: 0.8;
+        opacity: 0.85;
     }
     .main-content blockquote blockquote blockquote,
     .main-content blockquote blockquote blockquote * {
         /* color: #80eae1 !important; */
-        opacity: 0.45;
+        opacity: 0.7;
+        font-weight: 200;
+    }
+    .main-content blockquote blockquote blockquote blockquote,
+    .main-content blockquote blockquote blockquote blockquote * {
+        /* color: #80eae1 !important; */
+        opacity: 0.5;
+        font-weight: 200;
     }
     blockquote {
         padding-right: 0em;
         margin-left: calc(-1em - 0px) !important;
         border: 0px;
         margin-top: 0px !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 30px !important;
     }
     p + blockquote { margin-top: -10px !important;}
     
@@ -243,9 +254,20 @@
     .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
         margin-top: 0px !important;
     }
-
-
-    
+    /* .page__inner-wrap p {
+        margin-left: 4px !important;
+    } */
+    .page__inner-wrap hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -6px !important;
+    }
+    .main-content h2#children {
+        margin-top: 30px !important;
+    }
+    .main-content h2#children + ol {
+        margin-bottom: -16px;
+    }
     .site-footer {
         padding-bottom: 1rem;
     }
@@ -254,9 +276,33 @@
             padding-top: 2.4rem;
         }
     }
+
+    @media (min-width: 50rem)
+        .site-nav {
+            display: block;
+            padding-top: 3rem;
+            padding-bottom: 1rem;
+            overflow-y: auto;
+            flex: 1 1 auto;
+            /* position:relative;
+            left: auto;
+            right: auto;
+            float: left; */
+        }
+    }
 </style>
 
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+
 <script type="text/javascript">
     window.onload = function(e) {
         TableOfContents.init({
@@ -264,7 +310,17 @@
             querySelector: "body" // or other css querySelector
         });
     }
-</script>
+</script>  
+
+<script>  
+    $(document).ready(function() {
+         $("a[href]").each(function() {
+            var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
+            console.log(thehref);
+            $(this).attr("href", thehref);
+         });
+    });
+</script>     
   <script
     type="text/javascript"
     src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
@@ -395,7 +451,7 @@
     <meta itemprop="headline" content="Introduction">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-18T12:12:23+00:00">
+    <meta itemprop="dateModified" content="2021-05-19T23:39:51+00:00">
 
     <div class="page__inner-wrap">
 
@@ -427,6 +483,16 @@ Les histoires sensationalistes occupent largement l'imaginaire de ces réseaux. 
 <p><a data-toggle="popover" title="This page has not yet sprouted" style="cursor: pointer" data-content="<a href=&#x22;https://dendron.so/&#x22;>Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page
 
 <img src=&#x27;https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png&#x27;></img>">TD/MAJ : corpus d'oeuvres et expositions</a></p>
+<hr>
+<h4 id="conclusion--plusieurs-thèses"><a aria-hidden="true" class="anchor-heading" href="#conclusion--plusieurs-thèses"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>conclusion : plusieurs thèses</h4>
+<p>Plusieurs façons de faire le récit de ces pratiques, de les raconter, de prendre part à ces pratiques ou de les rejeter du champ d'action commun (préférence répressive ou laxiste).
+Face à sujet produisant des pratiques socialement marginales il est <strong>normal</strong> d'avoir des points de vu contrastés, d'y retrouver un fort antagonisme.
+Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
+<blockquote>
+<p>La division est plus souvent politique. Ces outils-moyens posent la question des limites d'une gouvernance, les moyens de son autonomie. Et, <em>In fine</em>, les moyens dont chacun.e se dote pour accéder à ce qu'elle ou lui juge comme étant une "vie bonne".</p>
+</blockquote>
+<p><a href="https://bonnebulle.github.io/dendron/notes/a2c6904d-6d25-4800-814d-0beb98d9de69.html">Idéologie_sub_pov</a></p>
+<hr>
 <h1 id="darknets-contre-la-censure-"><a aria-hidden="true" class="anchor-heading" href="#darknets-contre-la-censure-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets, contre la censure ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.</p>
 <h2 id="journalistes-criminels-qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels-qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, qui utilise ces réseaux ?</h2>
@@ -526,16 +592,16 @@ En observant_agissant à partir de ces coins refoulés iels (les artistes) parle
 </blockquote>
 </blockquote>
 <p>Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.</p>
-<p><a href="https://bonnebulle.github.io/dendron/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">frags.root_intro</a>
-<a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources Github</a></p>
+<p><a href="https://bonnebulle.github.io/dendron/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">frags.root_intro</a><br>
+<a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources</a></p>
 <hr>
 <h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
 <ol>
-<li><a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources Github</a></li>
+<li><a href="https://bonnebulle.github.io/dendron/notes/b1d8a9d3-e0b1-42ef-a4c2-0b87bdf0aede.html">Sujet</a></li>
 <li><a href="https://bonnebulle.github.io/dendron/notes/38cd09c7-019d-4b9d-ab72-3feea335e131.html">Arts</a></li>
 <li><a href="https://bonnebulle.github.io/dendron/notes/450c7ac0-4d82-4eca-b077-6fd49ae48bde.html">Méthodo</a></li>
 <li><a href="https://bonnebulle.github.io/dendron/notes/d3cb3b9a-3855-46b2-83f2-35da2a1b9e66.html">Questions</a></li>
-<li><a href="https://bonnebulle.github.io/dendron/notes/b1d8a9d3-e0b1-42ef-a4c2-0b87bdf0aede.html">Sujet</a></li>
+<li><a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources</a></li>
 </ol><span id="navId" data="root"></span>
 
                 
