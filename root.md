@@ -2,7 +2,7 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1621460391311
+updated: 1621520169214
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -51,7 +51,10 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.
 
 
 
----
+
+
+
+
 
 # Darknets, contre la censure ?
 
@@ -73,11 +76,91 @@ Une liberté d'expression, de conscience et d'organisation que {malheureusement}
 
 Une lutte infinie entre ceux qui attaquent-interdisent et ceux qui se défendent pour exister-persister semble ainsi se jouer. Une dualité qui fait facilement fantasmer deux camps : celui -du bien du mal, celui -des pirates contre l'Empire.
 
+
+
+
+
+
+
+
+
+
+
+### Modération, Censure : Silence, arme des forts
+
+> Pendant un temps, ces recoins du web { mal indexés, modérés autrement } semblaient à eux seuls cristalliser toute la barbarie du monde unifié et propre... qu'un **Clear-Web** prométait d'éloigner, d'aséptiser, de censurer : de modérer ( pour mieux vendre des espaces attentionnels-publicitaires ). Un web de la pureté, de l'information clairvoyante contre les rumeurs... un web imparfait, en construction qui, pour le moment, lui aussi, produit des monstruosités, des bulles-filtres, des comportements aliénés et systémique, des déviances, des compulsions.
+
+>> L'immodération est partout. Sur *le* Darknet s'expose ce que nos sociétés ont banni (mais pas que), ce qui n'a plus de place publique.
+>> J'employais la coloration de **GrayWeb** pour évoquer des zones grises d'un web de seconde zone, autonome dans sa modération, décentralisé des plateformes majoritaires.
+
+>>> J'avais peut-être un certain regret du web des années 80-90, de ses formes émergentes et d'un Indie-web encore possible.
+
+
+Les dark nets prolongent en ligne, si nécessaire, des espaces conversationnels existants localement, hors-réseaux. Les communications humaines qui y sont étendues servent à { des communautés particulières éloignées spatialement } et dont { le droit à l'expression commune ou à l'existence-manifestation des pratiques  est socialement interdite ou discriminée }. 
+
+Criminalisées, contrevenant aux régimes de production et idéal contemporain, elles trouvent ailleurs des modalités de rencontre, d'expression, d'organisation. S'y inventent d'autres gouvernementalités, d'autres inter-médiations décentralisées ou autonomes : d'autres centralités du pouvoir partagé.
+
+> Des voix, des discours qui portent atteinte à la dignité d'autrui ou tendent à faire accepter des transformations sociales qu'une tribune politique (ou toute publicité) pourrait rendre peu à peu acceptable. [ Je pense ici aux pratiques incestueuses, à la pédophilie ou toute autre modalité de pouvoir assujettissant ]. 
+
+>> On parle de "pied dans la porte", de "pente glissante" ou de **fenêtre d'Overton** en théorie politique : le risque est qu'en laissant se propager des idées on laisse propager des actes. La crainte d'une **panique morale** qui prendrait de court la société { établie sur des valeurs-principes *à priori* communs }. 
+
+>>> Une peur légitime face aux innovations technologiques et sociales qui affaiblissent les normes-habitudes structurantes d'une époque, { créent des variations inouïes pour certains.certaines d'entre nous }. Des principes d'auto-conservation, de défense face aux intérêts contraires, aux régimes déviants.
+
+>>> La crainte d'un laisser faire ou être qui produit des mises à distance automatiques sans discussion ou rencontre possible, sans société. Inconscient collectif, réflexe d'un refus de certains actes, phobies saines, sentiment d'un bon droit à ne pas discuter de tel ou tel comportement. 
+
+>>> Dangerosité pour l'ordre moral personnel et collectif qui produit des anti-corps a-politiques : des sujets tacites, sans contradiction possible, comme si ces actes étaient ceux de la follies produite ex-nilo du monde social : renvoyées à la déviance de la cellule individuelle. 
+
+>>>> Du silence, de la honte, à la haine, du mépris, une curiosité interdite.
+
+<!-- Situer qui se tait ou oblige au silence -->
+
+---
+
++ Dans un sens le silence des victimes profite aux oppresseurs.   
++ La censure et l'interdit qui mènent au silence des criminels ne règle pas le problème à la source mais évite la généralisation de leurs discours (banalisation).
++ L'exclusion des champs des savoirs communs perpétue de fausses croyances, un flou moral auxquelles les sociétés-individus doivent faire face.
+
+Ambivalence du dehors_dedans de la censure selon d'où on parle : fait d'empêcher-prévenir (intrusion), fait d'éloigner-garder secret (exclusion). Paradoxe de l'attaque_défense. #Point_de_vue
+
+---
+
+**HP** Je fais l'hypothèse que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise. 
+
+**TH** Ce qui est interdit par les canaux principaux redouble d'ingéniosité pour subsister ou se trouve remplacé [ je pense ici aux pratiques de piratage ].
+
+---
+
+Je note une opposition d'un pouvoir conservateur répressif VS une charge commune-sociale des problèmes qui doivent être résolus. C'est la manière de contraindre le réel qui est différente. Celle d'un **autoritarisme**.
+
+**Idée que comprendre c'est déjà chercher à excuser** ( cf. discours de Nicolas Sarkozy, Manuel Valls, etc. ) qui ne comprennent pas la nécessité des sciences sociales : celle d'expliquer par la méthode la disfunction par sa singularité. De façon dissociée des croyances morales et à priori.
+
+>> Peut-être un questionnement sur ma propre monstruosité, sur l'étrangeté digne de l'Autre ( construit autrement que moi, socio-culturellement situé ). 
+>>> Non pas pour excuser mais pour expliquer les mécanismes à l'oeuvre, les recoins où se nichent le pouvoir, les motivations profondes, inuites, implicites de nos sociétés.
+
+Notes
++ Faut-il exposer / documenter ce qui prend tend d'éfforts à rester dissimulé ? 
++ L'enquête comme modalité de mise en existence, en réalité.
++ L'exposition comme acte politique d'explicitation des moteurs invisibles, de la métaphysique générale, diffuse, élargie.
++ Projet déconstructif, de la nuance, de la recherche plutôt que de la certitude.
+
+*Tous ces conflits rendus moraux relate la difficulté de vivre ensemble depuis nos divergences et dans un **monde mauvais**.*
+
+
+
+
+
+
+
+
+
+
+
+
 # Des pratiques artistiques ?
 
 #### (Les arts de la fuite et des tréfonds)
 
-Des intérêts contraires poussant à l'innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.
+Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.
 
 Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborantins, penseurs par la forme -l'indicible -l'induit }} pour chercher des alternatives de vie, de représentation, de ressenti, de subjectivité. D'une certaine façon la Culture est comme les darknets, plurielle, et non unique ni certaine, ni sacrée.
 
@@ -86,21 +169,18 @@ Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborant
 On retrouve dans certaines pratiques artistiques qui emploient des protocoles atypiques, le goût du trouble_vulnérable, du débordement, de la liberté artistique.
 
 > Un travail sur l'élasticité des normes, à partir de ce que j'ai moi, subjectivité inquiète de préserver et pourtant doutante si elle veut.
->
+
 >> Un travail sur la faille, le basculement dans la folie, la démesure.
 >> En observant_agissant à partir de ces coins refoulés iels (les artistes) parleraient à cet inconscient collectif, intime et politique.
->>
 
 #### Mondes isolés, protégés
 
 > L'artiste y serait alors médium, psychanalyste de l'âme, archéologue de nos fondations sociétales.
 
 >> Et on pourrait se demander si Darknets et pratiques artistiques collectivement consommées ne se produisent depuis un *bord social*. Des pratiques encapsulées, profitant de la temporalité d'espaces_autres, hétérotopiques, adjacents, limitrophes.
->>
 
 >>> Des utopies de poche...
->>>
->>
+
 
 #### L'art de la fête
 
@@ -116,17 +196,13 @@ Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le fait d'exp
 
 ---
 
-> Ces recoins du web, mal indexés, modérés autrement, semblent cristalliser toute l' du monde unifié et propre. Ce CLearWeb qui modère et vend des espaces attentionnels. Ce reste du web qui, lui aussi, produit des monstruosités, des comportements déviants, des compulsions.
 
->> L'immodération est partout. Sur *le* Darknet s'expose ce que nos sociétés ont banni (mais pas que), ce qui n'a plus de place publique.
->>
 
->> Des communautés exclue du droit à l'expression s'y organisent en réseau, inventent d'autres gouvernementalités, d'autres centralités du pouvoir partagé.
->>
 
->>> Je fais l'hypothèse que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise.
->>>
->>
+
+
+
+
 
 # Économie, vie parallèle : radicalité disruptive
 
@@ -153,9 +229,9 @@ En allant explorer les banlieues des réseaux je pensais naïvement rencontrer c
 Les profondeurs du web, le *deep-web* fait fantasmer cette part manquante ou résiduel du savoir humain mis en réseau. Un autre refoulé, celui du non accès des logiciels d'indexation à certaines zones grises du web. Un manque à gagner, un gisement...
 
 > là aussi, un réservoir à des mythologies contemporaines, celui de la clairvoyance par les données comme prisme du réel nouvellement gouvernable par les valeurs numériques.
->
+
 >> Avec peut-être l'espoir d'un meilleur diagnostique des risques et spéculations.
->>
+
 
 Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.
 

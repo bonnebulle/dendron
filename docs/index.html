@@ -30,274 +30,7 @@
     href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
     integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
     crossorigin="anonymous"
-  /><link type="text/css" rel="stylesheet" href="./extra.css" />
-<style>
-    
-
-    html,
-    html body {
-        background: #18171b !important;
-        color: #FFF;
-        font-size: 1.1em;
-        font-weight: 300;
-    }
-    html body .table-of-contents-sidebar-fixed-sidebar {
-        background-color: #18171b !important;
-        color: #FFF !important;
-    }
-    
-    .main-header, .search-input-wrap, .search-input {
-        background-color: #18171b !important;
-    }
-
-
-
-    html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
-    html body .table-of-contents-sidebar-fixed-sidebar ul li a {
-        color: #FFF !important;
-    }
-    html body #table-of-contents-sidebar-fixed-sidebar-tooltip {
-        display: none !important;
-    }
-
-
-
-    .site-logo {
-        color: #FFF !important;
-    }
-    
-    a,
-    .main-content a.anchor-heading,
-    li.nav-list-item a {
-        color: #87ff96 !important;
-        font-weight: 600;
-    }
-/*     89dada */
-    
-    li.nav-list-item a:visited,
-    .main-content a.anchor-heading:visited,
-    a:visited {
-        color: #5bbb60 !important
-    }
-    li.nav-list-item a:hover {
-        color: #7cda88 !important;
-        text-decoration: none;
-    }
-    li.nav-list-item a.nav-list-link.active {
-        color: #FFF !important;
-        background: #302d3a;
-    }
-    .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
-        background-image: none !important;
-    }
-    ul.nav-list li.nav-list-item.active {
-        background: #232129;
-        /* border-left: 3px solid #18171b; */
-    }
-    ul.nav-list li.nav-list-item.active ul.nav-list {
-        margin-bottom: 3px;
-    }
-    ul.nav-list li.nav-list-item.active ul li.nav-list-item.active,
-    ul.nav-list ul li.nav-list-item a.nav-list-link.active {
-        background: transparent;
-    }
-
-    .side-bar{
-           background: #1a191d
-    }
-
-    .page__inner-wrap p {
-        line-height: 1.9em !important;
-        font-weight: 400;
-        color: #d6d4d4;
-        color: #e0e0e0;
-        font-family: Open sans;
-        font-size: 18px;
-    }
-    .page__inner-wrap b,
-    .page__inner-wrap strong {
-        font-weight: bold;
-    }
-
-    blockquote,
-    .page__inner-wrap blockquote * {
-        font-style: normal;
-        font-weight: 400;
-        color: #80eae1 !important;
-    }
-    strong {
-        font-weight: bold !important
-    }
-   .page__inner-wrap blockquote em {        font-style: italic!important;}
-
-    .main-content blockquote blockquote,
-    .main-content blockquote blockquote * {
-        /* color: #e09749 !important; */
-        opacity: 0.85;
-    }
-    .main-content blockquote blockquote blockquote,
-    .main-content blockquote blockquote blockquote * {
-        /* color: #80eae1 !important; */
-        opacity: 0.7;
-        font-weight: 200;
-    }
-    .main-content blockquote blockquote blockquote blockquote,
-    .main-content blockquote blockquote blockquote blockquote * {
-        /* color: #80eae1 !important; */
-        opacity: 0.5;
-        font-weight: 200;
-    }
-    blockquote {
-        padding-right: 0em;
-        margin-left: calc(-1em - 0px) !important;
-        border: 0px;
-        margin-top: 0px !important;
-        margin-bottom: 30px !important;
-    }
-    p + blockquote { margin-top: -10px !important;}
-    
-    blockquote + blockquote {
-        margin-top: -15px !important;
-    }
-
-
-
-
-    .main-content h1,
-    .main-content h2,
-    .main-content h3,
-    .main-content h4,
-    .main-content h5,
-    .main-content h6 {
-        margin-bottom: 6px; 
-        margin-top: 50px; 
-        text-transform: none !important;
-        letter-spacing: normal !important
-    }
-
-    .main-content h1
-    {
-        font-size: 33px !important;
-        margin-top: 60px !important;   
-    }
-    .main-content h2
-    {
-        margin-top: 40px !important;   
-    }
-    /* .main-content h4,
-    .main-content h5,
-    .main-content h6 {
-        margin-top: 35px;
-    } */
-
-    /* @media (min-width: 31.25rem) { */
-        /* .text-gamma, */
-        .main-content h3 {
-            margin-top: 40px; 
-            font-size: 22px !important;
-        }
-    /* } */
-    .main-content h4 {
-        margin-top: 25px;
-        font-size: 18px !important;
-        letter-spacing: 1px !important;
-    }
-
-    .main-content h5,
-    .main-content h6 {
-        margin-top: 20px;
-        font-size: 15px !important;
-        letter-spacing: 1px !important;
-    }
-
-    .main-content h1 {
-        margin-top: 55px !important;
-    }
-
-    .main-content h1 + h1,
-    .main-content h2 + h2,
-    .main-content h3 + h3,
-    .main-content h4 + h4,
-    .main-content h5 + h5,
-
-    .main-content h1 + h2,
-    .main-content h2 + h3,
-    .main-content h3 + h4,
-    .main-content h4 + h5,
-    .main-content h5 + h6,
-    .main-content h6 + h5,
-
-    .main-content h1 + h3,
-    .main-content h2 + h4,
-    .main-content h3 + h5,
-    .main-content h4 + h6,
-    
-    .main-content h1 + h4,
-    .main-content h2 + h5,
-    .main-content h3 + h6,
-    
-    .main-content h1 + h5,
-    .main-content h2 + h6,
-
-    .main-content h1 + h6,
-
-    /* .main-content h4 + h4 */
-    .main-content h5 + h5,
-
-    .main-content :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
-     {
-        margin-top: 12px !important;
-    }
-    .main-content h6 + h6 {
-        margin-top: 6px !important;
-    }
-    .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
-        margin-top: 0px !important;
-    }
-    /* .page__inner-wrap p {
-        margin-left: 4px !important;
-    } */
-    .page__inner-wrap hr {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: -6px !important;
-    }
-    .main-content h2#children {
-        margin-top: 30px !important;
-    }
-    .main-content h2#children + ol {
-        margin-bottom: -16px;
-    }
-    .site-footer {
-        padding-bottom: 1rem;
-    }
-    @media (min-width: 50rem) {
-        .site-nav {
-            padding-top: 2.4rem;
-        }
-    }
-
-    @media (min-width: 50rem)
-        .site-nav {
-            display: block;
-            padding-top: 3rem;
-            padding-bottom: 1rem;
-            overflow-y: auto;
-            flex: 1 1 auto;
-            /* position:relative;
-            left: auto;
-            right: auto;
-            float: left; */
-        }
-    }
-</style>
-
-
-
-
-
-
-
+  /><link type="text/css" rel="stylesheet" href="/assets/extra.css" />
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -451,7 +184,7 @@
     <meta itemprop="headline" content="Introduction">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-19T23:39:51+00:00">
+    <meta itemprop="dateModified" content="2021-05-20T16:13:49+00:00">
 
     <div class="page__inner-wrap">
 
@@ -492,7 +225,6 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <p>La division est plus souvent politique. Ces outils-moyens posent la question des limites d'une gouvernance, les moyens de son autonomie. Et, <em>In fine</em>, les moyens dont chacun.e se dote pour accéder à ce qu'elle ou lui juge comme étant une "vie bonne".</p>
 </blockquote>
 <p><a href="https://bonnebulle.github.io/dendron/notes/a2c6904d-6d25-4800-814d-0beb98d9de69.html">Idéologie_sub_pov</a></p>
-<hr>
 <h1 id="darknets-contre-la-censure-"><a aria-hidden="true" class="anchor-heading" href="#darknets-contre-la-censure-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets, contre la censure ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.</p>
 <h2 id="journalistes-criminels-qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels-qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, qui utilise ces réseaux ?</h2>
@@ -507,14 +239,103 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <p>[1 www] Une intervention souvent jugée illégitime, contraire aux principes fondateurs d'un web libéral prônant la liberté de circulation informationnelle.</p>
 </blockquote>
 <p>Une lutte infinie entre ceux qui attaquent-interdisent et ceux qui se défendent pour exister-persister semble ainsi se jouer. Une dualité qui fait facilement fantasmer deux camps : celui -du bien du mal, celui -des pirates contre l'Empire.</p>
+<h3 id="modération-censure--silence-arme-des-forts"><a aria-hidden="true" class="anchor-heading" href="#modération-censure--silence-arme-des-forts"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Modération, Censure : Silence, arme des forts</h3>
+<blockquote>
+<p>Pendant un temps, ces recoins du web { mal indexés, modérés autrement } semblaient à eux seuls cristalliser toute la barbarie du monde unifié et propre... qu'un <strong>Clear-Web</strong> prométait d'éloigner, d'aséptiser, de censurer : de modérer ( pour mieux vendre des espaces attentionnels-publicitaires ). Un web de la pureté, de l'information clairvoyante contre les rumeurs... un web imparfait, en construction qui, pour le moment, lui aussi, produit des monstruosités, des bulles-filtres, des comportements aliénés et systémique, des déviances, des compulsions.</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>L'immodération est partout. Sur <em>le</em> Darknet s'expose ce que nos sociétés ont banni (mais pas que), ce qui n'a plus de place publique.
+J'employais la coloration de <strong>GrayWeb</strong> pour évoquer des zones grises d'un web de seconde zone, autonome dans sa modération, décentralisé des plateformes majoritaires.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>J'avais peut-être un certain regret du web des années 80-90, de ses formes émergentes et d'un Indie-web encore possible.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Les dark nets prolongent en ligne, si nécessaire, des espaces conversationnels existants localement, hors-réseaux. Les communications humaines qui y sont étendues servent à { des communautés particulières éloignées spatialement } et dont { le droit à l'expression commune ou à l'existence-manifestation des pratiques  est socialement interdite ou discriminée }. </p>
+<p>Criminalisées, contrevenant aux régimes de production et idéal contemporain, elles trouvent ailleurs des modalités de rencontre, d'expression, d'organisation. S'y inventent d'autres gouvernementalités, d'autres inter-médiations décentralisées ou autonomes : d'autres centralités du pouvoir partagé.</p>
+<blockquote>
+<p>Des voix, des discours qui portent atteinte à la dignité d'autrui ou tendent à faire accepter des transformations sociales qu'une tribune politique (ou toute publicité) pourrait rendre peu à peu acceptable. [ Je pense ici aux pratiques incestueuses, à la pédophilie ou toute autre modalité de pouvoir assujettissant ]. </p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>On parle de "pied dans la porte", de "pente glissante" ou de <strong>fenêtre d'Overton</strong> en théorie politique : le risque est qu'en laissant se propager des idées on laisse propager des actes. La crainte d'une <strong>panique morale</strong> qui prendrait de court la société { établie sur des valeurs-principes <em>à priori</em> communs }. </p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Une peur légitime face aux innovations technologiques et sociales qui affaiblissent les normes-habitudes structurantes d'une époque, { créent des variations inouïes pour certains.certaines d'entre nous }. Des principes d'auto-conservation, de défense face aux intérêts contraires, aux régimes déviants.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>La crainte d'un laisser faire ou être qui produit des mises à distance automatiques sans discussion ou rencontre possible, sans société. Inconscient collectif, réflexe d'un refus de certains actes, phobies saines, sentiment d'un bon droit à ne pas discuter de tel ou tel comportement. </p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Dangerosité pour l'ordre moral personnel et collectif qui produit des anti-corps a-politiques : des sujets tacites, sans contradiction possible, comme si ces actes étaient ceux de la follies produite ex-nilo du monde social : renvoyées à la déviance de la cellule individuelle. </p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Du silence, de la honte, à la haine, du mépris, une curiosité interdite.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<!-- Situer qui se tait ou oblige au silence -->
+<hr>
+<ul>
+<li>Dans un sens le silence des victimes profite aux oppresseurs.   </li>
+<li>La censure et l'interdit qui mènent au silence des criminels ne règle pas le problème à la source mais évite la généralisation de leurs discours (banalisation).</li>
+<li>L'exclusion des champs des savoirs communs perpétue de fausses croyances, un flou moral auxquelles les sociétés-individus doivent faire face.</li>
+</ul>
+<p>Ambivalence du dehors_dedans de la censure selon d'où on parle : fait d'empêcher-prévenir (intrusion), fait d'éloigner-garder secret (exclusion). Paradoxe de l'attaque_défense. #Point_de_vue</p>
+<hr>
+<p><strong>HP</strong> Je fais l'hypothèse que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise. </p>
+<p><strong>TH</strong> Ce qui est interdit par les canaux principaux redouble d'ingéniosité pour subsister ou se trouve remplacé [ je pense ici aux pratiques de piratage ].</p>
+<hr>
+<p>Je note une opposition d'un pouvoir conservateur répressif VS une charge commune-sociale des problèmes qui doivent être résolus. C'est la manière de contraindre le réel qui est différente. Celle d'un <strong>autoritarisme</strong>.</p>
+<p><strong>Idée que comprendre c'est déjà chercher à excuser</strong> ( cf. discours de Nicolas Sarkozy, Manuel Valls, etc. ) qui ne comprennent pas la nécessité des sciences sociales : celle d'expliquer par la méthode la disfunction par sa singularité. De façon dissociée des croyances morales et à priori.</p>
+<blockquote>
+<blockquote>
+<p>Peut-être un questionnement sur ma propre monstruosité, sur l'étrangeté digne de l'Autre ( construit autrement que moi, socio-culturellement situé ). </p>
+<blockquote>
+<p>Non pas pour excuser mais pour expliquer les mécanismes à l'oeuvre, les recoins où se nichent le pouvoir, les motivations profondes, inuites, implicites de nos sociétés.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Notes</p>
+<ul>
+<li>Faut-il exposer / documenter ce qui prend tend d'éfforts à rester dissimulé ? </li>
+<li>L'enquête comme modalité de mise en existence, en réalité.</li>
+<li>L'exposition comme acte politique d'explicitation des moteurs invisibles, de la métaphysique générale, diffuse, élargie.</li>
+<li>Projet déconstructif, de la nuance, de la recherche plutôt que de la certitude.</li>
+</ul>
+<p><em>Tous ces conflits rendus moraux relate la difficulté de vivre ensemble depuis nos divergences et dans un <strong>monde mauvais</strong>.</em></p>
 <h1 id="des-pratiques-artistiques-"><a aria-hidden="true" class="anchor-heading" href="#des-pratiques-artistiques-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Des pratiques artistiques ?</h1>
 <h4 id="les-arts-de-la-fuite-et-des-tréfonds"><a aria-hidden="true" class="anchor-heading" href="#les-arts-de-la-fuite-et-des-tréfonds"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(Les arts de la fuite et des tréfonds)</h4>
-<p>Des intérêts contraires poussant à l'innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.</p>
+<p>Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.</p>
 <p>Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborantins, penseurs par la forme -l'indicible -l'induit }} pour chercher des alternatives de vie, de représentation, de ressenti, de subjectivité. D'une certaine façon la Culture est comme les darknets, plurielle, et non unique ni certaine, ni sacrée.</p>
 <h3 id="transgression-et-trouble-dans-lart"><a aria-hidden="true" class="anchor-heading" href="#transgression-et-trouble-dans-lart"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Transgression et trouble dans l'art</h3>
 <p>On retrouve dans certaines pratiques artistiques qui emploient des protocoles atypiques, le goût du trouble_vulnérable, du débordement, de la liberté artistique.</p>
 <blockquote>
 <p>Un travail sur l'élasticité des normes, à partir de ce que j'ai moi, subjectivité inquiète de préserver et pourtant doutante si elle veut.</p>
+</blockquote>
+<blockquote>
 <blockquote>
 <p>Un travail sur la faille, le basculement dans la folie, la démesure.
 En observant_agissant à partir de ces coins refoulés iels (les artistes) parleraient à cet inconscient collectif, intime et politique.</p>
@@ -545,26 +366,6 @@ En observant_agissant à partir de ces coins refoulés iels (les artistes) parle
 <hr>
 <p>Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le fait d'exprimer ou de brouiller les pistes, de laisser croire, de faire germer dans l'implicite bien plus que par une pédagogie appelant au résonnement logique.</p>
 <hr>
-<blockquote>
-<p>Ces recoins du web, mal indexés, modérés autrement, semblent cristalliser toute l' du monde unifié et propre. Ce CLearWeb qui modère et vend des espaces attentionnels. Ce reste du web qui, lui aussi, produit des monstruosités, des comportements déviants, des compulsions.</p>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>L'immodération est partout. Sur <em>le</em> Darknet s'expose ce que nos sociétés ont banni (mais pas que), ce qui n'a plus de place publique.</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>Des communautés exclue du droit à l'expression s'y organisent en réseau, inventent d'autres gouvernementalités, d'autres centralités du pouvoir partagé.</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>Je fais l'hypothèse que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise.</p>
-</blockquote>
-</blockquote>
-</blockquote>
 <h1 id="économie-vie-parallèle--radicalité-disruptive"><a aria-hidden="true" class="anchor-heading" href="#économie-vie-parallèle--radicalité-disruptive"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Économie, vie parallèle : radicalité disruptive</h1>
 <p>L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.</p>
 <blockquote>
