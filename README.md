@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621593084231
+updated: 1621593148009
 created: 1595961348801
 nav_order: 10
 ---
@@ -15,7 +15,7 @@ Accéder aux notes :
 
 Sources du [Projet sur Github](https://github.com/bonnebulle/dendron)   
 [Derniers "arrivages"](https://github.com/bonnebulle/dendron/commits/main)    
-( ou "*Commits*" : suivi des mises à jour [wiki](https://fr.wikipedia.org/wiki/Commit) )
+( ou "*Commits*" : suivi des mises à jour,  [ jargon sur [wiki](https://fr.wikipedia.org/wiki/Commit) ] )
 
 ---
 
