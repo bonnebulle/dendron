@@ -189,9 +189,9 @@ blockquote {
 }
 blockquote { margin-top: 0em !important;}
 
-p + blockquote { margin-top: -1em !important;}
+p + blockquote { margin-top: -0.65em !important;}
 blockquote p + blockquote {
-     margin-top: -0.65em !important;
+     margin-top: -0.45em !important;
 }
 blockquote + blockquote {
     margin-top: 1em !important;
@@ -288,7 +288,7 @@ blockquote + blockquote > blockquote {
 .main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
     color: #e6e6e6 !important;
     color: #ececec !important;
-    font-weight:510;
+    font-weight: 620;
 }
 
 .main-content hr + :is(h2,h3,h4,h5,h6) {
@@ -412,7 +412,7 @@ font-size: 14px !important;
         right: auto;
         float: left; */
     }
-    .main-content-wrap{padding-bottom: 2.3rem;}
+
     
     .site-title,
     #site-nav {
@@ -455,7 +455,7 @@ font-size: 14px !important;
         outline-offset: -2px;
     }
     a:focus {
-        outline: 1px solid #62b3a !important;
+        outline: 1px solid #444 !important;
     }
     .nav-list a.nav-list-expander:focus {
         outline: none !important;
@@ -485,6 +485,7 @@ font-size: 14px !important;
 
     .main-content-wrap {
         padding-top: 1.5rem;
+        padding-bottom: 0.6rem;
     }
     
     .breadcrumb-nav-list {
@@ -565,4 +566,14 @@ html body .table-of-contents-sidebar-fixed-sidebar .copyright {
 line-height: 20px !important;
 border: none !important;
 margin-top: -2px;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#backlinks"],
+html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#children"] {
+    margin-top: 20px !important;
+display: block !important;
+margin-left: -15px !important;
+font-style: italic;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#backlinks"] {
+    margin-top: 10px !important;
 }
