@@ -2,15 +2,14 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1621620087933
+updated: 1621625387282
 created: 1595961348801
 stub: true
 nav_order: 0
 permalink: /
 ---
 
-PARTIE: 1 le chat
-Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
+> Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
 
 ## Sujet, discipline, motivations
 
@@ -29,21 +28,22 @@ Leurs auteurs et autrices seront plus attaché.e.s à démystifier ces réseaux 
 >>> Empreinte de virtualités, de potentialités ouvertes... 
 
 ---
-### Craintes du grand mêchant Darknet
+
+### Craintes du grand méchant Darknet
 Il faut aussi compter une littérature opposée aux moyens de défense numérique (ailleurs que dans les mains des entreprises-États). Elle sera souvent critique à leur endroit, méfiante et pointant du doigt les effets négatifs-dangereux de ces réseaux.
 
 On y trouve souvent un discours de crainte quant à la perte de terrain de l'État comme garant de l'ordre. 
 
 #### Fuite-perte de données
-Une inquiétude réccurente autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalistes, mais transfert d'informations et objets culturels  *piratés* } et autres activités criminelles qui y font jour serviront alors d'épouventail.
+Une inquiétude récurante autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalistes, mais transfert d'informations et objets culturels  *piratés* } et autres activités criminelles qui y font jour serviront alors d'épouvantail.
 
-> L'une des craintes originelle à l'endroit des darknets restent la fuite de données ( transmises à des organes journalistiques ou d'information tel **Wikileaks** ou encore par la concurence ). Une matière numérique qui rapporte et qui s'échange effectivement sur des réseaux protégeant les transactions entre inconnus.
+> L'une des craintes originelle à l'endroit des darknets restent la fuite de données ( transmises à des organes journalistiques ou d'information tel **Wikileaks** ou encore par la concurrence ). Une matière numérique qui rapporte et qui s'échange effectivement sur des réseaux protégeant les transactions entre inconnus.
 
 ---
 
 ### Pseudo-Science & Science-Fiction
 D'autres tendent vers la science fiction le roman policier.
-Les histoires sensationalistes occupent largement l'imaginaire de ces réseaux. On trouve de nombreuses références dans la culture populaire { des films, des jeux vidéo, des séries } qui mentionne courament ces réseaux volontairement mal interprétés. Des œuvres-récits qui peuvent centrer toute leur intrigue d'épouvante autour des antités maléfiques imaginées sur les réseaux : des machines qui prendraient le pouvoir sur l'utilisateur.ice.
+Les histoires sensationalistes occupent largement l'imaginaire de ces réseaux. On trouve de nombreuses références dans la culture populaire { des films, des jeux vidéo, des séries } qui mentionne couramment ces réseaux volontairement mal interprétés. Des œuvres-récits qui peuvent centrer toute leur intrigue d'épouvante autour des entités maléfiques imaginées sur les réseaux : des machines qui prendraient le pouvoir sur l'utilisateur.ice.
 
 ---
 
@@ -52,15 +52,16 @@ Et puis il y a les approches d'une autre pédagogie s'intéressant aux individus
 
 De nombreuses populations, communautés, individus, emploient ces protocoles pour faire des échanges, ou rendre leur contenu hébergé plus **résilient** aux attaques et censures de toutes sortes. 
 
-#### Jeardins secrets
-On y trouve aussi des pièces uniques.
+#### Jardins secrets
+
+On y trouve des pièces uniques.
 Des créations de code poétique qui jouent sur le sentiment d'une autre intimité en réseau que procure le fait de devoir être initié.e pour accéder à leur jardin secret.
 
----
 On y trouve des bibliothèques cachées, 
 des antres de pirates expulsés trop du fois du **Clear-web** 
 et qui y trouvent un dernier refuge en s'y copiant (*mirrors*).
----
+
+Les darknets et autres réseaux mal-indexés poussent à la curiosité : **à des pratiques exploratoires**.
 
 ### En arts ( installations, web_net-art, films )
 Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.

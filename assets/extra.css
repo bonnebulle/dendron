@@ -29,7 +29,7 @@ html body #table-of-contents-sidebar-fixed-sidebar-tooltip {
 @media (min-width: 50rem){
     .main {
         position: relative;
-        max-width: 730px;
+        max-width: 710px;
     }
 }
 .site-logo {
@@ -190,7 +190,7 @@ blockquote + blockquote {
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-    margin-bottom: 6px; 
+    margin-bottom: 3px; 
     margin-top: 1em; 
     text-transform: none !important;
     letter-spacing: normal !important;
@@ -201,11 +201,15 @@ blockquote + blockquote {
 .main-content h1
 {
     font-size: 33px !important;
-    margin-top: 2em !important;   
+    margin-top: 2.3em !important;
+    margin-bottom: 0.5em !important;
+
 }
 .main-content h2
 {
-    margin-top: 1.3em !important;   
+    margin-top: 1em !important;  
+    font-size: 26px !important; 
+    margin-bottom: 3px; 
 }
 /* .main-content h4,
 .main-content h5,
@@ -216,44 +220,52 @@ blockquote + blockquote {
 /* @media (min-width: 31.25rem) { */
     /* .text-gamma, */
     .main-content h3 {
-        margin-top: 1.6em; 
-        font-size: 22px !important;
+        margin-top: 1.2em; 
+        font-size: 23px !important;
     }
 /* } */
 .main-content h4 {
     margin-top: 1em;
-    margin-top: 1.4em;
-    font-size: 18px !important;
-    letter-spacing: 1px !important;
+margin-top: 1.3em;
+font-size: 20px !important;
+/* letter-spacing: 1px !important; */
+letter-spacing: normal !important;
     
 }
 
 .main-content h5,
 .main-content h6 {
     margin-top: 1em;
-    font-size: 15px !important;
-    letter-spacing: 1px !important;
+    font-size: 17px !important;
+    /* letter-spacing: 1px !important; */
+    letter-spacing: normal !important;
 }
 .main-content h4,
 .main-content h5,
 .main-content h6 {
     margin-bottom: 4px !important;
 }
-.main-content :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
+.main-content :is(h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
  {
-    margin-top: 10px !important;
+    margin-top: -5px !important;
 }
 
 .main-content h6 + h6 {
     margin-top: 6px !important;
 }
 .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
-    margin-top: 0px !important;
+    margin-top: -2px !important;
+    margin-bottom: 3px !important;
 }
-/* 
-.main-content hr + :is(h3,h4,h5,h6) {
-    margin-top: -5px;
-} */
+.main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
+    color: #e6e6e6 !important;
+    color: #ececec !important;
+    font-weight:510;
+}
+
+.main-content hr + :is(h2,h3,h4,h5,h6) {
+    margin-top:21px;
+}
 
 
 
