@@ -2,12 +2,13 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1621584302538
+updated: 1621592441230
 created: 1595961348801
 stub: true
 nav_order: 0
 permalink: /
 ---
+
 Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
 
 ## Sujet, discipline, motivations
