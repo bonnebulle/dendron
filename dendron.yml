@@ -1,14 +1,34 @@
 version: 1
-vaults: []
+vaults:
+    -
+        fsPath: vault
 useFMTitle: true
 useNoteTitleForLink: true
 noAutoCreateOnDefinition: true
 noLegacyNoteRef: true
+color_scheme: dark
+previewPort: 8999
 site:
+    # assetsPrefix: dendron
+    siteUrl: https://bonnebulle.github.io/dendron
+    noIndexByDefault: true
+    color_scheme: dark
+    customHeaderPath: vault/assets/header.html
+    siteFaviconPath: vault/assets/favicon.ico
+    # logo: vault/assets/images/logo.png
+    siteLastModified: true
+    # writeStubs: true
+    gh_edit_link: false
     copyAssets: true
     siteHierarchies:
         - root
-    siteRootDir: docs
+    siteRootDir: vault/docs
     usePrettyRefs: true
-    title: Dendron
-    description: Personal knowledge space
+    title: Projet de thèse
+    description: Arts et Darknets
+    author: Vincent Bonnefille
+    previewPort: 8999
+    lang: FR_fr
+    # config: 
+    #     publishByDefault: true
+initializeRemoteVaults: true
