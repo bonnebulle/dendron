@@ -7,24 +7,18 @@ html body {
     font-size: 1.1em;
     font-weight: 300;
 }
-html body .table-of-contents-sidebar-fixed-sidebar {
-    background-color: #18171b !important;
-    color: #FFF !important;
-}
-
 .main-header, .search-input-wrap, .search-input {
     background-color: #18171b !important;
 }
 
 
 
-html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
-html body .table-of-contents-sidebar-fixed-sidebar ul li a {
-    color: #FFF !important;
-}
-html body #table-of-contents-sidebar-fixed-sidebar-tooltip {
-    display: none !important;
-}
+
+
+
+
+
+
 
 @media (min-width: 50rem){
     .main {
@@ -38,6 +32,7 @@ html body #table-of-contents-sidebar-fixed-sidebar-tooltip {
 
 .main-content .anchor-heading svg {
     width: 1em;
+    font-size: 16px
 }
 
 
@@ -108,32 +103,46 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
 
 .page__inner-wrap * {
     line-height: 1.9em !important;
-    line-height: 1.8em !important;
+    line-height: 1.65em !important;
     font-weight: 400;
     color: #d6d4d4;
     color: #e6e6e6;
     font-family: Open sans;
     font-size: 16px;
 }
+.page__inner-wrap ul,
+.page__inner-wrap ol {
+    margin-top: 0px !important;
+}
+.page__inner-wrap li {
+    line-height: 1.4em !important;
+/* margin-top: -7px !important; */
+margin-bottom: 20px !important;
+}
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 600;
+}
+
+
+.page__inner-wrap * {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 19.5px;
+}
 .page__inner-wrap b,
 .page__inner-wrap strong {
     font-weight: 510 !important;
-color: #EBDCC5;
-color: #FFF;
+    font-weight: 610 !important;
+    
+color: #f6efe4;
+/* color: #FFF; */
 }
 
-.main-content .page__content ul {
-    list-style: none;
-    /* margin-top: -10px; */
-    margin-bottom: 20px;
-}
-.main-content .page__content ul li {
-    margin: 0.25em 0;
-    font-weight: 400;
-}
-.main-content .page__content ul + hr {
-    margin-top: 0px !important;
-}
 
 
 
@@ -176,18 +185,20 @@ blockquote {
     margin-left: calc(-1em - 0px) !important;
     border: 0px;
     /* margin-top: 0px !important; */
-    margin-bottom: 0.5em !important;
+    margin-bottom: 1em !important;
 }
 blockquote { margin-top: 0em !important;}
 
-p + blockquote { margin-top: -10px !important;}
+p + blockquote { margin-top: -1em !important;}
 blockquote p + blockquote {
-     margin-top: -0.5em !important;
+     margin-top: -0.65em !important;
 }
 blockquote + blockquote {
-    margin-top: 0.5em !important;
+    margin-top: 1em !important;
 }
-
+blockquote + blockquote > blockquote {
+    margin-top: -0.5em !important;
+}
 
 
 
@@ -216,8 +227,8 @@ blockquote + blockquote {
 }
 .main-content h2
 {
-    margin-top: calc(1.2em / 2);
-    padding-top: calc(1.2em / 2);
+    margin-top: calc(1.5em / 2);
+    padding-top: calc(1.5em / 2);
         font-size: 26px !important; 
     margin-bottom: 3px; 
 }
@@ -230,8 +241,8 @@ blockquote + blockquote {
 /* @media (min-width: 31.25rem) { */
     /* .text-gamma, */
     .main-content h3 {
-        margin-top: calc(1.2em / 2);
-        padding-top: calc(1.2em / 2);
+        margin-top: calc(1.4em / 2);
+        padding-top: calc(1.4em / 2);
         font-size: 23px !important;
     }
 /* } */
@@ -267,10 +278,11 @@ blockquote + blockquote {
 .main-content h6 + h6 {
     margin-top: 6px !important;
 }
+
 .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
-    margin-top: -2px !important;
+    margin-top: -10px !important;
     margin-bottom: 3px !important;
-    padding-top: 0px !important;
+    padding-top: 13px !important;
 
 }
 .main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
@@ -289,7 +301,7 @@ padding-top: 21px;
 /* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
 .page__inner-wrap p {
     /* margin-left: 4px !important; */
-    margin-bottom: 0.8em;
+    margin-bottom: 0.65em;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-before: 3;
     -webkit-hyphenate-limit-after: 3;
@@ -316,17 +328,46 @@ margin-bottom: 20px;
 margin-left: -8px !important;
 width: calc(100% + 10px) !important;
 }
+
+
+
+
+
+.main-content .page__content ul {
+    list-style: none;
+    /* margin-top: -10px; */
+    margin-bottom: 20px;
+}
+.main-content .page__content ul li {
+    margin: 0.25em 0;
+    font-weight: 400;
+}
+.main-content .page__content ul + hr {
+    margin-top: 0px !important;
+}
+
+
+
+
+
 .main-content h2#children,
 .main-content h2#backlinks {
-    margin-top: -5px !important;
+    margin-top: 0px !important;
     font-size: 20px !important;
     color: #6ad570 !important;
-margin-bottom: -1px !important;
+    margin-bottom: -1px !important;
+    padding-top: 0px;
 }
 .main-content h2#children + ol {
     margin-bottom: -0px;
 }
 
+
+.main-content h2#backlinks + ul li,
+.main-content h2#children + ol li {
+    margin-bottom: 6px !important;
+margin-top: 5px !important;
+}
 
 .main-content h2#backlinks + ul,
 .main-content h2#backlinks + ul *,
@@ -362,7 +403,7 @@ font-size: 14px !important;
     .site-nav {
         padding-top: 2.4rem;
         display: block;
-        padding-top: 6px;
+        padding-top: 1px;
         padding-bottom: 1rem;
         overflow-y: auto;
         flex: 1 1 auto;
@@ -371,7 +412,7 @@ font-size: 14px !important;
         right: auto;
         float: left; */
     }
-    .main-content-wrap{padding-bottom: 0.6rem;}
+    .main-content-wrap{padding-bottom: 2.3rem;}
     
     .site-title,
     #site-nav {
@@ -407,10 +448,14 @@ font-size: 14px !important;
     .nav-list .nav-list-item .nav-list-expander:hover {
         background:none !important;
     }
-
+    a:active,
+    a:focus,
     .nav-list a:focus {
         outline: 1px solid #444 !important;
         outline-offset: -2px;
+    }
+    a:focus {
+        outline: 1px solid #62b3a !important;
     }
     .nav-list a.nav-list-expander:focus {
         outline: none !important;
@@ -456,4 +501,68 @@ font-size: 14px !important;
     font-size: 12px !important;
     color: #FFF !important;
     font-weight: 410;
+}
+
+html body .table-of-contents-sidebar-fixed-sidebar *
+ {
+    background: none;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li a {
+    background: none !important;
+}
+
+html body  .table-of-contents-sidebar-fixed-sidebar ul {
+    height: calc(100% - 80px) !important;
+}
+html body .table-of-contents-sidebar-fixed-sidebar.show {
+    width: 330px;
+}
+html body .table-of-contents-sidebar-fixed-sidebar {
+    background-color: #18171b !important;
+    color: #FFF !important;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul,
+html body .table-of-contents-sidebar-fixed-sidebar ul li a:link, 
+html body .table-of-contents-sidebar-fixed-sidebar ul li a:visited {
+    color: #FFF !important;
+    text-decoration: none !important;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li a:visited {
+    color: #ebe9e9 !important;
+}
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] {
+    margin-top: -5px;
+}
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-1 {
+    padding-left: 0;
+    margin-top: 23px;
+}
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li:is(.ANCHOR-1):first-child {
+    margin-top: 3px !important; 
+}
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-4,
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-5{
+    margin-top: -7px;
+    font-size: 1em
+}
+
+html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
+html body .table-of-contents-sidebar-fixed-sidebar ul li a {
+    color: rgb(144, 144, 144) !important;
+}
+html body #table-of-contents-sidebar-fixed-sidebar-tooltip {
+    display: none !important;
+}
+
+html body .table-of-contents-sidebar-fixed-sidebar .copyright {
+    margin-bottom: 0px !important;
+line-height: 20px !important;
+border: none !important;
+margin-top: -2px;
 }
