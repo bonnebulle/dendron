@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621592932712
+updated: 1621593015034
 created: 1595961348801
 nav_order: 10
 ---
@@ -14,4 +14,4 @@ Sources du [Projet sur Github](https://github.com/bonnebulle/dendron)
 [Derniers "arrivages"](https://github.com/bonnebulle/dendron/commits/main)    
 ( ou "*Commits*" : suivi des mises à jour [wiki](https://fr.wikipedia.org/wiki/Commit) )
 
-[infos, liens](https://liens.vincent-bonnefille.fr/?AGBhmA) (au sujet des slip-boxes) 
+[infos, liens](https://liens.vincent-bonnefille.fr/?AGBhmA) (étude de marché au sujet des *slip-boxes* et de Dendron) 
