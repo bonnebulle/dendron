@@ -6,6 +6,7 @@
         "cweijan.vscode-office",
         "robole.file-bunny",
         "streetsidesoftware.code-spell-checker-french",
-        "jannisx11.batch-rename-extension"
+        "jannisx11.batch-rename-extension",
+        "dendron.dendron-markdown-shortcuts"
     ]
 }

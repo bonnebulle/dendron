@@ -2,46 +2,72 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1621592441230
+updated: 1621620087933
 created: 1595961348801
 stub: true
 nav_order: 0
 permalink: /
 ---
 
+PARTIE: 1 le chat
 Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
 
 ## Sujet, discipline, motivations
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
 
-# Littératures et État de l'art
+# Littératures et état de l'art
+### Informatique - technique
+Deux littératures au moins s'opposent au sujet des Darknets, l'une techo-pragmatique tend à observer leur fonctionnement, leur régime protocolaire ( et soutiendra le plus souvent une diversité des usages et la variété des agentivités que permettent ces réseaux ). Une littérature peut-être moins intéressée par les contenus échangés, leur finalité usuelle, que par la technicité empirique de ces outils-objets. 
 
-Deux littératures au moins s'opposent au sujet des Darknet, l'une techo-pragmatique qui observer les fonctionnements, la *reliability* protocolaire des réseaux (qui vient expliquer leur nécessité dans le paysage du capitalisme des surveillances). Celle d'une certaine militance qui cherche à démystifier l'aura de ces réseaux.
+Leurs auteurs et autrices seront plus attaché.e.s à démystifier ces réseaux dont les médias font grand buit.
 
-> On pourrait y joindre une littérature à portée historique et politique qui cherchera plutôt à raconter les aventures humaines à l'origine de tel projet triomphants ou abandonnés. À la recherche d'un comment autant que d'un pourquoi. Elle permet un recul sur nos habitudes actuelles et permettent certaines virtualités sur l'à venir.
+#### Sciences sociales et histoires
+> On pourrait y joindre une littérature à portée historique et politique venant raconter les aventures humaines qui ont rendus ces projets nécessaires et viables (ou expliquer leur abandon).  
+> Elle permet comprendre la fabrication des standards qui font nos technologies et le rapport que nous entretenons avec.
+>> Une recherche autour d'un pourquoi et du comment.
+>>> Empreinte de virtualités, de potentialités ouvertes... 
+
+---
+### Craintes du grand mêchant Darknet
+Il faut aussi compter une littérature opposée aux moyens de défense numérique (ailleurs que dans les mains des entreprises-États). Elle sera souvent critique à leur endroit, méfiante et pointant du doigt les effets négatifs-dangereux de ces réseaux.
+
+On y trouve souvent un discours de crainte quant à la perte de terrain de l'État comme garant de l'ordre. 
+
+#### Fuite-perte de données
+Une inquiétude réccurente autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalistes, mais transfert d'informations et objets culturels  *piratés* } et autres activités criminelles qui y font jour serviront alors d'épouventail.
+
+> L'une des craintes originelle à l'endroit des darknets restent la fuite de données ( transmises à des organes journalistiques ou d'information tel **Wikileaks** ou encore par la concurence ). Une matière numérique qui rapporte et qui s'échange effectivement sur des réseaux protégeant les transactions entre inconnus.
 
 ---
 
-On peut aussi identifier une littérature critique à leur endroit qui s'alarme des activités criminelles qui y font jour et regréttent le recul de l'État garant de l'ordre. Une inquiétude face à la monté d'activités terroristes, radicalisées, mais aussi du transfert d'informations et objets culturels échappant à leur propriétaire.
-
-> On peut penser ici aux oeuvres numériques distribuées dans respect des droits d'auteur ou aux fuite de données (d'institutions étatiques ou d'entreprises) telles les Wiki Leaks.
-  
-
-  
----
-
+### Pseudo-Science & Science-Fiction
 D'autres tendent vers la science fiction le roman policier.
-Les histoires sensationalistes occupent largement l'imaginaire de ces réseaux. On trouve de nombreuses références dans la culture populaire, des films, des jeux vidéo, des séries mentionnent ces réseaux voire centre leur intrigue autour de ces phénomènes d'épouvante.
+Les histoires sensationalistes occupent largement l'imaginaire de ces réseaux. On trouve de nombreuses références dans la culture populaire { des films, des jeux vidéo, des séries } qui mentionne courament ces réseaux volontairement mal interprétés. Des œuvres-récits qui peuvent centrer toute leur intrigue d'épouvante autour des antités maléfiques imaginées sur les réseaux : des machines qui prendraient le pouvoir sur l'utilisateur.ice.
 
+---
+
+### Sciences sociales, récits de vie
 Et puis il y a les approches d'une autre pédagogie s'intéressant aux individus qui font et pratiquent ces réseaux tendant vers les sciences sociales.
 
-Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.
+De nombreuses populations, communautés, individus, emploient ces protocoles pour faire des échanges, ou rendre leur contenu hébergé plus **résilient** aux attaques et censures de toutes sortes. 
 
-[[TD/MAJ : corpus d'oeuvres et expositions]]
+#### Jeardins secrets
+On y trouve aussi des pièces uniques.
+Des créations de code poétique qui jouent sur le sentiment d'une autre intimité en réseau que procure le fait de devoir être initié.e pour accéder à leur jardin secret.
 
 ---
-#### conclusion : plusieurs thèses
+On y trouve des bibliothèques cachées, 
+des antres de pirates expulsés trop du fois du **Clear-web** 
+et qui y trouvent un dernier refuge en s'y copiant (*mirrors*).
+---
+
+### En arts ( installations, web_net-art, films )
+Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.
+
+TODO: corpus d'oeuvres et expositions
+
+## conclusion : plusieurs thèses
 Plusieurs façons de faire le récit de ces pratiques, de les raconter, de prendre part à ces pratiques ou de les rejeter du champ d'action commun (préférence répressive ou laxiste). 
 Face à sujet produisant des pratiques socialement marginales il est **normal** d'avoir des points de vu contrastés, d'y retrouver un fort antagonisme. 
 Pourtant ces thèses apportent une complexité au sujet de ces réseaux.
