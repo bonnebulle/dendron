@@ -29,7 +29,7 @@ html body #table-of-contents-sidebar-fixed-sidebar-tooltip {
 @media (min-width: 50rem){
     .main {
         position: relative;
-        max-width: 730px;
+        max-width: 710px;
     }
 }
 .site-logo {
@@ -37,7 +37,14 @@ html body #table-of-contents-sidebar-fixed-sidebar-tooltip {
 }
 
 .main-content .anchor-heading svg {
-    width: 0.9em;
+    width: 1em;
+}
+
+
+.main-content .anchor-heading {
+    height: auto;
+    font-size: inherit !important;
+line-height: inherit !important;
 }
 
 a,
@@ -190,7 +197,7 @@ blockquote + blockquote {
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-    margin-bottom: 6px; 
+    margin-bottom: 3px; 
     margin-top: 1em; 
     text-transform: none !important;
     letter-spacing: normal !important;
@@ -201,11 +208,18 @@ blockquote + blockquote {
 .main-content h1
 {
     font-size: 33px !important;
-    margin-top: 2em !important;   
+    padding-top: calc(2.3em / 2) !important;
+    margin-top: calc(2.3em / 2) !important;
+    margin-bottom: 0.5em !important;
+    
+
 }
 .main-content h2
 {
-    margin-top: 1.3em !important;   
+    margin-top: calc(1.2em / 2);
+    padding-top: calc(1.2em / 2);
+        font-size: 26px !important; 
+    margin-bottom: 3px; 
 }
 /* .main-content h4,
 .main-content h5,
@@ -216,51 +230,85 @@ blockquote + blockquote {
 /* @media (min-width: 31.25rem) { */
     /* .text-gamma, */
     .main-content h3 {
-        margin-top: 1.6em; 
-        font-size: 22px !important;
+        margin-top: calc(1.2em / 2);
+        padding-top: calc(1.2em / 2);
+        font-size: 23px !important;
     }
 /* } */
 .main-content h4 {
     margin-top: 1em;
-    margin-top: 1.4em;
-    font-size: 18px !important;
+    margin-top: calc(1.3em / 2);
+    padding-top: calc(1.3em / 2);
+    font-size: 20px !important;
     letter-spacing: 1px !important;
+    letter-spacing: normal !important;
+
     
 }
 
 .main-content h5,
 .main-content h6 {
-    margin-top: 1em;
-    font-size: 15px !important;
-    letter-spacing: 1px !important;
+    margin-top: calc(1em / 2);
+    padding-top: calc(1em / 2);
+    font-size: 17px !important;
+    /* letter-spacing: 1px !important; */
+    letter-spacing: normal !important;
 }
 .main-content h4,
 .main-content h5,
 .main-content h6 {
     margin-bottom: 4px !important;
 }
-.main-content :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
+.main-content :is(h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
  {
-    margin-top: 10px !important;
+    margin-top: -5px !important;
 }
 
 .main-content h6 + h6 {
     margin-top: 6px !important;
 }
 .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
-    margin-top: 0px !important;
+    margin-top: -2px !important;
+    margin-bottom: 3px !important;
+    padding-top: 0px !important;
+
 }
-/* 
-.main-content hr + :is(h3,h4,h5,h6) {
-    margin-top: -5px;
-} */
+.main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
+    color: #e6e6e6 !important;
+    color: #ececec !important;
+    font-weight:510;
+}
+
+.main-content hr + :is(h2,h3,h4,h5,h6) {
+    margin-top: -20px;
+padding-top: 21px;
+}
 
 
-
-
+ 
+/* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
 .page__inner-wrap p {
     /* margin-left: 4px !important; */
     margin-bottom: 0.8em;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;     -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;     -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;     hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
 }
 .page__inner-wrap hr {
 margin-top: 25px;
