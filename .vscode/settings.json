@@ -16,5 +16,12 @@
         "editor.quickSuggestions": false
     },
     "editor.insertSpaces": false,
-    "vsicons.presets.angular": true
+    "vsicons.presets.angular": true,
+    "editor.codeLensFontSize": 70,
+    "scm.inputFontSize": 1380,
+    "editor.suggestFontSize": 80,
+    "markdown.preview.fontSize": 16,
+    "editor.inlineHints.enabled": false,
+    "editor.inlineHints.fontSize": 80,
+    "editor.parameterHints.enabled": false
 }

@@ -2,13 +2,13 @@
 id: root
 title: Introduction
 desc: Art de la rebellion en ligne
-updated: 1621520169214
+updated: 1621584302538
 created: 1595961348801
 stub: true
 nav_order: 0
 permalink: /
 ---
-Moi, administrateur de la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
+Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
 
 ## Sujet, discipline, motivations
 
@@ -120,7 +120,7 @@ Criminalisées, contrevenant aux régimes de production et idéal contemporain, 
 + La censure et l'interdit qui mènent au silence des criminels ne règle pas le problème à la source mais évite la généralisation de leurs discours (banalisation).
 + L'exclusion des champs des savoirs communs perpétue de fausses croyances, un flou moral auxquelles les sociétés-individus doivent faire face.
 
-Ambivalence du dehors_dedans de la censure selon d'où on parle : fait d'empêcher-prévenir (intrusion), fait d'éloigner-garder secret (exclusion). Paradoxe de l'attaque_défense. #Point_de_vue
+Ambivalence du dehors_dedans de la censure selon d'où l'on parle :   fait d'empêcher-prévenir (intrusion), fait d'éloigner-garder secret (exclusion). Paradoxe de l'attaque_défense. #Point_de_vue
 
 ---
 
@@ -192,7 +192,7 @@ Un art qui se déplie-performe-existe autour du scandal qui le médiatise, par l
 
 ---
 
-Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le fait d'exprimer ou de brouiller les pistes, de laisser croire, de faire germer dans l'implicite bien plus que par une pédagogie appelant au résonnement logique.
+Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le fait d'exprimer ou de brouiller les pistes, de laisser croire, de faire germer dans l'implicite bien plus que par une pédagogie appelant au raisonnement logique.
 
 ---
 
