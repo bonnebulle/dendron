@@ -21,6 +21,22 @@ html body {
 
 
 @media (min-width: 50rem){
+    .search-result-title {width: 30%;}
+    .search-results {
+        width: 666px;
+    }
+    .search-result-preview + .search-result-preview {
+        margin-top: 0.75rem;
+        margin-bottom: 0.25rem;
+    }
+    .search-input {
+        font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 19.5px;
+    }
+    .search-active .search-input {
+        padding-left: 2.75rem;
+        font-weight: 400;
+    }
     .main {
         position: relative;
         max-width: 710px;
@@ -73,14 +89,7 @@ li.nav-list-item a.nav-list-link.active {
 
     transition: none !important;
 }
-ul.nav-list li.nav-list-item.active,
-ul.nav-list li.nav-list-item.active ul li.nav-list-item.active {
-    /* background: #232129;
-    background: #201f25;
-    border-left: 1px solid #383838; */
-    /* border-left: 6px solid #18171b; */
-    /* background-image:linear-gradient(-90deg, rgba(32, 31, 35, 0) 0%, rgba(32, 31, 35, 0.3) 80%, rgba(32, 31, 35, 0.3) 100%)!important; */
-}
+
 .nav-list .nav-list-item .nav-list-link.active {
     background-image:  linear-gradient(-90deg, rgb(56, 54, 60) 0%, rgba(40, 39, 47, 0.74) 80%, rgb(47, 46, 55) 100%) !important;
 }
@@ -145,7 +154,6 @@ color: #f6efe4;
 
 
 
-
 blockquote,
 .page__inner-wrap blockquote * {
     font-style: normal;
@@ -185,16 +193,16 @@ blockquote {
     margin-left: calc(-1em - 0px) !important;
     border: 0px;
     /* margin-top: 0px !important; */
-    margin-bottom: 1em !important;
+    margin-bottom: 0.65em !important;
+ margin-top: 0em !important;
 }
-blockquote { margin-top: 0em !important;}
 
-p + blockquote { margin-top: -1em !important;}
+p + blockquote { margin-top: -0.65em !important;}
 blockquote p + blockquote {
-     margin-top: -0.65em !important;
+     margin-top: -0.45em !important;
 }
 blockquote + blockquote {
-    margin-top: 1em !important;
+    margin-top: -0.45em !important;
 }
 blockquote + blockquote > blockquote {
     margin-top: -0.5em !important;
@@ -219,16 +227,16 @@ blockquote + blockquote > blockquote {
 .main-content h1
 {
     font-size: 33px !important;
-    padding-top: calc(2.3em / 2) !important;
-    margin-top: calc(2.3em / 2) !important;
+    padding-top: calc(2.4em / 2) !important;
+    margin-top: calc(2.4em / 2) !important;
     margin-bottom: 0.5em !important;
     
 
 }
 .main-content h2
 {
-    margin-top: calc(1.5em / 2);
-    padding-top: calc(1.5em / 2);
+    margin-top: calc(1.7em / 2);
+    padding-top: calc(1.7em / 2);
         font-size: 26px !important; 
     margin-bottom: 3px; 
 }
@@ -248,8 +256,8 @@ blockquote + blockquote > blockquote {
 /* } */
 .main-content h4 {
     margin-top: 1em;
-    margin-top: calc(1.3em / 2);
-    padding-top: calc(1.3em / 2);
+    margin-top: calc(1.15em / 2);
+    padding-top: calc(1.15em / 2);
     font-size: 20px !important;
     letter-spacing: 1px !important;
     letter-spacing: normal !important;
@@ -269,6 +277,7 @@ blockquote + blockquote > blockquote {
 .main-content h5,
 .main-content h6 {
     margin-bottom: 4px !important;
+    color: #e4e3e3 !important;
 }
 .main-content :is(h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
  {
@@ -288,7 +297,7 @@ blockquote + blockquote > blockquote {
 .main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
     color: #e6e6e6 !important;
     color: #ececec !important;
-    font-weight:510;
+    font-weight: 620;
 }
 
 .main-content hr + :is(h2,h3,h4,h5,h6) {
@@ -317,10 +326,10 @@ padding-top: 21px;
     -ms-hyphenate-limit-lines: 2;
     -ms-hyphenate-limit-last: always;
     -ms-hyphenate-limit-zone: 8%;     hyphens: auto;
-    hyphenate-limit-chars: 6 3 3;
+    /* hyphenate-limit-chars: 6 3 3;
     hyphenate-limit-lines: 2;
     hyphenate-limit-last: always;
-    hyphenate-limit-zone: 8%;
+    hyphenate-limit-zone: 8%; */
 }
 .page__inner-wrap hr {
 margin-top: 25px;
@@ -339,7 +348,7 @@ width: calc(100% + 10px) !important;
     margin-bottom: 20px;
 }
 .main-content .page__content ul li {
-    margin: 0.25em 0;
+    margin: -0.25em 0;
     font-weight: 400;
 }
 .main-content .page__content ul + hr {
@@ -412,7 +421,7 @@ font-size: 14px !important;
         right: auto;
         float: left; */
     }
-    .main-content-wrap{padding-bottom: 2.3rem;}
+
     
     .site-title,
     #site-nav {
@@ -455,7 +464,7 @@ font-size: 14px !important;
         outline-offset: -2px;
     }
     a:focus {
-        outline: 1px solid #62b3a !important;
+        outline: 1px solid #444 !important;
     }
     .nav-list a.nav-list-expander:focus {
         outline: none !important;
@@ -485,6 +494,7 @@ font-size: 14px !important;
 
     .main-content-wrap {
         padding-top: 1.5rem;
+        padding-bottom: 0.6rem;
     }
     
     .breadcrumb-nav-list {
@@ -565,4 +575,50 @@ html body .table-of-contents-sidebar-fixed-sidebar .copyright {
 line-height: 20px !important;
 border: none !important;
 margin-top: -2px;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#backlinks"],
+html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#children"] {
+    margin-top: 20px !important;
+display: block !important;
+margin-left: -15px !important;
+font-style: italic;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#backlinks"] {
+    margin-top: 10px !important;
+}
+
+.search-result-previews {
+    font-weight: 300 !important;
+    color: #FFF !important;
+    /* font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif; */
+    font-size: 13px !important;
+}
+.search-results-list-item {
+    border-top: 1px solid #4E4E4E;
+}
+.search-result-highlight{
+color: #79eb93;}
+
+
+
+.main-content pre, .main-content code {
+    display: block;
+    width: auto;
+    height: 100%;
+    overflow: visible;
+    word-break: break-word;
+    white-space: break-spaces;
+    line-height: 1.65em !important;
+    padding: 0px;
+}
+.main-content pre {
+    width: calc(100% - 30px);
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.main-content code {
+    padding: 13px 20px 16px 24px;
+    background: #1a191d;
+    /* color: #ffffff;
 }

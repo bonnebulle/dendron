@@ -89,14 +89,7 @@ li.nav-list-item a.nav-list-link.active {
 
     transition: none !important;
 }
-ul.nav-list li.nav-list-item.active,
-ul.nav-list li.nav-list-item.active ul li.nav-list-item.active {
-    /* background: #232129;
-    background: #201f25;
-    border-left: 1px solid #383838; */
-    /* border-left: 6px solid #18171b; */
-    /* background-image:linear-gradient(-90deg, rgba(32, 31, 35, 0) 0%, rgba(32, 31, 35, 0.3) 80%, rgba(32, 31, 35, 0.3) 100%)!important; */
-}
+
 .nav-list .nav-list-item .nav-list-link.active {
     background-image:  linear-gradient(-90deg, rgb(56, 54, 60) 0%, rgba(40, 39, 47, 0.74) 80%, rgb(47, 46, 55) 100%) !important;
 }
@@ -161,7 +154,6 @@ color: #f6efe4;
 
 
 
-
 blockquote,
 .page__inner-wrap blockquote * {
     font-style: normal;
@@ -201,9 +193,9 @@ blockquote {
     margin-left: calc(-1em - 0px) !important;
     border: 0px;
     /* margin-top: 0px !important; */
-    margin-bottom: 1em !important;
+    margin-bottom: 0.65em !important;
+ margin-top: 0em !important;
 }
-blockquote { margin-top: 0em !important;}
 
 p + blockquote { margin-top: -0.65em !important;}
 blockquote p + blockquote {
@@ -264,8 +256,8 @@ blockquote + blockquote > blockquote {
 /* } */
 .main-content h4 {
     margin-top: 1em;
-    margin-top: calc(1.3em / 2);
-    padding-top: calc(1.3em / 2);
+    margin-top: calc(1.15em / 2);
+    padding-top: calc(1.15em / 2);
     font-size: 20px !important;
     letter-spacing: 1px !important;
     letter-spacing: normal !important;
@@ -285,6 +277,7 @@ blockquote + blockquote > blockquote {
 .main-content h5,
 .main-content h6 {
     margin-bottom: 4px !important;
+    color: #e4e3e3 !important;
 }
 .main-content :is(h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
  {
@@ -333,10 +326,10 @@ padding-top: 21px;
     -ms-hyphenate-limit-lines: 2;
     -ms-hyphenate-limit-last: always;
     -ms-hyphenate-limit-zone: 8%;     hyphens: auto;
-    hyphenate-limit-chars: 6 3 3;
+    /* hyphenate-limit-chars: 6 3 3;
     hyphenate-limit-lines: 2;
     hyphenate-limit-last: always;
-    hyphenate-limit-zone: 8%;
+    hyphenate-limit-zone: 8%; */
 }
 .page__inner-wrap hr {
 margin-top: 25px;
@@ -605,3 +598,27 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#backlinks"] {
 }
 .search-result-highlight{
 color: #79eb93;}
+
+
+
+.main-content pre, .main-content code {
+    display: block;
+    width: auto;
+    height: 100%;
+    overflow: visible;
+    word-break: break-word;
+    white-space: break-spaces;
+    line-height: 1.65em !important;
+    padding: 0px;
+}
+.main-content pre {
+    width: calc(100% - 30px);
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.main-content code {
+    padding: 13px 20px 16px 24px;
+    background: #1a191d;
+    /* color: #ffffff;
+}

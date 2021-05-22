@@ -6,22 +6,24 @@
     "editor.wordWrap": "bounded",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.cursorWidth": 3,
-    "editor.wordWrapColumn": 100,
     // https://jonathanmh.com/keep-soft-line-wrap-column-width-visual-studio-code-markdown/
     "editor.rulers": [85],
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 90,
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.quickSuggestions": false
     },
     "editor.insertSpaces": false,
     "vsicons.presets.angular": true,
-    "editor.codeLensFontSize": 70,
+    "editor.codeLensFontSize": 20,
     "scm.inputFontSize": 1380,
     "editor.suggestFontSize": 80,
     "markdown.preview.fontSize": 16,
-    "editor.inlineHints.enabled": false,
-    "editor.inlineHints.fontSize": 80,
-    "editor.parameterHints.enabled": false
+    "editor.inlineHints.fontSize": 70,
+    "editor.parameterHints.enabled": false,
+    "editor.fastScrollSensitivity": 8,
+    "editor.hover.delay": 1200,
+    "editor.hover.sticky": false,
+    "editor.fontSize": 19,
+    "editor.wordWrapColumn": 74
 }
