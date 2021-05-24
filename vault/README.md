@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621864290054
+updated: 1621864458838
 created: 1595961348801
 nav_order: 10
 ---
@@ -11,8 +11,8 @@ nav_order: 10
 ---
 
 ### Consulter les pages    
-[https://bonnebulle.github.io/dendron/](https://bonnebulle.github.io/dendron/)    
-[https://bonnebulle.github.io/dendron/notes/README.html](https://bonnebulle.github.io/dendron/notes/README.html)    
+[https://bonnebulle.github.io/dendron/](https://bonnebulle.github.io/dendron/) (racine du site_projet)    
+[https://bonnebulle.github.io/dendron/notes/README.html](https://bonnebulle.github.io/dendron/notes/README.html) (cette page mise en forme en html (note_page))     
 
 
 ### Consulter les sources
