@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621864059407
+updated: 1621864290054
 created: 1595961348801
 nav_order: 10
 ---
@@ -37,6 +37,9 @@ en citant ici [Wikipédia fr](https://fr.wikipedia.org/wiki/Dendrite_(biologie))
 Dendron permet la création notes_pages organisant ma pensée de façon fragmentée, sous la forme d'une arboréscence fragmentée. Ce système d'organisation par fiches séparant les idées par catégories prend le nom de son inventeur : **Zettelkasten** ($source).
 
 Pour en savoir plus je conseille cet article en français autour de la prise de note : [https://organisologie.com/prise-de-note/](https://organisologie.com/prise-de-note/).
+
+Et [celui-ci (en français)](https://www.arthurperret.fr/visualisation-documentation-personnelle-reticulaire.html) :
+> "Il s’agit d’une pratique de la fiche érudite. adossée à un système de liens internes et d’indexation par mots-clés."
 
 
 
