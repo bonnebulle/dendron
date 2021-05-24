@@ -1,29 +1,34 @@
 { 
     "editor.lineHeight": 35,
-    "editor.suggestLineHeight": 1,
     "terminal.integrated.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontFamily": "'Verdana','Verdana', sans-serif",
-    "editor.wordWrap": "bounded",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.cursorWidth": 3,
+    "editor.cursorWidth": 5,
     // https://jonathanmh.com/keep-soft-line-wrap-column-width-visual-studio-code-markdown/
     "editor.rulers": [85],
     "editor.wordWrap": "wordWrapColumn",
-    "[markdown]": {
-        "editor.wordWrap": "wordWrapColumn",
-        "editor.quickSuggestions": false
-    },
     "editor.insertSpaces": false,
     "vsicons.presets.angular": true,
     "editor.codeLensFontSize": 20,
-    "scm.inputFontSize": 1380,
-    "editor.suggestFontSize": 80,
+    "scm.inputFontSize": 12,
+    "editor.suggestFontSize": 17,
+    "editor.suggestLineHeight": 23,
     "markdown.preview.fontSize": 16,
-    "editor.inlineHints.fontSize": 70,
+    "editor.inlineHints.fontSize": 20,
     "editor.parameterHints.enabled": false,
-    "editor.fastScrollSensitivity": 8,
-    "editor.hover.delay": 1200,
+    "editor.fastScrollSensitivity": 84,
+    "editor.hover.delay": 999,
     "editor.hover.sticky": false,
     "editor.fontSize": 19,
-    "editor.wordWrapColumn": 74
+    "editor.wordWrapColumn": 74,
+    "editor.quickSuggestionsDelay": 8000,
+    "[markdown]": {
+        "editor.hover.delay": 3,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.quickSuggestions": true,
+    },
+    "[CSS]": {
+        "editor.quickSuggestions": false,
+        "editor.hover.delay": 99900,
+    }
 }

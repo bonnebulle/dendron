@@ -28,7 +28,7 @@ site:
     description: Arts et Darknets
     author: Vincent Bonnefille
     previewPort: 8999
-    lang: fr
+    lang: FR_fr
     # config: 
     #     publishByDefault: true
 initializeRemoteVaults: true

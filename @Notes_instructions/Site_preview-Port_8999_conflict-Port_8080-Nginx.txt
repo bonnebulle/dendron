@@ -1,0 +1,29 @@
+## SOME 8999 MANUAL FIXES CHECK (Dendron site preview conflicted with nginx port 8080)
+
+SUJET Issue ouverte sur Github 
+https://github.com/dendronhq/dendron/issues/705
+
+----
+= /home/pi/.vscode-oss/extensions/dendron.dendron-0.42.0/dist/dendron-11ty/index.js
+/home/pi/.vscode-oss/extensions/dendron.dendron-markdown-preview-enhanced-0.10.31/node_modules/@dendronhq/engine-server/lib/markdown/utils.js
+/home/pi/.vscode-oss/extensions/dendron.dendron-markdown-preview-enhanced-0.10.31/node_modules/@dendronhq/common-test-utils/lib/engine-server/src/markdown/utils.js
+
+= /home/pi/.vscode-oss/extensions/dendron.dendron-0.42.0/dist/dendron-11ty/libs/utils.js
+= /home/pi/.vscode-oss/extensions/dendron.dendron-0.42.0/out/commands/SitePreview.js
+= /home/pi/.vscode-oss/extensions/dendron.dendron-0.42.0/dist/extension.js
+
+= /home/pi/Dendron/node_modules/@dendronhq/dendron-11ty/libs/utils.js
+X /home/pi/Dendron/node_modules/@dendronhq/engine-server/lib/markdown/utils.js
+
+---
+
+= /home/pi/Dendron/node_modules/@dendronhq/dendron-11ty/index.js
+
+= /home/pi/Dendron/node_modules/@dendronhq/dendron-cli/node_modules/@dendronhq/dendron-11ty/libs/utils.js
+
+NOT
+/home/pi/Dendron/node_modules/@dendronhq/common-all/lib/constants.js
+
+
+------ >>>> PREVIEW ?
+/home/pi/Dendron/node_modules/@dendronhq/dendron-11ty/node_modules/@dendronhq/engine-server/lib/markdown/utils.js

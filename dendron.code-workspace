@@ -1,0 +1,70 @@
+{
+    "folders": [
+        {
+            "path": "vault"
+        },
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "dendron.rootDir": ".",
+        "files.autoSave": "afterDelay",
+        "pasteImage.path": "${currentFileDir}/assets/images",
+        "pasteImage.prefix": "/",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": false,
+        "editor.tabCompletion": "on",
+        "terminal.integrated.cursorBlinking": true,
+        "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
+        "editor.minimap.maxColumn": 70,
+        "ShortcutMenuBar.userButton02Command": "dendron.sitePreview",
+        "ShortcutMenuBar.userButton01Command": "dendron.siteBuild",
+        "workbench.editor.centeredLayoutAutoResize": false,
+        "git.ignoredRepositories": [
+            ".vscode/",
+            ".vscode",
+            ".vscode/*"
+        ],
+        "explorer.sortOrder": "modified",
+        "workbench.editor.enablePreview": false,
+        "workbench.editor.revealIfOpen": true,
+        "editor.quickSuggestions": true,
+        "editor.wordBasedSuggestions": false,
+        "editor.fontSize": 18,
+        "editor.inlineHints.fontSize": 39,
+        "editor.inlineHints.enabled": false,
+        "editor.parameterHints.enabled": false,
+        "browser-preview.ignoreHttpsErrors": true,
+        "browser-preview.startUrl": "http://localhost:8999",
+        "editor.lineHeight": 22,
+        "browser-preview.format": "png",
+        "textmarker.savedHighlights": [],
+        "editor.autoSurround": "brackets",
+        "editor.hover.delay": 9000,
+        "editor.quickSuggestionsDelay": 9000,
+        "cSpell.spellCheckDelayMs": 400
+    },
+    "extensions": {
+        "recommendations": [
+            "dendron.dendron-markdown-preview-enhanced",
+            "dendron.dendron-markdown-links",
+            "github.github-vscode-theme",
+            "ivangabriele.vscode-git-add-and-commit",
+            "dendron.dendron-markdown-notes",
+            "robole.file-bunny",
+            "streetsidesoftware.code-spell-checker-french",
+            "artdiniz.quitcontrol-vscode",
+            "jannisx11.batch-rename-extension",
+            "dendron.dendron-markdown-shortcuts"
+        ],
+        "unwantedRecommendations": [
+            "shd101wyy.markdown-preview-enhanced",
+            "kortina.vscode-markdown-notes",
+            "mushan.vscode-paste-image"
+        ]
+    }
+}
