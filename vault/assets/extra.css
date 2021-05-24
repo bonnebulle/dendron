@@ -92,7 +92,7 @@ li.nav-list-item a:hover > * {
 .side-bar a,
 .main-content h2#children,
 .main-content h2#backlinks,
-.main-content a[href*="bonnebulle.github.io"],
+.main-content a[href*="bonnebulle"],
 .main-content a[href*="localhost"] {
     color: var(--main-dend_links)!important;
 }
@@ -619,23 +619,52 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li a:visited {
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] {
-    margin-top: -5px;
+    margin-top: -5px !important;
+    margin-bottom: 5px;
 }
-
 html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-1 {
     padding-left: 0;
-    margin-top: 23px;
+    margin-top: 23px !important;
+    margin-bottom: 0px;
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar ul li:is(.ANCHOR-1):first-child {
     margin-top: 3px !important; 
 }
-
-html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-4,
-html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-5{
-    margin-top: -7px;
-    font-size: 1em
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-2{
+    margin-top: 0px !important;
 }
+html body .table-of-contents-sidebar-fixed-sidebar ul li:is(.ANCHOR-1, .ANCHOR-2, .ANCHOR-3) {
+    margin-bottom: -3px !important;
+}
+
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-2 + li.ANCHOR-2{
+    margin-top: -3px !important;
+}
+/* html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-2 + li.ANCHOR-2{
+    margin-top: -4px !important;
+} */
+
+/* html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-3{
+    margin-top: -4px !important;
+    font-size: 1em  !important;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-4{
+    margin-top: -5px !important;
+    font-size: 1em  !important;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-5{
+    margin-top: -5px !important;
+    font-size: 1em  !important;
+} */
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li:is(.ANCHOR-3, .ANCHOR-4, .ANCHOR-5, .ANCHOR-6) {
+    margin-top: -5px !important;
+    font-size: 1em  !important;
+    margin-bottom: -3px !important;
+}
+
 
 html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
 html body .table-of-contents-sidebar-fixed-sidebar ul li a {
@@ -695,4 +724,11 @@ color: #79eb93;}
 .main-content code {
     padding: 13px 20px 16px 24px;
     background: #1a191d;
+}
+
+
+html body .main-content .page__content *:is(h1, h2, h3, h4, h5, h6):first-letter,
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"],
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:first-letter {
+    text-transform: capitalize;
 }

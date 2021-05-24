@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621883119254
+updated: 1621887443301
 created: 1595961348801
 nav_order: 10
 documentclass: scrartcl
@@ -37,7 +37,9 @@ Comme le rappelle la [page de présentation](https://wiki.dendron.so/notes/05774
 "*Les dendrites (du grec δένδρον déndron «arbre») sont des prolongements du corps cellulaire des neurones dont elles partagent les organites*",
 en citant ici [Wikipédia fr](https://fr.wikipedia.org/wiki/Dendrite_(biologie)).
 
-Dendron permet la création notes_pages organisant ma pensée de façon fragmentée, sous la forme d'une arboréscence fragmentée. Ce système d'organisation par fiches séparant les idées par catégories prend le nom de son inventeur : **Zettelkasten** ($source).
+----
+
+Dendron permet la création notes_pages sous-partimentées, sous la forme d'une arboréscence fragmentée en fiches_pages_notes. Ce système d'organisation par fiches par catégories et liens prend le nom de son inventeur : **Zettelkasten** ($source).
 
 Pour en savoir plus je conseille cet article en français autour de la prise de note : [https://organisologie.com/prise-de-note/](https://organisologie.com/prise-de-note/).
 
@@ -99,8 +101,8 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 + Ajout d'une *mini-map* (front-end)
 > https://larsjung.de/pagemap/
 
-
+ji:grinning-face
 
 ### Travail en cours de formation
 NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. 
-À ce sujet, le créateur de Dendron dit sur son site ([principes](https://wiki.dendron.so/notes/7fcebd7d-6411-4c9d-8baf-65629dc018a1.html)) qu'il est **facile à prendre en main difficile à maîtriser** ("*Easy to learn, hard to master*") en faisant référence à "La loi de Bushnell ou loi de Nolan" (théorie des jeux) [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 
+>>> À ce sujet, le créateur de Dendron dit sur son site ([principes](https://wiki.dendron.so/notes/7fcebd7d-6411-4c9d-8baf-65629dc018a1.html)) qu'il est **facile à prendre en main difficile à maîtriser** ("*Easy to learn, hard to master*") en faisant référence à "La loi de Bushnell ou loi de Nolan" (théorie des jeux) [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 

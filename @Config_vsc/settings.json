@@ -119,9 +119,9 @@
     "editor.snippetSuggestions": "none",
     "workbench.colorCustomizations": {
         "[GitHub Dark]": {
-            "scrollbarSlider.activeBackground": "#62fa1b",
-            "scrollbarSlider.hoverBackground": "#452617",
-            "scrollbarSlider.background": "#452617",
+            "scrollbarSlider.activeBackground": "#000",
+            "scrollbarSlider.hoverBackground": "#3E84BB",
+            "scrollbarSlider.background": "#9CC0DE",
             "breadcrumb.focusForeground": "#eff1f3",
             "breadcrumb.foreground": "#72a0c1",
             "descriptionForeground": "#b284be",
@@ -234,6 +234,7 @@
                 "color": "#96D0EB"
             }
         },
+        // NB:HELLO
         "Terminal: DBuild": {
             "command": "workbench.action.terminal.sendSequence",
             "icon": "extensions-view-icon",
@@ -245,9 +246,10 @@
                 "color": "#96D0EB"
             },
             "args": {
-                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'DBUILD dev' 'BKP css depuis BUILD édité en live' && echo && echo && echo 'DBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md \r echo '---' && notify-send-all -t 4000 -u low '😜 DBUILD dev' 'Gooo' && echo \" \n\nUSING not SUDO -DEV\n\nand yarn\n\nDBUILD -DEV Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && yarn dendron-cli buildSiteV2 --wsRoot .  --stage dev && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 8000 -u normal 'DBUILD dev' 'OK' && echo && echo && echo '😜 DBUILD dev OK\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'DBUILD dev' 'BKPs depuis BUILD édité en live' && echo && echo && echo 'DBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md && sudo cp /home/pi/.config/VSCodium/User/settings.json /home/pi/Dendron/@Config_vsc/ && sudo cp /home/pi/.config/VSCodium/User/keybindings.json /home/pi/Dendron/@Config_vsc/ \r echo '---' && notify-send-all -t 4000 -u low '😜 DBUILD dev' 'Gooo' && echo \" \n\nUSING not SUDO -DEV\n\nand yarn\n\nDBUILD -DEV Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && yarn dendron-cli buildSiteV2 --wsRoot .  --stage dev && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 8000 -u normal 'DBUILD dev' 'OK' && echo && echo && echo '😜 DBUILD dev OK\n' && echo &&  $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
             }
         },
+        // NB:HELLO
         "Terminal: BBuild": {
             "command": "workbench.action.terminal.sendSequence",
             "icon": "extensions-view-icon",
@@ -258,10 +260,11 @@
                 "tooltip": "BUILD dendron",
                 "color": "aqua"
             },
-            "args": {
-                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BBUILD prod' 'BKP css depuis BUILD édité en live' && echo && echo && echo 'BBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md \r echo '---' && notify-send-all -t 4000 -u low '😜 BBUILD P R O D' 'Gooo' && echo \" \n\nUSING SUDO\n\nand yarn\n\nBUILD Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && sudo yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BUILD P R O D' && echo && echo && echo '😜 BBUILD P R O D\n\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r \r"
+            "args": { 
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BBUILD prod' 'BKPs depuis BBUILD édité en live' && echo && echo && echo 'BBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md &&  && sudo cp /home/pi/.config/VSCodium/User/settings.json /home/pi/Dendron/@Config_vsc/ && sudo cp /home/pi/.config/VSCodium/User/keybindings.json /home/pi/Dendron/@Config_vsc/ \r echo '---' && notify-send-all -t 4000 -u low '😜 BBUILD P R O D' 'Gooo' && echo \" \n\nUSING SUDO\n\nand yarn\n\nBUILD Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && sudo yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BUILD P R O D' && echo && echo && echo 'ji- BBUILD P R O D\n\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r \r"
             }
         },
+        // NB:HELLO
         "Terminal: P U S H": {
             "command": "workbench.action.terminal.sendSequence",
             "icon": "cloud-upload",
@@ -276,6 +279,7 @@
                 "text": "echo \"\n\nPUSH quickly\n\n ... in 5 sec ... \n\n\" && sleep 5 && sudo /bin/sh /home/pi/Dendron/@Notes_instructions/git_push.sh\r"
             }
         },
+        // NB:HELLO
         "Switch themes": {
             "command": "commands.toggleSetting",
             "icon": "breakpoints-activate",
@@ -296,6 +300,7 @@
                 ]
             }
         },
+        // NB:HELLO
         "Font size ++": {
             "command": "commands.incrementSetting",
             "args": {
@@ -303,6 +308,7 @@
                 "value": 1
             }
         },
+        // NB:HELLO
         "Font size --": {
             "command": "commands.incrementSetting",
             "args": {
@@ -310,6 +316,7 @@
                 "value": -1
             }
         },
+        // NB:HELLO
         "Set/reset setting": {
             "command": "commands.toggleSetting",
             "args": {
