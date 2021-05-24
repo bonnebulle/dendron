@@ -22,7 +22,7 @@ site:
     copyAssets: true
     siteHierarchies:
         - root
-    siteRootDir: vault/docs
+    siteRootDir: docs
     usePrettyRefs: true
     title: Projet de thèse
     description: Arts et Darknets
