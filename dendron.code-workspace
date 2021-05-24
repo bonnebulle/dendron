@@ -43,7 +43,8 @@
         "editor.autoSurround": "brackets",
         "editor.hover.delay": 9000,
         "editor.quickSuggestionsDelay": 9000,
-        "cSpell.spellCheckDelayMs": 400
+        "cSpell.spellCheckDelayMs": 400,
+        "editor.minimap.showSlider": "always"
     },
     "extensions": {
         "recommendations": [

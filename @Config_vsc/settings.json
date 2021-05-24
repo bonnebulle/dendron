@@ -1,0 +1,464 @@
+// HELP pwd...
+// "/home/pi/.config/Code - OSS (headmelted)/User/settings.json"
+// from code > configure language specific settings
+{
+    "workbench.editor.pinnedTabSizing": "compact",
+    "editor.acceptSuggestionOnEnter": "off",
+    "[plaintext]": {
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.acceptSuggestionOnCommitCharacter": false,
+        "editor.parameterHints.enabled": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.wordBasedSuggestions": false
+    },
+
+    "sync.autoUpload": true,
+    "sync.quietSync": true,
+    "sync.gist": "ecb745f6b4e8278eeae8c4ecbe22dfb6",
+    "sync.removeExtensions": true,
+    "sync.forceUpload": true,
+    "editor.fontSize": 19,
+    "cSpell.language": "fr",
+    "cSpell.enableFiletypes": [
+        "!asciidoc",
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!css",
+        "!git-commit",
+        "!go",
+        "!handlebars",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!javascript",
+        "!javascriptreact",
+        "!json",
+        "!jsonc",
+        "!latex",
+        "!less",
+        "!pug",
+        "!python",
+        "!restructuredtext",
+        "!scala",
+        "!scss",
+        "!typescript",
+        "!typescriptreact",
+        "!yaml",
+        "!yml"
+    ],
+    "cSpell.userWords": [
+        "Bonnefille",
+        "COVID",
+        "Kabane",
+        "aujourd'hui"
+    ],
+    "codetogether.userName": "vincent_bonnefille",
+    "sync.autoDownload": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "todomd.activatePattern": "**/{TODO_,TD_,todo}*.md",
+    "todomd.addCreationDate": true,
+    "window.closeWhenEmpty": true,
+    "window.openWithoutArgumentsInNewWindow": "off",
+    "editor.find.seedSearchStringFromSelection": false,
+    "search.showLineNumbers": true,
+    "search.searchOnType": false,
+    "workbench.sideBar.location": "right",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "VBULLE",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "git-commit",
+        "go",
+        "graphql",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "pug",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "cSpell.dictionaries": [
+        "fr-FR"
+    ],
+    "editor.minimap.maxColumn": 60,
+    "editor.minimap.scale": 3,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fit",
+    "editor.snippetSuggestions": "none",
+    "workbench.colorCustomizations": {
+        "[GitHub Dark]": {
+            "scrollbarSlider.activeBackground": "#62fa1b",
+            "scrollbarSlider.hoverBackground": "#452617",
+            "scrollbarSlider.background": "#452617",
+            "breadcrumb.focusForeground": "#eff1f3",
+            "breadcrumb.foreground": "#72a0c1",
+            "descriptionForeground": "#b284be",
+            "editorCursor.foreground": "#adff2f",
+            "editor.selectionBackground": "#414517",
+            "editor.lineHighlightBorder": "#1D3F34"
+        }
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "extensions.ignoreRecommendations": true,
+    "git.autofetch": true,
+    "gaac.replacePatternWith": [
+        {
+            "pattern": "/^.editorconfig/",
+            "with": "editorconfig"
+        },
+        {
+            "pattern": "/^.gitignore/",
+            "with": "git"
+        },
+        {
+            "pattern": "/^.travis/",
+            "with": "travis"
+        },
+        {
+            "pattern": "/^.vscodeignore/",
+            "with": "vscode"
+        },
+        {
+            "pattern": "/^CHANGELOG[^:]*/",
+            "with": "changelog"
+        },
+        {
+            "pattern": "/^Godeps[^:]*/",
+            "with": "godep"
+        },
+        {
+            "pattern": "/^LICENSE[^:]*/",
+            "with": "license"
+        },
+        {
+            "pattern": "/^Makefile[^:]*/i",
+            "with": "makefile"
+        },
+        {
+            "pattern": "/^(npm-shrinkwrap|.npmignore|package(-lock)?)[^:]*/",
+            "with": "npm"
+        },
+        {
+            "pattern": "/^webpack[^:]*/",
+            "with": "webpack"
+        },
+        {
+            "pattern": "/^README[^:]*/",
+            "with": "readme"
+        },
+        {
+            "pattern": "/^src//",
+            "with": ""
+        }
+    ],
+    "gaac.withGuessedCustomActions": [
+
+        {
+            "action": "ignore",
+            "pattern": "/^.(gitignore|npmignore|vscodeignore)/",
+            "state": "MODIFIED"
+        },
+        {
+            "action": "update",
+            "pattern": "/^CHANGELOG/",
+            "state": "MODIFIED"
+        },
+        {
+            "action": "update",
+            "pattern": "/^LICENSE/",
+            "state": "MODIFIED"
+        },
+        {
+            "action": "update",
+            "pattern": "/^README/",
+            "state": "MODIFIED"
+        }
+    ],
+    "scm.inputFontSize": 14,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
+    "fontshortcuts.defaultFontSize": 13,
+    "markdown-preview-enhanced.codeBlockTheme": "monokai.css",
+    "workbench.colorTheme": "GitHub Dark",
+    "ShortcutMenuBar.formatWith": true,
+    "ShortcutMenuBar.toggleTerminal": false,
+    "ShortcutMenuBar.userButton01Command": "",
+    "ShortcutMenuBar.userButton02Command": "",
+    "markdown-links.autoStart": true,
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    // https://code.visualstudio.com/api/references/icons-in-labels
+    "commands.commands": {
+        "Terminal: Prev Dendron servs": {
+            "command": "dendron.sitePreview",
+            "icon": "test-view-icon",
+            "iconColor": "#FFF",
+            "statusBar": {
+                "alignment": "left",
+                "text": "DPrev",
+                "tooltip": "DBUILD dendron in dev (preview)",
+                "color": "#96D0EB"
+            }
+        },
+        "Terminal: DBuild": {
+            "command": "workbench.action.terminal.sendSequence",
+            "icon": "extensions-view-icon",
+            "iconColor": "#FFF",
+            "statusBar": {
+                "alignment": "left",
+                "text": "DBUILD",
+                "tooltip": "DBUILD dendron in dev (preview)",
+                "color": "#96D0EB"
+            },
+            "args": {
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'DBUILD dev' 'BKP css depuis BUILD édité en live' && echo && echo && echo 'DBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md \r echo '---' && notify-send-all -t 4000 -u low '😜 DBUILD dev' 'Gooo' && echo \" \n\nUSING not SUDO -DEV\n\nand yarn\n\nDBUILD -DEV Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && yarn dendron-cli buildSiteV2 --wsRoot .  --stage dev && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 8000 -u normal 'DBUILD dev' 'OK' && echo && echo && echo '😜 DBUILD dev OK\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
+            }
+        },
+        "Terminal: BBuild": {
+            "command": "workbench.action.terminal.sendSequence",
+            "icon": "extensions-view-icon",
+            "iconColor": "#FFF",
+            "statusBar": {
+                "alignment": "left",
+                "text": "BBUILD",
+                "tooltip": "BUILD dendron",
+                "color": "aqua"
+            },
+            "args": {
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BBUILD prod' 'BKP css depuis BUILD édité en live' && echo && echo && echo 'BBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md \r echo '---' && notify-send-all -t 4000 -u low '😜 BBUILD P R O D' 'Gooo' && echo \" \n\nUSING SUDO\n\nand yarn\n\nBUILD Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && sudo yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BUILD P R O D' && echo && echo && echo '😜 BBUILD P R O D\n\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r \r"
+            }
+        },
+        "Terminal: P U S H": {
+            "command": "workbench.action.terminal.sendSequence",
+            "icon": "cloud-upload",
+            "iconColor": "gold",
+            "statusBar": {
+                "alignment": "left",
+                "text": "PUSH",
+                "tooltip": "PUSH DENDRON",
+                "color": "gold"
+            },
+            "args": {
+                "text": "echo \"\n\nPUSH quickly\n\n ... in 5 sec ... \n\n\" && sleep 5 && sudo /bin/sh /home/pi/Dendron/@Notes_instructions/git_push.sh\r"
+            }
+        },
+        "Switch themes": {
+            "command": "commands.toggleSetting",
+            "icon": "breakpoints-activate",
+            "iconColor": "#FFF",
+            "statusBar": {
+                "alignment": "left",
+                "text": "THEME",
+                "tooltip": "Swwwwitch",
+                "color": "pink"
+            },
+            "args": {
+                "setting": "workbench.colorTheme",
+                "value": [
+                    "GitHub Dark",
+                    "GitHub Dark Dimmed",
+                    "One Dark Pro",
+                    "GitHub Light"
+                ]
+            }
+        },
+        "Font size ++": {
+            "command": "commands.incrementSetting",
+            "args": {
+                "setting": "editor.fontSize",
+                "value": 1
+            }
+        },
+        "Font size --": {
+            "command": "commands.incrementSetting",
+            "args": {
+                "setting": "editor.fontSize",
+                "value": -1
+            }
+        },
+        "Set/reset setting": {
+            "command": "commands.toggleSetting",
+            "args": {
+                "setting": "window.zoomLevel",
+                "value": [
+                    0
+                ]
+            }
+        }
+    },
+    "activitusbar.views": [
+        // {
+        //   "name": "explorer",
+        //   "codicon": "explorer-view-icon"
+        // },
+        // {
+        //   "name": "search",
+        //   "codicon": "search-view-icon"
+        // },
+        {
+          "name": "scm",
+          "codicon": "source-control-view-icon"
+        }
+        // {
+        //   "name": "debug",
+        //   "codicon": "run-view-icon"
+        // },
+        // {
+        //   "name": "extensions",
+        //   "codicon": "extensions-view-icon"
+        // }
+      ],
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 1,
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "footsteps.highlightColor": "rgb(36, 66, 102)",
+    "workbench.startupEditor": "newUntitledFile",
+    "vscode-office.markdownType": "vditor",
+    "vscode-office.autoTheme": true,
+    "material-icon-theme.saturation": 0,
+    "material-icon-theme.activeIconPack": "vue",
+    "workbench.iconTheme": "atom-icons",
+    "workbench.editor.enablePreview": false,
+    "editor.inlineHints.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlineHints.fontSize": 10,
+    "remoteHub.autoFetch.interval": 30,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+      },
+      "editor.parameterHints": false,
+    "editor.hover.enabled": false,
+    "[markdown]": {
+        "editor.hover.enabled": true
+    },
+    "[css]": {
+        "editor.hover.enabled": true
+    },
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.tabs.focusMode": "singleClick",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.tabs.showActiveTerminal": "always",
+    "browser-preview.startUrl": "http://localhost:8999",
+    
+    "todohighlight.isEnable": true,
+        "todohighlight.isCaseSensitive": true,
+        "todohighlight.keywords": [
+            "DEBUG:",
+            "REVIEW:",
+            "VBULLE:",
+            {
+                "text": "NB:",
+                "color": "#092939",
+                "isWholeLine": true,
+                "backgroundColor": "#D2D510",
+                "overviewRulerColor": "grey"
+            },
+            {
+                "text": "VBULLE",
+                "color": "#000",
+                "isWholeLine": true,
+                "backgroundColor": "#83B3D2"
+            },
+            {
+                "text": "TODO",
+                "color": "#FFF",
+                "border": "1px solid red",
+                "font-weight": "600",
+                "backgroundColor": "#11B054",
+                "isWholeLine": true
+            },
+            {
+                "text": "PARTIE:",
+                "color": "#FFF",
+                "border": "1px solid gray",
+                "font-weight": "600",
+                "backgroundColor": "#53616A",
+                "isWholeLine": true
+            },
+            {
+                "text": ":::",
+                "color": "#FFF",
+                "border": "1px solid gray",
+                "font-weight": "600",
+                "backgroundColor": "#53616A",
+                "isWholeLine": true
+            }    
+        ],
+        // "todohighlight.keywordsPattern": "FIXME:|\\(([$(^)]+))", // ((eee)) highlight `TODO:`,`FIXME:` or content between parentheses
+        "todohighlight.defaultStyle": {
+            "color": "#000",
+            "backgroundColor": "#C3D283",
+            "overviewRulerColor": "#000",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "isWholeLine": false
+            //other styling properties goes here ...  ((dfssrrr))
+        },
+        "todohighlight.include": [
+            "**/*.js",
+            "**/*.jsx",
+            "**/*.ts",
+            "**/*.tsx",
+            "**/*.html",
+            "**/*.php",
+            "**/*.css",
+            "**/*.scss",
+            "**/*.md"
+        ],
+        "todohighlight.exclude": [
+            "**/node_modules/**",
+            "**/bower_components/**",
+            "**/dist/**",
+            "**/build/**",
+            "**/.vscode/**",
+            "**/.github/**",
+            "**/_output/**",
+            "**/*.min.*",
+            "**/*.map",
+            "**/.next/**"
+        ],
+        "todohighlight.maxFilesForSearch": 5120,
+        "todohighlight.toggleURI": false,
+        "editor.autoClosingOvertype": "never",
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false,
+        "resmon.show.battery": false
+    
+}

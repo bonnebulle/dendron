@@ -11,7 +11,11 @@ html body {
     background-color: #18171b !important;
 }
 
-
+:root {
+    --main-links_alt:#aad288;
+    --main-dend_links:#93df9c;
+    /* --main-dend_links_visited:#b2ce99; */
+}
 
 
 
@@ -29,10 +33,10 @@ html body {
         margin-top: 0.75rem;
         margin-bottom: 0.25rem;
     }
-    .search-input {
+    /* .search-input {
         font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
         font-size: 19.5px;
-    }
+    } */
     .search-active .search-input {
         padding-left: 2.75rem;
         font-weight: 400;
@@ -59,30 +63,58 @@ line-height: inherit !important;
 }
 
 a,
+a > *,
 .main-content a.anchor-heading,
 li.nav-list-item a {
-    color: #87ff96 !important;
+    color: var(--main-links_alt) !important;
     font-weight: 600;
 }
 /*     89dada */
 
 li.nav-list-item a:visited,
 .main-content a.anchor-heading:visited,
-a:visited {
+a:visited, a:visited > * {
     color: #5bbb60 !important;
-    color: #87ff96 !important;
+    color: var(--main-links_alt) !important;
 }
 .main-content .breadcrumb-nav-list-item a:visited {
-    color: #87ff96 !important;
+    color: var(--main-links_alt) !important;
 }
-li.nav-list-item a:hover {
+li.nav-list-item a:hover,
+li.nav-list-item a:hover > * {
     color: #7cda88 !important;
     text-decoration: none;
 }
+
+.breadcrumb-nav-list-item a,
+#site-nav a > *,
+#site-nav a,
+.side-bar a,
+.main-content h2#children,
+.main-content h2#backlinks,
+.main-content a[href*="bonnebulle.github.io"],
+.main-content a[href*="localhost"] {
+    color: var(--main-dend_links)!important;
+}
+
+/* .breadcrumb-nav-list-item a:visited,
+#site-nav a:visited > *,
+#site-nav a:visited,
+.side-bar a:visited,
+.main-content h2#children,
+.main-content h2#backlinks,
+.main-content a[href*="/notes/"]:visited {
+    color: var(--main-dend_links_visited)!important;
+} */
 li.nav-list-item a.nav-list-link.active {
     color: #FFF !important;
     background-color: #302d3a;
 }
+
+
+
+
+
 .nav-list *,
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
     /* background-image: none !important; */
@@ -123,9 +155,18 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
 .page__inner-wrap ol {
     margin-top: 0px !important;
 }
+
+.main-content :is(h1, h2, h3) + ul {
+    margin-top: 15px !important;
+}
+.main-content ul, .main-content ol {
+    padding-left: 20px;
+}
+.main-content ul > li::before {margin-left: -0.9em;}
+.page__inner-wrap li * {
+    line-height: 1.50em !important;
+}
 .page__inner-wrap li {
-    line-height: 1.4em !important;
-/* margin-top: -7px !important; */
 margin-bottom: 20px !important;
 }
 .main-content h1,
@@ -284,6 +325,8 @@ blockquote + blockquote > blockquote {
     margin-top: -5px !important;
 }
 
+
+
 .main-content h6 + h6 {
     margin-top: 6px !important;
 }
@@ -327,7 +370,8 @@ nav.breadcrumb-nav {
 }
 
 
- 
+nav.breadcrumb-nav a:not([class]) {background: none !important;}
+
 /* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
 .page__inner-wrap p {
     /* margin-left: 4px !important; */
@@ -378,13 +422,11 @@ width: calc(100% + 10px) !important;
 
 
 
-
-
 .main-content h2#children,
 .main-content h2#backlinks {
     margin-top: 0px !important;
     font-size: 20px !important;
-    color: #6ad570 !important;
+
     margin-bottom: -1px !important;
     padding-top: 0px;
 }
@@ -461,18 +503,25 @@ font-size: 14px !important;
         padding-left: 1.5rem;
     }
 
+    ul.nav-list li.nav-list-item ul.nav-list {
+        margin-top: -5px;
+    } 
     ul.nav-list li.nav-list-item.active ul.nav-list {
         margin-bottom: 10px;
         padding-left: 0px;
     }
     ul.nav-list li.nav-list-item.active ul.nav-list li a {
-        padding: 0rem 1rem 0 1.6rem !important;
+        padding: 0rem 1rem 0 2.4rem !important
     }
     .nav-list .nav-list-item .nav-list-link {
         min-height: 1.7rem;
         line-height: 1.7rem;
         padding-right: 1rem;
-        padding-left: 1.2rem;
+    }
+    .nav-list .nav-list-item .nav-list-link,
+    .site-title {
+        padding-left: 1.7rem !important;
+        margin-left:  0rem !important;
     }
 
     .nav-list .nav-list-item .nav-list-expander:hover {
@@ -491,15 +540,20 @@ font-size: 14px !important;
         outline: none !important;
         outline-offset: -2px;
     }
+
+    
     .nav-list .nav-list-item .nav-list-expander {
         height: 2rem;
+        opacity: 0.6;
+        left: -4px;
+        top: -2px;
     }
 
     .nav-list .nav-list-item.active > .nav-list-expander svg {
-        transform: rotate(-90deg) translateX(0px);
+        transform: rotate(90deg) translateX(0px);
     }
     .nav-list .nav-list-item .nav-list-expander svg {
-        transform: rotate(90deg) translateX(0px);
+        transform: rotate(0deg) translateX(0px);
     }
 
 

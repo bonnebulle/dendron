@@ -2,11 +2,14 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621869942666
+updated: 1621883119254
 created: 1595961348801
 nav_order: 10
+documentclass: scrartcl
+links-as-notes: true
 ---
 **Mise en place d'un système de notes par fiches avec Dendron**   
+
 
 ---
 
@@ -100,4 +103,4 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 
 ### Travail en cours de formation
 NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. 
-À ce sujet, le créateur de Dendron dit sur son site($ref) qu'il est **facile à prendre en main mais impossible à maîtriser tout à fait** en faisant référence à "La loi de Bushnell ou loi de Nolan" (théorie des jeux) [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 
+À ce sujet, le créateur de Dendron dit sur son site ([principes](https://wiki.dendron.so/notes/7fcebd7d-6411-4c9d-8baf-65629dc018a1.html)) qu'il est **facile à prendre en main difficile à maîtriser** ("*Easy to learn, hard to master*") en faisant référence à "La loi de Bushnell ou loi de Nolan" (théorie des jeux) [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 
