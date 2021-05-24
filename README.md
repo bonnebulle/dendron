@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621593148009
+updated: 1621858481271
 created: 1595961348801
 nav_order: 10
 ---
@@ -43,6 +43,6 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 
 ---
 
-La prochaine étape sera de proposer une version générée en pdf et fichier word traditionnel (bien que *VSCode* ou *Codium* soient en capacité d'ouvrir les markdown à la façon de LibreOffic
+La prochaine étape sera de proposer une version générée en pdf et fichier word traditionnel (bien que *VSCode* ou *Codium* soient en capacité d'ouvrir les markdown à la façon de *LibreOffice*.
 
-NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. Le créateur de Dendon fait référence sur son site($ref) à une courbe d'apprentissage facile à prendre en main, impossible à maîtriser tout à fait (théorie des jeux) : "La loi de Bushnell ou loi de Nolan"[wikipédia (fr))](https://fr.wikipedia.org/wiki/Loi_de_Bushnell).
+NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. Le créateur de Dendon fait référence sur son site($ref) à une courbe d'apprentissage facile à prendre en main, impossible à maîtriser tout à fait (théorie des jeux) : "La loi de Bushnell ou loi de Nolan" [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 
