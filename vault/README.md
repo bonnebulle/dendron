@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621868505394
+updated: 1621869966235
 created: 1595961348801
 nav_order: 10
 ---
@@ -91,7 +91,7 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 ## À venir ( reste à faire )
 
 + Export md > **pdf et fichier text traditionnel** 
-> ( type .doc / .odt (bien que des extensions sur *VSCode* ou *Codium* soient en capacité d'ouvrir les *markdown* en .md avec un interface utilisateur du genre *LibreOffice* / *Word*). J'ai déjà trouvé les outils nécessaires :   [étude de marché (et autres ressources)](https://liens.vincent-bonnefille.fr/?AGBhmA).
+> ( type .doc / .odt (bien que des extensions sur *VSCode* ou *Codium* soient en capacité d'ouvrir les *markdown* en .md avec un interface utilisateur du genre *LibreOffice* / *Microsoft Office*). J'ai déjà trouvé les outils nécessaires :   [étude de marché (et autres ressources)](https://liens.vincent-bonnefille.fr/?AGBhmA).
 
 + Ajout d'une *mini-map* (front-end)
 > https://larsjung.de/pagemap/
@@ -99,4 +99,5 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 
 
 ### Travail en cours de formation
-NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. Le créateur de Dendron fait référence sur son site($ref) à une courbe d'apprentissage facile à prendre en main, impossible à maîtriser tout à fait (théorie des jeux) : "La loi de Bushnell ou loi de Nolan" [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 
+NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. 
+À ce sujet, le créateur de Dendron dit sur son site($ref) qu'il est **facile à prendre en main mais impossible à maîtriser tout à fait** en faisant référence à "La loi de Bushnell ou loi de Nolan" (théorie des jeux) [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 
