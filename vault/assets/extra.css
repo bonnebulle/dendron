@@ -291,14 +291,17 @@ blockquote + blockquote > blockquote {
 .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child {
     margin-top: -10px !important;
     margin-bottom: 3px !important;
-    padding-top: 13px !important;
-
+    padding-top: 2rem !important;
 }
 
 meta[content="Racine"] + meta + meta + div > section > h1:first-child, h1#racine {
     margin-top: 0px !important;
     padding-top: 0px !important;
 }
+
+.main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child:first-letter {
+    text-transform: capitalize;
+} 
 
 .main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
     color: #e6e6e6 !important;
@@ -314,12 +317,11 @@ padding-top: 21px;
 nav.breadcrumb-nav {
     margin-left: -2rem;
     padding-left: 2rem;
-    border-bottom: 1px solid #44434d;
+    border-bottom: 0.1px solid #33323a;
     padding-bottom: 2px;
     width: calc(100% + 4rem);
     width: max-content;
-    padding-right: 2rem;
-    border-right: 1px solid #44434d;
+    padding-right: 0rem;
     margin-top: -25px;
     padding-top: 13px;
 }
