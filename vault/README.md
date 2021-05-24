@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621862434302
+updated: 1621864059407
 created: 1595961348801
 nav_order: 10
 ---
@@ -34,14 +34,18 @@ Comme le rappelle la [page de présentation](https://wiki.dendron.so/notes/05774
 "*Les dendrites (du grec δένδρον déndron «arbre») sont des prolongements du corps cellulaire des neurones dont elles partagent les organites*",
 en citant ici [Wikipédia fr](https://fr.wikipedia.org/wiki/Dendrite_(biologie)).
 
-
-
 Dendron permet la création notes_pages organisant ma pensée de façon fragmentée, sous la forme d'une arboréscence fragmentée. Ce système d'organisation par fiches séparant les idées par catégories prend le nom de son inventeur : **Zettelkasten** ($source).
+
+Pour en savoir plus je conseille cet article en français autour de la prise de note : [https://organisologie.com/prise-de-note/](https://organisologie.com/prise-de-note/).
+
+
+
+
 
 
 ### Organisation des dossiers
 #### Parents-enfants : sous-ensembles
-Placées dans des (sous-)dossiers à la *racine* du projet_site ces notes_pages respectent cette "descendance" : un dossier *parent* encapsule-contient-rassemble des *enfants* (fichiers) sur le même sujet (#Parties). **Ces *enfants* sont eux traîtés come des sous-parties ou continuité de la thèse : ces pages_notes développent *en détail* la question plus générale, parente, générale, d'ensemble.**
+Placées dans des (sous-)dossiers à la *racine* du projet_site ces notes_pages respectent cette "descendance" : un dossier *parent* encapsule-contient-rassemble des *enfants* (fichiers) sur le même sujet). **Ces *enfants* sont eux traîtés come des sous-parties ou continuité de la thèse : ces pages_notes développent *en détail* la question plus générale, parente, générale, d'ensemble.**
 
 #### Navigation / interface
 Une arboréscence retranscrite sous la forme d'un menu de navigation vertical et horizontal (fil d'Ariane). Cela permet à l'usager ou usagère de facilement se situer dans quel partie il.elle se trouve.  Les pages_notes descendantes (à l'intérieur du même dossier parent), se succèdent selon cette logique à la suite l'une de l'autre.
@@ -49,21 +53,41 @@ Une arboréscence retranscrite sous la forme d'un menu de navigation vertical et
 ##### Liens (de retour) vers les pages pointant entre elles 
 Les pages_notes enfants, du même dossier parent sont mentionnées en bas de page (lien cliquable). Les liens internes entre les notes_pages produisent automatiquement des liens de référence entre elles (également présentés en pied de page). Ce maillage devrait aider à produire et maintenir des liens verticaux, des voisinages de pensés.
 
+#### Markdown, mise en page simplifiée
+L'écriture de ces pages se fait sans coder, sans le superflu d'un interface de mise en forme parfois encombrant sur nos éditeurs de texte traditionnels. Une mise en page simplifiée à l'aide du langage de balisage ***markdown*** ([wiki Dendron](https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html)).
+
+##### Métadonnées, en tête
+Les fichiers en *texte brut* sont lisible par un simple éditeur de text. Dendron y accole des **métadonnées** : un identifiant unique permettant la création de **liens uniques** (*hash*), les dates de création et de mise à jour, une description, etc. 
+
+{ Ces informations-paramètres sont inscrits dans l'en-tête du fichier qu'on appelle *frontmatter* (*matière en tête*) ou dans un fichier .yml distinct }
+
+
+
+
+
+
 ### Construit localement, publié facilement
 Dendron me permet de de mettre facilement mon travail de recherche en ligne { sur une page web construite sans #base-de-données externe (ce qui accélère le chargement et rend l'intégralité des notes accessibles en brut (fichiers eux-même, *markdown*)). Le tout est orienté *local*, c'est à dire que je garde la main sur mes fichiers qui ne sont pas édités directement en ligne, autrement dit sur un *cloud*. }
 
-#### Sauvegardes, suivi de versions avec git
-Les sauvegardes de mes fichiers s'effectuent avec le *système de versioning* **Git** qui offre de nombreux avantages à commencer par la description détaillée des points de sauvegarde / d'avancement du projet. Ce système utilisé dans l'écriture de logiciels informatiques offre un suivi transparent sur les différentes modifications apportées (au sein des fichiers textes dont les différences sont facilement comparables). 
 
-### Markdown, mise en page simplifiée
-L'écriture de ces pages se fait sans coder, sans le superflu d'un interface de mise en forme parfois encombrant sur nos éditeurs de texte traditionnels. Une mise en page simplifiée à l'aide du pseudo-langage ***markdown***.  Les fichiers en *texte brut* sont lisible par un simple éditeur de text. Dendron y accole des **métadonnées** (présentes en en-tête du fichier) : un identifiant unique permettant la création de **liens uniques** (*hash*), les dates de création et de mise à jour, une description, etc.
+
+
+#### Sauvegardes, suivi de versions avec git
+Les sauvegardes de mes fichiers s'effectuent avec le *système de versioning* **Git** qui offre de nombreux avantages à commencer par la description détaillée des points de sauvegarde / d'avancement du projet. Ce système utilisé dans l'écriture de logiciels informatiques offre un suivi transparent sur les différentes modifications apportées (au sein des fichiers textes dont les différences sont facilement comparables). [Dernières mises-à-jour / *commit*](https://github.com/bonnebulle/dendron/commits/main) 
+
 
 ## Résumé des avantages
 Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes données sur cette plateforme qui les produit-publie en ligne ; je garde la main sur ces données ; et l'éditeur que j'utilise correspond à mes exigences en matière d'interface à la fois léger et complet (avec des outils comme une *mini-map*, l'ajout de **liens internes**, la visualisation graphique des ramifications entre les contenus, *liens de retour*/"*Backlinks*" entre les notes citées entre elles, etc).
 
+
+
+
+
+
+
 ## À venir ( reste à faire )
 
-La prochaine étape sera de proposer une version générée en **pdf et fichier text traditionnel** type .doc / .odt (bien que des extensions sur *VSCode* ou *Codium* soient en capacité d'ouvrir les *markdown* en .md avec un interface utilisateur du genre *LibreOffice* / *Word*). J'ai déjà trouvé les outils nécessaires :   [étude de marché (et autres ressources)](https://liens.vincent-bonnefille.fr/?AGBhmA) .
+La prochaine étape sera de proposer une version générée en **pdf et fichier text traditionnel** type .doc / .odt (bien que des extensions sur *VSCode* ou *Codium* soient en capacité d'ouvrir les *markdown* en .md avec un interface utilisateur du genre *LibreOffice* / *Word*). J'ai déjà trouvé les outils nécessaires :   [étude de marché (et autres ressources)](https://liens.vincent-bonnefille.fr/?AGBhmA).
 
 
 ### Travail en cours de formation
