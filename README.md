@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621864458838
+updated: 1621868505394
 created: 1595961348801
 nav_order: 10
 ---
@@ -90,7 +90,12 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 
 ## À venir ( reste à faire )
 
-La prochaine étape sera de proposer une version générée en **pdf et fichier text traditionnel** type .doc / .odt (bien que des extensions sur *VSCode* ou *Codium* soient en capacité d'ouvrir les *markdown* en .md avec un interface utilisateur du genre *LibreOffice* / *Word*). J'ai déjà trouvé les outils nécessaires :   [étude de marché (et autres ressources)](https://liens.vincent-bonnefille.fr/?AGBhmA).
++ Export md > **pdf et fichier text traditionnel** 
+> ( type .doc / .odt (bien que des extensions sur *VSCode* ou *Codium* soient en capacité d'ouvrir les *markdown* en .md avec un interface utilisateur du genre *LibreOffice* / *Word*). J'ai déjà trouvé les outils nécessaires :   [étude de marché (et autres ressources)](https://liens.vincent-bonnefille.fr/?AGBhmA).
+
++ Ajout d'une *mini-map* (front-end)
+> https://larsjung.de/pagemap/
+
 
 
 ### Travail en cours de formation
