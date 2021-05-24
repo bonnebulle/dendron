@@ -3,6 +3,5 @@ node_modules
 build
 vault/docs/raw-assets/*
 bkp/*
-vault/.vscode/dendron.code-snippets
-vault/.vscode/extensions.json
-vault/.vscode/settings.json
+vault/.vscode/*
+./~

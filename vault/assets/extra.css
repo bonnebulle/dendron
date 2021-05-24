@@ -294,6 +294,12 @@ blockquote + blockquote > blockquote {
     padding-top: 13px !important;
 
 }
+
+meta[content="Racine"] + meta + meta + div > section > h1:first-child, h1#racine {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
 .main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
     color: #e6e6e6 !important;
     color: #ececec !important;
@@ -303,6 +309,19 @@ blockquote + blockquote > blockquote {
 .main-content hr + :is(h2,h3,h4,h5,h6) {
     margin-top: -20px;
 padding-top: 21px;
+}
+
+nav.breadcrumb-nav {
+    margin-left: -2rem;
+    padding-left: 2rem;
+    border-bottom: 1px solid #44434d;
+    padding-bottom: 2px;
+    width: calc(100% + 4rem);
+    width: max-content;
+    padding-right: 2rem;
+    border-right: 1px solid #44434d;
+    margin-top: -25px;
+    padding-top: 13px;
 }
 
 
@@ -620,5 +639,4 @@ color: #79eb93;}
 .main-content code {
     padding: 13px 20px 16px 24px;
     background: #1a191d;
-    /* color: #ffffff;
 }
