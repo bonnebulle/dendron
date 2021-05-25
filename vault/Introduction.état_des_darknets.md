@@ -2,7 +2,7 @@
 id: 213db94c-209c-4069-a1cb-af5fd7ba60d0
 title: 'Darknets ?'
 desc: 'Plusieurs récits, thèses autour de cet inconnu relatif'
-updated: 1621929550367
+updated: 1621949297823
 created: 1621840641323
 ---
 
@@ -65,7 +65,7 @@ Les darknets et autres réseaux mal-indexés poussent à la curiosité : **à de
 ### En arts ( installations, web_net-art, films )
 Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.
 
-#### TODO: corpus d'oeuvres et expositions
+>>>>> #### TODO: corpus d'œuvres et expositions
 
 ## conclusion : plusieurs thèses
 Plusieurs façons de faire le récit de ces pratiques, de les raconter, de prendre part à ces pratiques ou de les rejeter du champ d'action commun (préférence répressive ou laxiste). 

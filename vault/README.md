@@ -2,14 +2,13 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621931183714
+updated: 1621942503583
 created: 1595961348801
 nav_order: 10
-documentclass: scrartcl
-links-as-notes: true
 ---
 **Mise en place d'un système de notes par fiches avec Dendron**   
 
+Test commentaire perso <!--LOCAL_ONLY_LINE-->
 ---
 
 ### Consulter les pages    
@@ -53,6 +52,7 @@ Et [celui-ci (en français)](https://www.arthurperret.fr/visualisation-documenta
 ### Organisation des dossiers
 #### Parents-enfants : sous-ensembles
 Placées dans des (sous-)dossiers à la *racine* du projet_site ces notes_pages respectent cette "descendance" : un dossier *parent* encapsule-contient-rassemble des *enfants* (fichiers) sur le même sujet). **Ces *enfants* sont eux traîtés come des sous-parties ou continuité de la thèse : ces pages_notes développent *en détail* la question plus générale, parente, générale, d'ensemble.**
+>>>>> J'ai renomé les *enfants* (ou *Childrens*) en **Déscendant(e)s**
 
 #### Navigation / interface
 Une arboréscence retranscrite sous la forme d'un menu de navigation vertical et horizontal (fil d'Ariane). Cela permet à l'usager ou usagère de facilement se situer dans quel partie il.elle se trouve.  Les pages_notes descendantes (à l'intérieur du même dossier parent), se succèdent selon cette logique à la suite l'une de l'autre.

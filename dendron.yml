@@ -8,7 +8,9 @@ noAutoCreateOnDefinition: true
 noLegacyNoteRef: true
 color_scheme: dark
 previewPort: 8999
+hierarchyDisplayTitle: "Déscendant(e)s"
 site:
+    # hierarchyDisplayTitle: Enfants
     # assetsPrefix: dendron
     siteUrl: https://bonnebulle.github.io/dendron
     noIndexByDefault: true

@@ -363,8 +363,7 @@
         //   "name": "extensions",
         //   "codicon": "extensions-view-icon"
         // }
-      ],
-    "editor.multiCursorModifier": "ctrlCmd",
+    ],
     "window.zoomLevel": 1,
     "workbench.editor.centeredLayoutAutoResize": false,
     "footsteps.highlightColor": "rgb(36, 66, 102)",
@@ -481,6 +480,7 @@
         "editor.formatOnPaste": false,
         "editor.formatOnSave": false,
         "editor.formatOnType": false,
-        "resmon.show.battery": false
+        "resmon.show.battery": false,
+        "editor.multiCursorModifier": "ctrlCmd"
     
 }
