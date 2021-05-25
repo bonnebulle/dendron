@@ -26,7 +26,6 @@
             ".vscode",
             ".vscode/*"
         ],
-        "explorer.sortOrder": "modified",
         "workbench.editor.enablePreview": false,
         "workbench.editor.revealIfOpen": true,
         "editor.quickSuggestions": true,
@@ -44,7 +43,8 @@
         "editor.hover.delay": 9000,
         "editor.quickSuggestionsDelay": 9000,
         "cSpell.spellCheckDelayMs": 400,
-        "editor.minimap.showSlider": "always"
+        "editor.minimap.showSlider": "always",
+        "dendron.copyNoteUrlRoot": "/vault/"
     },
     "extensions": {
         "recommendations": [

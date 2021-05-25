@@ -31,5 +31,6 @@
         "editor.quickSuggestions": false,
         "editor.hover.delay": 99900,
     },
-    "cSpell.maxNumberOfProblems": 10
+    "cSpell.maxNumberOfProblems": 10,
+    "breadcrumbs.symbolSortOrder": "type"
 }
