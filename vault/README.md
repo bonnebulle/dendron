@@ -2,14 +2,13 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1621887443301
+updated: 1621931183714
 created: 1595961348801
 nav_order: 10
 documentclass: scrartcl
 links-as-notes: true
 ---
 **Mise en place d'un système de notes par fiches avec Dendron**   
-
 
 ---
 
@@ -59,7 +58,9 @@ Placées dans des (sous-)dossiers à la *racine* du projet_site ces notes_pages 
 Une arboréscence retranscrite sous la forme d'un menu de navigation vertical et horizontal (fil d'Ariane). Cela permet à l'usager ou usagère de facilement se situer dans quel partie il.elle se trouve.  Les pages_notes descendantes (à l'intérieur du même dossier parent), se succèdent selon cette logique à la suite l'une de l'autre.
 
 ##### Liens (de retour) vers les pages pointant entre elles 
-Les pages_notes enfants, du même dossier parent sont mentionnées en bas de page (lien cliquable). Les liens internes entre les notes_pages produisent automatiquement des liens de référence entre elles (également présentés en pied de page). Ce maillage devrait aider à produire et maintenir des liens verticaux, des voisinages de pensés.
+Les pages_notes enfants, du même dossier parent sont mentionnées en bas de page (lien cliquable). Les liens internes entre les notes_pages produisent automatiquement des liens de référence entre elles (également présentés en pied de page). 
+> Ce maillage devrait aider à produire et maintenir des liens verticaux, des voisinages de pensés. 
+>> Les *Tags* ("*étiquettes*") servent aussi à lier les contenus se rapportant au même sujets (les pages_notes avec un même tag_label s'affichent en bas de page cf. *backlinks*).
 
 #### Markdown, mise en page simplifiée
 L'écriture de ces pages se fait sans coder, sans le superflu d'un interface de mise en forme parfois encombrant sur nos éditeurs de texte traditionnels. Une mise en page simplifiée à l'aide du langage de balisage ***markdown*** ([wiki Dendron](https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html)).
@@ -67,7 +68,7 @@ L'écriture de ces pages se fait sans coder, sans le superflu d'un interface de 
 ##### Métadonnées, en tête
 Les fichiers en *texte brut* sont lisible par un simple éditeur de text. Dendron y accole des **métadonnées** : un identifiant unique permettant la création de **liens uniques** (*hash*), les dates de création et de mise à jour, une description, etc. 
 
-{ Ces informations-paramètres sont inscrits dans l'en-tête du fichier qu'on appelle *frontmatter* (*matière en tête*) ou dans un fichier .yml distinct }
+{ Ces informations-paramètres sont inscrits dans l'en-tête du fichier qu'on appelle *frontmatter* (*"matière en tête"*) ou dans un fichier .yml distinct }
 
 
 
@@ -101,7 +102,7 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 + Ajout d'une *mini-map* (front-end)
 > https://larsjung.de/pagemap/
 
-ji:grinning-face
++ Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps)
 
 ### Travail en cours de formation
 NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. 

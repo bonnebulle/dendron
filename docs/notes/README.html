@@ -193,7 +193,7 @@
     <meta itemprop="headline" content="Sources">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-24T22:17:23+00:00">
+    <meta itemprop="dateModified" content="2021-05-25T10:26:23+00:00">
 
     <div class="page__inner-wrap">
 
@@ -235,12 +235,18 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <h4 id="navigation--interface"><a aria-hidden="true" class="anchor-heading" href="#navigation--interface"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Navigation / interface</h4>
 <p>Une arboréscence retranscrite sous la forme d'un menu de navigation vertical et horizontal (fil d'Ariane). Cela permet à l'usager ou usagère de facilement se situer dans quel partie il.elle se trouve.  Les pages_notes descendantes (à l'intérieur du même dossier parent), se succèdent selon cette logique à la suite l'une de l'autre.</p>
 <h5 id="liens-de-retour-vers-les-pages-pointant-entre-elles"><a aria-hidden="true" class="anchor-heading" href="#liens-de-retour-vers-les-pages-pointant-entre-elles"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Liens (de retour) vers les pages pointant entre elles</h5>
-<p>Les pages_notes enfants, du même dossier parent sont mentionnées en bas de page (lien cliquable). Les liens internes entre les notes_pages produisent automatiquement des liens de référence entre elles (également présentés en pied de page). Ce maillage devrait aider à produire et maintenir des liens verticaux, des voisinages de pensés.</p>
+<p>Les pages_notes enfants, du même dossier parent sont mentionnées en bas de page (lien cliquable). Les liens internes entre les notes_pages produisent automatiquement des liens de référence entre elles (également présentés en pied de page). </p>
+<blockquote>
+<p>Ce maillage devrait aider à produire et maintenir des liens verticaux, des voisinages de pensés. </p>
+<blockquote>
+<p>Les <em>Tags</em> ("<em>étiquettes</em>") servent aussi à lier les contenus se rapportant au même sujets (les pages_notes avec un même tag_label s'affichent en bas de page cf. <em>backlinks</em>).</p>
+</blockquote>
+</blockquote>
 <h4 id="markdown-mise-en-page-simplifiée"><a aria-hidden="true" class="anchor-heading" href="#markdown-mise-en-page-simplifiée"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown, mise en page simplifiée</h4>
 <p>L'écriture de ces pages se fait sans coder, sans le superflu d'un interface de mise en forme parfois encombrant sur nos éditeurs de texte traditionnels. Une mise en page simplifiée à l'aide du langage de balisage <strong><em>markdown</em></strong> (<a href="https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html">wiki Dendron</a>).</p>
 <h5 id="métadonnées-en-tête"><a aria-hidden="true" class="anchor-heading" href="#métadonnées-en-tête"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Métadonnées, en tête</h5>
 <p>Les fichiers en <em>texte brut</em> sont lisible par un simple éditeur de text. Dendron y accole des <strong>métadonnées</strong> : un identifiant unique permettant la création de <strong>liens uniques</strong> (<em>hash</em>), les dates de création et de mise à jour, une description, etc. </p>
-<p>{ Ces informations-paramètres sont inscrits dans l'en-tête du fichier qu'on appelle <em>frontmatter</em> (<em>matière en tête</em>) ou dans un fichier .yml distinct }</p>
+<p>{ Ces informations-paramètres sont inscrits dans l'en-tête du fichier qu'on appelle <em>frontmatter</em> (<em>"matière en tête"</em>) ou dans un fichier .yml distinct }</p>
 <h3 id="construit-localement-publié-facilement"><a aria-hidden="true" class="anchor-heading" href="#construit-localement-publié-facilement"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Construit localement, publié facilement</h3>
 <p>Dendron me permet de de mettre facilement mon travail de recherche en ligne { sur une page web construite sans #base-de-données externe (ce qui accélère le chargement et rend l'intégralité des notes accessibles en brut (fichiers eux-même, <em>markdown</em>)). Le tout est orienté <em>local</em>, c'est à dire que je garde la main sur mes fichiers qui ne sont pas édités directement en ligne, autrement dit sur un <em>cloud</em>. }</p>
 <h4 id="sauvegardes-suivi-de-versions-avec-git"><a aria-hidden="true" class="anchor-heading" href="#sauvegardes-suivi-de-versions-avec-git"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sauvegardes, suivi de versions avec git</h4>
@@ -261,8 +267,10 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <p><a href="https://larsjung.de/pagemap/">https://larsjung.de/pagemap/</a></p>
 </blockquote>
 </li>
+<li>
+<p>Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps)</p>
+</li>
 </ul>
-<p>ji:grinning-face</p>
 <h3 id="travail-en-cours-de-formation"><a aria-hidden="true" class="anchor-heading" href="#travail-en-cours-de-formation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Travail en cours de formation</h3>
 <p>NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (<em>Zettelkasten</em>) que technique (<em>Github</em>) que je maîtrise partiellement. </p>
 <blockquote>
@@ -275,7 +283,8 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <hr>
 <h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
 <ul>
-<li><a href="https://bonnebulle.github.io/dendron/notes/213db94c-209c-4069-a1cb-af5fd7ba60d0.html">état_des_darknets</a></li>
+<li><a href="https://bonnebulle.github.io/dendron/notes/68d19dc8-0c01-4c8e-a2b6-3f96fdf5164a.html">Introduction</a></li>
+<li><a href="https://bonnebulle.github.io/dendron/notes/213db94c-209c-4069-a1cb-af5fd7ba60d0.html">Darknets ?</a></li>
 </ul><span id="navId" data="README"></span>
 
                 

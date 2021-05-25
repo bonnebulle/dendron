@@ -1,11 +1,13 @@
 ---
 id: b920f3fc-8d74-493c-a86b-602d9676320d
-title: projet_volontés
-desc: ''
-updated: 1621842685952
+title: Volontés
+desc: "Texte fleuve sur un ton plus personnel, recherche plus subjective, tentative d'explicitation d'un devenir artiste_chercheur"
+updated: 1621931866944
 created: 1621840952644
 ---
-<!-- @ts-ignore -->
+>>>>> Intention générale :    
+>>>>> Texte fleuve sur un ton plus personnel, recherche plus subjective, tentative d'explicitation d'un devenir artiste_chercheur.     
+>>>>> TODO: Non (re)relu, non titré synthétisé
 
 J'ai toujours aimé écrire.
 D'abord comme pratique introspective, comme moyen d'explication, comme support à la pensée. Mais aussi pour le plaisir aussi, la fiction, l'intensification des imaginaires, le support à la rêverie, aux colères, au doute surtout.   

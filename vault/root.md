@@ -1,8 +1,8 @@
 ---
 id: root
 title: Racine
-desc: Art de la rebellion en ligne
-updated: 1621865039944
+desc: Art de la rébellion en ligne
+updated: 1621929532408
 created: 1595961348801
 stub: true
 nav_order: 0

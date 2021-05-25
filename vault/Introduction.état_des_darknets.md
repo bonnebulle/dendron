@@ -1,13 +1,14 @@
 ---
 id: 213db94c-209c-4069-a1cb-af5fd7ba60d0
-title: état_des_darknets
-desc: ''
-updated: 1621842915014
+title: 'Darknets ?'
+desc: 'Plusieurs récits, thèses autour de cet inconnu relatif'
+updated: 1621929550367
 created: 1621840641323
 ---
 
-
 > Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
+
+>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.diciplines]] ?!
 
 ## Sujet, discipline, motivations
 

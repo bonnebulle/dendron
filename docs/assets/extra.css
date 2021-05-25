@@ -1,4 +1,4 @@
-/* EXTRAAAA */
+/* EXTRA in dev build site folder (or not or not) */
 
 html,
 html body {
@@ -80,6 +80,8 @@ a:visited, a:visited > * {
 .main-content .breadcrumb-nav-list-item a:visited {
     color: var(--main-links_alt) !important;
 }
+.main-content a:hover,
+.main-content a:hover > *,
 li.nav-list-item a:hover,
 li.nav-list-item a:hover > * {
     color: #7cda88 !important;
@@ -92,7 +94,7 @@ li.nav-list-item a:hover > * {
 .side-bar a,
 .main-content h2#children,
 .main-content h2#backlinks,
-.main-content a[href*="bonnebulle.github.io"],
+.main-content a[href*="bonnebulle"],
 .main-content a[href*="localhost"] {
     color: var(--main-dend_links)!important;
 }
@@ -179,6 +181,13 @@ margin-bottom: 20px !important;
     font-weight: 600;
 }
 
+html body  a[data-original-title="This page has not yet sprouted"] {
+    text-decoration: line-through !important;
+}
+html body  .popover-body,
+html body  .popover-header:is(h1, h2, h3, h4, h5, h6) {
+    color: #212529;
+}
 
 .page__inner-wrap * {
     font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -206,22 +215,53 @@ strong {
 }
 .page__inner-wrap blockquote em {        font-style: italic!important;}
 
-.main-content blockquote blockquote, .main-content blockquote blockquote * {
+/* 2 */
+.main-content blockquote blockquote, 
+.main-content blockquote blockquote * {
     color: #78c3c0 !important;
     /* opacity: 0.85; */
 }
+/* 3 */
 .main-content blockquote blockquote blockquote,
 .main-content blockquote blockquote blockquote * {
     color: #62b3ac !important;
     /* opacity: 0.7; */
     font-weight: 200;
 }
+/* 4 */
 .main-content blockquote blockquote blockquote blockquote,
 .main-content blockquote blockquote blockquote blockquote * {
     color: #4f8b86 !important;
     /* opacity: 0.7; */
     font-weight: 200;
 }
+
+
+.main-content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
+    color: #e6e6e6 !important;
+    color: #ececec !important;
+    font-weight: 620;
+}
+
+
+/* Comment dendron 5 */
+.main-content blockquote blockquote blockquote blockquote blockquote,
+.main-content blockquote blockquote blockquote blockquote blockquote * {
+    color: #85ab8a !important;
+    /* opacity: 0.7; */
+    font-weight: 300;
+    font-style: italic !important
+}
+
+
+.main-content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote > blockquote > blockquote > blockquote > blockquote > * {
+    color: #8dd697 !important;
+    /* opacity: 0.7; */
+    font-weight: 700;
+    font-style: italic !important;
+}
+
+
 .page__inner-wrap blockquote strong {
     color: #80fbf0 !important;
 }
@@ -345,12 +385,6 @@ meta[content="Racine"] + meta + meta + div > section > h1:first-child, h1#racine
 .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child:first-letter {
     text-transform: capitalize;
 } 
-
-.main-content .page__content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote *{
-    color: #e6e6e6 !important;
-    color: #ececec !important;
-    font-weight: 620;
-}
 
 .main-content hr + :is(h2,h3,h4,h5,h6) {
     margin-top: -20px;
@@ -533,8 +567,17 @@ font-size: 14px !important;
         outline: 1px solid #444 !important;
         outline-offset: -2px;
     }
-    a:focus {
-        outline: 1px solid #444 !important;
+
+    .main-content a[href*="bonnebulle"]:focus, 
+    .main-content a[href*="localhost"]:focus,
+    #site-nav a:not(.nav-list-expander):focus, 
+    .side-bar a:not(.nav-list-expander):focus, 
+    html body a:not(.nav-list-expander):focus {
+        outline: 1px solid #759882 !important;
+    outline-offset: -1px;
+    background: #759882 !important;
+    color: #000 !important;
+    text-decoration: none !important;
     }
     .nav-list a.nav-list-expander:focus {
         outline: none !important;
@@ -619,23 +662,52 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li a:visited {
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] {
-    margin-top: -5px;
+    margin-top: -5px !important;
+    margin-bottom: 5px;
 }
-
 html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-1 {
     padding-left: 0;
-    margin-top: 23px;
+    margin-top: 23px !important;
+    margin-bottom: 0px;
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar ul li:is(.ANCHOR-1):first-child {
     margin-top: 3px !important; 
 }
-
-html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-4,
-html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-5{
-    margin-top: -7px;
-    font-size: 1em
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-2{
+    margin-top: 0px !important;
 }
+html body .table-of-contents-sidebar-fixed-sidebar ul li:is(.ANCHOR-1, .ANCHOR-2, .ANCHOR-3) {
+    margin-bottom: -3px !important;
+}
+
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-2 + li.ANCHOR-2{
+    margin-top: -3px !important;
+}
+/* html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-2 + li.ANCHOR-2{
+    margin-top: -4px !important;
+} */
+
+/* html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-3{
+    margin-top: -4px !important;
+    font-size: 1em  !important;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-4{
+    margin-top: -5px !important;
+    font-size: 1em  !important;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-5{
+    margin-top: -5px !important;
+    font-size: 1em  !important;
+} */
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li:is(.ANCHOR-3, .ANCHOR-4, .ANCHOR-5, .ANCHOR-6) {
+    margin-top: -5px !important;
+    font-size: 1em  !important;
+    margin-bottom: -3px !important;
+}
+
 
 html body .table-of-contents-sidebar-fixed-sidebar .copyright a:link,
 html body .table-of-contents-sidebar-fixed-sidebar ul li a {
@@ -695,4 +767,11 @@ color: #79eb93;}
 .main-content code {
     padding: 13px 20px 16px 24px;
     background: #1a191d;
+}
+
+
+html body .main-content .page__content *:is(h1, h2, h3, h4, h5, h6):first-letter,
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"],
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:first-letter {
+    text-transform: capitalize;
 }

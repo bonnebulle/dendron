@@ -229,7 +229,7 @@
             "iconColor": "#FFF",
             "statusBar": {
                 "alignment": "left",
-                "text": "DPrev",
+                "text": "",
                 "tooltip": "DBUILD dendron in dev (preview)",
                 "color": "#96D0EB"
             }
@@ -241,12 +241,12 @@
             "iconColor": "#FFF",
             "statusBar": {
                 "alignment": "left",
-                "text": "DBUILD",
+                "text": "DB",
                 "tooltip": "DBUILD dendron in dev (preview)",
                 "color": "#96D0EB"
             },
             "args": {
-                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'DBUILD dev' 'BKPs depuis BUILD édité en live' && echo && echo && echo 'DBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md && sudo cp /home/pi/.config/VSCodium/User/settings.json /home/pi/Dendron/@Config_vsc/ && sudo cp /home/pi/.config/VSCodium/User/keybindings.json /home/pi/Dendron/@Config_vsc/ \r echo '---' && notify-send-all -t 4000 -u low '😜 DBUILD dev' 'Gooo' && echo \" \n\nUSING not SUDO -DEV\n\nand yarn\n\nDBUILD -DEV Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && yarn dendron-cli buildSiteV2 --wsRoot .  --stage dev && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 8000 -u normal 'DBUILD dev' 'OK' && echo && echo && echo '😜 DBUILD dev OK\n' && echo &&  $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'DBUILD dev' 'BKPs depuis BUILD édité en live' && echo && echo && echo 'DBUILD' && sudo sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh \r echo '---' && notify-send-all -t 4000 -u low '😜 DBUILD dev' 'Gooo' && echo \" \n\nUSING not SUDO -DEV\n\nand yarn\n\nDBUILD -DEV Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && yarn dendron-cli buildSiteV2 --wsRoot .  --stage dev && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 8000 -u normal 'DBUILD dev' 'OK' && echo && echo && echo '😜 DBUILD dev OK\n' && echo &&  $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
             }
         },
         // NB:HELLO
@@ -256,12 +256,27 @@
             "iconColor": "#FFF",
             "statusBar": {
                 "alignment": "left",
-                "text": "BBUILD",
+                "text": "BB",
                 "tooltip": "BUILD dendron",
                 "color": "aqua"
             },
             "args": { 
-                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BBUILD prod' 'BKPs depuis BBUILD édité en live' && echo && echo && echo 'BBUILD' && mv /home/pi/Dendron/vault/assets/extra.css /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra.css && cp /home/pi/Dendron/build/site/assets/extra.css /home/pi/Dendron/vault/assets/extra.css && mv /home/pi/Dendron/README.md /home/pi/Dendron/bkp/README.md && cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md &&  && sudo cp /home/pi/.config/VSCodium/User/settings.json /home/pi/Dendron/@Config_vsc/ && sudo cp /home/pi/.config/VSCodium/User/keybindings.json /home/pi/Dendron/@Config_vsc/ \r echo '---' && notify-send-all -t 4000 -u low '😜 BBUILD P R O D' 'Gooo' && echo \" \n\nUSING SUDO\n\nand yarn\n\nBUILD Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && sudo yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BUILD P R O D' && echo && echo && echo 'ji- BBUILD P R O D\n\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r \r"
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BBUILD prod' 'BKPs depuis BBUILD édité en live' && echo && echo && echo 'BBUILD' && sudo sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh \r echo '---' && notify-send-all -t 4000 -u low '😜 BBUILD P R O D' 'Gooo' && echo \" \n\nUSING SUDO\n\nand yarn\n\nBUILD Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && sudo yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BUILD P R O D' && echo && echo && echo 'ji- BBUILD P R O D\n\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r \r"
+            }
+        },
+        // NB:HELLO
+        "Terminal: BKP": {
+            "command": "workbench.action.terminal.sendSequence",
+            "icon": "getting-started-setup",
+            "iconColor": "yellowgreen",
+            "statusBar": {
+                "alignment": "left",
+                "text": "BKP",
+                "tooltip": "BKP DENDRON",
+                "color": "yellowgreen"
+            },
+            "args": {
+                "text": "echo \"\n\nBKP quickly\n\n ... in 5 sec ... \n\n\" && sleep 5 && sudo /bin/sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh\r"
             }
         },
         // NB:HELLO
@@ -271,7 +286,7 @@
             "iconColor": "gold",
             "statusBar": {
                 "alignment": "left",
-                "text": "PUSH",
+                "text": "UP",
                 "tooltip": "PUSH DENDRON",
                 "color": "gold"
             },
@@ -286,7 +301,7 @@
             "iconColor": "#FFF",
             "statusBar": {
                 "alignment": "left",
-                "text": "THEME",
+                "text": "",
                 "tooltip": "Swwwwitch",
                 "color": "pink"
             },
