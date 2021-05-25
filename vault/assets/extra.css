@@ -539,9 +539,10 @@ font-size: 14px !important;
 
     ul.nav-list li.nav-list-item ul.nav-list {
         margin-top: -5px;
-    } 
+    }
+
     ul.nav-list li.nav-list-item.active ul.nav-list {
-        margin-bottom: 10px;
+        padding-bottom: 10px;
         padding-left: 0px;
     }
     ul.nav-list li.nav-list-item.active ul.nav-list li a {
@@ -558,9 +559,21 @@ font-size: 14px !important;
         margin-left:  0rem !important;
     }
 
+
+    html body ul.nav-list li.nav-list-item.active {
+        background: #252329 !important;
+    }
+    ul.nav-list li.nav-list-item.active ul.nav-list,
+    ul.nav-list li.nav-list-item a.nav-list-link.active ul.nav-list {
+        background: #1f1e23;
+    } 
+
+
     .nav-list .nav-list-item .nav-list-expander:hover {
         background:none !important;
     }
+
+    
     a:active,
     a:focus,
     .nav-list a:focus {

@@ -291,7 +291,7 @@
                 "color": "gold"
             },
             "args": {
-                "text": "echo \"\n\nPUSH quickly\n\n ... in 5 sec ... \n\n\" && sleep 5 && sudo /bin/sh /home/pi/Dendron/@Notes_instructions/git_push.sh\r"
+                "text": "echo \"\n\nPUSH quickly\n\n ... in 5 sec ... \n\n\" && sleep 5 && sudo sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh && sudo /bin/sh /home/pi/Dendron/@Notes_instructions/git_push.sh\r"
             }
         },
         // NB:HELLO
