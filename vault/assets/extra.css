@@ -194,12 +194,13 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
 .page__inner-wrap * {
     line-height: 1.9em !important;
     line-height: 1.82em !important;
+    line-height: 1.65em !important;
     font-weight: 400;
     color: #d6d4d4;
     color: #e6e6e6;
     font-family: Open sans;
         font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-        font-size: 18px;
+        font-size: 18.4px;
     }
 .page__inner-wrap ul,
 .page__inner-wrap ol {
