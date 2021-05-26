@@ -301,7 +301,7 @@ margin-top: 0px !important;
 .main-content blockquote blockquote blockquote blockquote blockquote * {
     color: #85ab8a !important;
     font-weight: 400;
-    font-style:italic;
+    /* font-style:italic; */
 }
 
 
@@ -671,13 +671,18 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
     }
 
     ul.nav-list li.nav-list-item.active ul.nav-list {
-        padding-bottom: 10px;
+        padding-bottom: 3px;
         padding-left: 0px;
     }
     ul.nav-list li.nav-list-item.active ul.nav-list li a {
         padding: 8px 1rem 8px 0.8rem !important;
         font-size: 13px;
         line-height: 8px;
+    }
+
+    .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
+        margin-left: 5px !important;
+        padding-left: 12px !important;
     }
     .main-content :is(h1, h2, h3, h4, h5, h6):first-letter,
     ul.nav-list li.nav-list-item.active ul.nav-list li a:first-letter {
@@ -712,12 +717,12 @@ padding-bottom: 1px;
     ul.nav-list li.nav-list-item.active ul.nav-list::before {
         content: "";
         display: block;
-        height: calc(100% - 43px);
+        height: calc(100% - 35px);
         width: 1px;
         background: #2c2b33;
         position: absolute;
-        left: 30px;
-        margin-top: 4px;
+        left: 32px;
+        margin-top: 3px;
     }
 
     ul.nav-list li.nav-list-item ul.nav-list {
@@ -813,7 +818,7 @@ padding-bottom: 1px;
     .nav-list .nav-list-item.active > .nav-list-expander svg {
         transform: rotate(90deg) translateX(-1px) translateY(-2px);
         transform:rotate(90deg) translateX(4px) translateY(-1px);
-         transform: rotate(90deg) translateX(-3px) translateY(-5px);
+         transform: rotate(90deg) translateX(-3px) translateY(-4px);
     }
     .nav-list .nav-list-item .nav-list-expander svg {
         transform: rotate(0deg) translateX(0px) translateY(-2px);

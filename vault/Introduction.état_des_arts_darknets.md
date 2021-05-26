@@ -2,7 +2,7 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: ''
-updated: 1622045623526
+updated: 1622046951372
 created: 1622043691067
 ---
 
@@ -68,7 +68,7 @@ Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès 
 
 >>>>> #### TODO: corpus d'œuvres et expositions
 
-## conclusion : plusieurs thèses
+## Conclusion : plusieurs thèses
 Plusieurs façons de faire le récit de ces pratiques, de les raconter, de prendre part à ces pratiques ou de les rejeter du champ d'action commun (préférence répressive ou laxiste). 
 Face à sujet produisant des pratiques socialement marginales il est **normal** d'avoir des points de vu contrastés, d'y retrouver un fort antagonisme. 
 Pourtant ces thèses apportent une complexité au sujet de ces réseaux.
