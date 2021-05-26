@@ -2,7 +2,7 @@
 id: b920f3fc-8d74-493c-a86b-602d9676320d
 title: Volontés
 desc: "Texte fleuve sur un ton plus personnel, recherche plus subjective, tentative d'explicitation d'un devenir artiste_chercheur"
-updated: 1621931866944
+updated: 1622038838889
 created: 1621840952644
 ---
 >>>>> Intention générale :    
@@ -21,11 +21,11 @@ La recherche du bon outil bien affûté, libre, qui ne se retourne pas contre mo
 
 D'autres écritures il ya dans ma vie la cuisine, le trouble flou des sensations qui chatoient les subjectivités, rend incertain les origines du fait d'aimer. Bien que souvent dans ma bulle et dans mes pensées tendu, j'envie les moments de performativité autour de communications-gesticulées (mais justes) que je soigne toujours beaucoup.
 
-Darknet et fromage
-Penser l'indiscipline
-Habitabilité des mondes cartographiques
-Kabane, une université de côté 
-[[]]
+	Darknet et fromage    
+	Penser l'indiscipline    
+	Habitabilité des mondes cartographiques    
+	Kabane, une université de côté     
+
 J'aime varier les formes et les supports, trouver le crois un juste milieux entre confort de ce que je sais et la virtualité de la recherche, la potentialité d'une découverte en éclosion. (.) Une vulnérabilité humaine très importante pour moi et par laquelle je milite si je dois militer quelque part. C'est pour moi la condition de la rencontre d'avec l'Autre par ce commun que nous ignorons encore tout deux.
 
 Donner cours apprend bien ce régime entre retransmission de savoirs certains et la création-recherche. Le vide sous les pieds, le vif sursaut d'une idée surgissantE.

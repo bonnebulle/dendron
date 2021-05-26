@@ -1,14 +1,15 @@
 ---
-id: 213db94c-209c-4069-a1cb-af5fd7ba60d0
-title: 'Darknets ?'
-desc: 'Plusieurs récits, thèses autour de cet inconnu relatif'
-updated: 1621949297823
-created: 1621840641323
+id: 05148060-0f18-44e9-84ea-4b6b3891358e
+title: Darknets
+desc: ''
+updated: 1622045623526
+created: 1622043691067
 ---
 
+Sujet.disciplines
 > Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
 
->>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.diciplines]] ?!
+>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] ?!
 
 ## Sujet, discipline, motivations
 
@@ -34,7 +35,7 @@ Il faut aussi compter une littérature opposée aux moyens de défense numériqu
 On y trouve souvent un discours de crainte quant à la perte de terrain de l'État comme garant de l'ordre. 
 
 #### Fuite-perte de données
-Une inquiétude récurante autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalistes, mais transfert d'informations et objets culturels  *piratés* } et autres activités criminelles qui y font jour serviront alors d'épouvantail.
+Une inquiétude réccurante autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalisés, mais transfert d'informations et objets culturels  *piratés* } et autres activités criminelles qui y font jour serviront alors d'épouvantail.
 
 > L'une des craintes originelle à l'endroit des darknets restent la fuite de données ( transmises à des organes journalistiques ou d'information tel **Wikileaks** ou encore par la concurrence ). Une matière numérique qui rapporte et qui s'échange effectivement sur des réseaux protégeant les transactions entre inconnus.
 
@@ -330,12 +331,8 @@ En allant explorer les banlieues des réseaux je pensais naïvement rencontrer c
 
 Les profondeurs du web, le *deep-web* fait fantasmer cette part manquante ou résiduel du savoir humain mis en réseau. Un autre refoulé, celui du non accès des logiciels d'indexation à certaines zones grises du web. Un manque à gagner, un gisement...
 
-> là aussi, un réservoir à des mythologies contemporaines, celui de la clairvoyance par les données comme prisme du réel nouvellement gouvernable par les valeurs numériques.
-
->> Avec peut-être l'espoir d'un meilleur diagnostique des risques et spéculations.
-
-
 Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.
 
 [[frags.root_intro]]    
 [[README]]
+

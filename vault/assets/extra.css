@@ -274,6 +274,7 @@ blockquote,
     /* opacity: 0.7; */
     font-weight: 200;
 }
+
 /* 4 */
 .main-content blockquote blockquote blockquote blockquote,
 .main-content blockquote blockquote blockquote blockquote *:not(a) {
@@ -301,6 +302,20 @@ margin-top: 0px !important;
     color: #85ab8a !important;
     font-weight: 400;
     font-style:italic;
+}
+
+
+
+.main-content blockquote > blockquote > blockquote a,
+.main-content blockquote > blockquote > blockquote > blockquote a {
+    filter: brightness(0.6);
+}
+.main-content blockquote > blockquote > blockquote a:hover,
+.main-content blockquote > blockquote > blockquote > blockquote a:hover {
+    filter: brightness(1);
+}
+.main-content blockquote > blockquote > blockquote > blockquote > blockquote a {
+    filter: brightness(1);
 }
 
 .main-content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote > blockquote > blockquote > blockquote > blockquote > * {
@@ -539,7 +554,7 @@ h2#parties-suivantes:before {
     display: block;
     height: 1px;
     width: 24px;
-    background: #3d3c47;
+    background: #2c2b33;
     position: absolute;
     left: -31px;
     margin-top: 11px;
@@ -655,23 +670,18 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
         padding-left: 1.5rem;
     }
 
-    ul.nav-list li.nav-list-item ul.nav-list {
-        margin-top: -1px;
-    }
-
     ul.nav-list li.nav-list-item.active ul.nav-list {
         padding-bottom: 10px;
         padding-left: 0px;
     }
     ul.nav-list li.nav-list-item.active ul.nav-list li a {
-        padding: 10px 1rem 7px 0.8rem !important;
-        font-size: 15px;
-        line-height: 10px;
-        line-height: 11px;
+        padding: 8px 1rem 8px 0.8rem !important;
+        font-size: 13px;
+        line-height: 8px;
     }
-
+    .main-content :is(h1, h2, h3, h4, h5, h6):first-letter,
     ul.nav-list li.nav-list-item.active ul.nav-list li a:first-letter {
-        text-transform: capitalize;
+        text-transform: capitalize !important;
     }
     .nav-list .nav-list-item ul.nav-list .nav-list-item:first-child {
         padding-top: 0px;
@@ -680,13 +690,17 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
         min-height: 1.4rem;
         line-height: 1.6rem;
         padding-right: 1rem;
+        padding-top: 1px;
+padding-bottom: 1px;
     }
+
+
     .nav-list .nav-list-item .nav-list-link,
     .site-title {
         padding-left: 1.7rem !important;
         margin-left:  0rem !important;
+        margin-left:  3px !important;
     }
-
 /* 
     html body ul.nav-list li.nav-list-item.active {
         background: #252329 !important;
@@ -695,22 +709,28 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
     ul.nav-list li.nav-list-item a.nav-list-link.active ul.nav-list {
         background: #1f1e23;
     }  */
-    ul.nav-list li.nav-list-item.active ul.nav-list:before {
+    ul.nav-list li.nav-list-item.active ul.nav-list::before {
         content: "";
-    display: block;
-    height: calc(100% - 44px);
-    width: 1px;
-    background: #3d3c47;
-    position: absolute;
-    left: 25px;
-    margin-top: 0px;
+        display: block;
+        height: calc(100% - 43px);
+        width: 1px;
+        background: #2c2b33;
+        position: absolute;
+        left: 30px;
+        margin-top: 4px;
     }
+
+    ul.nav-list li.nav-list-item ul.nav-list {
+        margin-top: -2px;
+    }
+
+
     ul.nav-list li.nav-list-item.active > .nav-list .nav-list-item:last-child:after {
         /* content: "";
         display: block;
         height: 1px;
         width: 25px;
-        background: #3d3c47;
+        background: #2c2b33;
         position: absolute;
         left: 29px;
         margin-top: 3px; */
@@ -727,7 +747,7 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
     } */
 
     ul.nav-list > li.nav-list-item.active > ul.nav-list {
-        /* border-top: 1px solid #3d3c47 !important; */
+        /* border-top: 1px solid #2c2b33 !important; */
         /* padding-bottom: 2px !important; */
     }
     /* .nav-list .nav-list-item > .nav-list {
@@ -773,7 +793,8 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
    a.anchor-heading:focus,
    a.anchor-heading:hover,
     html body .nav-list-expander:focus,
-    .nav-list a.nav-list-expander:focus {
+    .nav-list a.nav-list-expander:focus,
+    html body .nav-list-expander:active {
         outline: none !important;
         outline-offset: -2px;
         background: none !important;
@@ -791,9 +812,13 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
 
     .nav-list .nav-list-item.active > .nav-list-expander svg {
         transform: rotate(90deg) translateX(-1px) translateY(-2px);
+        transform:rotate(90deg) translateX(4px) translateY(-1px);
+         transform: rotate(90deg) translateX(-3px) translateY(-5px);
     }
     .nav-list .nav-list-item .nav-list-expander svg {
         transform: rotate(0deg) translateX(0px) translateY(-2px);
+        transform:rotate(0deg) translateX(4px) translateY(-1px);
+         transform: rotate(0deg) translateX(4px) translateY(-3px);
     }
 
 
