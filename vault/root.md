@@ -14,7 +14,6 @@ Une thèse que je voudrais atypique à la façon de ces réseaux et ceux.celles 
 
 [[README]] (au sujet des sources de ce site_projet, son fonctionnement)
 
-[[Introduction.volontés]] (texte plus personnel, intentionnel)
+[[Introduction.état_des_arts_darknets]] (C'est quoi un darknet ? Quel état de l'art ?)
 
-[[Introduction.état_des_arts_darknets]] (où mener recherche ? C'est quoi un darknet ?)
-
+[[Introduction.volontés]] (Texte fleuve, plus personnel, intentionnel)
