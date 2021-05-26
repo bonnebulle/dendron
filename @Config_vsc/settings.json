@@ -247,7 +247,7 @@
                 "color": "#96D0EB"
             },
             "args": {
-                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'DBUILD dev' 'BKPs depuis BUILD édité en live' && echo && echo && echo 'DBUILD' && sudo sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh \r echo '---' && notify-send-all -t 4000 -u low '😜 DBUILD dev' 'Gooo' && echo \" \n\nUSING not SUDO -DEV\n\nand yarn\n\nDBUILD -DEV Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && yarn dendron-cli buildSiteV2 --wsRoot .  --stage dev && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 8000 -u normal 'DBUILD dev' 'OK' && echo && echo && echo '😜 DBUILD dev OK\n' && echo &&  $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'DBUILD dev' 'BKPs depuis BUILD édité en live' && echo && echo && echo 'DBUILD' && sudo sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh \r echo '---' && notify-send-all -t 4000 -u low '😜 DBUILD dev' 'Gooo' && echo \" \n\nUSING not SUDO -DEV\n\nand yarn\n\nDBUILD -DEV Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && yarn dendron-cli buildSiteV2 --wsRoot .  --stage dev && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 8000 -u normal 'DBUILD dev' 'OK' && echo && echo && echo '😜 DBUILD dev OK\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
             }
         },
         // NB:HELLO

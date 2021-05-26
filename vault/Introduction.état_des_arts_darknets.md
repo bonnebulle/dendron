@@ -2,11 +2,10 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: ''
-updated: 1622046951372
+updated: 1622049563236
 created: 1622043691067
 ---
 
-Sujet.disciplines
 > Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
 
 >>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] ?!
@@ -14,6 +13,14 @@ Sujet.disciplines
 ## Sujet, discipline, motivations
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
+
+
+
+
+
+
+
+
 
 # Littératures et état de l'art
 ### Informatique - technique
@@ -29,6 +36,7 @@ Leurs auteurs et autrices seront plus attaché.e.s à démystifier ces réseaux 
 
 ---
 
+
 ### Craintes du grand méchant Darknet
 Il faut aussi compter une littérature opposée aux moyens de défense numérique (ailleurs que dans les mains des entreprises-États). Elle sera souvent critique à leur endroit, méfiante et pointant du doigt les effets négatifs-dangereux de ces réseaux.
 
@@ -41,9 +49,13 @@ Une inquiétude réccurante autour des Internets et les activités illicites qui
 
 ---
 
+
+
 ### Pseudo-Science & Science-Fiction
 D'autres tendent vers la science fiction le roman policier.
 Les histoires sensationalistes occupent largement l'imaginaire de ces réseaux. On trouve de nombreuses références dans la culture populaire { des films, des jeux vidéo, des séries } qui mentionne couramment ces réseaux volontairement mal interprétés. Des œuvres-récits qui peuvent centrer toute leur intrigue d'épouvante autour des entités maléfiques imaginées sur les réseaux : des machines qui prendraient le pouvoir sur l'utilisateur.ice.
+
+
 
 ---
 
@@ -63,10 +75,16 @@ et qui y trouvent un dernier refuge en s'y copiant (*mirrors*).
 
 Les darknets et autres réseaux mal-indexés poussent à la curiosité : **à des pratiques exploratoires**.
 
+
+
+
 ### En arts ( installations, web_net-art, films )
 Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.
 
 >>>>> #### TODO: corpus d'œuvres et expositions
+
+
+
 
 ## Conclusion : plusieurs thèses
 Plusieurs façons de faire le récit de ces pratiques, de les raconter, de prendre part à ces pratiques ou de les rejeter du champ d'action commun (préférence répressive ou laxiste). 
@@ -75,6 +93,9 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.
 
 > La division est plus souvent politique. Ces outils-moyens posent la question des limites d'une gouvernance, les moyens de son autonomie. Et, *In fine*, les moyens dont chacun.e se dote pour accéder à ce qu'elle ou lui juge comme étant une "vie bonne".
 
+
+
+
 ### Des phénomènes déjà largement observés
 ##### Quoi faire d'autre et comment ?
 ##### Mon ambition
@@ -82,7 +103,12 @@ Ce sujet suscite déjà un fort attrait sur le marché du savoir et des connaiss
 
 J'ambitionne de faire le pont entre différents régimes de recherche à commencer par les pratiques artistiques qui s'accommodent bien de l'esprit d'indiscipline et de bidouillage qu'on connaît aux hackers ( informatiques ou d'autres branches-disciplines ). 
   
-[[frags.root_intro.idéologie_sub_pov]]
+~~[[frags.root_intro.idéologie_sub_pov]]~~
+
+
+
+
+
 
 
 
@@ -110,6 +136,7 @@ Une liberté d'expression, de conscience et d'organisation que {malheureusement}
 > [1 www] Une intervention souvent jugée illégitime, contraire aux principes fondateurs d'un web libéral prônant la liberté de circulation informationnelle.
 
 Une lutte infinie entre ceux qui attaquent-interdisent et ceux qui se défendent pour exister-persister semble ainsi se jouer. Une dualité qui fait facilement fantasmer deux camps : celui -du bien du mal, celui -des pirates contre l'Empire.
+
 
 
 
@@ -184,6 +211,10 @@ Des pratiques clandestines surtout pour les entreprises d'éspionage, d'intrusio
 ( et que les solutions de défense numériques, dont le chiffrage des données fait partie, inquiète-ralenti-empêche le travail ).
 
 
+
+
+
+
 ### La liberté d'expression oui, mais sous conditions
 
 	Sur *le* Darknet s'expose ce que nos sociétés ont banni (mais pas que), ce qui n'a plus de place publique.
@@ -194,61 +225,9 @@ Ainsi, { des communautés particulières, éloignées ou non spatialement } et d
 
 Criminalisées, contrevenant aux régimes de production et idéal contemporain, elles trouvent ailleurs des modalités de rencontre, d'expression, d'organisation. S'y inventent d'autres gouvernementalités, d'autres inter-médiations décentralisées ou autonomes : d'autres centralités du pouvoir partagé.
 
+>> S'y expriment aussi des propos insoutenables, interdits de publicité. Des pensées et pratiques interdites, refoulées de nos sociétés qui luttent contre leur propagation nocive (mais pour autant les instruisent, les expliquent, par des recherches en sciences sociales par exemple).    
 
-#### Ne pas laisser dire, éloignements culturels
-
-> Des voix, des discours qui portent atteinte à la dignité d'autrui ou tendent à faire accepter des transformations sociales qu'une tribune politique (ou toute publicité) pourrait rendre peu à peu acceptable. [ Je pense ici aux pratiques incestueuses, à la pédophilie ou toute autre modalité de pouvoir assujettissant ]. 
-
->> On parle de "pied dans la porte", de "pente glissante" ou de **fenêtre d'Overton** en théorie politique : le risque est qu'en laissant se propager des idées on laisse propager des actes. La crainte d'une **panique morale** qui prendrait de court la société { établie sur des valeurs-principes *à priori* communs }. 
-
->>> Une peur légitime face aux innovations technologiques et sociales (progressistes-modernistes) qui affaiblissent les normes-habitudes structurantes d'une époque, { créent des variations inouïes pour certains.certaines d'entre nous }. Des principes d'auto-conservation, de défense face aux intérêts contraires, aux régimes déviants.
-
->>> La crainte d'un *laisser faire* ou être qui produit des mises à distance automatiques sans discussion ou rencontre possible, sans société. Inconscient collectif, réflexe d'un refus de certains actes, phobies saines, sentiment d'un bon droit à ne pas discuter de tel ou tel comportement. 
-
->>> Dangerosité pour l'ordre moral personnel et collectif qui produit des anti-corps a-politiques : des sujets tacites, sans contradiction possible, comme si ces actes étaient ceux de la follies produite ex-nilo du monde social : renvoyées à la déviance de la cellule individuelle. 
-
-
-
-#### Censure : Silence, arme des forts
-
->>>> Du silence, de la honte, à la haine, du mépris, une curiosité interdite.
-
----
-
-+ Dans un sens le silence des victimes profite aux oppresseurs.   
-+ La censure et l'interdit qui mènent au silence des criminels ne règle pas le problème à la source mais évite la généralisation de leurs discours (banalisation).
-+ L'exclusion des champs des savoirs communs perpétue de fausses croyances, un flou moral auxquelles les sociétés-individus doivent faire face.
-
-Ambivalence du dehors_dedans de la censure selon d'où l'on parle :   fait d'empêcher-prévenir (intrusion), fait d'éloigner-garder secret (exclusion). Paradoxe de l'attaque_défense. #Point_de_vue
-
----
-
-**HP** Je fais l'hypothèse que ce qui est interdit et caché ne disparaît pas pour autant, que la censure ne répare pas, elle autorise. 
-
-**TH** Ce qui est interdit par les canaux principaux redouble d'ingéniosité pour subsister ou se trouve remplacé [ je pense ici aux pratiques de piratage ].
-
-
-
-#### Expliquer n'est pas excuser
-
-Je note une opposition d'un pouvoir conservateur répressif VS une charge commune-sociale des problèmes qui doivent être résolus. C'est la manière de contraindre le réel qui est différente. Celle d'un **autoritarisme**.
-
-**Idée que comprendre c'est déjà chercher à excuser** ( cf. discours de Nicolas Sarkozy, Manuel Valls, etc. ) qui ne comprennent pas la nécessité des sciences sociales : celle d'expliquer par la méthode la disfunction par sa singularité. De façon dissociée des croyances morales et à priori.
-
->> Peut-être un questionnement sur ma propre monstruosité, sur l'étrangeté digne de l'Autre ( construit autrement que moi, socio-culturellement situé ). 
->>> Non pas pour excuser mais pour expliquer les mécanismes à l'oeuvre, les recoins où se nichent le pouvoir, les motivations profondes, inuites, implicites de nos sociétés.
-
-Notes
-+ Faut-il exposer / documenter ce qui prend tend d'éfforts à rester dissimulé ? 
-+ L'enquête comme modalité de mise en existence, en réalité.
-+ L'exposition comme acte politique d'explicitation des moteurs invisibles, de la métaphysique générale, diffuse, élargie.
-+ Projet déconstructif, de la nuance, de la recherche plutôt que de la certitude.
-
-*Tous ces conflits rendus moraux relate la difficulté de vivre ensemble depuis nos divergences et dans un **monde mauvais**.*
-
-
-
-
+~~[[frags.root_intro.laisser_dire_liberté_monstres]]~~
 
 
 
@@ -307,6 +286,9 @@ Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le désir d'e
 
 
 
+
+
+
 # Économie, vie parallèle : radicalité disruptive
 
 L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.
@@ -333,6 +315,6 @@ Les profondeurs du web, le *deep-web* fait fantasmer cette part manquante ou ré
 
 Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.
 
-[[frags.root_intro]]    
+~~[[frags.root_intro]]~~    
 [[README]]
 

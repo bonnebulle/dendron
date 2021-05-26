@@ -399,7 +399,7 @@ html .page__inner-wrap section blockquote br {
 {
     margin-top: calc(1.7em / 2);
     padding-top: calc(1.7em / 2);
-        font-size: 28px !important; 
+        font-size: 26px !important; 
     margin-bottom: 5px; 
 }
 /* .main-content h4,
@@ -413,7 +413,7 @@ html .page__inner-wrap section blockquote br {
     .main-content h3 {
         margin-top: calc(1.4em / 2);
         padding-top: calc(1.4em / 2);
-        font-size: 25px !important;
+        font-size: 24px !important;
     }
 /* } */
 .main-content h4 {
@@ -431,7 +431,7 @@ html .page__inner-wrap section blockquote br {
 .main-content h6 {
     margin-top: calc(1em / 2);
     padding-top: calc(1em / 2);
-    font-size: 21px !important;
+    font-size: 20px !important;
     /* letter-spacing: 1px !important; */
     letter-spacing: normal !important;
 }
@@ -1017,4 +1017,14 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] {
     /* line-height: 1.5em !important; */
     /* display: inline; */
     /* word-wrap: pre; */
+}
+
+.page__inner-wrap del {
+    text-decoration-color: #18171b;
+    text-decoration-thickness: 5px;
+
+}
+.page__inner-wrap del:hover { text-decoration: none}
+.page__inner-wrap del a{
+background: none !important;
 }
