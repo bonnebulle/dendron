@@ -5,5 +5,5 @@ vault/docs/raw-assets/*
 bkp/*
 vault/.vscode/*
 ./~
-@Notes_instructions
-@Notes_instructions/Notes_build_prod_exec_preview.txt
+@Notes_instructions/*
+*.vscode-root
