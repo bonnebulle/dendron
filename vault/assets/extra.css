@@ -458,10 +458,10 @@ html .page__inner-wrap section blockquote br {
 /* .main-content h4, */
 .main-content h5,
 .main-content h6 {
-    margin-bottom: 5px !important;
+    margin-bottom: 6px !important;
     color: #d4d4d4 !important;
-    color: #fff !important;
-    font-weight: 580;
+    /* color: #fff !important; */
+    font-weight: 600;
 }
 
 .main-content *:is(h2, h3, h4, h5, h6)+*:is(h1, h2, h3, h4, h5, h6) {
