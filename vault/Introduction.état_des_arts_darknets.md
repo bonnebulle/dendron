@@ -315,6 +315,5 @@ Les profondeurs du web, le *deep-web* fait fantasmer cette part manquante ou ré
 
 Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.
 
-~~[[frags.root_intro]]~~    
 [[README]]
 

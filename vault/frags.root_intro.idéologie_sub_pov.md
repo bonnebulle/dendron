@@ -1,7 +1,11 @@
 ---
 id: a2c6904d-6d25-4800-814d-0beb98d9de69
-title: Idéologie_sub_pov
-desc: ''
+title: 'Idéologie, point de vu orienté'
+desc: >-
+  Idéologie piège à con.... faire comme si la politique était autre chose qu'une
+  activité propagande : sous-entendre un point de vu objectif
+  rationnel-objectif. Méfiance à l'égard de choses qui ne seraient des idées
+  sans reposer sur des fondements fiables ou majoritairement reconnus.
 updated: 1621454949984
 created: 1621454048797
 stub: true

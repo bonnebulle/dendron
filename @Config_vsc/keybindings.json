@@ -373,7 +373,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "shift+alt+enter",
+        "key": "ctrl+shift+enter",
         "command": "dendron.gotoNote",
         "when": "editorFocus"
     },
@@ -470,5 +470,10 @@
     {
         "key": "al+shift+n",
         "command": "vscodeMarkdownNotes.newNote",
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-dendron.createDailyJournalNote",
+        "when": "dendron:pluginActive"
     }
 ]
