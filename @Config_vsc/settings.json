@@ -480,7 +480,7 @@
         "editor.autoClosingOvertype": "never",
         "editor.formatOnPaste": false,
         "editor.formatOnSave": false,
-        "editor.formatOnType": false,
+        "editor.formatOnType": true,
         "resmon.show.battery": false,
         "editor.multiCursorModifier": "ctrlCmd"
     

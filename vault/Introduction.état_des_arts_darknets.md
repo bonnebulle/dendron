@@ -2,7 +2,7 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622049563236
+updated: 1622065385112
 created: 1622043691067
 ---    
        
@@ -269,9 +269,9 @@ On retrouve dans certaines pratiques artistiques qui emploient des protocoles at
 
 #### L'art de la fête
 
-Ielles ont en commun cette étrangeté sociale, celle d'une liberté de faire dans des temps dédiés pareils à la fête. Des temps à soi. D'une intériorité spéciale à laquelle on propose des objets-formes-activités qui paraissent parfois décorrélées-excentrées de l'agir quotidien-banal (qui finit par ne plus se saisir comme objet de croyances et de principes culturels agrégés).
+Ielles ont en commun cette étrangeté sociale, celle d'une liberté de faire dans des temps dédiés pareils à la fête. **Des temps à soi**. D'une intériorité spéciale à laquelle on propose des objets-formes-activités qui paraissent parfois décorrélées-excentrées de l'agir quotidien-banal (qui finit par ne plus se saisir comme objet de croyances et de principes culturels agrégés).
 
-Un art qui se déplie-performe-existe autour du scandal qui le médiatise, par la transgression. Une revendication pour le droit au mauvais goût, à un autre régime du *bien fait mal fait*, des codes. Des arts de la remise de la permission, du doute voire d'une certaine anarchie ontologique.
+Un art qui se déplie-performe-existe autour du scandal qui le médiatise, par la transgression. Une revendication pour le droit au **mauvais goût,** à un autre régime du *bien fait mal fait*, des codes. Des arts de la remise de la permission, du doute voire d'une certaine anarchie ontologique.
 
 > Mais c'est aussi que l'anonymat porte en lui le début d'une emancipation de soi ; celle d'une fête, d'une libération cathartique : celui de la puissance d'exister sans retenue ni jugement extérieur productiviste. Des à priori _hors du monde_.
 
