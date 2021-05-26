@@ -44,11 +44,13 @@
         "editor.quickSuggestionsDelay": 9000,
         "cSpell.spellCheckDelayMs": 400,
         "editor.minimap.showSlider": "always",
-        "dendron.copyNoteUrlRoot": "/vault/"
+        "dendron.copyNoteUrlRoot": "/vault/",
+        "cSpell.words": [
+            "updated"
+        ]
     },
     "extensions": {
         "recommendations": [
-            "dendron.dendron-markdown-preview-enhanced",
             "dendron.dendron-markdown-links",
             "github.github-vscode-theme",
             "ivangabriele.vscode-git-add-and-commit",

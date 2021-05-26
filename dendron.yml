@@ -8,7 +8,7 @@ noAutoCreateOnDefinition: true
 noLegacyNoteRef: true
 color_scheme: dark
 previewPort: 8999
-hierarchyDisplayTitle: "Déscendant(e)s"
+hierarchyDisplayTitle: "Parties suivantes"
 site:
     # hierarchyDisplayTitle: Enfants
     # assetsPrefix: dendron

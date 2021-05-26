@@ -14,7 +14,8 @@ html body {
 :root {
     --main_links_hover:#a8b2ff;
     --main-links_alt:#d6dbff;
-    --main-dend_links:#93df9c;
+    /* --main-dend_links:#93df9c; */
+    --main-dend_links:#7bbf83;
     --main-dend_links_hover:#4fff66;
 }
 
@@ -97,21 +98,22 @@ li.nav-list-item a:hover > * {
 #site-nav a,
 .side-bar a,
 .main-content h2#children,
-.main-content h2#déscendantes,
+.main-content h2#parties-suivantes,
 .main-content h2#backlinks,
 .main-content a[href*="bonnebulle"] *,
 .main-content a[href*="localhost"] *,
 .main-content a[href*="bonnebulle"],
-.main-content a[href*="localhost"] {
+.main-content a[href*="localhost"],
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"]:hover a  {
     color: var(--main-dend_links)!important;
 }
 .breadcrumb-nav-list-item a:hover,
 #site-nav a > *:hover,
 #site-nav a:hover,
 .side-bar a:hover,
-.main-content h2#children:hover,
-.main-content h2#déscendantes:hover,
-.main-content h2#backlinks:hover,
+/* .main-content h2#children:hover,
+.main-content h2#parties-suivantes:hover,
+.main-content h2#backlinks:hover, */
 .main-content a[href*="bonnebulle"]:hover > *,
 .main-content a[href*="localhost"]:hover > *,
 .main-content a[href*="bonnebulle"]:hover,
@@ -137,6 +139,7 @@ li.nav-list-item a.nav-list-link.active {
 
 
 
+html body .table-of-contents-sidebar-fixed-sidebar ul *, 
 .nav-list *,
 .nav-list .nav-list-item .nav-list-link:hover, 
 .nav-list .nav-list-item .nav-list-link.active {
@@ -150,6 +153,9 @@ li.nav-list-item a.nav-list-link.active {
     background: transparent !important;
     color: #FFF !important;
 }
+
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:hover,
+   html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:focus, 
 .nav-list .nav-list-item .nav-list-link:hover, 
 .nav-list .nav-list-item .nav-list-link.active,
 .nav-list .nav-list .nav-list-item a:hover {
@@ -186,6 +192,8 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
     font-family: Open sans;
     font-size: 16px;
 }
+
+
 .page__inner-wrap ul,
 .page__inner-wrap ol {
     margin-top: 0px !important;
@@ -224,7 +232,7 @@ html body  .popover-header:is(h1, h2, h3, h4, h5, h6) {
 
 .page__inner-wrap * {
     font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size: 19.5px;
+    font-size: 20px;
 }
 .page__inner-wrap b,
 .page__inner-wrap strong {
@@ -276,15 +284,18 @@ strong {
 }
 
 
+.main-content blockquote blockquote blockquote blockquote blockquote p,
+.main-content blockquote blockquote blockquote blockquote blockquote {
+margin-top: 0px !important;
+}
+
 /* Comment dendron 5 */
 .main-content blockquote blockquote blockquote blockquote blockquote,
 .main-content blockquote blockquote blockquote blockquote blockquote * {
     color: #85ab8a !important;
-    /* opacity: 0.7; */
-    font-weight: 300;
-    font-style: italic !important
+    font-weight: 400;
+    font-style:italic;
 }
-
 
 .main-content :is(h1, h2, h3, h4, h5, h6):first-child + blockquote > blockquote > blockquote > blockquote > blockquote > * {
     color: #8dd697 !important;
@@ -310,31 +321,45 @@ blockquote {
  margin-top: 0em !important;
 }
 
-p + blockquote { margin-top: -0.65em !important;}
+p + blockquote { margin-top: -0.6em !important;}
 blockquote p + blockquote {
-     margin-top: -0.45em !important;
+     margin-top: -0.6em !important;
 }
 blockquote + blockquote {
-    margin-top: -0.45em !important;
+    margin-top: 0.6em !important;
 }
 blockquote + blockquote > blockquote {
-    margin-top: -0.5em !important;
+    margin-top: -0em !important;
 }
 
 
-
+html .page__inner-wrap section blockquote br {
+    margin-bottom: 0.35em !important;
+    display: block;
+    height: 1px;
+    clear: both;
+    position: relative !important;
+    content: "";
+    width: 100%;
+    box-sizing: unset;
+} 
+/* html .page__inner-wrap section blockquote p {
+    margin-bottom: 0.5em !important;
+    line-height: 1.53em !important;
+} */
 .main-content h1,
 .main-content h2,
 .main-content h3,
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-    margin-bottom: 3px; 
+    margin-bottom: 5px; 
     margin-top: 1em; 
     text-transform: none !important;
     letter-spacing: normal !important;
     color: #FFF !important;
     line-height: 1.2em !important;
+    width: fit-content;
 }
 
 .main-content h1
@@ -350,8 +375,8 @@ blockquote + blockquote > blockquote {
 {
     margin-top: calc(1.7em / 2);
     padding-top: calc(1.7em / 2);
-        font-size: 26px !important; 
-    margin-bottom: 3px; 
+        font-size: 28px !important; 
+    margin-bottom: 5px; 
 }
 /* .main-content h4,
 .main-content h5,
@@ -364,14 +389,14 @@ blockquote + blockquote > blockquote {
     .main-content h3 {
         margin-top: calc(1.4em / 2);
         padding-top: calc(1.4em / 2);
-        font-size: 23px !important;
+        font-size: 25px !important;
     }
 /* } */
 .main-content h4 {
     margin-top: 1em;
     margin-top: calc(1.15em / 2);
     padding-top: calc(1.15em / 2);
-    font-size: 20px !important;
+    font-size: 22px !important;
     letter-spacing: 1px !important;
     letter-spacing: normal !important;
 
@@ -382,21 +407,25 @@ blockquote + blockquote > blockquote {
 .main-content h6 {
     margin-top: calc(1em / 2);
     padding-top: calc(1em / 2);
-    font-size: 17px !important;
+    font-size: 21px !important;
     /* letter-spacing: 1px !important; */
     letter-spacing: normal !important;
 }
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-    margin-bottom: 4px !important;
+    margin-bottom: 5px !important;
     color: #e4e3e3 !important;
 }
 .main-content :is(h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6)
  {
     margin-top: -5px !important;
+    padding-top: 6px !important;
 }
 
+h1 + :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: -10px !important;
+}
 
 
 .main-content h6 + h6 {
@@ -415,7 +444,7 @@ meta[content="Racine"] + meta + meta + div > section > h1:first-child, h1#racine
 }
 
 .main-content .page__content *:is(h1,h2,h3,h4,h5,h6):first-child:first-letter {
-    text-transform: capitalize;
+    text-transform: uppercase;
 } 
 
 .main-content hr + :is(h2,h3,h4,h5,h6) {
@@ -426,21 +455,27 @@ padding-top: 21px;
 nav.breadcrumb-nav {
     margin-left: -2rem;
     padding-left: 2rem;
-    border-bottom: 0.1px solid #33323a;
-    padding-bottom: 2px;
+    /* border-bottom: 0.1px solid #33323a; */
+    padding-bottom: 3px;
     width: calc(100% + 4rem);
     width: max-content;
     padding-right: 0.5rem;
-    margin-top: -25px;
+    margin-top: -24px;
     padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 nav.breadcrumb-nav a:not([class]) {background: none !important;}
-
+.page__inner-wrap p,
+.page__inner-wrap li,
+.page__inner-wrap blockquote * {
+    -webkit-font-smoothing: antialiased;
+}
 /* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
 .page__inner-wrap p {
     /* margin-left: 4px !important; */
+    
     margin-bottom: 0.65em;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-before: 3;
@@ -481,6 +516,7 @@ width: calc(100% + 10px) !important;
 .main-content .page__content ul li {
     margin: -0.25em 0;
     font-weight: 400;
+    line-height: 1.45em !important;
 }
 .main-content .page__content ul + hr {
     margin-top: 0px !important;
@@ -488,48 +524,77 @@ width: calc(100% + 10px) !important;
 
 
 
+h2#backlinks:before,
+h2#parties-suivantes:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 24px;
+    background: #3d3c47;
+    position: absolute;
+    left: -31px;
+    margin-top: 11px;
+}
+
 .main-content h2#children,
-.main-content h2#déscendantes,
+.main-content h2#parties-suivantes,
 .main-content h2#backlinks {
     margin-top: 0px !important;
     font-size: 20px !important;
-
+    width: fit-content;
     margin-bottom: -1px !important;
     padding-top: 0px;
 }
-
-.main-content h2#déscendantes + ol,
+/* .page__inner-wrap hr:last-of-type {
+    opacity: 0;
+} */
+.main-content h2#parties-suivantes + ol,
 .main-content h2#children + ol {
     margin-bottom: -0px;
 }
 
 
 .main-content h2#backlinks + ul li,
-.main-content h2#déscendantes + ol li,
+.main-content h2#parties-suivantes + ol li,
 .main-content h2#children + ol li {
-    margin-bottom: 6px !important;
-margin-top: 5px !important;
+    margin-bottom: 4px !important;
+    margin-top: 8px !important;
 }
 
 .main-content h2#backlinks + ul,
 .main-content h2#backlinks + ul *,
-.main-content h2#déscendantes + ol,
-.main-content h2#déscendantes + ol *,
-.main-content h2#children + ol,
+.main-content h2#parties-suivantes + ol,
+.main-content h2#parties-suivantes + ol *,
+.main-content h2#chi + ol,
 .main-content h2#children + ol * {
-    line-height: 18px !important;
-font-size: 14px !important;
+    line-height: 22px !important;
+font-size: 18px !important;
+ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
     
 }
 
-.main-content h2#déscendantes + ol > li::before,
+.main-content blockquote blockquote blockquote blockquote blockquote,
+.main-content blockquote blockquote blockquote blockquote blockquote *,
+.main-content a[href*="bonnebulle"], 
+.main-content a[href*="localhost"],
+.main-content h2#backlinks,
+.main-content h2#parties-suivantes,
+.main-content h2#children
+{
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+/* .main-content a[href*="bonnebulle"], 
+.main-content a[href*="localhost"] {
+
+} */
+.main-content h2#parties-suivantes + ol > li::before,
 .main-content h2#children + ol > li::before,
 .main-content h2#backlinks + ul > li::before {
     line-height: 11px !important;
     font-size: 10px !important;
 }
 
-.main-content h2#déscendantes + ol > li::before,
+.main-content h2#parties-suivantes + ol > li::before,
 .main-content h2#children + ol > li::before {
     position: relative;
     top: -1px;
@@ -537,12 +602,13 @@ font-size: 14px !important;
 .main-content h2#backlinks + ul {
     padding-left: 20px;
     margin-top: 0px !important;
+    margin-bottom: 5px;
 }
 .main-content h2#backlinks + ul > li {
     padding-left: 5px;
 }
 .main-content h2#backlinks + ul > li::before {
-    line-height: 16px !important;
+    line-height: 23px !important;
 }
 
 .site-footer {
@@ -581,7 +647,7 @@ font-size: 14px !important;
     }
 
     ul.nav-list li.nav-list-item ul.nav-list {
-        margin-top: -0px;
+        margin-top: -1px;
     }
 
     ul.nav-list li.nav-list-item.active ul.nav-list {
@@ -589,11 +655,21 @@ font-size: 14px !important;
         padding-left: 0px;
     }
     ul.nav-list li.nav-list-item.active ul.nav-list li a {
-        padding: 0rem 1rem 0 0.8rem !important;
+        padding: 10px 1rem 7px 0.8rem !important;
+        font-size: 15px;
+        line-height: 10px;
+        line-height: 11px;
+    }
+
+    ul.nav-list li.nav-list-item.active ul.nav-list li a:first-letter {
+        text-transform: capitalize;
+    }
+    .nav-list .nav-list-item ul.nav-list .nav-list-item:first-child {
+        padding-top: 0px;
     }
     .nav-list .nav-list-item .nav-list-link {
-        min-height: 1.7rem;
-        line-height: 1.7rem;
+        min-height: 1.4rem;
+        line-height: 1.6rem;
         padding-right: 1rem;
     }
     .nav-list .nav-list-item .nav-list-link,
@@ -612,23 +688,26 @@ font-size: 14px !important;
     }  */
     ul.nav-list li.nav-list-item.active ul.nav-list:before {
         content: "";
-        display: block;
-        height: calc(100% - 43px);
-        width: 1px;
-        background: #3d3c47;
-        position: absolute;
-        left: 29px;
-        margin-top: 1px;
+    display: block;
+    height: calc(100% - 44px);
+    width: 1px;
+    background: #3d3c47;
+    position: absolute;
+    left: 25px;
+    margin-top: 0px;
     }
     ul.nav-list li.nav-list-item.active > .nav-list .nav-list-item:last-child:after {
-        content: "";
+        /* content: "";
         display: block;
         height: 1px;
         width: 25px;
         background: #3d3c47;
         position: absolute;
         left: 29px;
-        margin-top: 3px;
+        margin-top: 3px; */
+    }
+    nav.breadcrumb-nav { 
+        border-bottom: 1px solid #303038;
     }
     /* .nav-list .nav-list-item > .nav-list {
         width: max-content;
@@ -639,7 +718,7 @@ font-size: 14px !important;
     } */
 
     ul.nav-list > li.nav-list-item.active > ul.nav-list {
-        border-top: 1px solid #3d3c47 !important;
+        /* border-top: 1px solid #3d3c47 !important; */
         /* padding-bottom: 2px !important; */
     }
     /* .nav-list .nav-list-item > .nav-list {
@@ -647,11 +726,9 @@ font-size: 14px !important;
     } */
 
     .nav-list .nav-list-item ul.nav-list .nav-list-item  {
-        padding-left: 30px !important;
+        padding-left: 26px !important;
     }
-    .nav-list .nav-list-item ul.nav-list .nav-list-item:first-child {
-        padding-top: 5px;
-    }
+ 
     .nav-list .nav-list-item .nav-list-expander:hover {
         background:none !important;
     }
@@ -680,18 +757,25 @@ font-size: 14px !important;
     .main-content a[href*="localhost"]:focus,
     #site-nav a:not(.nav-list-expander):focus, 
     .side-bar a:not(.nav-list-expander):focus, 
-    html body a:not(.nav-list-expander):focus {
+    html body a:not(.nav-list-expander):not(.anchor-heading):focus {
         outline: 1px solid #759882 !important;
     outline-offset: -1px;
     background: #759882 !important;
     color: #000 !important;
     text-decoration: none !important;
     }
+    html body a.anchor-heading:focus,
+   a.anchor-heading:focus,
+   a.anchor-heading:hover,
+    html body .nav-list-expander:focus,
     .nav-list a.nav-list-expander:focus {
         outline: none !important;
         outline-offset: -2px;
+        background: none !important;
     }
-
+    .main-content :is(h1,h2,h3,h4,h5,h6):target .anchor-heading svg {
+        visibility: visible;
+    }
     
     .nav-list .nav-list-item .nav-list-expander {
         height: 2rem;
@@ -701,10 +785,10 @@ font-size: 14px !important;
     }
 
     .nav-list .nav-list-item.active > .nav-list-expander svg {
-        transform: rotate(90deg) translateX(0px);
+        transform: rotate(90deg) translateX(-1px) translateY(-2px);
     }
     .nav-list .nav-list-item .nav-list-expander svg {
-        transform: rotate(0deg) translateX(0px);
+        transform: rotate(0deg) translateX(0px) translateY(-2px);
     }
 
 
@@ -713,6 +797,11 @@ font-size: 14px !important;
     .nav-list .nav-list-item {
         /* margin-bottom: 4px; */
         /* border-bottom: 0.1px solid #2d2d2d; */
+    }
+    .nav-list .nav-list-item#root a { /*first-child*/
+        padding-top: 7px !important;
+        padding-bottom: 4px !important;
+        line-height: 21px !important;
     }
     .nav-list .nav-list-item li {
         border-bottom: none;
@@ -769,9 +858,14 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li a:visited {
     color: #ebe9e9 !important;
 }
 
+html body .table-of-contents-sidebar-fixed-sidebar ul li a:not(.nav-list-expander):not(.anchor-heading):focus {
+    background: transparent !important;
+    outline: none !important;
+}
+
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] {
-    margin-top: -5px !important;
-    margin-bottom: 5px;
+    margin-top: 0px !important;
+    margin-bottom: 8px;
 }
 html body .table-of-contents-sidebar-fixed-sidebar ul li.ANCHOR-1 {
     padding-left: 0;
@@ -833,7 +927,7 @@ margin-top: -2px;
 }
 html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#backlinks"],
 html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#children"],
-html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#déscendantes"] {
+html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#parties-suivantes"] {
     margin-top: 20px !important;
 display: block !important;
 margin-left: -15px !important;
@@ -880,7 +974,12 @@ color: #79eb93;}
 
 
 html body .main-content .page__content *:is(h1, h2, h3, h4, h5, h6):first-letter,
-html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"],
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"]:first-letter,
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:first-letter {
-    text-transform: capitalize;
+    text-transform: uppercase;
+}
+html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] {
+    /* line-height: 1.5em !important; */
+    /* display: inline; */
+    /* word-wrap: pre; */
 }
