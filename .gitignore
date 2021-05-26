@@ -5,6 +5,7 @@ vault/docs/raw-assets/*
 bkp/*
 vault/.vscode/*
 ./~
+~
 @Notes_instructions/
 @Notes_instructions/*
 *.vscode-root
