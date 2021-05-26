@@ -1,14 +1,18 @@
 ---
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
-desc: ''
+desc: "État de l'art, littératures, thèses et récits sur les darknets"
 updated: 1622049563236
 created: 1622043691067
----
-
+---    
+       
 > Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
-
+    
 >>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] ?!
+
+
+
+
 
 ## Sujet, discipline, motivations
 

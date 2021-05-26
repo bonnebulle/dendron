@@ -6,7 +6,7 @@
     ],
     "settings": {
         "dendron.rootDir": ".",
-        "files.autoSave": "afterDelay",
+        "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
@@ -47,7 +47,8 @@
         "dendron.copyNoteUrlRoot": "/vault/",
         "cSpell.words": [
             "updated"
-        ]
+        ],
+        "files.autoSaveDelay": 10000
     },
     "extensions": {
         "recommendations": [

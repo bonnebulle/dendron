@@ -9,5 +9,8 @@ nav_order: 1
 
 Cette partie contient mes ébauches de projet, de mise en perspective de mes volontés de recherche.
 
->>>>> ( Les sous-parties_enfants sont indiqué.e.s en bas de page : cf. *Parties suivantes*  + les *Rétroliens*  (*Backlinks*)   
->>>>> . Plus d'informations au sujet de la navigation entre les pages_notes_parties : [[#Sources_Dendron|README]] )
+---
+
+>>>>> NB : Les sous-parties_enfants sont indiqué.e.s en bas de page : cf. *Parties suivantes*  + les *Rétroliens*  (*Backlinks*)   
+
+>>>>> Plus d'informations au sujet de la navigation entre les pages_notes (parties) : [[#Sources au sujet de Dendron|README]].
