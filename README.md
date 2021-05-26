@@ -2,17 +2,19 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1622048051399
+updated: 1622048130171
 created: 1595961348801
 nav_order: 10
 ---
 
 **Mise en place d'un système de notes par fiches avec Dendron**   
 
+Messages mix dédié à l'interface web + git <!--LOCAL_ONLY_LINE-->
+
 ---
 
 ### Consulter les pages    
-[https://bonnebulle.github.io/dendron/](https://bonnebulle.github.io/dendron/) (racine du site_projet)    <!--LOCAL_ONLY_LINE-->    
+[https://bonnebulle.github.io/dendron/](https://bonnebulle.github.io/dendron/) (racine du site_projet)    
 [https://bonnebulle.github.io/dendron/notes/README.html](https://bonnebulle.github.io/dendron/notes/README.html)    
 (cette note_page mise en forme en html)     
 
