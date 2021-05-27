@@ -1,10 +1,11 @@
 ---
 id: 68d19dc8-0c01-4c8e-a2b6-3f96fdf5164a
 title: Introduction
-desc: ''
+desc: null
 updated: 1622023279244
-created: 1621840558333
 nav_order: 1
+type: Journal
+modified: 2021-05-27T11:51:25+02:00
 ---
 
 Cette partie contient mes ébauches de projet, de mise en perspective de mes volontés de recherche.
