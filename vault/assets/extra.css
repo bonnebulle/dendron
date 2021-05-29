@@ -795,9 +795,9 @@ h2#parties-suivantes:before {
     #site-nav a:not(.nav-list-expander):focus,
     .side-bar a:not(.nav-list-expander):focus,
     html body a:not(.nav-list-expander):not(.anchor-heading):focus {
-        outline: 1px solid var(--main-bkg_link) !important;
+        outline: 1px solid var(--main-bkg-link) !important;
         outline-offset: -1px;
-        background: var(--main-bkg_link) !important;
+        background: var(--main-bkg-link) !important;
         color: var( --main-black) !important;
         text-decoration: none !important;
     }
