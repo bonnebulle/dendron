@@ -35,20 +35,20 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     black();
     console.log("0");
                 // $(this).text("0").addClass("black");
-                $("body, head").addClass("blacked");
+                // $("body, head").addClass("blacked");
                 setTimeout(function(){ 
                     localStorage.setItem('the_switch', "blacked");
                     preference="blacked";
-                }, 100);
+                }, 10);
 	} else {
     light();
     console.log("1111");
                 // $(this).text("1").addClass("light");
-                $("body, head").addClass("ligthed");
+                // $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
                         localStorage.setItem('the_switch', "ligthed");
                         preference="ligthed";
-                }, 100);
+                }, 10);
 	}
 
 

@@ -26,10 +26,10 @@ html body {
         margin-top: 0.75rem;
         margin-bottom: 0.25rem;
     }
-    /* .search-input {
-        font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-        font-size: 19.5px;
-    } */
+    .search-input {
+        /* font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif; */
+        font-size: 17.5px;
+    }
     .search-active .search-input {
         padding-left: 2.75rem;
         font-weight: 400;
@@ -594,11 +594,11 @@ h2#sous-parties:before {
     content: "";
     display: block;
     height: 1px;
-    width: 24px;
+    width: 27px;
     background: var(--main-border-alt);
     position: absolute;
-    left: -31px;
-    margin-top: 0.8em;
+    left: -33px;
+    margin-top: 0.6em;
 }
 
 .main-content h2#children,
@@ -619,9 +619,15 @@ h2#sous-parties:before {
 .main-content h2#sous-parties+ol,
 .main-content h2#children+ol {
    margin-bottom: 8px;
-    margin-top: 12px !important;
+    margin-top: 0px !important;
+
 }
 
+.main-content h2#sous-parties+ol,
+.main-content h2#children+ol ,
+.main-content h2#backlinks+ul {
+margin-left: -21px;
+}
 .main-content h2#backlinks+ul li,
 .main-content h2#sous-parties+ol li,
 .main-content h2#children+ol li {
@@ -633,7 +639,7 @@ h2#sous-parties:before {
 .main-content h2#backlinks+ul *,
 .main-content h2#sous-parties+ol,
 .main-content h2#sous-parties+ol *,
-.main-content h2#chi+ol,
+.main-content h2#children+ol,
 .main-content h2#children+ol * {
     line-height: 22px !important;
     font-size: 16px !important;
@@ -665,7 +671,7 @@ h2#sous-parties:before {
 
 .main-content h2#sous-parties+ol>li::before,
 .main-content h2#children+ol>li::before {
-    left: -1.3em;
+    left: -1.4em;
     margin-left: -0.4em;
 }
 
@@ -704,6 +710,14 @@ h2#sous-parties:before {
 }
 
 @media (min-width: 50rem) {
+    .search-active .search-input,
+    .search-input-wrap {
+        max-width: 656px;
+        width: 656px;
+        box-shadow: none !important;
+    }
+
+
     .site-nav {
         padding-top: 2.4rem;
         display: block;
@@ -1131,6 +1145,10 @@ html .side-bar:hover a.nav-list-link.active,
 html #site-nav:hover a.nav-list-link.active {
     transition: color 0s !important;
 } 
+/* 
+html .page__inner-wrap a:not([class]) {
+    transition: background 5s!important;
+} */
 
 .page__inner-wrap img[alt*="little"]
 .page__inner-wrap img[alt*="inline"],
@@ -1159,6 +1177,7 @@ a:not([class])  {
 background-color: var(--main-sidebare);
 border: 1px solid var(--main-border-alt);
     border-width: 0px 1px 1px 0px;
+        box-shadow: 12px 2px 12px rgb(0 0 0 / 4%), -7px 13px 17px rgb(84 84 84 / 43%);
 }
 .search-result:hover, .search-result.active {
     background-color: var(--main-sidebare-alt);
