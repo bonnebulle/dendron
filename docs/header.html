@@ -49,21 +49,16 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                 }, 100);
 	}
 
-
-    $(document).ready(function() {
-         $("a[href]").each(function() {
-            var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
-            console.log(thehref);
-            $(this).attr("href", thehref);
-         });
-
-
-
-
-
-    });
-
-
+  if (window.location.href.indexOf('localhost') > 0) {          
+        $(document).ready(function() {
+            $("a[href]").each(function() {
+                var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
+                console.log(thehref);
+                $(this).attr("href", thehref);
+            });
+        });
+       console.log("Localhost");
+  }
 
 
 
@@ -73,21 +68,32 @@ function light(){
 	        var link = document.createElement('link'); 
 	        link.rel = 'stylesheet';  
 	        link.type = 'text/css'; 
+		   $("body, head").toggleClass("ligthed");
+             if (window.location.href.indexOf('localhost') > 0) {   
 	        link.href = './assets/extra_light.css';  
 	        head.appendChild(link);  
-		   $("body, head").toggleClass("ligthed");
-            $("link[href='./assets/extra_black.css']").remove();
+                $("link[href='./assets/extra_black.css']").remove();
+              } else
+	          link.href = '/dendron/assets/extra_light.css';  
+	          head.appendChild(link);  
+              $("link[href='/dendron/assets/extra_black.css']").remove();
+              }
 }
 function black(){
 // BLACK
 	       var head = document.getElementsByTagName('HEAD')[0];  
 	        var link1 = document.createElement('link'); 
-	        link1.rel = 'stylesheet';  
+	        link1.rel = 'stylesheet'; 
+		$("body, head").toggleClass("ligthed");
+          if (window.location.href.indexOf('localhost') > 0) {   
 	        link1.href = './assets/extra_black.css';  
 	        head.appendChild(link1);  
-            
-		$("body, head").toggleClass("ligthed");
-        $("link[href='./assets/extra_light.css']").remove();
+            $("link[href='./asset/extra_light.css']").remove();
+          } else {
+	          link1.href = '/dendron/assets/extra_black.css';  
+	          head.appendChild(link1);  
+              $("link[href='/dendron/assets/extra_light.css']").remove();
+          }
 }
 
 
