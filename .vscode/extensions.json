@@ -9,6 +9,7 @@
         "jannisx11.batch-rename-extension",
         "dendron.dendron-markdown-shortcuts",
         "albymor.increment-selection",
-        "dendron.dendron-markdown-preview-enhanced"
+        "dendron.dendron-markdown-preview-enhanced",
+        "mathiassoeholm.markdown-link-updater"
     ]
 }

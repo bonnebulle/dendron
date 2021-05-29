@@ -8,18 +8,15 @@ noAutoCreateOnDefinition: true
 noLegacyNoteRef: true
 color_scheme: dark
 previewPort: 8999
-hierarchyDisplayTitle: "Parties suivantes"
+hierarchyDisplayTitle: Parties suivantes
 site:
-    # hierarchyDisplayTitle: Enfants
-    # assetsPrefix: dendron
-    siteUrl: https://bonnebulle.github.io/dendron
+    assetsPrefix: dendron
+    siteUrl: 'https://bonnebulle.github.io/dendron'
     noIndexByDefault: true
     color_scheme: dark
     customHeaderPath: vault/assets/header.html
     siteFaviconPath: vault/assets/favicon.ico
-    # logo: vault/assets/images/logo.png
     siteLastModified: true
-    # writeStubs: true
     gh_edit_link: false
     copyAssets: true
     siteHierarchies:
@@ -31,6 +28,4 @@ site:
     author: Vincent Bonnefille
     previewPort: 8999
     lang: fr
-    # config: 
-    #     publishByDefault: true
 initializeRemoteVaults: true

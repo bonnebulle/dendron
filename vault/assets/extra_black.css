@@ -1,0 +1,25 @@
+
+:root {
+    --main-bkg:#1e1d22;
+    --main-sidebare: #212024;
+    --main_links_hover: #a8b2ff;
+    --main-links_alt: #d6dbff;
+    --main-bkg-link:#759882;
+    --main-dend_links: #7bbf83;
+    --main-dend_links_hover: #4fff66;
+    --main-dend_links_visited:#5bbb60;
+    --main-dend-note:#8dd697;
+    --main-border-alt:#464646;
+    --main-border-altalt: #6d6d6d;
+    --main-alt-title-h56: #d4d4d4;
+    --main-general_color: #e6e6e6;
+    --main-general_color-alt:#f6efe4;
+    --main-blockq1: #80eae1;
+    --main-blockq2: #78c1be;
+    --main-blockq3: #4b8580;
+    --main-blockq4: #85ab8a;
+    --main-blockq5: #85ab8a;
+    --main-blockq6: #80eae1;
+    --main-light:#FFF;
+}
+

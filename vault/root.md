@@ -2,7 +2,7 @@
 id: root
 title: Racine
 desc: Art de la rébellion en ligne
-updated: 1622067316197
+updated: 1622220726062
 created: 1595961348801
 stub: true
 nav_order: 0
@@ -17,3 +17,7 @@ Une thèse que je voudrais atypique à la façon de ces réseaux et ceux.celles 
 [[Introduction.état_des_arts_darknets]] (Les Darknets existent-ils vraiment ? Quel état de l'art à leur sujet ?)
 
 [[Introduction.volontés]] (Texte fleuve, plus personnel, intentionnel)
+
+---
+
+[[frags.tests.dendron]]

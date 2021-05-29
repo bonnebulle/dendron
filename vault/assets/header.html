@@ -1,11 +1,20 @@
 <!-- QUICKFIX ToDo TD : localhost // github root folder diferrent -->
+<link type="text/css" rel="stylesheet" href="/assets/extra_black.css" />
+<!-- For Github -->
+<link type="text/css" rel="stylesheet" href="/dendron/assets/extra_black.css" />
+<!-- ---------  -->
 <link type="text/css" rel="stylesheet" href="/assets/extra.css" />
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
 
+
+<div id="go_black">O</div>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+
+
 
 <script type="text/javascript">
     window.onload = function(e) {
@@ -17,11 +26,107 @@
 </script>  
 
 <script>  
+
+
+let preference = localStorage.getItem('the_switch') || 'blacked';
+
+
+	if (preference=="blacked") {
+    black();
+    console.log("0");
+                // $(this).text("0").addClass("black");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    console.log("1111");
+                // $(this).text("1").addClass("light");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+
+
     $(document).ready(function() {
          $("a[href]").each(function() {
             var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
             console.log(thehref);
             $(this).attr("href", thehref);
          });
+
+
+
+
+
     });
+
+
+
+
+
+function light(){
+// LIGHT
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link = document.createElement('link'); 
+	        link.rel = 'stylesheet';  
+	        link.type = 'text/css'; 
+	        link.href = './assets/extra_light.css';  
+	        head.appendChild(link);  
+		   $("body, head").toggleClass("ligthed");
+            $("link[href='./assets/extra_black.css']").remove();
+}
+function black(){
+// BLACK
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link1 = document.createElement('link'); 
+	        link1.rel = 'stylesheet';  
+	        link1.href = './assets/extra_black.css';  
+	        head.appendChild(link1);  
+            
+		$("body, head").toggleClass("ligthed");
+        $("link[href='./assets/extra_light.css']").remove();
+}
+
+
+
+$("#go_black").click(function() {
+	$(this).toggleClass("on");
+    let preference = localStorage.getItem('the_switch');
+	console.log("black " +preference);
+
+
+   
+	if (preference!="blacked") {
+    black();
+    console.log("0");
+                $(this).text("0");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    console.log("1111");
+                $(this).text("1");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+ 
+
+});
+
+
+
+
+
+
+
+
+
+
 </script>     

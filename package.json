@@ -1,1 +1,1 @@
-{"name":"dendron-site","version":"1.0.0","main":"index.js","license":"MIT","dependencies":{"@dendronhq/dendron-11ty":"^1.42.0","@dendronhq/dendron-cli":"^0.41.0","jekyll":"*","nodemon":"^2.0.7"}}
+{"name":"dendron-site","version":"1.0.0","main":"index.js","license":"MIT","dependencies":{"@dendronhq/dendron-11ty":"^1.42.0","@dendronhq/dendron-cli":"^0.41.0","jekyll":"*","nodemon":"^2.0.7","nunjucks":"^3.2.3"}}

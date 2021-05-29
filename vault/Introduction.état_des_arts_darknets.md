@@ -2,18 +2,12 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622066857888
+updated: 1622222695066
 created: 1622043691067
 ---    
        
 > Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
     
-
-
-
-
-
-
 #### Sujet, discipline, motivations
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
@@ -21,8 +15,8 @@ Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers d
 >>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
 
 
-
-
+{{fname}} créé le {fm.created}} 
+Mise à jour :  le {{fm.updated}} 
 
 
 
@@ -47,9 +41,12 @@ Il faut aussi compter une littérature opposée aux moyens de défense numériqu
 On y trouve souvent un discours de crainte quant à la perte de terrain de l'État comme garant de l'ordre. 
 
 #### Fuite-perte de données
-Une inquiétude réccurante autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalisés, mais transfert d'informations et objets culturels  *piratés* } et autres activités criminelles qui y font jour serviront alors d'épouvantail.
+Une inquiétude récurrente autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalisés, hacking, extorsion ou transfert d'informations et objets culturels  *piratés* } et autres activités criminelles qui y font jour serviront alors d'épouvantail.
 
 > L'une des craintes originelle à l'endroit des darknets restent la fuite de données ( transmises à des organes journalistiques ou d'information tel **Wikileaks** ou encore par la concurrence ). Une matière numérique qui rapporte et qui s'échange effectivement sur des réseaux protégeant les transactions entre inconnus.
+
+~~[[frags.root_intro.codeislow_DRM]]~~
+
 
 ---
 
@@ -129,11 +126,11 @@ Un Darknet définit généralement un réseau de communication dont les protocol
 
 Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.
 
-#### (neutralité et indépendence du www retrouvée ?)
+#### (neutralité et indépendance du www retrouvée ?)
 
 Des réseaux dont les protocoles sont souvent agnostiques : ils assurent une neutralité dans le transport des données.
 
-> [1 www] Des outils qui renouent avec une certaine vision du world wild web : celui d'une indépendance des pouvoirs centralisés et gouvernants. Un projet autonomiste, d'emancipation individuelle aux couleurs libertariennes.
+> [1 www] Des outils qui renouent avec une certaine vision du world wild web : celui d'une indépendance des pouvoirs centralisés et gouvernants. Un projet autonomiste, d'émancipation individuelle aux couleurs libertariennes.
 
 Une liberté d'expression, de conscience et d'organisation que {malheureusement}, partout dans le monde, des institutions limitent-interdisent par une multitude d'interventions physiques ou logicielles sur les couches du réseau de réseaux.
 
@@ -193,11 +190,12 @@ Un en dehors connu, un geste de distanciation volontaire ( sinon accidentel et t
 : atypique, d'autre nature 
 : inquiétantes monstruosité, langage mal codé. 
 
-> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**, du dedans inversé : barbelé.
->> Une plasticité du visible, de la retenue
+> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**[^1Dominique_Quessada], du dedans inversé : barbelé.[^]
+>> Une plasticité du visible, de la retenue[^]
 
-
-
+[^]un
+[^]deux
+[^1Dominique_Quessada]: ::: cit.ref Essai de Dominique Quessada
 
 
 

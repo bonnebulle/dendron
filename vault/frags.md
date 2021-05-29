@@ -5,7 +5,8 @@ desc: ''
 published: true
 nav_exclude: true
 nav_order: 999
-updated: 1620742661720
+has_children: true
+updated: 1622214587802
 created: 1620675181016
 ---
 Cette branche cachée regroupera tous les fragments (*frags*) de textes jettés / mis_de_côté / pas d'actualité ( mais à portée de main ).

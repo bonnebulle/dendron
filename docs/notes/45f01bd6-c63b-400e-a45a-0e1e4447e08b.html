@@ -10,16 +10,16 @@
 
   <link
     rel="shortcut icon"
-    href="https://bonnebulle.github.io/dendron/favicon.ico"
+    href="https://bonnebulle.github.io/dendron/dendron/favicon.ico"
     type="image/x-icon"
   />
   <link
     rel="stylesheet"
-    href="https://bonnebulle.github.io/dendron/assets/css/just-the-docs-default.css"
+    href="https://bonnebulle.github.io/dendron/dendron/assets/css/just-the-docs-default.css"
   />
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/just-the-docs.js"
+    src="https://bonnebulle.github.io/dendron/dendron/assets/js/just-the-docs.js"
   ></script>
   <link
     rel="stylesheet"
@@ -31,13 +31,22 @@
     integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
     crossorigin="anonymous"
   /><!-- QUICKFIX ToDo TD : localhost // github root folder diferrent -->
+<link type="text/css" rel="stylesheet" href="/assets/extra_black.css" />
+<!-- For Github -->
+<link type="text/css" rel="stylesheet" href="/dendron/assets/extra_black.css" />
+<!-- ---------  -->
 <link type="text/css" rel="stylesheet" href="/assets/extra.css" />
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
 
+
+<div id="go_black">O</div>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+
+
 
 <script type="text/javascript">
     window.onload = function(e) {
@@ -49,17 +58,113 @@
 </script>  
 
 <script>  
+
+
+let preference = localStorage.getItem('the_switch') || 'blacked';
+
+
+	if (preference=="blacked") {
+    black();
+    console.log("0");
+                // $(this).text("0").addClass("black");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    console.log("1111");
+                // $(this).text("1").addClass("light");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+
+
     $(document).ready(function() {
          $("a[href]").each(function() {
             var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
             console.log(thehref);
             $(this).attr("href", thehref);
          });
+
+
+
+
+
     });
+
+
+
+
+
+function light(){
+// LIGHT
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link = document.createElement('link'); 
+	        link.rel = 'stylesheet';  
+	        link.type = 'text/css'; 
+	        link.href = './assets/extra_light.css';  
+	        head.appendChild(link);  
+		   $("body, head").toggleClass("ligthed");
+            $("link[href='./assets/extra_black.css']").remove();
+}
+function black(){
+// BLACK
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link1 = document.createElement('link'); 
+	        link1.rel = 'stylesheet';  
+	        link1.href = './assets/extra_black.css';  
+	        head.appendChild(link1);  
+            
+		$("body, head").toggleClass("ligthed");
+        $("link[href='./assets/extra_light.css']").remove();
+}
+
+
+
+$("#go_black").click(function() {
+	$(this).toggleClass("on");
+    let preference = localStorage.getItem('the_switch');
+	console.log("black " +preference);
+
+
+   
+	if (preference!="blacked") {
+    black();
+    console.log("0");
+                $(this).text("0");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    console.log("1111");
+                $(this).text("1");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+ 
+
+});
+
+
+
+
+
+
+
+
+
+
 </script>     
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
+    src="https://bonnebulle.github.io/dendron/dendron/assets/js/vendor/lunr.min.js"
   ></script>
   
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -125,7 +230,7 @@
 
     <div class="side-bar">
       <div class="site-header">
-        <a href="https://bonnebulle.github.io/dendron" class="site-title lh-tight">
+        <a href="https://bonnebulle.github.io/dendron/dendron" class="site-title lh-tight">
   Projet de thèse
 
  </a>
@@ -157,7 +262,7 @@
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron">Racine</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/b1d8a9d3-e0b1-42ef-a4c2-0b87bdf0aede.html">Sujet</a></li><li class="breadcrumb-nav-list-item">anti-thèse</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/dendron">Racine</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/dendron/notes/b1d8a9d3-e0b1-42ef-a4c2-0b87bdf0aede.html">Sujet</a></li><li class="breadcrumb-nav-list-item">anti-thèse</li></ol>
           </nav>
         
       

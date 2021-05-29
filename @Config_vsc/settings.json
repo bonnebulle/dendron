@@ -17,7 +17,7 @@
     "sync.gist": "ecb745f6b4e8278eeae8c4ecbe22dfb6",
     "sync.removeExtensions": true,
     "sync.forceUpload": true,
-    "editor.fontSize": 19,
+    "editor.fontSize": 17,
     "cSpell.language": "fr",
     "cSpell.enableFiletypes": [
         "!asciidoc",
@@ -218,10 +218,7 @@
     "ShortcutMenuBar.toggleTerminal": false,
     "ShortcutMenuBar.userButton01Command": "",
     "ShortcutMenuBar.userButton02Command": "",
-    "markdown-links.autoStart": true,
-    "[html]": {
-        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-    },
+    "markdown-links.autoStart": true,  
     // https://code.visualstudio.com/api/references/icons-in-labels
     "commands.commands": {
         "Terminal: Prev Dendron servs": {
@@ -482,6 +479,40 @@
         "editor.formatOnSave": false,
         "editor.formatOnType": true,
         "resmon.show.battery": false,
-        "editor.multiCursorModifier": "ctrlCmd"
+        "editor.multiCursorModifier": "ctrlCmd",
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": "criticmarkup.addition",
+                    "settings": {
+                        "foreground": "#65C238"
+                    }
+                },
+                {
+                    "scope": "criticmarkup.deletion",
+                    "settings": {
+                        "foreground": "#C2386E"
+                    }
+                },
+                {
+                    "scope": "criticmarkup.substitution",
+                    "settings": {
+                        "foreground": "#ff8600"
+                    }
+                },
+                {
+                    "scope": "criticmarkup.comment",
+                    "settings": {
+                        "foreground": "#69BED3"
+                    }
+                },
+                {
+                    "scope": "criticmarkup.highlight",
+                    "settings": {
+                        "foreground": "#aa53a9"
+                    }
+                }
+            ]
+        }
     
 }

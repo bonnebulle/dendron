@@ -400,7 +400,7 @@
         "command": "extension.extendedCursorMove.cursorHomeSelect"
     },
     {
-        "key": "ctrl+shift+alt+up down",
+        "key": "ctrl+shift+alt+down",
         "command": "dendron.goDownHierarchy",
         "when": "dendron:pluginActive && editorFocus"
     },
@@ -475,5 +475,30 @@
         "key": "ctrl+shift+i",
         "command": "-dendron.createDailyJournalNote",
         "when": "dendron:pluginActive"
+    },
+    {
+        "key": "ctrl+l ctrl+l",
+        "command": "dendron.goNextHierarchy"
+    },
+    {
+        "key": "ctrl+alt+l ctrl+alt+l",
+        "command": "dendron.goPrevHierarchy"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "dendron.addAndCommit"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "-workbench.view.extensions",
+        "when": "viewContainer.workbench.view.extensions.enabled"
+    },
+    {
+        "key": "ctrl+meta+l ctrl+meta+l",
+        "command": "dendron.treeView.focus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
     }
 ]

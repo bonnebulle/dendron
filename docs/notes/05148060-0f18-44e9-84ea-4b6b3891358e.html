@@ -10,16 +10,16 @@
 
   <link
     rel="shortcut icon"
-    href="https://bonnebulle.github.io/dendron/favicon.ico"
+    href="https://bonnebulle.github.io/dendron/dendron/favicon.ico"
     type="image/x-icon"
   />
   <link
     rel="stylesheet"
-    href="https://bonnebulle.github.io/dendron/assets/css/just-the-docs-default.css"
+    href="https://bonnebulle.github.io/dendron/dendron/assets/css/just-the-docs-default.css"
   />
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/just-the-docs.js"
+    src="https://bonnebulle.github.io/dendron/dendron/assets/js/just-the-docs.js"
   ></script>
   <link
     rel="stylesheet"
@@ -31,13 +31,22 @@
     integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
     crossorigin="anonymous"
   /><!-- QUICKFIX ToDo TD : localhost // github root folder diferrent -->
+<link type="text/css" rel="stylesheet" href="/assets/extra_black.css" />
+<!-- For Github -->
+<link type="text/css" rel="stylesheet" href="/dendron/assets/extra_black.css" />
+<!-- ---------  -->
 <link type="text/css" rel="stylesheet" href="/assets/extra.css" />
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
 
+
+<div id="go_black">O</div>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+
+
 
 <script type="text/javascript">
     window.onload = function(e) {
@@ -49,17 +58,113 @@
 </script>  
 
 <script>  
+
+
+let preference = localStorage.getItem('the_switch') || 'blacked';
+
+
+	if (preference=="blacked") {
+    black();
+    console.log("0");
+                // $(this).text("0").addClass("black");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    console.log("1111");
+                // $(this).text("1").addClass("light");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+
+
     $(document).ready(function() {
          $("a[href]").each(function() {
             var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
             console.log(thehref);
             $(this).attr("href", thehref);
          });
+
+
+
+
+
     });
+
+
+
+
+
+function light(){
+// LIGHT
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link = document.createElement('link'); 
+	        link.rel = 'stylesheet';  
+	        link.type = 'text/css'; 
+	        link.href = './assets/extra_light.css';  
+	        head.appendChild(link);  
+		   $("body, head").toggleClass("ligthed");
+            $("link[href='./assets/extra_black.css']").remove();
+}
+function black(){
+// BLACK
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link1 = document.createElement('link'); 
+	        link1.rel = 'stylesheet';  
+	        link1.href = './assets/extra_black.css';  
+	        head.appendChild(link1);  
+            
+		$("body, head").toggleClass("ligthed");
+        $("link[href='./assets/extra_light.css']").remove();
+}
+
+
+
+$("#go_black").click(function() {
+	$(this).toggleClass("on");
+    let preference = localStorage.getItem('the_switch');
+	console.log("black " +preference);
+
+
+   
+	if (preference!="blacked") {
+    black();
+    console.log("0");
+                $(this).text("0");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    console.log("1111");
+                $(this).text("1");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+ 
+
+});
+
+
+
+
+
+
+
+
+
+
 </script>     
   <script
     type="text/javascript"
-    src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
+    src="https://bonnebulle.github.io/dendron/dendron/assets/js/vendor/lunr.min.js"
   ></script>
   
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -125,7 +230,7 @@
 
     <div class="side-bar">
       <div class="site-header">
-        <a href="https://bonnebulle.github.io/dendron" class="site-title lh-tight">
+        <a href="https://bonnebulle.github.io/dendron/dendron" class="site-title lh-tight">
   Projet de thèse
 
  </a>
@@ -157,7 +262,7 @@
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron">Racine</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/68d19dc8-0c01-4c8e-a2b6-3f96fdf5164a.html">Introduction</a></li><li class="breadcrumb-nav-list-item">Darknets</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/dendron">Racine</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/dendron/notes/68d19dc8-0c01-4c8e-a2b6-3f96fdf5164a.html">Introduction</a></li><li class="breadcrumb-nav-list-item">Darknets</li></ol>
           </nav>
         
       
@@ -193,7 +298,7 @@
     <meta itemprop="headline" content="Darknets">
     
     <meta itemprop="datePublished" content="2021-05-26T17:41:31+00:00">
-    <meta itemprop="dateModified" content="2021-05-27T00:07:37+00:00">
+    <meta itemprop="dateModified" content="2021-05-28T19:24:55+00:00">
 
     <div class="page__inner-wrap">
 
@@ -214,12 +319,14 @@
 <blockquote>
 <blockquote>
 <blockquote>
-<p>Cette page_article devrait plutôt se trouver dans <a href="https://bonnebulle.github.io/dendron/notes/7c5b96e0-5754-4b5c-ab90-68dffc06d75c.html">discipline</a> // état de l'art ?!</p>
+<p>Cette page_article devrait plutôt se trouver dans <a href="https://bonnebulle.github.io/dendron/dendron/notes/7c5b96e0-5754-4b5c-ab90-68dffc06d75c.html">discipline</a> // état de l'art ?!</p>
 </blockquote>
 </blockquote>
 </blockquote>
 </blockquote>
 </blockquote>
+<p>{{fname}} créé le {fm.created}}
+Mise à jour :  le {{fm.updated}} </p>
 <h1 id="littératures-et-état-de-lart"><a aria-hidden="true" class="anchor-heading" href="#littératures-et-état-de-lart"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Littératures et état de l'art</h1>
 <h3 id="informatique---technique"><a aria-hidden="true" class="anchor-heading" href="#informatique---technique"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Informatique - technique</h3>
 <p>Deux littératures au moins s'opposent au sujet des Darknets, l'une techo-pragmatique tend à observer leur fonctionnement, leur régime protocolaire ( et soutiendra le plus souvent une diversité des usages et la variété des agentivités que permettent ces réseaux ). Une littérature peut-être moins intéressée par les contenus échangés, leur finalité usuelle, que par la technicité empirique de ces outils-objets. </p>
@@ -240,10 +347,11 @@ Elle permet comprendre la fabrication des standards qui font nos technologies et
 <p>Il faut aussi compter une littérature opposée aux moyens de défense numérique (ailleurs que dans les mains des entreprises-États). Elle sera souvent critique à leur endroit, méfiante et pointant du doigt les effets négatifs-dangereux de ces réseaux.</p>
 <p>On y trouve souvent un discours de crainte quant à la perte de terrain de l'État comme garant de l'ordre. </p>
 <h4 id="fuite-perte-de-données"><a aria-hidden="true" class="anchor-heading" href="#fuite-perte-de-données"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fuite-perte de données</h4>
-<p>Une inquiétude réccurante autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalisés, mais transfert d'informations et objets culturels  <em>piratés</em> } et autres activités criminelles qui y font jour serviront alors d'épouvantail.</p>
+<p>Une inquiétude récurrente autour des Internets et les activités illicites qui s'y déroulent { terroristes-radicalisés, hacking, extorsion ou transfert d'informations et objets culturels  <em>piratés</em> } et autres activités criminelles qui y font jour serviront alors d'épouvantail.</p>
 <blockquote>
 <p>L'une des craintes originelle à l'endroit des darknets restent la fuite de données ( transmises à des organes journalistiques ou d'information tel <strong>Wikileaks</strong> ou encore par la concurrence ). Une matière numérique qui rapporte et qui s'échange effectivement sur des réseaux protégeant les transactions entre inconnus.</p>
 </blockquote>
+<p><del><a href="https://bonnebulle.github.io/dendron/dendron/notes/f2b14b6c-cf52-4a33-b1ce-76e86940b4c1.html">Code_is_law, les DRM</a></del></p>
 <hr>
 <h3 id="pseudo-science--science-fiction"><a aria-hidden="true" class="anchor-heading" href="#pseudo-science--science-fiction"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pseudo-Science &#x26; Science-Fiction</h3>
 <p>D'autres tendent vers la science fiction le roman policier.
@@ -284,15 +392,15 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <h5 id="mon-ambition"><a aria-hidden="true" class="anchor-heading" href="#mon-ambition"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Mon ambition</h5>
 <p>Ce sujet suscite déjà un fort attrait sur le marché du savoir et des connaissances. Pour autant les formes d'hybridation en recherche-création pourraient ouvrir d'autres compréhensions, d'autres modalités de récit et de propos. </p>
 <p>J'ambitionne de faire le pont entre différents régimes de recherche à commencer par les pratiques artistiques qui s'accommodent bien de l'esprit d'indiscipline et de bidouillage qu'on connaît aux hackers ( informatiques ou d'autres branches-disciplines ). </p>
-<p><del><a href="https://bonnebulle.github.io/dendron/notes/a2c6904d-6d25-4800-814d-0beb98d9de69.html">Idéologie, point de vu orienté</a></del></p>
+<p><del><a href="https://bonnebulle.github.io/dendron/dendron/notes/a2c6904d-6d25-4800-814d-0beb98d9de69.html">Idéologie, point de vu orienté</a></del></p>
 <h1 id="darknets-contre-la-censure-"><a aria-hidden="true" class="anchor-heading" href="#darknets-contre-la-censure-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets, contre la censure ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.</p>
 <h2 id="journalistes-criminels-qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels-qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, qui utilise ces réseaux ?</h2>
 <p>Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.</p>
-<h4 id="neutralité-et-indépendence-du-www-retrouvée-"><a aria-hidden="true" class="anchor-heading" href="#neutralité-et-indépendence-du-www-retrouvée-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(neutralité et indépendence du www retrouvée ?)</h4>
+<h4 id="neutralité-et-indépendance-du-www-retrouvée-"><a aria-hidden="true" class="anchor-heading" href="#neutralité-et-indépendance-du-www-retrouvée-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(neutralité et indépendance du www retrouvée ?)</h4>
 <p>Des réseaux dont les protocoles sont souvent agnostiques : ils assurent une neutralité dans le transport des données.</p>
 <blockquote>
-<p>[1 www] Des outils qui renouent avec une certaine vision du world wild web : celui d'une indépendance des pouvoirs centralisés et gouvernants. Un projet autonomiste, d'emancipation individuelle aux couleurs libertariennes.</p>
+<p>[1 www] Des outils qui renouent avec une certaine vision du world wild web : celui d'une indépendance des pouvoirs centralisés et gouvernants. Un projet autonomiste, d'émancipation individuelle aux couleurs libertariennes.</p>
 </blockquote>
 <p>Une liberté d'expression, de conscience et d'organisation que {malheureusement}, partout dans le monde, des institutions limitent-interdisent par une multitude d'interventions physiques ou logicielles sur les couches du réseau de réseaux.</p>
 <blockquote>
@@ -349,11 +457,14 @@ ses formes émergentes, son côté fait main (<em>homebrew</em>, <strong><em>ind
 : atypique, d'autre nature
 : inquiétantes monstruosité, langage mal codé. </p>
 <blockquote>
-<p>Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'<strong>inséparation</strong>, du dedans inversé : barbelé.</p>
+<p>Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'<strong>inséparation</strong><sup id="fnref-1dominique_quessada"><a href="#fn-1dominique_quessada" class="footnote-ref">1Dominique_Quessada</a></sup>, du dedans inversé : barbelé.[^]</p>
 <blockquote>
-<p>Une plasticité du visible, de la retenue</p>
+<p>Une plasticité du visible, de la retenue[^]</p>
 </blockquote>
 </blockquote>
+<p>[^]un
+[^]deux
+<sup id="fnref-1dominique_quessada"><a href="#fn-1dominique_quessada" class="footnote-ref">1Dominique_Quessada</a></sup>: ::: cit.ref Essai de Dominique Quessada</p>
 <h2 id="clandestinités-ingouvernables"><a aria-hidden="true" class="anchor-heading" href="#clandestinités-ingouvernables"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Clandestinités ingouvernables</h2>
 <!-- FIXME: ATTENTION deux questions
 liberté d'expression et régime de production du réel -->
@@ -371,7 +482,7 @@ liberté d'expression et régime de production du réel -->
 <p>S'y expriment aussi des propos insoutenables, interdits de publicité. Des pensées et pratiques interdites, refoulées de nos sociétés qui luttent contre leur propagation nocive (mais pour autant les instruisent, les expliquent, par des recherches en sciences sociales par exemple).    </p>
 </blockquote>
 </blockquote>
-<p><del><a href="https://bonnebulle.github.io/dendron/notes/354f4706-99b8-4e93-b655-22f3cf2283a9.html">Limiter la publicité du pire</a></del></p>
+<p><del><a href="https://bonnebulle.github.io/dendron/dendron/notes/354f4706-99b8-4e93-b655-22f3cf2283a9.html">Limiter la publicité du pire</a></del></p>
 <h1 id="des-pratiques-artistiques-"><a aria-hidden="true" class="anchor-heading" href="#des-pratiques-artistiques-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Des pratiques artistiques ?</h1>
 <h4 id="les-arts-de-la-fuite-et-des-tréfonds"><a aria-hidden="true" class="anchor-heading" href="#les-arts-de-la-fuite-et-des-tréfonds"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(Les arts de la fuite et des tréfonds)</h4>
 <p>Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.</p>
@@ -434,11 +545,11 @@ En observant_agissant à partir de ces coins refoulés iels (les artistes) parle
 </blockquote>
 <p>Les profondeurs du web, le <em>deep-web</em> fait fantasmer cette part manquante ou résiduel du savoir humain mis en réseau. Un autre refoulé, celui du non accès des logiciels d'indexation à certaines zones grises du web. Un manque à gagner, un gisement...</p>
 <p>Une extrémité du spectre du connu nécessaire pour croire encore et imaginer aussi d'autres spiritualités et reliances au monde. Une spiritualité 2.0 qui renoue avec les origines new-age de la conscience monde et des réseaux informatiques.</p>
-<p><a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources</a></p>
+<p><a href="https://bonnebulle.github.io/dendron/dendron/notes/README.html">Sources</a></p>
 <hr>
 <h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
 <ul>
-<li><a href="https://bonnebulle.github.io/dendron/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">Frags - Intro_darknets</a></li>
+<li><a href="https://bonnebulle.github.io/dendron/dendron/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">Frags - Intro_darknets</a></li>
 </ul><span id="navId" data="05148060-0f18-44e9-84ea-4b6b3891358e"></span>
 
                 
