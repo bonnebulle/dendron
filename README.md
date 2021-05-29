@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1622284248316
+updated: 1622299967515
 created: 1595961348801
 nav_order: 10
 ---
@@ -114,7 +114,8 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 + Ajout d'une *mini-map* (front-end)
 > https://larsjung.de/pagemap/
 
-+ Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps)
+DONE:::
++ Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps) + /// breakline br
 
 DONE:::
 + Thème_design clair / { foncé (actuel) } 🌒 

@@ -2,7 +2,7 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622289932060
+updated: 1622299109724
 created: 1622043691067
 ---    
        
@@ -118,7 +118,7 @@ J'ambitionne de faire le pont entre différents régimes de recherche à commenc
 
 Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.
 
-## Journalistes, criminels, qui utilise ces réseaux ?
+## Journalistes, criminels, /// qui utilise ces réseaux ?
 
 Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.
 

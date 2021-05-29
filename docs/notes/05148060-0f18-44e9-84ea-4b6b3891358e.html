@@ -81,6 +81,9 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                 }, 100);
 	}
 
+
+
+
   if (window.location.href.indexOf('localhost') > 0) {          
         $(document).ready(function() {
             $("a[href]").each(function() {
@@ -93,6 +96,22 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
   }
 
 
+
+        $(document).ready(function() {
+         setTimeout(function(){   
+            $(".page__inner-wrap").each(function(){
+                let textis = $(this).html().replace(new RegExp(/\s(\)|\»|\?|\!|\,|\.|\:|\;|\]|\})/, "g"),
+                                            '&nbsp$1')
+                                    .replace(new RegExp(/(\(|\«|\[|\{)\s/, "g"),
+                                                '$1&nbsp')
+                                 .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
+                                                '\<br class\=\'fix_br\'>');
+                                            console.log("youpi");
+                                                $(this).html(textis);
+            });
+             console.log("youpi1");
+            }, 1000);
+        });
 
 function light(){
 // LIGHT
@@ -304,7 +323,7 @@ $("#go_black").click(function() {
     <meta itemprop="headline" content="Darknets">
     
     <meta itemprop="datePublished" content="2021-05-26T17:41:31+00:00">
-    <meta itemprop="dateModified" content="2021-05-29T14:05:32+00:00">
+    <meta itemprop="dateModified" content="2021-05-29T16:38:29+00:00">
 
     <div class="page__inner-wrap">
 
@@ -401,7 +420,7 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <p><del><a href="https://bonnebulle.github.io/dendron/notes/a2c6904d-6d25-4800-814d-0beb98d9de69.html">Idéologie, point de vu orienté</a></del></p>
 <h1 id="darknets-contre-la-censure-"><a aria-hidden="true" class="anchor-heading" href="#darknets-contre-la-censure-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets, contre la censure ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.</p>
-<h2 id="journalistes-criminels-qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels-qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, qui utilise ces réseaux ?</h2>
+<h2 id="journalistes-criminels--qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels--qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, /// qui utilise ces réseaux ?</h2>
 <p>Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.</p>
 <h4 id="neutralité-et-indépendance-du-www-retrouvée-"><a aria-hidden="true" class="anchor-heading" href="#neutralité-et-indépendance-du-www-retrouvée-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(neutralité et indépendance du www retrouvée ?)</h4>
 <p>Des réseaux dont les protocoles sont souvent agnostiques : ils assurent une neutralité dans le transport des données.</p>

@@ -1,11 +1,11 @@
 /* EXTRA in dev build site folder (or not or not) */
 :root {
-    --main-generale-font-size: 19px;
-    --main-font-size:1.55em;
-    --main-font-size-less:1.5em;
+    --main-generale-font-size: 20.5px;
+    --main-font-size: 1.65em;
+    --main-font-size-less: 1.65em;
     --main-font-size-lessless: calc(var(--main-generale-font-size) / 1.7);
-    --main-font-size-neg:-0.55em;
-    --main-font-size-neg_less:-0.5em;
+    --main-font-size-neg: -0.5em;
+    --main-font-size-neg_less: -0.5em;
 }
 
 html,
@@ -112,7 +112,12 @@ li.nav-list-item a:hover>* {
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"]:hover a {
     color: var(--main-dend_links)!important;
 }
-
+.main-content a[href*="bonnebulle"] *,
+.main-content a[href*="localhost"] *,
+.main-content a[href*="bonnebulle"],
+.main-content a[href*="localhost"] {
+    text-decoration-color: var(--main-border-altalt);
+}
 .breadcrumb-nav-list-item a:hover,
 #site-nav a>*:hover,
 #site-nav a:hover,
@@ -153,11 +158,12 @@ html body .table-of-contents-sidebar-fixed-sidebar ul *,
     transition: none !important;
 }
 
+
 #site-nav a.nav-list-link.active,
 .side-bar a.nav-list-link.active {
     /* background-image:  linear-gradient(-90deg, rgb(56, 54, 60) 0%, rgba(40, 39, 47, 0.74) 80%, rgb(47, 46, 55) 100%) !important; */
     background: transparent !important;
-    color: var(--main-light) !important;
+    color: var(--main-light) !important; 
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:hover,
@@ -173,13 +179,14 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:focu
 }
 
 
+
 .main-content a[href*="bonnebulle"]:focus *,
 .main-content a[href*="localhost"]:focus *,
 .main-content a[href*="bonnebulle"]:focus,
 .main-content a[href*="localhost"]:focus,
 .main-content blockquote blockquote blockquote blockquote blockquote  blockquote *:focus,
 html body a:not(.nav-list-expander):not(.anchor-heading):focus {
-    color: var(--main-black) !important;
+    color: var(--main-bkg) !important;
 }
 
 /* #site-nav .nav-list .nav-list-item.active a > svg {
@@ -469,7 +476,7 @@ html .page__inner-wrap section blockquote br {
 .main-content h6 {
     margin-top: calc(1.2em / 2);
     padding-top: calc(1.2em / 2);
-    font-size: calc(var(--main-generale-font-size) + 0px);
+    font-size: calc(var(--main-generale-font-size) + 0px) !important;
     /* letter-spacing: 1px !important; */
     letter-spacing: normal !important;
 }
@@ -821,7 +828,7 @@ h2#parties-suivantes:before {
         outline: 1px solid var(--main-bkg-link) !important;
         outline-offset: -1px;
         background: var(--main-bkg-link) !important;
-        color: var( --main-black) !important;
+        color: var( --main-bkg) !important;
         text-decoration: none !important;
     }
     html body a.anchor-heading:focus,

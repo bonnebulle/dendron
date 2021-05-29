@@ -81,6 +81,9 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                 }, 100);
 	}
 
+
+
+
   if (window.location.href.indexOf('localhost') > 0) {          
         $(document).ready(function() {
             $("a[href]").each(function() {
@@ -93,6 +96,22 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
   }
 
 
+
+        $(document).ready(function() {
+         setTimeout(function(){   
+            $(".page__inner-wrap").each(function(){
+                let textis = $(this).html().replace(new RegExp(/\s(\)|\»|\?|\!|\,|\.|\:|\;|\]|\})/, "g"),
+                                            '&nbsp$1')
+                                    .replace(new RegExp(/(\(|\«|\[|\{)\s/, "g"),
+                                                '$1&nbsp')
+                                 .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
+                                                '\<br class\=\'fix_br\'>');
+                                            console.log("youpi");
+                                                $(this).html(textis);
+            });
+             console.log("youpi1");
+            }, 1000);
+        });
 
 function light(){
 // LIGHT
@@ -304,7 +323,7 @@ $("#go_black").click(function() {
     <meta itemprop="headline" content="Sources">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-29T12:30:48+00:00">
+    <meta itemprop="dateModified" content="2021-05-29T16:52:47+00:00">
 
     <div class="page__inner-wrap">
 
@@ -412,9 +431,10 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <p><a href="https://larsjung.de/pagemap/">https://larsjung.de/pagemap/</a></p>
 </blockquote>
 </li>
-<li>
-<p>Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps)</p>
-</li>
+</ul>
+<p>DONE:::</p>
+<ul>
+<li>Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps) + /// breakline br</li>
 </ul>
 <p>DONE:::</p>
 <ul>

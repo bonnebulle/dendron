@@ -81,6 +81,9 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                 }, 100);
 	}
 
+
+
+
   if (window.location.href.indexOf('localhost') > 0) {          
         $(document).ready(function() {
             $("a[href]").each(function() {
@@ -93,6 +96,22 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
   }
 
 
+
+        $(document).ready(function() {
+         setTimeout(function(){   
+            $(".page__inner-wrap").each(function(){
+                let textis = $(this).html().replace(new RegExp(/\s(\)|\»|\?|\!|\,|\.|\:|\;|\]|\})/, "g"),
+                                            '&nbsp$1')
+                                    .replace(new RegExp(/(\(|\«|\[|\{)\s/, "g"),
+                                                '$1&nbsp')
+                                 .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
+                                                '\<br class\=\'fix_br\'>');
+                                            console.log("youpi");
+                                                $(this).html(textis);
+            });
+             console.log("youpi1");
+            }, 1000);
+        });
 
 function light(){
 // LIGHT
