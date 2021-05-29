@@ -898,13 +898,18 @@ html body .table-of-contents-sidebar-fixed-sidebar * {
 html body .table-of-contents-sidebar-fixed-sidebar ul li a {
     background: none !important;
 }
+html body .table-of-contents-sidebar-fixed-sidebar {
+    background: var(--main-sidebare) !important;
+}
 
 html body .table-of-contents-sidebar-fixed-sidebar ul {
-    height: calc(100% - 80px) !important;
+    height: calc(100% - 2rem) !important;
+    min-height: 360px;
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar.show {
-    width: 330px;
+    width: 330px;    
+    background: var(--main-sidebare) !important;
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar {
@@ -1155,3 +1160,9 @@ html .side-bar a.nav-list-link.active,
 h1,h2,h3,h4,h5,h6 {
     transition: color 1s !important;
 } 
+
+
+.page__inner-wrap img[alt*="little"]
+.page__inner-wrap img[alt*="inline"],
+.page__inner-wrap img[alt="logo"],
+.page__inner-wrap img[alt="TOC_button"] {    height: 1.3em; }

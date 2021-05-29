@@ -2,7 +2,7 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622299109724
+updated: 1622301056471
 created: 1622043691067
 ---    
        
@@ -14,7 +14,8 @@ Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers d
 
 >>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
 
-
+>>>>>> Vous trouverez la Table des matière à droite de la page (flottant) 
+>>>>>> ![TOC_button](https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png)
 
 # Littératures et état de l'art
 ### Informatique - technique
