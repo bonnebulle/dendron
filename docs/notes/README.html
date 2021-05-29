@@ -102,9 +102,9 @@ function light(){
 	        link.type = 'text/css'; 
 		   $("body, head").toggleClass("ligthed");
              if (window.location.href.indexOf('localhost') > 0) {   
-	        link.href = './assets/extra_light.css';  
+	        link.href = '/assets/extra_light.css';  
 	        head.appendChild(link);  
-                $("link[href='./assets/extra_black.css']").remove();
+                $("link[href='/assets/extra_black.css']").remove();
               } else {
 	          link.href = '/dendron/assets/extra_light.css';  
 	          head.appendChild(link);  
@@ -304,7 +304,7 @@ $("#go_black").click(function() {
     <meta itemprop="headline" content="Sources">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-27T17:01:26+00:00">
+    <meta itemprop="dateModified" content="2021-05-29T12:30:48+00:00">
 
     <div class="page__inner-wrap">
 
@@ -332,7 +332,9 @@ $("#go_black").click(function() {
 <blockquote>
 <blockquote>
 <blockquote>
+<blockquote>
 <p>Indication dédiée au site ou notes internes.</p>
+</blockquote>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -366,7 +368,9 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <blockquote>
 <blockquote>
 <blockquote>
+<blockquote>
 <p>J'ai renommé les <em>enfants</em> (<em>Childrens</em>) en "<strong>Parties suivantes</strong>" affichées en bas de page_notes.</p>
+</blockquote>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -411,8 +415,10 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <li>
 <p>Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps)</p>
 </li>
-<li>
-<p>Thème_design clair / { foncé (actuel) }</p>
+</ul>
+<p>DONE:::</p>
+<ul>
+<li>Thème_design clair / { foncé (actuel) } 🌒 
 <blockquote>
 <p><a href="https://pmarsceill.github.io/just-the-docs/docs/customization/">https://pmarsceill.github.io/just-the-docs/docs/customization/</a></p>
 </blockquote>

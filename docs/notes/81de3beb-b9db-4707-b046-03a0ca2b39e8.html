@@ -102,9 +102,9 @@ function light(){
 	        link.type = 'text/css'; 
 		   $("body, head").toggleClass("ligthed");
              if (window.location.href.indexOf('localhost') > 0) {   
-	        link.href = './assets/extra_light.css';  
+	        link.href = '/assets/extra_light.css';  
 	        head.appendChild(link);  
-                $("link[href='./assets/extra_black.css']").remove();
+                $("link[href='/assets/extra_black.css']").remove();
               } else {
 	          link.href = '/dendron/assets/extra_light.css';  
 	          head.appendChild(link);  

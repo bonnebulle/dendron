@@ -165,6 +165,15 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:focu
 }
 
 
+.main-content a[href*="bonnebulle"]:focus *,
+.main-content a[href*="localhost"]:focus *,
+.main-content a[href*="bonnebulle"]:focus,
+.main-content a[href*="localhost"]:focus,
+.main-content blockquote blockquote blockquote blockquote blockquote  blockquote *:focus,
+html body a:not(.nav-list-expander):not(.anchor-heading):focus {
+    color: var(--main-black) !important;
+}
+
 /* #site-nav .nav-list .nav-list-item.active a > svg {
     color: var(--main-light) !important;
 }
@@ -305,18 +314,18 @@ blockquote,
     font-weight: 620;
 }
 
-.main-content blockquote blockquote blockquote blockquote blockquote p,
-.main-content blockquote blockquote blockquote blockquote blockquote {
+.main-content blockquote blockquote blockquote blockquote blockquote  blockquote p,
+.main-content blockquote blockquote blockquote blockquote blockquote  blockquote {
     margin-top: 0px !important;
 }
 
 
-/* Comment dendron 5 */
+/* Comment dendron 6 */
 
-.main-content blockquote blockquote blockquote blockquote blockquote,
-.main-content blockquote blockquote blockquote blockquote blockquote * {
+.main-content blockquote blockquote blockquote blockquote blockquote  blockquote,
+.main-content blockquote blockquote blockquote blockquote blockquote  blockquote *:not(a) {
     /* color: #85ab8a !important; */
-    color: var(--main-blockq5) !important;
+    color: var(--main-blockq6) !important;
     font-weight: 400;
     /* font-style:italic; */
 }
@@ -331,11 +340,11 @@ blockquote,
     filter: brightness(1);
 }
 
-.main-content blockquote>blockquote>blockquote>blockquote>blockquote a {
+.main-content blockquote>blockquote>blockquote>blockquote>blockquote> blockquote a {
     filter: brightness(1);
 }
 
-.main-content *:is(h1, h2, h3, h4, h5, h6):first-child+blockquote>blockquote>blockquote>blockquote>blockquote>* {
+.main-content *:is(h1, h2, h3, h4, h5, h6):first-child+blockquote>blockquote>blockquote>blockquote>blockquote>blockquote>* {
     color: var(--main-dend-note) !important;
     /* opacity: 0.7; */
     font-weight: 700;
@@ -1084,5 +1093,4 @@ div#go_black.on:after {
 .side-bar, html, body {
     transition: background 1s !important;
 }
-
 

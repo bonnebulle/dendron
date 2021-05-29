@@ -477,11 +477,11 @@
         "when": "dendron:pluginActive"
     },
     {
-        "key": "ctrl+l ctrl+l",
+        "key": "ctrl+pagedown ctrl+pagedown",
         "command": "dendron.goNextHierarchy"
     },
     {
-        "key": "ctrl+alt+l ctrl+alt+l",
+        "key": "ctrl+pagedown ctrl+pageup",
         "command": "dendron.goPrevHierarchy"
     },
     {
@@ -500,5 +500,10 @@
     {
         "key": "ctrl+t",
         "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-notebook.centerActiveCell",
+        "when": "notebookEditorFocused"
     }
 ]

@@ -4,9 +4,9 @@
     --main-sidebare: #ffffff;
     --main_links_hover: #3240ac;
     --main-links_alt: #515cac;
-    --main-bkg-link:#759882;
+    --main-bkg-link:#6b6b6b;
     --main-dend_links: #58a861;
-    --main-dend_links_hover: #3cda51;
+    --main-dend_links_hover: #28a538;
     --main-dend_links_visited:#47a14c;
     --main-dend-note:#8dd697;
     --main-border-alt:#464646;
@@ -15,12 +15,12 @@
     --main-general_color: #1f1f1f;
     --main-general_color-alt:#1e221e;
     --main-blockq1: #357570;
-    --main-blockq2: #3f9593;
-    --main-blockq3: #57dfd3;
-    --main-blockq4: #5a815f;
-    --main-blockq5: #549b5d;
-    --main-blockq6: #80eae1;
-    --main-light:#000;
+    --main-blockq2: #598b8a;
+    --main-blockq3: #6c8d8a;
+    --main-blockq4: #7e9290;
+    --main-blockq5: #86c0bb;
+    --main-blockq6: #7c5a81;
+    --main-black:rgb(255, 255, 255);
 }
 
 .site-title:hover {background: transparent;}
