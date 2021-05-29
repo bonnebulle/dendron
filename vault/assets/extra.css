@@ -1104,9 +1104,9 @@ div#go_black.on:after {
 }
 
 
-.breadcrumb-nav-list-item,
-#site-nav a.nav-list-link.active,
-.side-bar a.nav-list-link.active,
+html .breadcrumb-nav-list-item,
+html #site-nav a.nav-list-link,
+html .side-bar a.nav-list-link.active,
 h1,h2,h3,h4,h5,h6 {
     transition: color 1s !important;
 } 
