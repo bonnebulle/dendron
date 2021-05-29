@@ -1,7 +1,9 @@
 /* EXTRA in dev build site folder (or not or not) */
 :root {
+    --main-generale-font-size: 19px;
     --main-font-size:1.55em;
     --main-font-size-less:1.5em;
+    --main-font-size-lessless: calc(var(--main-generale-font-size) / 1.7);
     --main-font-size-neg:-0.55em;
     --main-font-size-neg_less:-0.5em;
 }
@@ -210,7 +212,7 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
     color: var(--main-general_color);
     font-family: Open sans;
         font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-        font-size: 18.4px;
+        font-size:  var(--main-generale-font-size);
     }
 
 
@@ -376,7 +378,7 @@ blockquote {
     margin-left: calc(-1em - 0px) !important;
     border: 0px;
     /* margin-top: 0px !important; */
-    margin-bottom:  var(--main-font-size) !important;
+    margin-bottom:  var(--main-font-size-lessless) !important;
     margin-top: 0em !important;
 }
 
@@ -431,16 +433,16 @@ html .page__inner-wrap section blockquote br {
 }
 
 .main-content h1 {
-    font-size: 30px !important;
+    font-size: calc(var(--main-generale-font-size) + var(--main-generale-font-size)) !important;
     padding-top: calc(2.5em / 2) !important;
     margin-top: calc(2.5em / 2) !important;
     margin-bottom: 0.2em !important;
 }
 
 .main-content h2 {
-    margin-top: calc(1.9em / 2);
-    padding-top: calc(1.9em / 2);
-    font-size: 26px !important;
+    margin-top: calc(1.5em / 2);
+    padding-top: calc(1.5em / 2);
+    font-size: calc(var(--main-generale-font-size) + 10px) !important;
     margin-bottom: 5px;
 }
 
@@ -448,7 +450,7 @@ html .page__inner-wrap section blockquote br {
 .main-content h3 {
     margin-top: calc(1.45em / 2);
     padding-top: calc(1.45em / 2);
-    font-size: 23px !important;
+    font-size: calc(var(--main-generale-font-size) + 6px) !important;
 }
 
 
@@ -456,18 +458,18 @@ html .page__inner-wrap section blockquote br {
 
 .main-content h4 {
     margin-top: 1em;
-    margin-top: calc(1.5em / 2);
-    padding-top: calc(1.5em / 2);
-    font-size: 18px !important;
+    margin-top: calc(1.2em / 2);
+    padding-top: calc(1.2em / 2);
+    font-size: calc(var(--main-generale-font-size) + 3px) !important;
     letter-spacing: 1px !important;
     letter-spacing: normal !important;
 }
 
 .main-content h5,
 .main-content h6 {
-    margin-top: calc(1.3em / 2);
-    padding-top: calc(1.3em / 2);
-    font-size: 18px !important;
+    margin-top: calc(1.2em / 2);
+    padding-top: calc(1.2em / 2);
+    font-size: calc(var(--main-generale-font-size) + 0px);
     /* letter-spacing: 1px !important; */
     letter-spacing: normal !important;
 }
@@ -554,7 +556,7 @@ nav.breadcrumb-nav a:not([class]) {
 
 .page__inner-wrap p {
     /* margin-left: 4px !important; */
-    margin-bottom: 0.65em;
+    margin-bottom: var(--main-font-size-lessless);
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-before: 3;
     -webkit-hyphenate-limit-after: 3;
