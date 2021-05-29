@@ -212,6 +212,8 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
         font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
         font-size: 18.4px;
     }
+
+
 .page__inner-wrap ul,
 .page__inner-wrap ol {
     margin-top: 10px !important;
@@ -319,12 +321,17 @@ blockquote,
     color: var(--main-general_color) !important;
     font-weight: 620;
 }
-
+/* // 5 */
 .main-content blockquote blockquote blockquote blockquote blockquote  blockquote p,
 .main-content blockquote blockquote blockquote blockquote blockquote  blockquote {
     margin-top: 0px !important;
 }
-.main-content blockquote blockquote blockquote blockquote blockquote  blockquote {
+
+/* // 6 */
+.main-content blockquote blockquote blockquote blockquote blockquote blockquote {
+    margin-top: -0px !important;
+}
+.main-content blockquote blockquote blockquote blockquote blockquote p + blockquote {
     margin-top: -0.55em !important;
 }
 
@@ -439,8 +446,8 @@ html .page__inner-wrap section blockquote br {
 
 
 .main-content h3 {
-    margin-top: calc(1.75em / 2);
-    padding-top: calc(1.75em / 2);
+    margin-top: calc(1.45em / 2);
+    padding-top: calc(1.45em / 2);
     font-size: 23px !important;
 }
 
@@ -577,6 +584,7 @@ nav.breadcrumb-nav a:not([class]) {
     margin-bottom: 20px;
     margin-left: -8px !important;
     width: calc(100% + 10px) !important;
+    background:var(--main-border-altalt) !important;
 }
 
 .main-content .page__content ul {
@@ -1105,7 +1113,6 @@ div#go_black.on:after {
 
 
 html .breadcrumb-nav-list-item,
-html #site-nav a.nav-list-link,
 html .side-bar a.nav-list-link.active,
 h1,h2,h3,h4,h5,h6 {
     transition: color 1s !important;

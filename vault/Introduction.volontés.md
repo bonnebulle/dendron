@@ -2,7 +2,7 @@
 id: b920f3fc-8d74-493c-a86b-602d9676320d
 title: Volontés
 desc: "Texte fleuve sur un ton plus personnel, recherche plus subjective, tentative d'explicitation d'un devenir artiste_chercheur"
-updated: 1622038838889
+updated: 1622292789466
 created: 1621840952644
 ---
 >>>>> Intention générale :    
@@ -76,7 +76,7 @@ Je crois que d'une certaine façon c'est par là que je veux faire recherche. Av
 
 C'est un très vaste sujet que les darknets surtout si on y rapproche le web profond qui vient poser autrement des questions d'accès.innacces au savoirs-informations humaines et non humaines agrégées. Dark data et dark patterns, les faces obscures des industries du web.regorgent de jargons poétiques dont le glossaire reste à faire, trouver ou compléter.
 
-Limiter le nombre de ces réseaux aux protocoles atypiques sera sans doute ma première tache de spatialisation mentale : en discriminer certains pour favoriser exploration d'autres. Idem autour des autres réseaux adjascents si je puis dire aux bmockchaines et leurs gouvenemzntalites contractuelles.
+Limiter le nombre de ces réseaux aux protocoles atypiques sera sans doute ma première tache de spatialisation mentale : en discriminer certains pour favoriser exploration d'autres. Idem autour des autres réseaux adjascents si je puis dire aux blockchaines et leurs gouvenemzntalites contractuelles.
 
 Peut etre aussi il.me faudra penser les bords encore flous piur moi de ces mouvances souvent rattachées à ces réseaux émergents ou héritiers (indexes de sites cachés et blockchaines). Quelle place dans ma recherche pour les questions de meurses ( cyber criminalité, pédophilie, haine, comment /ne pas/ m'y exposer ou au contraire les faire remonter et de quel droit ) ? 
 Pour les orientations politiques libertariennes, crypto anarchistes ou néo liberales et leurs paradis fiscaux ( aux protocoles si semblable à Tor le plus connu des "darknets" ) ?
