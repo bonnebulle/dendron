@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1622127686763
+updated: 1622282638722
 created: 1595961348801
 nav_order: 10
 ---
@@ -116,7 +116,8 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 
 + Correction automatique des espaces insécables devant les [ : ; ? ! () etc ] ( en js côté front-end dans un premier temps)
 
-+ Thème_design clair / { foncé (actuel) }
+DONE:::
++ Thème_design clair / { foncé (actuel) } 🌒 
 > <https://pmarsceill.github.io/just-the-docs/docs/customization/>
 
 ### Travail en cours de formation

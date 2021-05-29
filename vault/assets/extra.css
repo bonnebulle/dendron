@@ -1060,11 +1060,14 @@ a.footnote-ref {
 }
 div#go_black {
     position: absolute;
-    right: 20%;
-    top: 20px;
+    right: 19%;
+    top: 13px;
     font-size: 1.4em;
     filter: grayscale(1);
 }
+
+
+
 div#go_black:after {
     display: block;
     position: absolute;
@@ -1081,3 +1084,5 @@ div#go_black.on:after {
 .side-bar, html, body {
     transition: background 1s !important;
 }
+
+
