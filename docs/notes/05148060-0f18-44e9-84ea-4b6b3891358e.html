@@ -67,6 +67,7 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     black();
     console.log("0");
                 // $(this).text("0").addClass("black");
+                $("body, head").addClass("blacked");
                 setTimeout(function(){ 
                     localStorage.setItem('the_switch', "blacked");
                     preference="blacked";
@@ -75,11 +76,85 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     light();
     console.log("1111");
                 // $(this).text("1").addClass("light");
+                $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
                         localStorage.setItem('the_switch', "ligthed");
                         preference="ligthed";
                 }, 100);
 	}
+
+
+
+
+
+function light(){
+// LIGHT
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link = document.createElement('link'); 
+	        link.rel = 'stylesheet';  
+	        link.type = 'text/css'; 
+		//    $("body, head").toggleClass("blacked").toggleClass("ligthed");
+             if (window.location.href.indexOf('localhost') > 0) {   
+	        link.href = '/assets/extra_light.css';  
+	        head.appendChild(link);  
+                $("link[href='/assets/extra_black.css']").remove();
+              } else {
+	          link.href = '/dendron/assets/extra_light.css';  
+	          head.appendChild(link);  
+              $("link[href='/dendron/assets/extra_black.css']").remove();
+              }
+}
+function black(){
+// BLACK
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link1 = document.createElement('link'); 
+	        link1.rel = 'stylesheet'; 
+		// $("body, head").toggleClass("blacked").toggleClass("ligthed");
+          if (window.location.href.indexOf('localhost') > 0) {   
+	        link1.href = '/assets/extra_black.css';  
+	        head.appendChild(link1);  
+            $("link[href='/asset/extra_light.css']").remove();
+          } else {
+	          link1.href = '/dendron/assets/extra_black.css';  
+	          head.appendChild(link1);  
+              $("link[href='/dendron/assets/extra_light.css']").remove();
+          }
+}
+
+
+
+$("#go_black").click(function() {
+	$(this).toggleClass("on");
+    let preference = localStorage.getItem('the_switch');
+	console.log("black " +preference);
+
+
+   
+	if (preference!="blacked") {
+    black();
+    // console.log("0");
+                // $(this).text("0");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    // console.log("1111");
+                // $(this).text("1");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+ 
+
+});
+
+
+
+
+
 
 
 
@@ -106,85 +181,12 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                                                 '$1&nbsp')
                                  .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
                                                 '\<br class\=\'fix_br\'>');
-                                            console.log("youpi");
+                                            // console.log("youpi");
                                                 $(this).html(textis);
             });
-             console.log("youpi1");
+            //  console.log("youpi1");
             }, 1000);
         });
-
-function light(){
-// LIGHT
-	       var head = document.getElementsByTagName('HEAD')[0];  
-	        var link = document.createElement('link'); 
-	        link.rel = 'stylesheet';  
-	        link.type = 'text/css'; 
-		   $("body, head").toggleClass("ligthed");
-             if (window.location.href.indexOf('localhost') > 0) {   
-	        link.href = '/assets/extra_light.css';  
-	        head.appendChild(link);  
-                $("link[href='/assets/extra_black.css']").remove();
-              } else {
-	          link.href = '/dendron/assets/extra_light.css';  
-	          head.appendChild(link);  
-              $("link[href='/dendron/assets/extra_black.css']").remove();
-              }
-}
-function black(){
-// BLACK
-	       var head = document.getElementsByTagName('HEAD')[0];  
-	        var link1 = document.createElement('link'); 
-	        link1.rel = 'stylesheet'; 
-		$("body, head").toggleClass("ligthed");
-          if (window.location.href.indexOf('localhost') > 0) {   
-	        link1.href = '/assets/extra_black.css';  
-	        head.appendChild(link1);  
-            $("link[href='/asset/extra_light.css']").remove();
-          } else {
-	          link1.href = '/dendron/assets/extra_black.css';  
-	          head.appendChild(link1);  
-              $("link[href='/dendron/assets/extra_light.css']").remove();
-          }
-}
-
-
-
-$("#go_black").click(function() {
-	$(this).toggleClass("on");
-    let preference = localStorage.getItem('the_switch');
-	console.log("black " +preference);
-
-
-   
-	if (preference!="blacked") {
-    black();
-    console.log("0");
-                $(this).text("0");
-                setTimeout(function(){ 
-                    localStorage.setItem('the_switch', "blacked");
-                    preference="blacked";
-                }, 100);
-	} else {
-    light();
-    console.log("1111");
-                $(this).text("1");
-                setTimeout(function(){ 
-                        localStorage.setItem('the_switch', "ligthed");
-                        preference="ligthed";
-                }, 100);
-	}
- 
-
-});
-
-
-
-
-
-
-
-
-
 
 </script>     
   <script
@@ -323,7 +325,7 @@ $("#go_black").click(function() {
     <meta itemprop="headline" content="Darknets">
     
     <meta itemprop="datePublished" content="2021-05-26T17:41:31+00:00">
-    <meta itemprop="dateModified" content="2021-05-29T17:10:56+00:00">
+    <meta itemprop="dateModified" content="2021-05-29T19:52:31+00:00">
 
     <div class="page__inner-wrap">
 
@@ -345,7 +347,9 @@ $("#go_black").click(function() {
 <blockquote>
 <blockquote>
 <blockquote>
-<p>Cette page_article devrait plutôt se trouver dans <a href="https://bonnebulle.github.io/dendron/notes/7c5b96e0-5754-4b5c-ab90-68dffc06d75c.html">discipline</a> // état de l'art ?!</p>
+<ul>
+<li>Cette page_article devrait plutôt se trouver dans <a href="https://bonnebulle.github.io/dendron/notes/7c5b96e0-5754-4b5c-ab90-68dffc06d75c.html">discipline</a> // état de l'art ?!</li>
+</ul>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -358,8 +362,9 @@ $("#go_black").click(function() {
 <blockquote>
 <blockquote>
 <blockquote>
-<p>Vous trouverez la Table des matière à droite de la page (flottant)
-<img src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png" alt="TOC_button"></p>
+<ul>
+<li>Vous trouverez la Table des matière à droite de la page (flottant) <img src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png" alt="TOC_button"></li>
+</ul>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -413,7 +418,9 @@ et qui y trouvent un dernier refuge en s'y copiant (<em>mirrors</em>).</p>
 <blockquote>
 <blockquote>
 <blockquote>
+<blockquote>
 <h4 id="todo-corpus-dœuvres-et-expositions"><a aria-hidden="true" class="anchor-heading" href="#todo-corpus-dœuvres-et-expositions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>TODO: corpus d'œuvres et expositions</h4>
+</blockquote>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -434,7 +441,7 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <p><del><a href="https://bonnebulle.github.io/dendron/notes/a2c6904d-6d25-4800-814d-0beb98d9de69.html">Idéologie, point de vu orienté</a></del></p>
 <h1 id="darknets-contre-la-censure-"><a aria-hidden="true" class="anchor-heading" href="#darknets-contre-la-censure-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets, contre la censure ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.</p>
-<h2 id="journalistes-criminels--qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes-criminels--qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, criminels, /// qui utilise ces réseaux ?</h2>
+<h2 id="journalistes--cyber-criminels--qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes--cyber-criminels--qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, /// cyber-criminels, /// qui utilise ces réseaux ?</h2>
 <p>Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.</p>
 <h4 id="neutralité-et-indépendance-du-www-retrouvée-"><a aria-hidden="true" class="anchor-heading" href="#neutralité-et-indépendance-du-www-retrouvée-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(neutralité et indépendance du www retrouvée ?)</h4>
 <p>Des réseaux dont les protocoles sont souvent agnostiques : ils assurent une neutralité dans le transport des données.</p>
@@ -446,6 +453,10 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <p>[1 www] Une intervention souvent jugée illégitime, contraire aux principes fondateurs d'un web libéral prônant la liberté de circulation informationnelle.</p>
 </blockquote>
 <p>Une lutte infinie entre ceux qui attaquent-interdisent et ceux qui se défendent pour exister-persister semble ainsi se jouer. Une dualité qui fait facilement fantasmer deux camps : celui -du bien du mal, celui -des pirates contre l'Empire.</p>
+<hr>
+<p>L'anonymat renforcé sur ces réseaux de machine encourage des transactions qui échappent aux censures marchandes sinon morales. S'y échangent des contenus et biens ailleurs interdits. Elle permet une délocalisation de marchés qui profitent alors des infrastructures réseau normales pour s'accomplir (dont les ceux des postes). </p>
+<p>L'appui successif de technologies décentralisées des réseaux <em>main-stream</em>, à commencer par les banques, encourage des activités ailleurs réprimées : élargi les libertés hors du contrôle des États et des institutions judiciaires. On peut alors parler de marchés ou d'activités parallaèlles échappant au régime normal<br>
+[<a href="#%C3%A9conomie-vie-parall%C3%A8le--radicalit%C3%A9-disruptive">cf. #Économie, vie parallèle : radicalité disruptive</a>]</p>
 <h1 id="modération-nettoyage-du-www"><a aria-hidden="true" class="anchor-heading" href="#modération-nettoyage-du-www"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Modération, nettoyage du WWW</h1>
 <p>Pendant un temps, ces recoins du web { mal indexés, modérés autrement } semblaient à eux seuls cristalliser toute la barbarie du monde unifié et propre... qu'un <strong>Clear-Web</strong> promettait de maintenir.    </p>
 <ul>
@@ -521,8 +532,8 @@ liberté d'expression et régime de production du réel -->
 <p><del><a href="https://bonnebulle.github.io/dendron/notes/354f4706-99b8-4e93-b655-22f3cf2283a9.html">Limiter la publicité du pire</a></del></p>
 <h1 id="des-pratiques-artistiques-"><a aria-hidden="true" class="anchor-heading" href="#des-pratiques-artistiques-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Des pratiques artistiques ?</h1>
 <h4 id="les-arts-de-la-fuite-et-des-tréfonds"><a aria-hidden="true" class="anchor-heading" href="#les-arts-de-la-fuite-et-des-tréfonds"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(Les arts de la fuite et des tréfonds)</h4>
-<p>Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.</p>
-<p>Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborantins, penseurs par la forme -l'indicible -l'induit }} pour chercher des alternatives de vie, de représentation, de ressenti, de subjectivité. D'une certaine façon la Culture est comme les darknets, plurielle, et non unique ni certaine, ni sacrée.</p>
+<p>Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à <strong>l'innovation technique d'avant-garde</strong> et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.</p>
+<p>Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborantins, penseurs par la forme -l'indicible -l'induit }} pour chercher <strong>des alternatives de vie</strong>, <strong>de représentation</strong>, <strong>de ressenti</strong>, <strong>de subjectivité</strong>. D'une certaine façon la Culture est comme les darknets, plurielle, et non unique ni certaine, ni sacrée.</p>
 <h3 id="transgression-et-trouble-dans-lart"><a aria-hidden="true" class="anchor-heading" href="#transgression-et-trouble-dans-lart"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Transgression et trouble dans l'art</h3>
 <p>On retrouve dans certaines pratiques artistiques qui emploient des protocoles atypiques, le goût du trouble_vulnérable, du débordement, de la liberté artistique.</p>
 <blockquote>

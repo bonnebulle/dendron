@@ -67,6 +67,7 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     black();
     console.log("0");
                 // $(this).text("0").addClass("black");
+                $("body, head").addClass("blacked");
                 setTimeout(function(){ 
                     localStorage.setItem('the_switch', "blacked");
                     preference="blacked";
@@ -75,11 +76,85 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     light();
     console.log("1111");
                 // $(this).text("1").addClass("light");
+                $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
                         localStorage.setItem('the_switch', "ligthed");
                         preference="ligthed";
                 }, 100);
 	}
+
+
+
+
+
+function light(){
+// LIGHT
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link = document.createElement('link'); 
+	        link.rel = 'stylesheet';  
+	        link.type = 'text/css'; 
+		//    $("body, head").toggleClass("blacked").toggleClass("ligthed");
+             if (window.location.href.indexOf('localhost') > 0) {   
+	        link.href = '/assets/extra_light.css';  
+	        head.appendChild(link);  
+                $("link[href='/assets/extra_black.css']").remove();
+              } else {
+	          link.href = '/dendron/assets/extra_light.css';  
+	          head.appendChild(link);  
+              $("link[href='/dendron/assets/extra_black.css']").remove();
+              }
+}
+function black(){
+// BLACK
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link1 = document.createElement('link'); 
+	        link1.rel = 'stylesheet'; 
+		// $("body, head").toggleClass("blacked").toggleClass("ligthed");
+          if (window.location.href.indexOf('localhost') > 0) {   
+	        link1.href = '/assets/extra_black.css';  
+	        head.appendChild(link1);  
+            $("link[href='/asset/extra_light.css']").remove();
+          } else {
+	          link1.href = '/dendron/assets/extra_black.css';  
+	          head.appendChild(link1);  
+              $("link[href='/dendron/assets/extra_light.css']").remove();
+          }
+}
+
+
+
+$("#go_black").click(function() {
+	$(this).toggleClass("on");
+    let preference = localStorage.getItem('the_switch');
+	console.log("black " +preference);
+
+
+   
+	if (preference!="blacked") {
+    black();
+    // console.log("0");
+                // $(this).text("0");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    // console.log("1111");
+                // $(this).text("1");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+ 
+
+});
+
+
+
+
+
 
 
 
@@ -106,85 +181,12 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                                                 '$1&nbsp')
                                  .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
                                                 '\<br class\=\'fix_br\'>');
-                                            console.log("youpi");
+                                            // console.log("youpi");
                                                 $(this).html(textis);
             });
-             console.log("youpi1");
+            //  console.log("youpi1");
             }, 1000);
         });
-
-function light(){
-// LIGHT
-	       var head = document.getElementsByTagName('HEAD')[0];  
-	        var link = document.createElement('link'); 
-	        link.rel = 'stylesheet';  
-	        link.type = 'text/css'; 
-		   $("body, head").toggleClass("ligthed");
-             if (window.location.href.indexOf('localhost') > 0) {   
-	        link.href = '/assets/extra_light.css';  
-	        head.appendChild(link);  
-                $("link[href='/assets/extra_black.css']").remove();
-              } else {
-	          link.href = '/dendron/assets/extra_light.css';  
-	          head.appendChild(link);  
-              $("link[href='/dendron/assets/extra_black.css']").remove();
-              }
-}
-function black(){
-// BLACK
-	       var head = document.getElementsByTagName('HEAD')[0];  
-	        var link1 = document.createElement('link'); 
-	        link1.rel = 'stylesheet'; 
-		$("body, head").toggleClass("ligthed");
-          if (window.location.href.indexOf('localhost') > 0) {   
-	        link1.href = '/assets/extra_black.css';  
-	        head.appendChild(link1);  
-            $("link[href='/asset/extra_light.css']").remove();
-          } else {
-	          link1.href = '/dendron/assets/extra_black.css';  
-	          head.appendChild(link1);  
-              $("link[href='/dendron/assets/extra_light.css']").remove();
-          }
-}
-
-
-
-$("#go_black").click(function() {
-	$(this).toggleClass("on");
-    let preference = localStorage.getItem('the_switch');
-	console.log("black " +preference);
-
-
-   
-	if (preference!="blacked") {
-    black();
-    console.log("0");
-                $(this).text("0");
-                setTimeout(function(){ 
-                    localStorage.setItem('the_switch', "blacked");
-                    preference="blacked";
-                }, 100);
-	} else {
-    light();
-    console.log("1111");
-                $(this).text("1");
-                setTimeout(function(){ 
-                        localStorage.setItem('the_switch', "ligthed");
-                        preference="ligthed";
-                }, 100);
-	}
- 
-
-});
-
-
-
-
-
-
-
-
-
 
 </script>     
   <script
@@ -336,7 +338,7 @@ $("#go_black").click(function() {
         <h1 id="fragments"><a aria-hidden="true" class="anchor-heading" href="#fragments"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fragments</h1>
 <p>Cette branche cachée regroupera tous les fragments (<em>frags</em>) de textes jettés / mis_de_côté / pas d'actualité ( mais à portée de main ).</p>
 <hr>
-<h2 id="parties-suivantes"><a aria-hidden="true" class="anchor-heading" href="#parties-suivantes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Parties suivantes</h2>
+<h2 id="sous-parties"><a aria-hidden="true" class="anchor-heading" href="#sous-parties"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sous parties</h2>
 <ol>
 <li><a href="https://bonnebulle.github.io/dendron/notes/81de3beb-b9db-4707-b046-03a0ca2b39e8.html">Frags - Intro_darknets</a></li>
 <li><a href="https://bonnebulle.github.io/dendron/notes/385c9656-8949-4f37-ad57-e851897c39e9.html">Tests</a></li>

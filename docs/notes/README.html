@@ -67,6 +67,7 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     black();
     console.log("0");
                 // $(this).text("0").addClass("black");
+                $("body, head").addClass("blacked");
                 setTimeout(function(){ 
                     localStorage.setItem('the_switch', "blacked");
                     preference="blacked";
@@ -75,11 +76,85 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     light();
     console.log("1111");
                 // $(this).text("1").addClass("light");
+                $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
                         localStorage.setItem('the_switch', "ligthed");
                         preference="ligthed";
                 }, 100);
 	}
+
+
+
+
+
+function light(){
+// LIGHT
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link = document.createElement('link'); 
+	        link.rel = 'stylesheet';  
+	        link.type = 'text/css'; 
+		//    $("body, head").toggleClass("blacked").toggleClass("ligthed");
+             if (window.location.href.indexOf('localhost') > 0) {   
+	        link.href = '/assets/extra_light.css';  
+	        head.appendChild(link);  
+                $("link[href='/assets/extra_black.css']").remove();
+              } else {
+	          link.href = '/dendron/assets/extra_light.css';  
+	          head.appendChild(link);  
+              $("link[href='/dendron/assets/extra_black.css']").remove();
+              }
+}
+function black(){
+// BLACK
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link1 = document.createElement('link'); 
+	        link1.rel = 'stylesheet'; 
+		// $("body, head").toggleClass("blacked").toggleClass("ligthed");
+          if (window.location.href.indexOf('localhost') > 0) {   
+	        link1.href = '/assets/extra_black.css';  
+	        head.appendChild(link1);  
+            $("link[href='/asset/extra_light.css']").remove();
+          } else {
+	          link1.href = '/dendron/assets/extra_black.css';  
+	          head.appendChild(link1);  
+              $("link[href='/dendron/assets/extra_light.css']").remove();
+          }
+}
+
+
+
+$("#go_black").click(function() {
+	$(this).toggleClass("on");
+    let preference = localStorage.getItem('the_switch');
+	console.log("black " +preference);
+
+
+   
+	if (preference!="blacked") {
+    black();
+    // console.log("0");
+                // $(this).text("0");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    // console.log("1111");
+                // $(this).text("1");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+ 
+
+});
+
+
+
+
+
 
 
 
@@ -106,85 +181,12 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                                                 '$1&nbsp')
                                  .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
                                                 '\<br class\=\'fix_br\'>');
-                                            console.log("youpi");
+                                            // console.log("youpi");
                                                 $(this).html(textis);
             });
-             console.log("youpi1");
+            //  console.log("youpi1");
             }, 1000);
         });
-
-function light(){
-// LIGHT
-	       var head = document.getElementsByTagName('HEAD')[0];  
-	        var link = document.createElement('link'); 
-	        link.rel = 'stylesheet';  
-	        link.type = 'text/css'; 
-		   $("body, head").toggleClass("ligthed");
-             if (window.location.href.indexOf('localhost') > 0) {   
-	        link.href = '/assets/extra_light.css';  
-	        head.appendChild(link);  
-                $("link[href='/assets/extra_black.css']").remove();
-              } else {
-	          link.href = '/dendron/assets/extra_light.css';  
-	          head.appendChild(link);  
-              $("link[href='/dendron/assets/extra_black.css']").remove();
-              }
-}
-function black(){
-// BLACK
-	       var head = document.getElementsByTagName('HEAD')[0];  
-	        var link1 = document.createElement('link'); 
-	        link1.rel = 'stylesheet'; 
-		$("body, head").toggleClass("ligthed");
-          if (window.location.href.indexOf('localhost') > 0) {   
-	        link1.href = '/assets/extra_black.css';  
-	        head.appendChild(link1);  
-            $("link[href='/asset/extra_light.css']").remove();
-          } else {
-	          link1.href = '/dendron/assets/extra_black.css';  
-	          head.appendChild(link1);  
-              $("link[href='/dendron/assets/extra_light.css']").remove();
-          }
-}
-
-
-
-$("#go_black").click(function() {
-	$(this).toggleClass("on");
-    let preference = localStorage.getItem('the_switch');
-	console.log("black " +preference);
-
-
-   
-	if (preference!="blacked") {
-    black();
-    console.log("0");
-                $(this).text("0");
-                setTimeout(function(){ 
-                    localStorage.setItem('the_switch', "blacked");
-                    preference="blacked";
-                }, 100);
-	} else {
-    light();
-    console.log("1111");
-                $(this).text("1");
-                setTimeout(function(){ 
-                        localStorage.setItem('the_switch', "ligthed");
-                        preference="ligthed";
-                }, 100);
-	}
- 
-
-});
-
-
-
-
-
-
-
-
-
 
 </script>     
   <script
@@ -323,7 +325,7 @@ $("#go_black").click(function() {
     <meta itemprop="headline" content="Sources">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-29T16:52:47+00:00">
+    <meta itemprop="dateModified" content="2021-05-29T19:58:42+00:00">
 
     <div class="page__inner-wrap">
 
@@ -388,7 +390,7 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <blockquote>
 <blockquote>
 <blockquote>
-<p>J'ai renommé les <em>enfants</em> (<em>Childrens</em>) en "<strong>Parties suivantes</strong>" affichées en bas de page_notes.</p>
+<p>J'ai renommé les <em>enfants</em> (<em>Childrens</em>) en "<strong>Sous parties</strong>" affichées en bas de page_notes.</p>
 </blockquote>
 </blockquote>
 </blockquote>

@@ -1,8 +1,9 @@
 :root {
     --main-bkg:#fbfbfb;
     --main-sidebare: #fdfdfd;
+    --main-sidebare-alt: #d6d6d6;
     --main_links_hover: #3240ac;
-    --main-links_alt: #515cac;
+    --main-links_alt: #4c3dad;
     --main-bkg-link:#6b6b6b;
     --main-dend_links: #58a861;
     --main-dend_links_hover: #28a538;
@@ -13,18 +14,43 @@
     --main-alt-title-h56: #444444;
     --main-general_color: #181818;
     --main-general_color-alt:#1e221e;
-    --main-blockq1: #008dff;
-    --main-blockq2: #42aaff;
+    --main-blockq1: #0375d2;
+    --main-blockq2: #4095da;
     --main-blockq3: #72bffd;
     --main-blockq4: #9eccf9;
-    --main-blockq5: #86c0bb;
+    --main-blockq5: #b5d7fa;
     --main-blockq6: #5da861;
     --main-light: #000;
 }
+/* 
+a, a>*, .main-content a.anchor-heading, .main-content a.anchor-heading svg, li.nav-list-item a {
+    color: var(--main-links_alt) !important;
+} */
+a:not([class])  {
+   background: linear-gradient(#e6e5f5 0%, #d3d1e2 100%);
+}
+.main-content blockquote>blockquote>blockquote a, 
+.main-content blockquote>blockquote>blockquote>blockquote a {
+    filter: brightness(1.4) contrast(1);
+}
+
+.main-content blockquote>blockquote>blockquote a:hover,
+.main-content blockquote>blockquote>blockquote>blockquote a:hover {
+    filter: brightness(1);
+}
+
+.main-content blockquote>blockquote>blockquote>blockquote>blockquote> blockquote a {
+    filter: brightness(1);
+}
+
 
 .site-title:hover {background: transparent;}
 
-
+.side-bar a:not(.nav-list-expander):focus, html body a:not(.nav-list-expander):not(.anchor-heading):focus {
+    background: transparent !important;
+    color: var(--main-light) !important;
+    outline: none !important;
+}
 
 
 

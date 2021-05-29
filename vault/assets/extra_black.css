@@ -2,6 +2,7 @@
 :root {
     --main-bkg:#1e1d22;
     --main-sidebare: #212024;
+    --main-sidebare-alt: #363636;
     --main_links_hover: #a8b2ff;
     --main-links_alt: #d6dbff;
     --main-bkg-link:#759882;
@@ -23,3 +24,22 @@
     --main-light:#FFF;
 }
 
+
+a:not([class])  {
+  background:  linear-gradient(#44434d 0%, #44434d 100%);
+}
+
+
+.main-content blockquote>blockquote>blockquote a,
+.main-content blockquote>blockquote>blockquote>blockquote a {
+    filter: brightness(0.6);
+}
+
+.main-content blockquote>blockquote>blockquote a:hover,
+.main-content blockquote>blockquote>blockquote>blockquote a:hover {
+    filter: brightness(1);
+}
+
+.main-content blockquote>blockquote>blockquote>blockquote>blockquote> blockquote a {
+    filter: brightness(1);
+}

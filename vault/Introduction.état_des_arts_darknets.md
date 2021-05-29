@@ -2,7 +2,7 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622301056471
+updated: 1622310751378
 created: 1622043691067
 ---    
        
@@ -12,10 +12,9 @@ created: 1622043691067
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
 
->>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
+>>>>>> + Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
 
->>>>>> Vous trouverez la Table des matière à droite de la page (flottant) 
->>>>>> ![TOC_button](https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png)
+>>>>>> + Vous trouverez la Table des matière à droite de la page (flottant) ![TOC_button](https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png)
 
 # Littératures et état de l'art
 ### Informatique - technique
@@ -79,7 +78,7 @@ Les darknets et autres réseaux mal-indexés poussent à la curiosité : **à de
 ### En arts ( installations, web_net-art, films )
 Les pratiques artistiques qui les emploient ont tendance à utiliser ces accès comme vecteurs d'un imaginaire autant que comme régime de production particulier.
 
->>>>> #### TODO: corpus d'œuvres et expositions
+>>>>>> #### TODO: corpus d'œuvres et expositions
 
 
 
@@ -119,7 +118,7 @@ J'ambitionne de faire le pont entre différents régimes de recherche à commenc
 
 Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.
 
-## Journalistes, criminels, /// qui utilise ces réseaux ?
+## Journalistes, /// cyber-criminels, /// qui utilise ces réseaux ?
 
 Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.
 
@@ -135,8 +134,12 @@ Une liberté d'expression, de conscience et d'organisation que {malheureusement}
 
 Une lutte infinie entre ceux qui attaquent-interdisent et ceux qui se défendent pour exister-persister semble ainsi se jouer. Une dualité qui fait facilement fantasmer deux camps : celui -du bien du mal, celui -des pirates contre l'Empire.
 
+---
 
+L'anonymat renforcé sur ces réseaux de machine encourage des transactions qui échappent aux censures marchandes sinon morales. S'y échangent des contenus et biens ailleurs interdits. Elle permet une délocalisation de marchés qui profitent alors des infrastructures réseau normales pour s'accomplir (dont les ceux des postes). 
 
+L'appui successif de technologies décentralisées des réseaux *main-stream*, à commencer par les banques, encourage des activités ailleurs réprimées : élargi les libertés hors du contrôle des États et des institutions judiciaires. On peut alors parler de marchés ou d'activités parallaèlles échappant au régime normal  
+[[cf. #Économie, vie parallèle : radicalité disruptive](#économie-vie-parallèle--radicalité-disruptive)]
 
 
 
@@ -237,9 +240,9 @@ Criminalisées, contrevenant aux régimes de production et idéal contemporain, 
 
 #### (Les arts de la fuite et des tréfonds)
 
-Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à innovation technique d'avant-garde et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.
+Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à **l'innovation technique d'avant-garde** et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.
 
-Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborantins, penseurs par la forme -l'indicible -l'induit }} pour chercher des alternatives de vie, de représentation, de ressenti, de subjectivité. D'une certaine façon la Culture est comme les darknets, plurielle, et non unique ni certaine, ni sacrée.
+Ielles jouent leur rôle social {{ d'expérimentatrices et explorateurs laborantins, penseurs par la forme -l'indicible -l'induit }} pour chercher **des alternatives de vie**, **de représentation**, **de ressenti**, **de subjectivité**. D'une certaine façon la Culture est comme les darknets, plurielle, et non unique ni certaine, ni sacrée.
 
 ### Transgression et trouble dans l'art
 
