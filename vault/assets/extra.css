@@ -654,8 +654,8 @@ h2#parties-suivantes:before {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 
-.main-content blockquote blockquote blockquote blockquote blockquote,
-.main-content blockquote blockquote blockquote blockquote blockquote *,
+.main-content blockquote blockquote blockquote blockquote blockquote blockquote,
+.main-content blockquote blockquote blockquote blockquote blockquote blockquote *,
 .main-content a[href*="bonnebulle"],
 .main-content a[href*="localhost"],
 .main-content h2#backlinks,
@@ -1075,14 +1075,43 @@ filter: grayscale(0);
     padding: 4px 20px 10px 20px !important;
 }
 
-a.footnote-ref {
-    font-size: 0.8em;
-    color: var(--main-blockq5)!important;
+html body a.footnote-ref {
+    color: inherit !important;
+    font-weight: bold;
+    font-size: 0.7em;
 }
 a.footnote-ref:target {
     color: var(--main-light)!important;
     background-color: var(--main-blockq5)!important;
 }
+
+html body a.footnote-ref:before {
+    content: "["
+}
+
+html body a.footnote-ref:after {
+    content: "]"
+}
+
+.main-content .footnotes ol > li::before {
+    color: var(--main-light)!important;
+    font-weight: bold;
+}
+.main-content .footnotes a.footnote-backref {
+    margin-left: 10px;
+    color: var(--main-blockq6)!important;
+}
+
+.footnotes hr {
+    width: calc(100% + 6rem) !important;
+    left: -2rem;
+    position: relative;
+    background: var( --main-light) !important;
+    margin-bottom: 1.7rem !important;
+    margin-top: 2.7rem !important;
+}
+
+
 div#go_black {
     position: absolute;
     right: 19%;
