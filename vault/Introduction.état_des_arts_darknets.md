@@ -2,7 +2,7 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622284216851
+updated: 1622289932060
 created: 1622043691067
 ---    
        
@@ -13,10 +13,6 @@ created: 1622043691067
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
 
 >>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
-
-
-{{fname}} créé le {fm.created}} 
-Mise à jour :  le {{fm.updated}} 
 
 
 
@@ -190,13 +186,10 @@ Un en dehors connu, un geste de distanciation volontaire ( sinon accidentel et t
 : atypique, d'autre nature 
 : inquiétantes monstruosité, langage mal codé. 
 
-> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**[^1Dominique_Quessada], du dedans inversé : barbelé.[^]
->> Une plasticité du visible, de la retenue[^]
+> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**[^1], du dedans inversé : barbelé.
+>> Une plasticité du visible, de la retenue
 
-[^]un
-[^]deux
-[^1Dominique_Quessada]: ::: cit.ref Essai de Dominique Quessada
-
+[^1]: cit.ref Essai de Dominique Quessada
 
 
 

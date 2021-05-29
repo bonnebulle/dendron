@@ -86,9 +86,9 @@ function black(){
 	        link1.rel = 'stylesheet'; 
 		$("body, head").toggleClass("ligthed");
           if (window.location.href.indexOf('localhost') > 0) {   
-	        link1.href = './assets/extra_black.css';  
+	        link1.href = '/assets/extra_black.css';  
 	        head.appendChild(link1);  
-            $("link[href='./asset/extra_light.css']").remove();
+            $("link[href='/asset/extra_light.css']").remove();
           } else {
 	          link1.href = '/dendron/assets/extra_black.css';  
 	          head.appendChild(link1);  

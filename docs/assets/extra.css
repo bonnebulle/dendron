@@ -1,4 +1,10 @@
 /* EXTRA in dev build site folder (or not or not) */
+:root {
+    --main-font-size:1.55em;
+    --main-font-size-less:1.5em;
+    --main-font-size-neg:-0.55em;
+    --main-font-size-neg_less:-0.5em;
+}
 
 html,
 html body {
@@ -199,7 +205,7 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
 .page__inner-wrap * {
     line-height: 1.9em !important;
     line-height: 1.82em !important;
-    line-height: 1.65em !important;
+    line-height:  var(--main-font-size-less) !important;
     font-weight: 400;
     color: var(--main-general_color);
     font-family: Open sans;
@@ -318,6 +324,9 @@ blockquote,
 .main-content blockquote blockquote blockquote blockquote blockquote  blockquote {
     margin-top: 0px !important;
 }
+.main-content blockquote blockquote blockquote blockquote blockquote  blockquote {
+    margin-top: -0.55em !important;
+}
 
 
 /* Comment dendron 6 */
@@ -360,12 +369,12 @@ blockquote {
     margin-left: calc(-1em - 0px) !important;
     border: 0px;
     /* margin-top: 0px !important; */
-    margin-bottom: 0.65em !important;
+    margin-bottom:  var(--main-font-size) !important;
     margin-top: 0em !important;
 }
 
 p+blockquote {
-    margin-top: -0.6em !important;
+    margin-top: var(--main-font-size-neg) !important;
 }
 
 
@@ -374,14 +383,9 @@ p+blockquote {
 } */
 
 blockquote+blockquote {
-    margin-top: .6em !important;
+    margin-top:  var(--main-font-size-neg_less) !important;
 }
 
-
-/* blockquote + blockquote > blockquote {
-    margin-top: -0em !important;
-    margin-top: -.35em !important;
-} */
 
 .page__inner-wrap blockquote p+blockquote {
     margin-top: -0.65em !important;
@@ -743,9 +747,9 @@ h2#parties-suivantes:before {
         padding-left: 0px;
     }
     ul.nav-list li.nav-list-item.active ul.nav-list li a {
-        padding: 8px 1rem 8px 0.8rem !important;
+        padding: 4px 1rem 0px 0.8rem !important;
         font-size: 13px;
-        line-height: 8px;
+        line-height: 13px;
     }
     .nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link {
         margin-left: 5px !important;
@@ -774,7 +778,7 @@ h2#parties-suivantes:before {
     ul.nav-list li.nav-list-item.active ul.nav-list::before {
         content: "";
         display: block;
-        height: calc(100% - 35px);
+        height: calc(100% - 38px);
         width: 1px;
         background: var(--main-border-alt);
         position: absolute;
@@ -993,7 +997,7 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li a[href="#backlinks"] {
     overflow: visible;
     word-break: break-word;
     white-space: initial;
-    line-height: 1.65em !important;
+    line-height: var(--main-font-size) !important;
     padding: 0px;
 }
 
@@ -1065,7 +1069,11 @@ filter: grayscale(0);
 
 a.footnote-ref {
     font-size: 0.8em;
-    color: var(--main-dend_links)!important;
+    color: var(--main-blockq5)!important;
+}
+a.footnote-ref:target {
+    color: var(--main-light)!important;
+    background-color: var(--main-blockq5)!important;
 }
 div#go_black {
     position: absolute;
@@ -1073,6 +1081,7 @@ div#go_black {
     top: 13px;
     font-size: 1.4em;
     filter: grayscale(1);
+    cursor: pointer;
 }
 
 
@@ -1094,3 +1103,8 @@ div#go_black.on:after {
     transition: background 1s !important;
 }
 
+
+
+h1,h2,h3,h4,h5,h6 {
+    transition: color 1s !important;
+}

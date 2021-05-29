@@ -1,7 +1,7 @@
 
 :root {
-    --main-bkg:#ffffff;
-    --main-sidebare: #ffffff;
+    --main-bkg:#fbfbfb;
+    --main-sidebare: #fdfdfd;
     --main_links_hover: #3240ac;
     --main-links_alt: #515cac;
     --main-bkg-link:#6b6b6b;
@@ -11,16 +11,16 @@
     --main-dend-note:#8dd697;
     --main-border-alt:#464646;
     --main-border-altalt: #6d6d6d;
-    --main-alt-title-h56: #000000;
+    --main-alt-title-h56: #444444;
     --main-general_color: #1f1f1f;
     --main-general_color-alt:#1e221e;
-    --main-blockq1: #357570;
-    --main-blockq2: #598b8a;
-    --main-blockq3: #6c8d8a;
-    --main-blockq4: #7e9290;
+    --main-blockq1: #008dff;
+    --main-blockq2: #42aaff;
+    --main-blockq3: #72bffd;
+    --main-blockq4: #9eccf9;
     --main-blockq5: #86c0bb;
-    --main-blockq6: #7c5a81;
-    --main-black:rgb(255, 255, 255);
+    --main-blockq6: #5da861;
+    --main-light: #000;
 }
 
 .site-title:hover {background: transparent;}
