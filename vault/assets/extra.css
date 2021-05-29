@@ -1078,4 +1078,6 @@ div#go_black.light:after,
 div#go_black.on:after {
     content: '🌒';
 }
-
+.side-bar, html, body {
+    transition: background 1s !important;
+}
