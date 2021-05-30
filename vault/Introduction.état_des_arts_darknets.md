@@ -2,7 +2,7 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622310751378
+updated: 1622370507379
 created: 1622043691067
 ---    
        
@@ -13,7 +13,6 @@ created: 1622043691067
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
 
 >>>>>> + Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
-
 >>>>>> + Vous trouverez la Table des matière à droite de la page (flottant) ![TOC_button](https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png)
 
 # Littératures et état de l'art
@@ -288,7 +287,7 @@ Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le désir d'e
 
 
 
-# Économie, vie parallèle : radicalité disruptive
+# Économie, vie parallèle : /// radicalité disruptive
 
 L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.
 

@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: 'Écriture-recherche en Thèse'
-updated: 1622311122086
+updated: 1622367148820
 created: 1595961348801
 nav_order: 10
 ---
@@ -34,7 +34,7 @@ Dans les pages_notes les indications internes relatives au fonctionnement de Den
 >>
 
 
-## Les motivations : la recherche des bons moyens
+## Les motivations : /// la recherche des bons moyens
 Je cherchais un outil_moyen de prises de notes et de développement de ma pensée par écrit. Je voulais éviter les outils numérique d'écriture dont les interface graphiques et la mise en page est souvent trop éloignée du rendu final. Je me suis mis en recherche d'une solution de mise en forme et publication de mon travail dans un interface que je puisse augmenter.
 
 J'ai donc fait une [étude de marché (et recherches)](https://liens.vincent-bonnefille.fr/?AGBhmA) au sujet des systèmes_outils de prise de notes élargies. J'ai retenu **Dendron** comme solution  *open-source* déjà largement employée dans la recherche universitaire {( reposant sur un éditeur de texte penser pour le code (vsCode de *Microsoft* cf. [vsCodium](https://vscodium.com/)) )}. 

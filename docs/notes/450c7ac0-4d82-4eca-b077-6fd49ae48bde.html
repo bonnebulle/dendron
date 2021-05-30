@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>Organisation - Projet de thèse</title>
+  <title>Organisation - DarkNetArt</title>
   
 
   <link
@@ -34,13 +34,18 @@
 <link type="text/css" rel="stylesheet" href="/assets/extra_black.css" />
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra_black.css" />
+<link type="text/css" rel="preload" href="/assets/extra_light.css" />
+<!-- For Github -->
+<link type="text/css" rel="preload" href="/dendron/assets/extra_light.css" />
+
+
 <!-- ---------  -->
 <link type="text/css" rel="stylesheet" href="/assets/extra.css" />
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
 
 
-<div id="go_black">O</div>
+<div id="go_black"></div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -67,20 +72,20 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
     black();
     console.log("0");
                 // $(this).text("0").addClass("black");
-                $("body, head").addClass("blacked");
+                // $("body, head").addClass("blacked");
                 setTimeout(function(){ 
                     localStorage.setItem('the_switch', "blacked");
                     preference="blacked";
-                }, 100);
+                }, 10);
 	} else {
     light();
     console.log("1111");
                 // $(this).text("1").addClass("light");
-                $("body, head").addClass("ligthed");
+                // $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
                         localStorage.setItem('the_switch', "ligthed");
                         preference="ligthed";
-                }, 100);
+                }, 10);
 	}
 
 
@@ -214,8 +219,8 @@ $("#go_black").click(function() {
 <meta name="twitter:image" content="https://bonnebulle.github.io/dendronundefined">
 
 
-  <meta property="og:title" content="Organisation - Projet de thèse" />
-  <meta name="twitter:title" content="Organisation - Projet de thèse" />
+  <meta property="og:title" content="Organisation - DarkNetArt" />
+  <meta name="twitter:title" content="Organisation - DarkNetArt" />
   
 </head>
 
@@ -258,7 +263,7 @@ $("#go_black").click(function() {
     <div class="side-bar">
       <div class="site-header">
         <a href="https://bonnebulle.github.io/dendron" class="site-title lh-tight">
-  Projet de thèse
+  DarkNetArt
 
  </a>
         <a href="#" id="menu-button" class="site-button">
@@ -277,7 +282,7 @@ $("#go_black").click(function() {
           
             <div class="search">
               <div class="search-input-wrap">
-                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Rechercher..." aria-label="Search Projet de thèse" autocomplete="off">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Rechercher..." aria-label="Search DarkNetArt" autocomplete="off">
                 <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
               </div>
               <div id="search-results" class="search-results"></div>

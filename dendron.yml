@@ -4,7 +4,7 @@ vaults:
         fsPath: vault
 useFMTitle: true
 useNoteTitleForLink: true
-noAutoCreateOnDefinition: true
+noAutoCreateOnDefinition: false
 noLegacyNoteRef: true
 color_scheme: dark
 previewPort: 8999
@@ -22,7 +22,7 @@ site:
         - root
     siteRootDir: docs
     usePrettyRefs: true
-    title: Projet de thèse
+    title: DarkNetArt
     description: Arts et Darknets
     author: Vincent Bonnefille
     previewPort: 8999

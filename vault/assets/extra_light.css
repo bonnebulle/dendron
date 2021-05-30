@@ -6,12 +6,12 @@
     --main-links_alt: #656082;
     --main-bkg-link: #6b6b6b;
     /* --main-dend_links: #65956a; */
-    --main-dend_links: #4d7752;
-    --main-dend_links_hover: #27ca3c;
+    --main-dend_links: #508b57;
+    --main-dend_links_hover: #46c275;
     --main-dend_links_visited: #47a14c;
     --main-dend-note: #8dd697;
     --main-border-alt: #464646;
-    --main-border-altalt: #d4d4d4;
+    --main-border-altalt: #989898;
     --main-alt-title-h56: #444444;
     --main-general_color: #111111;
     --main-general_color-alt: #1e221e;
@@ -27,9 +27,10 @@
 a, a>*, .main-content a.anchor-heading, .main-content a.anchor-heading svg, li.nav-list-item a {
     color: var(--main-links_alt) !important;
 } */
-a:not([class])  {
+/* a:not([class])  {
    background: linear-gradient(#e6e5f5 0%, #d3d1e2 100%);
-}
+   transition: background 1s!important;
+} */
 .main-content blockquote>blockquote>blockquote a, 
 .main-content blockquote>blockquote>blockquote>blockquote a {
     filter: brightness(1.4) contrast(1);
@@ -44,13 +45,9 @@ a:not([class])  {
     filter: brightness(1);
 }
 
-
-.site-title:hover {background: transparent;}
-
-.side-bar a:not(.nav-list-expander):focus, html body a:not(.nav-list-expander):not(.anchor-heading):focus {
+.side-bar a:not(.nav-list-expander):focus {
     background: transparent !important;
     color: var(--main-light) !important;
-    outline: none !important;
 }
 
 
