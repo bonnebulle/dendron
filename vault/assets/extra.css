@@ -300,7 +300,16 @@ padding-left: 5px;
     font-size: calc(var(--main-generale-font-size) - 7px) !important;
     line-height: var(--main-generale-font-size) !important;
     margin-top: 0.15em;
-    padding-left: 3px;
+    padding-left: 5px;
+}
+.footnotes li:hover > a.footnote-backref::after {
+    content: attr(href);
+    font-size: 11px;
+    line-height: 9px;
+    top: -3px;
+    position: relative;
+    left: 3px;
+    color: var( --main-blockq2);
 }
 
 sup[id^="fnref"]:target,
