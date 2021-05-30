@@ -18,6 +18,7 @@ Une thèse que je voudrais atypique à la façon de ces réseaux et ceux.celles 
 
 [[Introduction.volontés]] (Texte fleuve, plus personnel, intentionnel) 
 
---- <!--LOCAL_ONLY_LINE-->
+\--- <!--LOCAL_ONLY_LINE-->
 
-[[frags.tests.dendron]] <!--LOCAL_ONLY_LINE-->
+[[frags.tests.tests_dendron]] <!--LOCAL_ONLY_LINE-->
+

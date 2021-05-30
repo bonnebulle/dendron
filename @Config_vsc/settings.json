@@ -3,6 +3,8 @@
 // from code > configure language specific settings
 {
     "workbench.editor.pinnedTabSizing": "compact",
+    // Reduce tab title name in editor
+    "workbench.editor.labelFormat": "short",
     "editor.acceptSuggestionOnEnter": "off",
     "[plaintext]": {
         "editor.acceptSuggestionOnEnter": "off",
