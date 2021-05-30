@@ -22,7 +22,9 @@
     --main-blockq5: #b5d7fa;
     --main-blockq6: var(--main-dend_links);
     --main-light: #000;
-    --main-over:#fbf8e6;
+    --main-over:#000;
+    --main-over-bkg: #fef9d0;
+    --main-over-alt:#d6cc93;
 }
 /* 
 a, a>*, .main-content a.anchor-heading, .main-content a.anchor-heading svg, li.nav-list-item a {

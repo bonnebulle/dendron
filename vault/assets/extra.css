@@ -287,7 +287,7 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
     margin-left: -18px;
 }
 .main-content .footnotes ol > li{
-font-size: calc(var(--main-generale-font-size) - 6px) !important;
+font-size: calc(var(--main-generale-font-size) - 4px) !important;
 padding: 1px 6px;
 margin-left: -0px;
 padding-left: 5px;
@@ -297,16 +297,28 @@ padding-left: 5px;
     /* padding-left: 12px; */
 }
 .main-content .footnotes ol > li::before {
-    font-size: calc(var(--main-generale-font-size) - 9px) !important;
+    font-size: calc(var(--main-generale-font-size) - 6px) !important;
     line-height:var(--main-generale-font-size) !important;
-    margin-top: 0.02em;
+    margin-top: 0.13em;
 }
 
+sup[id^="fnref"]:target,
 li[id^="fn"]:target {
-    background:  var(--main-over) !important;
+    background:  var(--main-over-bkg) !important;
     color: var(--main-light) !important;
 }
+sup[id^="fnref"]:target {
+    background:  var(--main-over-alt) !important;
+        color: var(--main-over) !important;
+}
+sup[id^="fnref"]:target > a {
+    background:  var(--main-over-alt) !important;
+        color: var(--main-over) !important;
+}
 
+sup[id^="fnref"] {
+vertical-align: text-top;
+}
 .page__inner-wrap li * {
     line-height: 1.50em !important;
 }
