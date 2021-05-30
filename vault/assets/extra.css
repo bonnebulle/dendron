@@ -289,7 +289,7 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
 .main-content .footnotes ol > li{
 font-size: calc(var(--main-generale-font-size) - 4px) !important;
 padding: 1px 6px;
-margin-left: -0px;
+margin-left: -8px;
 padding-left: 5px;
 }
 .main-content .footnotes ol {
@@ -297,9 +297,10 @@ padding-left: 5px;
     /* padding-left: 12px; */
 }
 .main-content .footnotes ol > li::before {
-    font-size: calc(var(--main-generale-font-size) - 6px) !important;
-    line-height:var(--main-generale-font-size) !important;
-    margin-top: 0.13em;
+    font-size: calc(var(--main-generale-font-size) - 7px) !important;
+    line-height: var(--main-generale-font-size) !important;
+    margin-top: 0.15em;
+    padding-left: 3px;
 }
 
 sup[id^="fnref"]:target,
