@@ -5,6 +5,7 @@ vaults:
 useFMTitle: true
 useNoteTitleForLink: true
 noAutoCreateOnDefinition: false
+copyAssets: true
 noLegacyNoteRef: true
 color_scheme: dark
 previewPort: 8999

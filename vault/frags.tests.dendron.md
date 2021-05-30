@@ -2,7 +2,7 @@
 id: 1806f712-bdb7-4db0-9425-52ebfe3b4f6f
 title: Dendron
 desc: ''
-updated: 1622323717986
+updated: 1622373893073
 created: 1622213443507
 tekila: hello
 ---
@@ -12,15 +12,22 @@ tekila: hello
 Page de tests
 et brouillons
 
+Text important[^a]
+Text imposant[^c]
+Text sans importance[^b]
+
+[^a]: la jolie note ^a
+[^c]: la jolie note ^c
+[^b]: la jolie note ^b
+
+{{fm.tekila}} 
+
 #  1 title
 ##  2 title
 ###  3 title
 ####  4 title
 #####  5 title
 ######  6 title
-
-
-
 
 > 1 comment blockquote
 >> 2 comment blockquote
@@ -29,19 +36,8 @@ et brouillons
 >>>>> 5 comment blockquote
 >>>>>> 6 comment blockquote
 
-{{fm.tekila}} 
 
-{{fname}} 
 
-créé le 
-
-{fncreated}} 
-
-Mise à jour :  le 
-
-{{fnupdated}} 
-
-{:toc}
 
 # Références
 ![[Introduction]]
