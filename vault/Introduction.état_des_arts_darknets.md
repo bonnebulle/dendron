@@ -2,30 +2,42 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622370507379
+updated: 1622418415923
 created: 1622043691067
+author: Vincent Bonnefille
+geometry: "left=1cm,right=1cm,top=2cm,bottom=2cm,a5paper"
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CO,CE]{top}
+    \fancyfoot[CO,CE]{bottom}
+    \fancyfoot[LE,RO]{\thepage}
+abstract: "État de l'art, littératures, thèses et récits sur les darknets"
 ---    
-       
+
 > Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
     
 #### Sujet, discipline, motivations
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
 
->>>>>> + Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
->>>>>> + Vous trouverez la Table des matière à droite de la page (flottant) ![TOC_button](https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png)
+>>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
+>>>>>> Vous trouverez la Table des matière à droite de la page (flottant) ![TOC_button](https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png)
 
 # Littératures et état de l'art
 ### Informatique - technique
-Deux littératures au moins s'opposent au sujet des Darknets, l'une techo-pragmatique tend à observer leur fonctionnement, leur régime protocolaire ( et soutiendra le plus souvent une diversité des usages et la variété des agentivités que permettent ces réseaux ). Une littérature peut-être moins intéressée par les contenus échangés, leur finalité usuelle, que par la technicité empirique de ces outils-objets. 
+Deux littératures au moins s'opposent au sujet des Darknets, l'une techo-pragmatique tend à observer leur fonctionnement, leur régime protocolaire ( et soutiendra le plus souvent une diversité des usages et la variété des agentivités que permettent ces réseaux ). Une littérature peut-être moins intéressée par les contenus échangés, leur finalité usuelle, que par la technicité empirique de ces outils-objets.[^note] 
+
+
+[^note]: hello
 
 Leurs auteurs et autrices seront plus attaché.e.s à démystifier ces réseaux dont les médias font grand bruit.
 
 #### Sciences sociales et histoires
-> On pourrait y joindre une littérature à portée historique et politique venant raconter les aventures humaines qui ont rendus ces projets nécessaires et viables (ou expliquer leur abandon).  
-> Elle permet comprendre la fabrication des standards qui font nos technologies et le rapport que nous entretenons avec.
->> Une recherche autour d'un pourquoi et du comment.
->>> Empreinte de virtualités, de potentialités ouvertes... 
+> On pourrait y joindre une littérature à portée historique et politique venant raconter les aventures humaines qui ont rendus ces projets nécessaires et viables (ou expliquer leur abandon).   
+> Elle permet comprendre la fabrication des standards qui font nos technologies et le rapport que nous entretenons avec.       
+>> Une recherche autour d'un pourquoi et du comment.    
+>>> Empreinte de virtualités, de potentialités ouvertes...      
 
 ---
 
@@ -117,9 +129,13 @@ J'ambitionne de faire le pont entre différents régimes de recherche à commenc
 
 Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.
 
+\newpage
+
 ## Journalistes, /// cyber-criminels, /// qui utilise ces réseaux ?
 
 Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.
+
+\newpage
 
 #### (neutralité et indépendance du www retrouvée ?)
 
@@ -185,14 +201,14 @@ Un web et autres couches faites de pirates et d'espaces qu'on pouvait encore ima
 #### Échapper aux cartes : #contre-forme
 Dans ce sens ( pensant la surveillance comme état *par défaut* et ambiant ), j'avais choisi cette acception de "darknet" comme étant des machines existantes mais non indexées à la carte des réseaux (aux débuts d'Internet). 
 
-Un en dehors connu, un geste de distanciation volontaire ( sinon accidentel et temporaire ), le signe sinon d'une interaction autre, d'une autre modalité protocolaire 
-: atypique, d'autre nature 
-: inquiétantes monstruosité, langage mal codé. 
+Un en dehors connu, un geste de distanciation volontaire ( sinon accidentel et temporaire ), le signe sinon d'une interaction autre, d'une autre modalité protocolaire :    
+atypique, d'autre nature :    
+inquiétantes monstruosité, langage mal codé. 
 
-> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**[^1], du dedans inversé : barbelé.
+> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**[^inséparation], du dedans inversé : barbelé.
 >> Une plasticité du visible, de la retenue
 
-[^1]: cit.ref Essai de Dominique Quessada
+[^inséparation]: cit.ref Essai de Dominique Quessada
 
 
 

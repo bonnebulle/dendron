@@ -1,19 +1,15 @@
 ---
-created: 2021-05-27T09:17:47+02:00
-modified: 2021-05-27T11:54:49+02:00
+id: 56f5b7a3-6ad2-4fa4-b9cb-865a7ddf7c5a
+title: Perso_visite_alekx_subjectivité
+desc: ''
+updated: 1622398710322
+created: 1622398702758
 ---
 
-# daily.devenir-minoritaire-création
-
---
-title: daily.devenir-minoritaire-création
-
-created: 2021-05-27T09:17:47+02:00
-modified: 2021-05-27T11:50:48+02:00
 ---
 
+---
 # daily.devenir-minoritaire-création
-
 Deux types de gens ceux qui assument la normalité de ce monde, sa culture, ses valeurs, son esthétique, sa doxa, les métaphysiques qui en découlent,
 la normalité se niche dans le détail
 s'en résignent

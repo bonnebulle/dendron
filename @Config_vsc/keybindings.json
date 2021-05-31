@@ -505,5 +505,13 @@
         "key": "ctrl+l",
         "command": "-notebook.centerActiveCell",
         "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "dendron.insertNote"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
     }
 ]

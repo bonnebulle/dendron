@@ -477,9 +477,9 @@
         "todohighlight.maxFilesForSearch": 5120,
         "todohighlight.toggleURI": false,
         "editor.autoClosingOvertype": "never",
-        "editor.formatOnPaste": false,
-        "editor.formatOnSave": false,
-        "editor.formatOnType": false,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
         "resmon.show.battery": false,
         "editor.multiCursorModifier": "ctrlCmd",
         "editor.tokenColorCustomizations": {

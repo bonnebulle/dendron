@@ -35,7 +35,9 @@
                                     .replace(new RegExp(/(\(|\«|\[|\{)\s/, "g"),
                                                 '$1&nbsp')
                                  .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
-                                                '\<br class\=\'fix_br\'>');
+                                                '\<br class\=\'fix_br\'>')
+                                                .replace(new RegExp(/\\newpage/, "g"),
+                                                '\<br class\=\'fix_br newpage\'>');
                                             // console.log("youpi");
                                                 $(this).html(textis);
             });
