@@ -2,18 +2,21 @@
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
 desc: "État de l'art, littératures, thèses et récits sur les darknets"
-updated: 1622418415923
+updated: 1622485422674
 created: 1622043691067
-author: Vincent Bonnefille
+author: "Vincent Bonnefille"
+abstract: "État de l'art, littératures, thèses et récits sur les darknets"
+url: https://bonnebulle.github.io/dendron/notes/05148060-0f18-44e9-84ea-4b6b3891358e.html
+---    
+<!-- 
 geometry: "left=1cm,right=1cm,top=2cm,bottom=2cm,a5paper"
 header-includes: |
     \usepackage{fancyhdr}
     \pagestyle{fancy}
     \fancyhead[CO,CE]{top}
     \fancyfoot[CO,CE]{bottom}
-    \fancyfoot[LE,RO]{\thepage}
-abstract: "État de l'art, littératures, thèses et récits sur les darknets"
----    
+    \fancyfoot[LE,RO]{\thepage} 
+-->
 
 > Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.
     
@@ -21,7 +24,7 @@ abstract: "État de l'art, littératures, thèses et récits sur les darknets"
 
 Elle aura pour sujet les darknets et profondeurs imaginaires du web au travers de productions d'arts et disciplines diverses.
 
->>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!
+>>>>>> Cette page_article devrait plutôt se trouver dans [[Sujet.discipline]] // état de l'art ?!    
 >>>>>> Vous trouverez la Table des matière à droite de la page (flottant) ![TOC_button](https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png)
 
 # Littératures et état de l'art
@@ -186,8 +189,8 @@ Pendant un temps, ces recoins du web { mal indexés, modérés autrement } sembl
 J'ai peut-être aussi une certaine nostalgie du web des années 80-90 : 
 ses formes émergentes, son côté fait main (*homebrew*, ***indie-web***), auto-produit, auto-média, par et pour le peuple ! 
 
-Un web et autres couches faites de pirates et d'espaces qu'on pouvait encore imaginer sans le regard supérieur d'une institution *régulante*. 
->> C'était l'adoléscence, *mon* adoléscence, mes premières bidouilles. 
+Un web et autres couches faites de pirates et d'espaces qu'on pouvait encore imaginer sans le regard supérieur d'une institution *régulante*.    
+>> C'était l'adoléscence, *mon* adoléscence, mes premières bidouilles.    
 >>> Des désirs d'autres mondes, d'aventure, d'au-delà.
 
 + Le fait de *tout contrôler* fait qu'une majorité du web ressemble plus aujourd'hui à une industrie publicitaire, a perdu son côté artisanale, attentionné, fait de pépites cachées.
@@ -195,7 +198,7 @@ Un web et autres couches faites de pirates et d'espaces qu'on pouvait encore ima
 
 #### Nuances de gris
 
-> J'employais (avec d'autres) la coloration de **GrayWeb** pour évoquer des zones grises d'un web de seconde zone, autonome dans sa modération, décentralisé des plateformes majoritaires.
+> J'employais (avec d'autres) la coloration de **GrayWeb** pour évoquer des zones grises d'un web de seconde zone, autonome dans sa modération, décentralisé des plateformes majoritaires.   
 >> De nombreux images-mémes s'amusent à stratifier Internet, son mille-feuille de couches protocolaires et applicatives, réinventent **une mythologie dantesque** qui mènerait aux darknets, aux tréfonds des inconscients collectif ( Internet étant perçu comme le **Cerveau-monde**, idéal d'une circulation informationnelle instantanée entre ses pairs ).
 
 #### Échapper aux cartes : #contre-forme
@@ -205,7 +208,7 @@ Un en dehors connu, un geste de distanciation volontaire ( sinon accidentel et t
 atypique, d'autre nature :    
 inquiétantes monstruosité, langage mal codé. 
 
-> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**[^inséparation], du dedans inversé : barbelé.
+> Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'**inséparation**[^inséparation], du dedans inversé : barbelé.    
 >> Une plasticité du visible, de la retenue
 
 [^inséparation]: cit.ref Essai de Dominique Quessada
@@ -265,7 +268,7 @@ On retrouve dans certaines pratiques artistiques qui emploient des protocoles at
 
 > Un travail sur l'élasticité des normes, à partir de ce que j'ai moi, subjectivité inquiète de préserver et pourtant doutante si elle veut.
 
->> Un travail sur la faille, le basculement dans la folie, la démesure.
+>> Un travail sur la faille, le basculement dans la folie, la démesure.    
 >> En observant_agissant à partir de ces coins refoulés iels (les artistes) parleraient à cet inconscient collectif, intime et politique.
 
 #### Mondes isolés, protégés
