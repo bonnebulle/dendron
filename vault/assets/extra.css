@@ -1196,7 +1196,12 @@ a.footnote-ref:target {
     color: var(--main-light)!important;
     background-color: var(--main-blockq5)!important;
 }
-
+#idpdf a:before {
+    content: "["
+}
+#idpdf a:after {
+    content: "]"
+}
 html body a.footnote-ref:before {
     content: "["
 }
@@ -1341,3 +1346,17 @@ font-size: 15px !important;
 }
 
 .site-title:hover {background: transparent;}
+
+
+#idpdf a {
+    font-size: 12px;
+    color: var(--main-light) !important;
+    font-weight: normal;
+    margin-left: 15px;
+letter-spacing: 1px;
+}
+
+#idpdf a { 
+    border:none !important;
+    text-decoration: none !important;
+}
