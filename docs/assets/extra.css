@@ -1,4 +1,4 @@
-/* EXTRA in dev build site folder (or not or not) */
+/* EXTRAaaaa */
 :root {
     /* --main-generale-font-size: 19px;
     --main-font-size: 1.65em;
@@ -146,6 +146,7 @@ li.nav-list-item a:hover>* {
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"]:hover a {
     color: var(--main-dend_links)!important;
 }
+html .page__inner-wrap blockquote blockquote blockquote blockquote blockquote  blockquote,
 .main-content a[href*="bonnebulle"] *,
 .main-content a[href*="localhost"] *,
 .main-content a[href*="bonnebulle"],

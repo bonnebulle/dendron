@@ -1,4 +1,4 @@
-/* EXTRA in dev build site folder (or not or not) */
+/* EXTRAbuld assets build*/
 :root {
     /* --main-generale-font-size: 19px;
     --main-font-size: 1.65em;
@@ -8,7 +8,7 @@
     --main-font-size-neg: -1.3em;
     --main-font-size-neg_less: -0.5em;
      */
-     --main-generale-font-size: 19px;
+     --main-generale-font-size: 19.5px;
 --main-font-size: 1.55em;
 --main-font-size-less: 1.45em;
 --main-font-size-lessless: 0.55em;
@@ -146,12 +146,13 @@ li.nav-list-item a:hover>* {
 html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"]:hover a {
     color: var(--main-dend_links)!important;
 }
+.page__inner-wrap blockquote blockquote blockquote blockquote blockquote  blockquote *,
 .main-content a[href*="bonnebulle"] *,
 .main-content a[href*="localhost"] *,
 .main-content a[href*="bonnebulle"],
 .main-content a[href*="localhost"] {
     text-decoration-color: var(--main-bkg-link);
-    font-size:0.9em;
+    font-size:0.9em !important;
 }
 .breadcrumb-nav-list-item a:hover,
 #site-nav a>*:hover,
