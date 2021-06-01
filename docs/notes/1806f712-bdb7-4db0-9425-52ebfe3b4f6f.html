@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>Dendron - DarkNetArt</title>
+  <title>frag - Tests dendron - DarkNetArt</title>
   
 
   <link
@@ -44,33 +44,28 @@
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
 
-
-<div id="go_black"></div>
+<link type="text/css" rel="preload" href="/assets/tufte.css" />
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
 
+<script type="text/javascript" src="/assets/app_js.js"></script>
+<!-- For Github -->
+<script type="text/javascript" src="/dendron/assets/app_js.js"></script>
 
 
-<script type="text/javascript">
-    window.onload = function(e) {
-        TableOfContents.init({
-            basePath: "https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/",
-            querySelector: "body" // or other css querySelector
-        });
-    }
-</script>  
-
-<script>  
 
 
+<div id="go_black"></div>
+
+<script>
 let preference = localStorage.getItem('the_switch') || 'blacked';
 
 
 	if (preference=="blacked") {
     black();
-    console.log("0");
+    // console.log("0");
                 // $(this).text("0").addClass("black");
                 // $("body, head").addClass("blacked");
                 setTimeout(function(){ 
@@ -79,7 +74,7 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                 }, 10);
 	} else {
     light();
-    console.log("1111");
+    // console.log("1111");
                 // $(this).text("1").addClass("light");
                 // $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
@@ -157,43 +152,7 @@ $("#go_black").click(function() {
 });
 
 
-
-
-
-
-
-
-
-  if (window.location.href.indexOf('localhost') > 0) {          
-        $(document).ready(function() {
-            $("a[href]").each(function() {
-                var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
-                console.log(thehref);
-                $(this).attr("href", thehref);
-            });
-        });
-       console.log("Localhost");
-  }
-
-
-
-        $(document).ready(function() {
-         setTimeout(function(){   
-            $(".page__inner-wrap").each(function(){
-                let textis = $(this).html().replace(new RegExp(/\s(\)|\»|\?|\!|\,|\.|\:|\;|\]|\})/, "g"),
-                                            '&nbsp$1')
-                                    .replace(new RegExp(/(\(|\«|\[|\{)\s/, "g"),
-                                                '$1&nbsp')
-                                 .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
-                                                '\<br class\=\'fix_br\'>');
-                                            // console.log("youpi");
-                                                $(this).html(textis);
-            });
-            //  console.log("youpi1");
-            }, 1000);
-        });
-
-</script>     
+</script>
   <script
     type="text/javascript"
     src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
@@ -219,8 +178,8 @@ $("#go_black").click(function() {
 <meta name="twitter:image" content="https://bonnebulle.github.io/dendronundefined">
 
 
-  <meta property="og:title" content="Dendron - DarkNetArt" />
-  <meta name="twitter:title" content="Dendron - DarkNetArt" />
+  <meta property="og:title" content="frag - Tests dendron - DarkNetArt" />
+  <meta name="twitter:title" content="frag - Tests dendron - DarkNetArt" />
   
 </head>
 
@@ -294,7 +253,7 @@ $("#go_black").click(function() {
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron">Racine</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/80d205e2-6934-446c-b25d-c096b8c6878b.html">Fragments</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/385c9656-8949-4f37-ad57-e851897c39e9.html">Tests</a></li><li class="breadcrumb-nav-list-item">Dendron</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron">Racine</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/80d205e2-6934-446c-b25d-c096b8c6878b.html">Fragments</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/385c9656-8949-4f37-ad57-e851897c39e9.html">Tests</a></li><li class="breadcrumb-nav-list-item">frag - Tests dendron</li></ol>
           </nav>
         
       
@@ -327,10 +286,10 @@ $("#go_black").click(function() {
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Dendron">
+    <meta itemprop="headline" content="frag - Tests dendron">
     
     <meta itemprop="datePublished" content="2021-05-28T16:50:43+00:00">
-    <meta itemprop="dateModified" content="2021-05-29T23:28:37+00:00">
+    <meta itemprop="dateModified" content="2021-05-31T10:33:56+00:00">
 
     <div class="page__inner-wrap">
 
@@ -340,9 +299,23 @@ $("#go_black").click(function() {
 
         
 
-        <h1 id="dendron"><a aria-hidden="true" class="anchor-heading" href="#dendron"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron</h1>
+        <h1 id="frag---tests-dendron"><a aria-hidden="true" class="anchor-heading" href="#frag---tests-dendron"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>frag - Tests dendron</h1>
+<!---
+your comment goes here
+and here
+-->
 <p>Page de tests
 et brouillons</p>
+<hr>
+<h3 id="ref--footnotes"><a aria-hidden="true" class="anchor-heading" href="#ref--footnotes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ref / footnotes</h3>
+<p>Text important<sup id="fnref-a"><a href="#fn-a" class="footnote-ref">a</a></sup><br>
+Text imposant<sup id="fnref-c"><a href="#fn-c" class="footnote-ref">c</a></sup><br>
+Text sans importance<sup id="fnref-b"><a href="#fn-b" class="footnote-ref">b</a></sup>    </p>
+<p><a href="http://pandoc.org">Shortlink_to_pandoc</a></p>
+<h4 id="frontmatter-variable-display"><a aria-hidden="true" class="anchor-heading" href="#frontmatter-variable-display"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Frontmatter variable display</h4>
+<p>hello </p>
+<hr>
+<h3 id="titles-bloquote-citations"><a aria-hidden="true" class="anchor-heading" href="#titles-bloquote-citations"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Titles bloquote citations</h3>
 <h1 id="1-title"><a aria-hidden="true" class="anchor-heading" href="#1-title"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>1 title</h1>
 <h2 id="2-title"><a aria-hidden="true" class="anchor-heading" href="#2-title"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>2 title</h2>
 <h3 id="3-title"><a aria-hidden="true" class="anchor-heading" href="#3-title"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>3 title</h3>
@@ -367,19 +340,17 @@ et brouillons</p>
 </blockquote>
 </blockquote>
 </blockquote>
-<p>hello </p>
-<p>{{fname}} </p>
-<p>créé le </p>
-<p>{fncreated}} </p>
-<p>Mise à jour :  le </p>
-<p>{{fnupdated}} </p>
-<p>{:toc}</p>
+<hr>
+<p>FAILED
+[A newthought]{.newthought} starting a new section.
+[CSS]{.smallcaps} est fun !</p>
+<hr>
 <h1 id="références"><a aria-hidden="true" class="anchor-heading" href="#références"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Références</h1>
 <p></p><p></p><div class="portal-container">
 <div class="portal-head">
 <div class="portal-backlink">
-<div class="portal-title">From <span class="portal-text-title">Introduction</span></div>
-<a href="https://bonnebulle.github.io/dendron/notes/68d19dc8-0c01-4c8e-a2b6-3f96fdf5164a.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+<div class="portal-title"><span class="portal-text-title">Introduction</span> ( fragment )</div>
+<a href="https://bonnebulle.github.io/dendron/notes/68d19dc8-0c01-4c8e-a2b6-3f96fdf5164a.html" class="portal-arrow">voir en contexte  <span class="right-arrow">→</span></a>
 </div>
 </div>
 <div id="portal-parent-anchor" class="portal-parent" markdown="1">
@@ -413,7 +384,15 @@ et brouillons</p>
 </blockquote>
 </blockquote>
 </div></div><p></p><p></p>
-<p><a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources</a></p><span id="navId" data="1806f712-bdb7-4db0-9425-52ebfe3b4f6f"></span>
+<p><a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources</a></p>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn-a">la jolie note ^a<a href="#fnref-a" class="footnote-backref">↩</a></li>
+<li id="fn-c">la jolie note ^c<a href="#fnref-c" class="footnote-backref">↩</a></li>
+<li id="fn-b">la jolie note ^b<a href="#fnref-b" class="footnote-backref">↩</a></li>
+</ol>
+</div><span id="navId" data="1806f712-bdb7-4db0-9425-52ebfe3b4f6f"></span>
 
                 
       </section>

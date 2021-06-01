@@ -44,33 +44,28 @@
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
 
-
-<div id="go_black"></div>
+<link type="text/css" rel="preload" href="/assets/tufte.css" />
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
 
+<script type="text/javascript" src="/assets/app_js.js"></script>
+<!-- For Github -->
+<script type="text/javascript" src="/dendron/assets/app_js.js"></script>
 
 
-<script type="text/javascript">
-    window.onload = function(e) {
-        TableOfContents.init({
-            basePath: "https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/",
-            querySelector: "body" // or other css querySelector
-        });
-    }
-</script>  
-
-<script>  
 
 
+<div id="go_black"></div>
+
+<script>
 let preference = localStorage.getItem('the_switch') || 'blacked';
 
 
 	if (preference=="blacked") {
     black();
-    console.log("0");
+    // console.log("0");
                 // $(this).text("0").addClass("black");
                 // $("body, head").addClass("blacked");
                 setTimeout(function(){ 
@@ -79,7 +74,7 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                 }, 10);
 	} else {
     light();
-    console.log("1111");
+    // console.log("1111");
                 // $(this).text("1").addClass("light");
                 // $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
@@ -157,43 +152,7 @@ $("#go_black").click(function() {
 });
 
 
-
-
-
-
-
-
-
-  if (window.location.href.indexOf('localhost') > 0) {          
-        $(document).ready(function() {
-            $("a[href]").each(function() {
-                var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
-                console.log(thehref);
-                $(this).attr("href", thehref);
-            });
-        });
-       console.log("Localhost");
-  }
-
-
-
-        $(document).ready(function() {
-         setTimeout(function(){   
-            $(".page__inner-wrap").each(function(){
-                let textis = $(this).html().replace(new RegExp(/\s(\)|\»|\?|\!|\,|\.|\:|\;|\]|\})/, "g"),
-                                            '&nbsp$1')
-                                    .replace(new RegExp(/(\(|\«|\[|\{)\s/, "g"),
-                                                '$1&nbsp')
-                                 .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
-                                                '\<br class\=\'fix_br\'>');
-                                            // console.log("youpi");
-                                                $(this).html(textis);
-            });
-            //  console.log("youpi1");
-            }, 1000);
-        });
-
-</script>     
+</script>
   <script
     type="text/javascript"
     src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
@@ -330,7 +289,7 @@ $("#go_black").click(function() {
     <meta itemprop="headline" content="Darknets">
     
     <meta itemprop="datePublished" content="2021-05-26T17:41:31+00:00">
-    <meta itemprop="dateModified" content="2021-05-30T12:28:27+00:00">
+    <meta itemprop="dateModified" content="2021-05-31T23:18:00+00:00">
 
     <div class="page__inner-wrap">
 
@@ -341,6 +300,15 @@ $("#go_black").click(function() {
         
 
         <h1 id="darknets"><a aria-hidden="true" class="anchor-heading" href="#darknets"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets</h1>
+<!-- 
+geometry: "left=1cm,right=1cm,top=2cm,bottom=2cm,a5paper"
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CO,CE]{top}
+    \fancyfoot[CO,CE]{bottom}
+    \fancyfoot[LE,RO]{\thepage} 
+-->
 <blockquote>
 <p>Moi, administrateur en la personne de Vincent Bonnefille, me lance dans l'écriture d'une thèse en arts.</p>
 </blockquote>
@@ -352,10 +320,8 @@ $("#go_black").click(function() {
 <blockquote>
 <blockquote>
 <blockquote>
-<ul>
-<li>Cette page_article devrait plutôt se trouver dans <a href="https://bonnebulle.github.io/dendron/notes/7c5b96e0-5754-4b5c-ab90-68dffc06d75c.html">discipline</a> // état de l'art ?!</li>
-<li>Vous trouverez la Table des matière à droite de la page (flottant) <img src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png" alt="TOC_button"></li>
-</ul>
+<p>Cette page_article devrait plutôt se trouver dans <a href="https://bonnebulle.github.io/dendron/notes/7c5b96e0-5754-4b5c-ab90-68dffc06d75c.html">discipline</a> // état de l'art ?!<br>
+Vous trouverez la Table des matière à droite de la page (flottant) <img src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/images/ic_normal.png" alt="TOC_button"></p>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -364,16 +330,16 @@ $("#go_black").click(function() {
 </blockquote>
 <h1 id="littératures-et-état-de-lart"><a aria-hidden="true" class="anchor-heading" href="#littératures-et-état-de-lart"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Littératures et état de l'art</h1>
 <h3 id="informatique---technique"><a aria-hidden="true" class="anchor-heading" href="#informatique---technique"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Informatique - technique</h3>
-<p>Deux littératures au moins s'opposent au sujet des Darknets, l'une techo-pragmatique tend à observer leur fonctionnement, leur régime protocolaire ( et soutiendra le plus souvent une diversité des usages et la variété des agentivités que permettent ces réseaux ). Une littérature peut-être moins intéressée par les contenus échangés, leur finalité usuelle, que par la technicité empirique de ces outils-objets. </p>
+<p>Deux littératures au moins s'opposent au sujet des Darknets, l'une techo-pragmatique tend à observer leur fonctionnement, leur régime protocolaire ( et soutiendra le plus souvent une diversité des usages et la variété des agentivités que permettent ces réseaux ). Une littérature peut-être moins intéressée par les contenus échangés, leur finalité usuelle, que par la technicité empirique de ces outils-objets.<sup id="fnref-note"><a href="#fn-note" class="footnote-ref">note</a></sup> </p>
 <p>Leurs auteurs et autrices seront plus attaché.e.s à démystifier ces réseaux dont les médias font grand bruit.</p>
 <h4 id="sciences-sociales-et-histoires"><a aria-hidden="true" class="anchor-heading" href="#sciences-sociales-et-histoires"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sciences sociales et histoires</h4>
 <blockquote>
 <p>On pourrait y joindre une littérature à portée historique et politique venant raconter les aventures humaines qui ont rendus ces projets nécessaires et viables (ou expliquer leur abandon).<br>
-Elle permet comprendre la fabrication des standards qui font nos technologies et le rapport que nous entretenons avec.</p>
+Elle permet comprendre la fabrication des standards qui font nos technologies et le rapport que nous entretenons avec.       </p>
 <blockquote>
-<p>Une recherche autour d'un pourquoi et du comment.</p>
+<p>Une recherche autour d'un pourquoi et du comment.    </p>
 <blockquote>
-<p>Empreinte de virtualités, de potentialités ouvertes... </p>
+<p>Empreinte de virtualités, de potentialités ouvertes...      </p>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -430,9 +396,10 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <p>Ce sujet suscite déjà un fort attrait sur le marché du savoir et des connaissances. Pour autant les formes d'hybridation en recherche-création pourraient ouvrir d'autres compréhensions, d'autres modalités de récit et de propos. </p>
 <p>J'ambitionne de faire le pont entre différents régimes de recherche à commencer par les pratiques artistiques qui s'accommodent bien de l'esprit d'indiscipline et de bidouillage qu'on connaît aux hackers ( informatiques ou d'autres branches-disciplines ). </p>
 <p><del><a href="https://bonnebulle.github.io/dendron/notes/a2c6904d-6d25-4800-814d-0beb98d9de69.html">Idéologie, point de vu orienté</a></del></p>
+<p>\newpage</p>
 <h1 id="darknets-contre-la-censure-"><a aria-hidden="true" class="anchor-heading" href="#darknets-contre-la-censure-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Darknets, contre la censure ?</h1>
 <p>Un Darknet définit généralement un réseau de communication dont les protocoles assurent l'anonymat de ses utilisateurs par le chiffrement de ses données. Des réseaux aux protocoles atypiques qui rendent accessibles des sites web sinon non indexés. Des contenus cachés ou dont l'origine, la source est impossible à remonter.</p>
-<h2 id="journalistes--cyber-criminels--qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes--cyber-criminels--qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, /// cyber-criminels, /// qui utilise ces réseaux ?</h2>
+<h2 id="journalistes--cyber-criminels--qui-utilise-ces-réseaux-"><a aria-hidden="true" class="anchor-heading" href="#journalistes--cyber-criminels--qui-utilise-ces-réseaux-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journalistes, <br> cyber-criminels, <br> qui utilise ces réseaux ?</h2>
 <p>Un anonymat qui sert à des populations poussées au silence, hors des espaces publics qui leurs sont hostiles. Les expulsé.e.s, les refoulées, les exilées sociaux, les clandestins, les mafieux, les journalistes, les femmes battues, les autres, celles et ceux qui veulent protéger leurs données d'une captation féroce : toutes ceux-là ont recours à ces réseaux, ni bons ni mauvais.</p>
 <h4 id="neutralité-et-indépendance-du-www-retrouvée-"><a aria-hidden="true" class="anchor-heading" href="#neutralité-et-indépendance-du-www-retrouvée-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(neutralité et indépendance du www retrouvée ?)</h4>
 <p>Des réseaux dont les protocoles sont souvent agnostiques : ils assurent une neutralité dans le transport des données.</p>
@@ -448,6 +415,7 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <p>L'anonymat renforcé sur ces réseaux de machine encourage des transactions qui échappent aux censures marchandes sinon morales. S'y échangent des contenus et biens ailleurs interdits. Elle permet une délocalisation de marchés qui profitent alors des infrastructures réseau normales pour s'accomplir (dont les ceux des postes). </p>
 <p>L'appui successif de technologies décentralisées des réseaux <em>main-stream</em>, à commencer par les banques, encourage des activités ailleurs réprimées : élargi les libertés hors du contrôle des États et des institutions judiciaires. On peut alors parler de marchés ou d'activités parallaèlles échappant au régime normal<br>
 [<a href="#%C3%A9conomie-vie-parall%C3%A8le--radicalit%C3%A9-disruptive">cf. #Économie, vie parallèle : radicalité disruptive</a>]</p>
+<p>\newpage</p>
 <h1 id="modération-nettoyage-du-www"><a aria-hidden="true" class="anchor-heading" href="#modération-nettoyage-du-www"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Modération, nettoyage du WWW</h1>
 <p>Pendant un temps, ces recoins du web { mal indexés, modérés autrement } semblaient à eux seuls cristalliser toute la barbarie du monde unifié et propre... qu'un <strong>Clear-Web</strong> promettait de maintenir.    </p>
 <ul>
@@ -473,10 +441,10 @@ Pourtant ces thèses apportent une complexité au sujet de ces réseaux.</p>
 <h2 id="indie-web-mon-amour"><a aria-hidden="true" class="anchor-heading" href="#indie-web-mon-amour"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Indie-Web mon amour</h2>
 <p>J'ai peut-être aussi une certaine nostalgie du web des années 80-90 :
 ses formes émergentes, son côté fait main (<em>homebrew</em>, <strong><em>indie-web</em></strong>), auto-produit, auto-média, par et pour le peuple ! </p>
-<p>Un web et autres couches faites de pirates et d'espaces qu'on pouvait encore imaginer sans le regard supérieur d'une institution <em>régulante</em>. </p>
+<p>Un web et autres couches faites de pirates et d'espaces qu'on pouvait encore imaginer sans le regard supérieur d'une institution <em>régulante</em>.    </p>
 <blockquote>
 <blockquote>
-<p>C'était l'adoléscence, <em>mon</em> adoléscence, mes premières bidouilles. </p>
+<p>C'était l'adoléscence, <em>mon</em> adoléscence, mes premières bidouilles.    </p>
 <blockquote>
 <p>Des désirs d'autres mondes, d'aventure, d'au-delà.</p>
 </blockquote>
@@ -487,18 +455,18 @@ ses formes émergentes, son côté fait main (<em>homebrew</em>, <strong><em>ind
 </ul>
 <h4 id="nuances-de-gris"><a aria-hidden="true" class="anchor-heading" href="#nuances-de-gris"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Nuances de gris</h4>
 <blockquote>
-<p>J'employais (avec d'autres) la coloration de <strong>GrayWeb</strong> pour évoquer des zones grises d'un web de seconde zone, autonome dans sa modération, décentralisé des plateformes majoritaires.</p>
+<p>J'employais (avec d'autres) la coloration de <strong>GrayWeb</strong> pour évoquer des zones grises d'un web de seconde zone, autonome dans sa modération, décentralisé des plateformes majoritaires.   </p>
 <blockquote>
 <p>De nombreux images-mémes s'amusent à stratifier Internet, son mille-feuille de couches protocolaires et applicatives, réinventent <strong>une mythologie dantesque</strong> qui mènerait aux darknets, aux tréfonds des inconscients collectif ( Internet étant perçu comme le <strong>Cerveau-monde</strong>, idéal d'une circulation informationnelle instantanée entre ses pairs ).</p>
 </blockquote>
 </blockquote>
 <h4 id="échapper-aux-cartes--contre-forme"><a aria-hidden="true" class="anchor-heading" href="#échapper-aux-cartes--contre-forme"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Échapper aux cartes : #contre-forme</h4>
 <p>Dans ce sens ( pensant la surveillance comme état <em>par défaut</em> et ambiant ), j'avais choisi cette acception de "darknet" comme étant des machines existantes mais non indexées à la carte des réseaux (aux débuts d'Internet). </p>
-<p>Un en dehors connu, un geste de distanciation volontaire ( sinon accidentel et temporaire ), le signe sinon d'une interaction autre, d'une autre modalité protocolaire
-: atypique, d'autre nature
-: inquiétantes monstruosité, langage mal codé. </p>
+<p>Un en dehors connu, un geste de distanciation volontaire ( sinon accidentel et temporaire ), le signe sinon d'une interaction autre, d'une autre modalité protocolaire :<br>
+atypique, d'autre nature :<br>
+inquiétantes monstruosité, langage mal codé. </p>
 <blockquote>
-<p>Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'<strong>inséparation</strong><sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup>, du dedans inversé : barbelé.</p>
+<p>Une plasticité de la forme et contre forme, du seuil, de la limite, du traîte, de l'<strong>inséparation</strong><sup id="fnref-inséparation"><a href="#fn-inséparation" class="footnote-ref">inséparation</a></sup>, du dedans inversé : barbelé.    </p>
 <blockquote>
 <p>Une plasticité du visible, de la retenue</p>
 </blockquote>
@@ -521,6 +489,7 @@ liberté d'expression et régime de production du réel -->
 </blockquote>
 </blockquote>
 <p><del><a href="https://bonnebulle.github.io/dendron/notes/354f4706-99b8-4e93-b655-22f3cf2283a9.html">Limiter la publicité du pire</a></del></p>
+<p>\newpage</p>
 <h1 id="des-pratiques-artistiques-"><a aria-hidden="true" class="anchor-heading" href="#des-pratiques-artistiques-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Des pratiques artistiques ?</h1>
 <h4 id="les-arts-de-la-fuite-et-des-tréfonds"><a aria-hidden="true" class="anchor-heading" href="#les-arts-de-la-fuite-et-des-tréfonds"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>(Les arts de la fuite et des tréfonds)</h4>
 <p>Des intérêts contraires (( le fait d'attaquer ou de maintenir-défendre une pratique_culture )) qui pousse à <strong>l'innovation technique d'avant-garde</strong> et dont les artistes_hackeurs_bidouilleurs (femmes__hommes) tirent une matière hors norme, des outils, des moyens de faire récit et objets. Iels profitent de ce que ces choses interdites produisent d'inconfort social ou de spéculation, de doute.</p>
@@ -532,7 +501,7 @@ liberté d'expression et régime de production du réel -->
 </blockquote>
 <blockquote>
 <blockquote>
-<p>Un travail sur la faille, le basculement dans la folie, la démesure.
+<p>Un travail sur la faille, le basculement dans la folie, la démesure.<br>
 En observant_agissant à partir de ces coins refoulés iels (les artistes) parleraient à cet inconscient collectif, intime et politique.</p>
 </blockquote>
 </blockquote>
@@ -562,7 +531,7 @@ En observant_agissant à partir de ces coins refoulés iels (les artistes) parle
 <p>Je garde dans l'idée que l'artiste est toujours tiraillé.e entre le désir d'exprimer et celui brouiller les pistes, de garder une qualité du non dit qui appartienne à l'autre, au récepteur (h/f). Un espace entre où laisser croire, où faire germer dans l'implicite commun hors du certain.
 <a href="#%C3%A9chapper-aux-cartes--contre-forme">#contre-forme</a></p>
 <hr>
-<h1 id="économie-vie-parallèle---radicalité-disruptive"><a aria-hidden="true" class="anchor-heading" href="#économie-vie-parallèle---radicalité-disruptive"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Économie, vie parallèle : /// radicalité disruptive</h1>
+<h1 id="économie-vie-parallèle---radicalité-disruptive"><a aria-hidden="true" class="anchor-heading" href="#économie-vie-parallèle---radicalité-disruptive"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Économie, vie parallèle : <br> radicalité disruptive</h1>
 <p>L'anonymat techniquement accompli sur les couches inférieures du réseau est éminemment plus radical que celui d'un changement de nom_prénom sur un forum. Il en devient politique.</p>
 <blockquote>
 <p>Les organisations qui ont recours à ces réseaux en tant que moyen organisationnel de séparation des États ont très vite saisi l'opportunité d'en faire de même avec un autre réseau : celui des transactions monétaires, avec l'argent.</p>
@@ -592,7 +561,8 @@ En observant_agissant à partir de ces coins refoulés iels (les artistes) parle
 <div class="footnotes">
 <hr>
 <ol>
-<li id="fn-1">cit.ref Essai de Dominique Quessada<a href="#fnref-1" class="footnote-backref">↩</a></li>
+<li id="fn-note">hello<a href="#fnref-note" class="footnote-backref">↩</a></li>
+<li id="fn-inséparation">cit.ref Essai de Dominique Quessada<a href="#fnref-ins%C3%A9paration" class="footnote-backref">↩</a></li>
 </ol>
 </div><span id="navId" data="05148060-0f18-44e9-84ea-4b6b3891358e"></span>
 

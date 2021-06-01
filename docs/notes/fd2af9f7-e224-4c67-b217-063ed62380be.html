@@ -44,33 +44,28 @@
 <!-- For Github -->
 <link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
 
-
-<div id="go_black"></div>
+<link type="text/css" rel="preload" href="/assets/tufte.css" />
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
 
+<script type="text/javascript" src="/assets/app_js.js"></script>
+<!-- For Github -->
+<script type="text/javascript" src="/dendron/assets/app_js.js"></script>
 
 
-<script type="text/javascript">
-    window.onload = function(e) {
-        TableOfContents.init({
-            basePath: "https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/",
-            querySelector: "body" // or other css querySelector
-        });
-    }
-</script>  
-
-<script>  
 
 
+<div id="go_black"></div>
+
+<script>
 let preference = localStorage.getItem('the_switch') || 'blacked';
 
 
 	if (preference=="blacked") {
     black();
-    console.log("0");
+    // console.log("0");
                 // $(this).text("0").addClass("black");
                 // $("body, head").addClass("blacked");
                 setTimeout(function(){ 
@@ -79,7 +74,7 @@ let preference = localStorage.getItem('the_switch') || 'blacked';
                 }, 10);
 	} else {
     light();
-    console.log("1111");
+    // console.log("1111");
                 // $(this).text("1").addClass("light");
                 // $("body, head").addClass("ligthed");
                 setTimeout(function(){ 
@@ -157,43 +152,7 @@ $("#go_black").click(function() {
 });
 
 
-
-
-
-
-
-
-
-  if (window.location.href.indexOf('localhost') > 0) {          
-        $(document).ready(function() {
-            $("a[href]").each(function() {
-                var thehref=$(this).attr("href").replace("localhost:8080", "localhost:8999");
-                console.log(thehref);
-                $(this).attr("href", thehref);
-            });
-        });
-       console.log("Localhost");
-  }
-
-
-
-        $(document).ready(function() {
-         setTimeout(function(){   
-            $(".page__inner-wrap").each(function(){
-                let textis = $(this).html().replace(new RegExp(/\s(\)|\»|\?|\!|\,|\.|\:|\;|\]|\})/, "g"),
-                                            '&nbsp$1')
-                                    .replace(new RegExp(/(\(|\«|\[|\{)\s/, "g"),
-                                                '$1&nbsp')
-                                 .replace(new RegExp(/(\/\/\/|\·\·\·)\s/, "g"),
-                                                '\<br class\=\'fix_br\'>');
-                                            // console.log("youpi");
-                                                $(this).html(textis);
-            });
-            //  console.log("youpi1");
-            }, 1000);
-        });
-
-</script>     
+</script>
   <script
     type="text/javascript"
     src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
