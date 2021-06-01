@@ -1,7 +1,8 @@
 node_modules
 .dendron.*
 build
-vault/docs/raw-assets/*
+./build
+#./vault/docs/raw-assets/*
 bkp/*
 vault/.vscode/*
 ./~
@@ -10,3 +11,4 @@ vault/.vscode/*
 @Notes_instructions/*
 *.vscode-root
 vault_perso
+.vscode
