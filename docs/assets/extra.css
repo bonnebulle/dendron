@@ -258,7 +258,7 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
     font-weight: 400;
     color: var(--main-general_color);
     font-family: Open sans;
-        font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-family: charter, Georgia, Cambria;
         font-size:  var(--main-generale-font-size);
     }
 

@@ -3,7 +3,8 @@ id: f2b14b6c-cf52-4a33-b1ce-76e86940b4c1
 title: 'Code_is_law, les DRM'
 desc: >-
   Tentatives logicielles de réduire la propagation libre des contenus sur le WWW
-  des années 2000. Les DRM contre la le code faisant loi. Mais pas contre les  sites intégrables.
+  des années 2000. Les DRM contre la le code faisant loi. Mais pas contre les 
+  sites intégrables.
 updated: 1622633315041
 created: 1622073688284
 ---

@@ -49,7 +49,8 @@
             "updated"
         ],
         "files.autoSaveDelay": 10000,
-        "editor.wordWrapColumn": 70
+        "editor.wordWrapColumn": 70,
+        "explorer.sortOrder": "modified"
     },
     "extensions": {
         "recommendations": [

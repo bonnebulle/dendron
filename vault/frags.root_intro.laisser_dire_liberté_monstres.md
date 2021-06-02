@@ -2,7 +2,8 @@
 id: 354f4706-99b8-4e93-b655-22f3cf2283a9
 title: Limiter la publicité du pire
 desc: >-
-  Les silences obligés, les tabous comme arme, les fondations morales, le risque  de laisser dire : l'ambivalence du silence
+  Les silences obligés, les tabous comme arme, les fondations morales, le
+  risque  de laisser dire : l'ambivalence du silence
 updated: 1622633335732
 created: 1622049120721
 ---

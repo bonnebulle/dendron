@@ -4,7 +4,7 @@ title: Volontés
 desc: >-
   Texte fleuve sur un ton plus personnel, recherche plus subjective, tentative
   d'explicitation d'un devenir artiste_chercheur
-updated: 1622292789466
+updated: 1622645214516
 created: 1621840952644
 ---
 >>>>> Intention générale :    
@@ -15,7 +15,7 @@ J'ai toujours aimé écrire.
 D'abord comme pratique introspective, comme moyen d'explication, comme support à la pensée. Mais aussi pour le plaisir aussi, la fiction, l'intensification des imaginaires, le support à la rêverie, aux colères, au doute surtout.   
 L'un des enjeux pour moi aujourd'hui c'est de la simplifier autour d'une adresse claire, d'une pensée organisée autour d'objectifs focalisant ma-mes recherches.
 
-Ces dernières années je develope des bouts de logiciels pour le web. Certains commerciaux d'autres pour aider les gens et moi même à publier leurs idées sur écrans interconnectés. Trouver le bon outil, tordre ceux existent pour arriver à mes fins a motivé cet apprentissage d'une autre écriture que je ne confond(s) pas.
+Ces dernières années je développe des bouts de logiciels pour le web. Certains commerciaux d'autres pour aider les gens et moi même à publier leurs idées sur écrans interconnectés. Trouver le bon outil, tordre ceux existent pour arriver à mes fins a motivé cet apprentissage d'une autre écriture que je ne confond(s) pas.
 
 Pareillement je code aussi pour le plaisir, l'expérimentation, l'incertitude douteuse et ses découvertes fortuites. Des formes plastiques et narratives étranges qui ont vu jour aujourd'hui je compterais au moins Chat-chouquette. Forme de slideshow fou pour déjouer les PowerPoint enemies. Forme d'overall d'images fusionnées  vers un narratif incongru au hasards heureux.
 
