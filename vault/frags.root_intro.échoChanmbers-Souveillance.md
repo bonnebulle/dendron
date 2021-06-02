@@ -2,7 +2,6 @@
 id: 7e94b363-c5fb-46ea-aaa4-3348ec4fdc50
 title: Écho Chambers et sous-veillance
 desc: ''
-parent: frags
 updated: 1622050883766
 created: 1622050883766
 ---

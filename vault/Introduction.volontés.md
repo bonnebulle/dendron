@@ -1,7 +1,9 @@
 ---
 id: b920f3fc-8d74-493c-a86b-602d9676320d
 title: Volontés
-desc: "Texte fleuve sur un ton plus personnel, recherche plus subjective, tentative d'explicitation d'un devenir artiste_chercheur"
+desc: >-
+  Texte fleuve sur un ton plus personnel, recherche plus subjective, tentative
+  d'explicitation d'un devenir artiste_chercheur
 updated: 1622292789466
 created: 1621840952644
 ---

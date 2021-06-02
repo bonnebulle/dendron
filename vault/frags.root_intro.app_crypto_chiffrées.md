@@ -2,7 +2,6 @@
 id: 353c3cbd-1331-46fd-81e8-6abbd473dd0c
 title: App_crypto_chiffrées
 desc: ''
-parent: frags
 updated: 1622051005728
 created: 1622051005728
 ---

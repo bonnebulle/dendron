@@ -227,20 +227,24 @@
             "iconColor": "#FFF",
             "statusBar": {
                 "alignment": "left",
-                "text": "",
+                "text": "Prev",
                 "tooltip": "DBUILD dendron in dev (preview)",
                 "color": "#96D0EB"
             }
         },
-        "Terminal: Prev Dendron serv alt": {
-            "command": "dendron.sitePreview",
+        // NB:HELLO
+        "Terminal: +": {
+            "command": "workbench.action.terminal.sendSequence",
             "icon": "test-view-icon",
             "iconColor": "#FFF",
             "statusBar": {
                 "alignment": "left",
-                "text": "",
-                "tooltip": "DBUILD dendron in dev (preview)",
+                "text": "+",
+                "tooltip": "CMD preview",
                 "color": "#96D0EB"
+            },
+            "args": {
+                "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'P R E V' 'DBuild + Preview' && echo && echo && echo 'DBUILD prev' && npx dendron buildSite  --stage dev --serve && echo '😜 DBUILD Prev OK\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r"
             }
         },
         // NB:HELLO

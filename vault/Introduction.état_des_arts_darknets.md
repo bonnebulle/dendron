@@ -1,15 +1,18 @@
 ---
 id: 05148060-0f18-44e9-84ea-4b6b3891358e
 title: Darknets
-desc: "État de l'art, littératures, thèses et récits sur les darknets"
+desc: 'État de l''art, littératures, thèses et récits sur les darknets'
 updated: 1622495880701
 created: 1622043691067
-author: "Vincent Bonnefille"
-abstract: "État de l'art, littératures, thèses et récits sur les darknets"
+author: Vincent Bonnefille
+abstract: 'État de l''art, littératures, thèses et récits sur les darknets'
+url: >-
+  https://bonnebulle.github.io/dendron/notes/05148060-0f18-44e9-84ea-4b6b3891358e.html
 papersize: A4
 documentclass: scrartcl
 classoption: twoside
----    
+---
+   
 <!-- 
 geometry: "left=1cm,right=1cm,top=2cm,bottom=2cm,a5paper"
 header-includes: |

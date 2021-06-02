@@ -1,10 +1,15 @@
 ---
 id: README
 title: Sources
-desc: 'Écriture-recherche en Thèse'
+desc: Écriture-recherche en Thèse
 updated: 1622367148820
 created: 1595961348801
+stub: false
 nav_order: 10
+documentclass: scrartcl
+links-as-notes: true
+hierarchyDisplayTitle: Enfants
+opts.hierarchyDisplayTitleBack: Rétro-liens
 ---
 
 **Mise en place d'un système de notes par fiches avec Dendron**   
