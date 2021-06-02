@@ -13,7 +13,6 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.wordBasedSuggestions": false
     },
-
     "sync.autoUpload": true,
     "sync.quietSync": true,
     "sync.gist": "ecb745f6b4e8278eeae8c4ecbe22dfb6",
@@ -187,7 +186,6 @@
         }
     ],
     "gaac.withGuessedCustomActions": [
-
         {
             "action": "ignore",
             "pattern": "/^.(gitignore|npmignore|vscodeignore)/",
@@ -220,10 +218,21 @@
     "ShortcutMenuBar.toggleTerminal": false,
     "ShortcutMenuBar.userButton01Command": "",
     "ShortcutMenuBar.userButton02Command": "",
-    "markdown-links.autoStart": true,  
+    "markdown-links.autoStart": true,
     // https://code.visualstudio.com/api/references/icons-in-labels
     "commands.commands": {
         "Terminal: Prev Dendron servs": {
+            "command": "dendron.sitePreview",
+            "icon": "test-view-icon",
+            "iconColor": "#FFF",
+            "statusBar": {
+                "alignment": "left",
+                "text": "",
+                "tooltip": "DBUILD dendron in dev (preview)",
+                "color": "#96D0EB"
+            }
+        },
+        "Terminal: Prev Dendron serv alt": {
             "command": "dendron.sitePreview",
             "icon": "test-view-icon",
             "iconColor": "#FFF",
@@ -260,7 +269,7 @@
                 "tooltip": "BUILD dendron",
                 "color": "aqua"
             },
-            "args": { 
+            "args": {
                 "text": "echo $(date +'%Y-%m-%d-%H%M') && sleep 1 \r notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BBUILD prod' 'BKPs depuis BBUILD édité en live' && echo && echo && echo 'BBUILD' && sudo sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh \r echo '---' && notify-send-all -t 4000 -u low '😜 BBUILD P R O D' 'Gooo' && echo \" \n\nUSING SUDO\n\nand yarn\n\nBUILD Dendron !\n\n \" && sleep 3 \r cd /home/pi/Dendron/ && sudo yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod && notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 7000 -u low 'BUILD P R O D' && echo && echo && echo 'BBUILD P R O D\n\n' && echo $(date +'%Y-%m-%d-%Hh%M') && echo '\n\n' \r \r"
             }
         },
@@ -352,8 +361,8 @@
         //   "codicon": "search-view-icon"
         // },
         {
-          "name": "scm",
-          "codicon": "source-control-view-icon"
+            "name": "scm",
+            "codicon": "source-control-view-icon"
         }
         // {
         //   "name": "debug",
@@ -382,8 +391,8 @@
         "other": false,
         "comments": false,
         "strings": false
-      },
-      "editor.parameterHints": false,
+    },
+    "editor.parameterHints": false,
     "editor.hover.enabled": false,
     "[markdown]": {
         "editor.hover.enabled": true
@@ -396,125 +405,123 @@
     "terminal.integrated.tabs.location": "left",
     "terminal.integrated.tabs.showActiveTerminal": "always",
     "browser-preview.startUrl": "http://localhost:8999",
-    
     "todohighlight.isEnable": true,
-        "todohighlight.isCaseSensitive": true,
-        "todohighlight.keywords": [
-            "DEBUG:",
-            "REVIEW:",
-            "VBULLE:",
-            {
-                "text": "NB:",
-                "color": "#092939",
-                "isWholeLine": true,
-                "backgroundColor": "#D2D510",
-                "overviewRulerColor": "grey"
-            },
-            {
-                "text": "VBULLE",
-                "color": "#000",
-                "isWholeLine": true,
-                "backgroundColor": "#83B3D2"
-            },
-            {
-                "text": "TODO",
-                "color": "#FFF",
-                "border": "1px solid red",
-                "font-weight": "600",
-                "backgroundColor": "#11B054",
-                "isWholeLine": true
-            },
-            {
-                "text": "PARTIE:",
-                "color": "#FFF",
-                "border": "1px solid gray",
-                "font-weight": "600",
-                "backgroundColor": "#53616A",
-                "isWholeLine": true
-            },
-            {
-                "text": ":::",
-                "color": "#FFF",
-                "border": "1px solid gray",
-                "font-weight": "600",
-                "backgroundColor": "#53616A",
-                "isWholeLine": true
-            }    
-        ],
-        // "todohighlight.keywordsPattern": "FIXME:|\\(([$(^)]+))", // ((eee)) highlight `TODO:`,`FIXME:` or content between parentheses
-        "todohighlight.defaultStyle": {
-            "color": "#000",
-            "backgroundColor": "#C3D283",
-            "overviewRulerColor": "#000",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "isWholeLine": false
-            //other styling properties goes here ...  ((dfssrrr))
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+        "DEBUG:",
+        "REVIEW:",
+        "VBULLE:",
+        {
+            "text": "NB:",
+            "color": "#092939",
+            "isWholeLine": true,
+            "backgroundColor": "#D2D510",
+            "overviewRulerColor": "grey"
         },
-        "todohighlight.include": [
-            "**/*.js",
-            "**/*.jsx",
-            "**/*.ts",
-            "**/*.tsx",
-            "**/*.html",
-            "**/*.php",
-            "**/*.css",
-            "**/*.scss",
-            "**/*.md"
-        ],
-        "todohighlight.exclude": [
-            "**/node_modules/**",
-            "**/bower_components/**",
-            "**/dist/**",
-            "**/build/**",
-            "**/.vscode/**",
-            "**/.github/**",
-            "**/_output/**",
-            "**/*.min.*",
-            "**/*.map",
-            "**/.next/**"
-        ],
-        "todohighlight.maxFilesForSearch": 5120,
-        "todohighlight.toggleURI": false,
-        "editor.autoClosingOvertype": "never",
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "resmon.show.battery": false,
-        "editor.multiCursorModifier": "ctrlCmd",
-        "editor.tokenColorCustomizations": {
-            "textMateRules": [
-                {
-                    "scope": "criticmarkup.addition",
-                    "settings": {
-                        "foreground": "#65C238"
-                    }
-                },
-                {
-                    "scope": "criticmarkup.deletion",
-                    "settings": {
-                        "foreground": "#C2386E"
-                    }
-                },
-                {
-                    "scope": "criticmarkup.substitution",
-                    "settings": {
-                        "foreground": "#ff8600"
-                    }
-                },
-                {
-                    "scope": "criticmarkup.comment",
-                    "settings": {
-                        "foreground": "#69BED3"
-                    }
-                },
-                {
-                    "scope": "criticmarkup.highlight",
-                    "settings": {
-                        "foreground": "#aa53a9"
-                    }
-                }
-            ]
+        {
+            "text": "VBULLE",
+            "color": "#000",
+            "isWholeLine": true,
+            "backgroundColor": "#83B3D2"
+        },
+        {
+            "text": "TODO",
+            "color": "#FFF",
+            "border": "1px solid red",
+            "font-weight": "600",
+            "backgroundColor": "#11B054",
+            "isWholeLine": true
+        },
+        {
+            "text": "PARTIE:",
+            "color": "#FFF",
+            "border": "1px solid gray",
+            "font-weight": "600",
+            "backgroundColor": "#53616A",
+            "isWholeLine": true
+        },
+        {
+            "text": ":::",
+            "color": "#FFF",
+            "border": "1px solid gray",
+            "font-weight": "600",
+            "backgroundColor": "#53616A",
+            "isWholeLine": true
         }
-    
+    ],
+    // "todohighlight.keywordsPattern": "FIXME:|\\(([$(^)]+))", // ((eee)) highlight `TODO:`,`FIXME:` or content between parentheses
+    "todohighlight.defaultStyle": {
+        "color": "#000",
+        "backgroundColor": "#C3D283",
+        "overviewRulerColor": "#000",
+        "border": "1px solid #eee",
+        "borderRadius": "2px",
+        "isWholeLine": false
+        //other styling properties goes here ...  ((dfssrrr))
+    },
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.md"
+    ],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "editor.autoClosingOvertype": "never",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "resmon.show.battery": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "criticmarkup.addition",
+                "settings": {
+                    "foreground": "#65C238"
+                }
+            },
+            {
+                "scope": "criticmarkup.deletion",
+                "settings": {
+                    "foreground": "#C2386E"
+                }
+            },
+            {
+                "scope": "criticmarkup.substitution",
+                "settings": {
+                    "foreground": "#ff8600"
+                }
+            },
+            {
+                "scope": "criticmarkup.comment",
+                "settings": {
+                    "foreground": "#69BED3"
+                }
+            },
+            {
+                "scope": "criticmarkup.highlight",
+                "settings": {
+                    "foreground": "#aa53a9"
+                }
+            }
+        ]
+    }
 }
