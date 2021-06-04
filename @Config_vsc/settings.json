@@ -227,7 +227,7 @@
             "iconColor": "#FFF",
             "statusBar": {
                 "alignment": "left",
-                "text": "Prev",
+                "text": "",
                 "tooltip": "DBUILD dendron in dev (preview)",
                 "color": "#96D0EB"
             }
@@ -290,6 +290,21 @@
             },
             "args": {
                 "text": "echo \"\n\nBKP quickly\n\n ... in 5 sec ... \n\n\" && sleep 5 && sudo /bin/sh /home/pi/Dendron/@Notes_instructions/quick_bkp.sh\r"
+            }
+        },
+        // NB:HELLO
+        "Terminal: pandoc pdf": {
+            "command": "workbench.action.terminal.sendSequence",
+            "icon": "preferences-open-settings",
+            "iconColor": "yellow",
+            "statusBar": {
+                "alignment": "left",
+                "text": "pdf",
+                "tooltip": "pdf Pandoc",
+                "color": "yellow"
+            },
+            "args": {
+                "text": "notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 1000 -u low 'PDF pandoc 64' 'Création des pdf depuis md dans vault' && echo 'Création des pdf depuis md dans vault' \r ds64-shell /home/pi/Dendron/@Notes_instructions/@pandoc/bash_md_exclude_daily.sh"
             }
         },
         // NB:HELLO

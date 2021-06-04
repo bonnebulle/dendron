@@ -14,3 +14,6 @@ vault_perso
 vault/daily.*
 vault/private.*
 vault/log.*
+vault/assets/pdf/*
+vault/assets/pdf/README.pdf
+vault/assets/pdf/root.pdf

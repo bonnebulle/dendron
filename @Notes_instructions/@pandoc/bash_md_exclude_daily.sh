@@ -3,17 +3,18 @@
 # USE BASH : bash /home/pi/Dendron/@Notes_instructions/@pandoc/bash_md_exclude_daily.sh
 pandocfldr=/home/pi/Dendron/@Notes_instructions/@pandoc
 vault=/home/pi/Dendron/vault/
-vaultdest=/home/pi/Dendron/vault/assets
 devdest=/home/pi/Dendron/build/site/assets/pdf
+docsdest=/home/pi/Dendron/docs/assets
+
 
 echo '\nPandoc md to pdf\n'
 echo 'vault \= $vault'
-echo 'vaultdest \= $vaultdest'
 echo 'devdest \= $devdest'
+echo 'docsdest \= $docsdest'
 echo '\n\n'
 echo 'cleanup\n\n'
 
-sudo rm $vaultdest/pdf/*
+sudo rm $docsdest/pdf/*
 sudo rm $devdest/*
 
 for f in $vault*.md; do
@@ -49,4 +50,10 @@ for f in $vault*.md; do
 	fi
 done
 
-rsync -a $devdest  $vaultdest
+
+# devdest=/home/pi/Dendron/build/site/assets/pdf;
+# docsdest=/home/pi/Dendron/docs/assets;
+# sudo rm $docsdest/pdf/*
+# sudo rm $vault/assets/pdf/*
+# sudo rm $devdest/*
+sudo rsync -a $devdest  $docsdest

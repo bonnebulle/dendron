@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: Écriture-recherche en Thèse
-updated: 1622367148820
+updated: 1622815021682
 created: 1595961348801
 stub: false
 nav_order: 10
@@ -36,15 +36,30 @@ Dans les pages_notes les indications internes relatives au fonctionnement de Den
 
 ---
 
->>
-
 
 ## Les motivations : /// la recherche des bons moyens
 Je cherchais un outil_moyen de prises de notes et de développement de ma pensée par écrit. Je voulais éviter les outils numérique d'écriture dont les interface graphiques et la mise en page est souvent trop éloignée du rendu final. Je me suis mis en recherche d'une solution de mise en forme et publication de mon travail dans un interface que je puisse augmenter.
 
-J'ai donc fait une [étude de marché (et recherches)](https://liens.vincent-bonnefille.fr/?AGBhmA) au sujet des systèmes_outils de prise de notes élargies. J'ai retenu **Dendron** comme solution  *open-source* déjà largement employée dans la recherche universitaire {( reposant sur un éditeur de texte penser pour le code (vsCode de *Microsoft* cf. [vsCodium](https://vscodium.com/)) )}. 
+> La philosophie de cette outil sans base de donnée, en text-brut, décentralisé, est celui de l'*Open Access*. Une modalité de création de contenus pensés pour rester accessibles plutôt qu'encapsulés, enfermés dans des couches logiciels.
 
 ---
+
+##### Note technique, dépendance, production
+J'ai donc fait une [étude de marché (et recherches)](https://liens.vincent-bonnefille.fr/?AGBhmA) au sujet des systèmes_outils de prise de notes élargies. J'ai retenu **Dendron** comme solution  *open-source* déjà largement employée dans la recherche universitaire {( reposant sur un éditeur de texte penser pour le code (vsCode de *Microsoft* cf. [vsCodium](https://vscodium.com/)) )}. 
+
+Côté serveur, Dendron se produit avec node.js ce qui rend sa mise en ligne assez souple (mais complexifie aussi la distribution des contenus régulés par Express).
+
+---
+
+#### Remonter le fil de sa pensée 
+Par le passé j'avais déjà essayé de retranscire mon système personnel de prise de notes arborécentes (indentées par marges successives en fonction d'un écoignement du sujet central (tronc de la pensée dispercée)). 
+
+[Un exemple par ici](https://vincent-bonnefille.fr/index/about/read_more/).
+     
+>> Mais mes années d'écriture (thérapeutique ou de recherche) se sont éparpillées entre plusieurs ordinateurs-supports. Dendron semble offrir une pseudo-centralité qui pourrait m'aider à faire le tri, à intentionaliser ces moments d'adresse variables. De lier, de mettre de côté sans jetter trop vite.     
+On retrouve {ici} cette déconcentration (ou hors-propos, doute, chemin de traversse) par ce jeu de couleurs graduelle (et encore mal assumé).    
+>>>> Je doute donc je suis.
+
 
 ## Dendron : notes par branches
 Comme le rappelle la [page de présentation](https://wiki.dendron.so/notes/05774b2e-ebf7-4bbc-8171-ad191ba0ae0a.html) de cet outil et projet, Dendron tire son nom de cet imaginaire végétal : 
@@ -62,8 +77,8 @@ Et [celui-ci (en français)](https://www.arthurperret.fr/visualisation-documenta
 
 
 
-
-
+### Auto-critique
+[[frags.README.auto-critique]]
 
 ### Organisation des dossiers
 #### Parents-enfants : sous-ensembles
@@ -77,6 +92,7 @@ Une arboréscence retranscrite sous la forme d'un menu de navigation vertical et
 Les pages_notes enfants, du même dossier parent sont mentionnées en bas de page (lien cliquable). Les liens internes entre les notes_pages produisent automatiquement des liens de référence entre elles (également présentés en pied de page). 
 > Ce maillage devrait aider à produire et maintenir des liens verticaux, des voisinages de pensés. 
 >> Les *Tags* ("*étiquettes*") servent aussi à lier les contenus se rapportant au même sujets (les pages_notes avec un même tag_label s'affichent en bas de page cf. *backlinks*).
+>>> Une prise de note qui me rapproche d'une création web, étoilée.
 
 
 
@@ -113,9 +129,17 @@ Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes donné
 
 ## À venir ( reste à faire )
 
+DONE:::
 + Export md > **pdf et fichier text traditionnel** 
 > ( type .doc / .odt (bien que des extensions sur *VSCode* ou *Codium* soient en capacité d'ouvrir les *markdown* en .md avec un interface utilisateur du genre *LibreOffice* / *Microsoft Office*). J'ai déjà trouvé les outils nécessaires :   [étude de marché (et autres ressources)](https://liens.vincent-bonnefille.fr/?AGBhmA).
+J'ai opté pour le momet pour une pseudo-automatisation de conversion des pages_notes en #markdown vers du html puis en pdf avec #pandoc . Une fois généré le pdf est mis dans un dossier. Il est accessible depuis le web au niveau du fil d'ariane 
+( ajout côté front-end TODO - intégrer au template généré en liquid)
+> J'ai trouvé un juste milieu en métant les notes de bas de page #ndbp sur le côté droit des pdf avec la mise en page [#tufte](https://liens.vincent-bonnefille.fr/?&searchtags=tufte+#9L_Imw). La génération de pdf n'est pas parfaite mais suffisante pour le moment.
+>> TODO : Les liens entre ls pdf n'est pas clair. Les liens entre crochets indiquent la référence_dendron du fichier et non son nom / id (retenu pour le moment)
+>>> une prise de notes sur le côté ( #tufte ) plutôt qu'en scroll en bas de page. Bien repensé-étudié dans [cet article](https://www.arthurperret.fr/semantique-et-mise-en-forme.html).
 
+
+TODO::
 + Ajout d'une *mini-map* (front-end)
 > https://larsjung.de/pagemap/
 
@@ -129,3 +153,27 @@ DONE:::
 ### Travail en cours de formation
 NB: cette démarche est aussi celle d'un auto-apprentissage tant méthodologique (*Zettelkasten*) que technique (*Github*) que je maîtrise partiellement. 
 >>> À ce sujet, le créateur de Dendron dit sur son site ([principes](https://wiki.dendron.so/notes/7fcebd7d-6411-4c9d-8baf-65629dc018a1.html)) qu'il est **facile à prendre en main difficile à maîtriser** ("*Easy to learn, hard to master*") en faisant référence à "La loi de Bushnell ou loi de Nolan" (théorie des jeux) [wikipédia (fr)](https://fr.wikipedia.org/wiki/Loi_de_Bushnell). 
+
+----
+
+#### Articles de référence :
+**Une alternative à Word : écrire en RMarkdown**
+https://data.hypotheses.org/1144
+Par Alexandre Hobeika, le 25/02/2017
+Docteur en sociologie politique de l'EHESS, CMH-ETT 
+( écrit avec Florent Bédécarrats ) 
+
+Dennis Tenen et Grant Wythoff, «**Rédaction durable avec Pandoc et Markdown**» traduction par Marie-Christine Boucher, *The Programming Historian* en français 2 (2020), https://doi.org/10.46430/phfr0013.
+https://programminghistorian.org/fr/lecons/redaction-durable-avec-pandoc-et-markdown
+
+...
+
+Pour en savoir plus je conseille cet article en français autour de la prise de note : [https://organisologie.com/prise-de-note/](https://organisologie.com/prise-de-note/).
+
+Et [celui-ci (en français)](https://www.arthurperret.fr/visualisation-documentation-personnelle-reticulaire.html) :
+(( site de référence sur la mise en page avec pandoc / LaTeX ))
+https://www.arthurperret.fr/semantique-et-mise-en-forme.html au sujet de #tufte (notes manuscrites en marges de la page).
+
+...
+
+D'autres liens 'en vrac', sur mon log / blog, au fil de mes recherches sur cet outil ( liens_bulles [#dendron](https://liens.vincent-bonnefille.fr/?searchterm=&searchtags=dendron) )

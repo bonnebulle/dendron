@@ -241,7 +241,7 @@ $("#go_black").click(function() {
           
             <div class="search">
               <div class="search-input-wrap">
-                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Rechercher..." aria-label="Search DarkNetArt" autocomplete="off">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search DarkNetArt" aria-label="Search DarkNetArt" autocomplete="off">
                 <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
               </div>
               <div id="search-results" class="search-results"></div>
@@ -289,7 +289,7 @@ $("#go_black").click(function() {
     <meta itemprop="headline" content="Sources">
     
     <meta itemprop="datePublished" content="2020-07-28T20:35:48+00:00">
-    <meta itemprop="dateModified" content="2021-05-30T11:32:28+00:00">
+    <meta itemprop="dateModified" content="2021-06-04T15:57:01+00:00">
 
     <div class="page__inner-wrap">
 
@@ -326,14 +326,30 @@ $("#go_black").click(function() {
 </blockquote>
 </blockquote>
 <hr>
-<blockquote>
-<blockquote>
-</blockquote>
-</blockquote>
 <h2 id="les-motivations---la-recherche-des-bons-moyens"><a aria-hidden="true" class="anchor-heading" href="#les-motivations---la-recherche-des-bons-moyens"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Les motivations : /// la recherche des bons moyens</h2>
 <p>Je cherchais un outil_moyen de prises de notes et de développement de ma pensée par écrit. Je voulais éviter les outils numérique d'écriture dont les interface graphiques et la mise en page est souvent trop éloignée du rendu final. Je me suis mis en recherche d'une solution de mise en forme et publication de mon travail dans un interface que je puisse augmenter.</p>
-<p>J'ai donc fait une <a href="https://liens.vincent-bonnefille.fr/?AGBhmA">étude de marché (et recherches)</a> au sujet des systèmes_outils de prise de notes élargies. J'ai retenu <strong>Dendron</strong> comme solution  <em>open-source</em> déjà largement employée dans la recherche universitaire {( reposant sur un éditeur de texte penser pour le code (vsCode de <em>Microsoft</em> cf. <a href="https://vscodium.com/">vsCodium</a>) )}. </p>
+<blockquote>
+<p>La philosophie de cette outil sans base de donnée, en text-brut, décentralisé, est celui de l'<em>Open Access</em>. Une modalité de création de contenus pensés pour rester accessibles plutôt qu'encapsulés, enfermés dans des couches logiciels.</p>
+</blockquote>
 <hr>
+<h5 id="note-technique-dépendance-production"><a aria-hidden="true" class="anchor-heading" href="#note-technique-dépendance-production"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Note technique, dépendance, production</h5>
+<p>J'ai donc fait une <a href="https://liens.vincent-bonnefille.fr/?AGBhmA">étude de marché (et recherches)</a> au sujet des systèmes_outils de prise de notes élargies. J'ai retenu <strong>Dendron</strong> comme solution  <em>open-source</em> déjà largement employée dans la recherche universitaire {( reposant sur un éditeur de texte penser pour le code (vsCode de <em>Microsoft</em> cf. <a href="https://vscodium.com/">vsCodium</a>) )}. </p>
+<p>Côté serveur, Dendron se produit avec node.js ce qui rend sa mise en ligne assez souple (mais complexifie aussi la distribution des contenus régulés par Express).</p>
+<hr>
+<h4 id="remonter-le-fil-de-sa-pensée"><a aria-hidden="true" class="anchor-heading" href="#remonter-le-fil-de-sa-pensée"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Remonter le fil de sa pensée</h4>
+<p>Par le passé j'avais déjà essayé de retranscire mon système personnel de prise de notes arborécentes (indentées par marges successives en fonction d'un écoignement du sujet central (tronc de la pensée dispercée)). </p>
+<p><a href="https://vincent-bonnefille.fr/index/about/read_more/">Un exemple par ici</a>.</p>
+<blockquote>
+<blockquote>
+<p>Mais mes années d'écriture (thérapeutique ou de recherche) se sont éparpillées entre plusieurs ordinateurs-supports. Dendron semble offrir une pseudo-centralité qui pourrait m'aider à faire le tri, à intentionaliser ces moments d'adresse variables. De lier, de mettre de côté sans jetter trop vite.<br>
+On retrouve {ici} cette déconcentration (ou hors-propos, doute, chemin de traversse) par ce jeu de couleurs graduelle (et encore mal assumé).    </p>
+<blockquote>
+<blockquote>
+<p>Je doute donc je suis.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 <h2 id="dendron--notes-par-branches"><a aria-hidden="true" class="anchor-heading" href="#dendron--notes-par-branches"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron : notes par branches</h2>
 <p>Comme le rappelle la <a href="https://wiki.dendron.so/notes/05774b2e-ebf7-4bbc-8171-ad191ba0ae0a.html">page de présentation</a> de cet outil et projet, Dendron tire son nom de cet imaginaire végétal :
 "<em>Les dendrites (du grec δένδρον déndron «arbre») sont des prolongements du corps cellulaire des neurones dont elles partagent les organites</em>",
@@ -345,6 +361,8 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <blockquote>
 <p>"Il s’agit d’une pratique de la fiche érudite. adossée à un système de liens internes et d’indexation par mots-clés."</p>
 </blockquote>
+<h3 id="auto-critique"><a aria-hidden="true" class="anchor-heading" href="#auto-critique"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Auto-critique</h3>
+<p><a href="https://bonnebulle.github.io/dendron/notes/c398a240-e8a5-42ac-8ba1-5c48976f246f.html">auto-critique</a></p>
 <h3 id="organisation-des-dossiers"><a aria-hidden="true" class="anchor-heading" href="#organisation-des-dossiers"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Organisation des dossiers</h3>
 <h4 id="parents-enfants--sous-ensembles"><a aria-hidden="true" class="anchor-heading" href="#parents-enfants--sous-ensembles"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Parents-enfants : sous-ensembles</h4>
 <p>Placées dans des (sous-)dossiers à la <em>racine</em> du projet_site ces notes_pages respectent cette "descendance" : un dossier <em>parent</em> encapsule-contient-rassemble des <em>enfants</em> (fichiers) sur le même sujet). <strong>Ces <em>enfants</em> sont eux traîtés come des sous-parties ou continuité de la thèse : ces pages_notes développent <em>en détail</em> la question plus générale, parente, générale, d'ensemble.</strong></p>
@@ -369,6 +387,9 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <p>Ce maillage devrait aider à produire et maintenir des liens verticaux, des voisinages de pensés. </p>
 <blockquote>
 <p>Les <em>Tags</em> ("<em>étiquettes</em>") servent aussi à lier les contenus se rapportant au même sujets (les pages_notes avec un même tag_label s'affichent en bas de page cf. <em>backlinks</em>).</p>
+<blockquote>
+<p>Une prise de note qui me rapproche d'une création web, étoilée.</p>
+</blockquote>
 </blockquote>
 </blockquote>
 <h3 id="construit-localement-publié-facilement"><a aria-hidden="true" class="anchor-heading" href="#construit-localement-publié-facilement"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Construit localement, publié facilement</h3>
@@ -384,15 +405,26 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 <h2 id="résumé-des-avantages"><a aria-hidden="true" class="anchor-heading" href="#résumé-des-avantages"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Résumé des avantages</h2>
 <p>Ainsi je peux facilement faire demi-tour dans mon écriture ; envoyer mes données sur cette plateforme qui les produit-publie en ligne ; <strong>je garde la main sur ces données</strong> ; et l'éditeur que j'utilise correspond à mes exigences en matière d'interface à la fois léger et complet (avec des outils comme une <em>mini-map</em>, l'ajout de <strong>liens internes</strong>, la visualisation graphique des ramifications entre les contenus, <em>liens de retour</em>/"<em>Backlinks</em>" entre les notes citées entre elles, etc).</p>
 <h2 id="à-venir--reste-à-faire-"><a aria-hidden="true" class="anchor-heading" href="#à-venir--reste-à-faire-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>À venir ( reste à faire )</h2>
+<p>DONE:::</p>
 <ul>
-<li>
-<p>Export md > <strong>pdf et fichier text traditionnel</strong> </p>
+<li>Export md > <strong>pdf et fichier text traditionnel</strong> 
 <blockquote>
-<p>( type .doc / .odt (bien que des extensions sur <em>VSCode</em> ou <em>Codium</em> soient en capacité d'ouvrir les <em>markdown</em> en .md avec un interface utilisateur du genre <em>LibreOffice</em> / <em>Microsoft Office</em>). J'ai déjà trouvé les outils nécessaires :   <a href="https://liens.vincent-bonnefille.fr/?AGBhmA">étude de marché (et autres ressources)</a>.</p>
+<p>( type .doc / .odt (bien que des extensions sur <em>VSCode</em> ou <em>Codium</em> soient en capacité d'ouvrir les <em>markdown</em> en .md avec un interface utilisateur du genre <em>LibreOffice</em> / <em>Microsoft Office</em>). J'ai déjà trouvé les outils nécessaires :   <a href="https://liens.vincent-bonnefille.fr/?AGBhmA">étude de marché (et autres ressources)</a>.
+J'ai opté pour le momet pour une pseudo-automatisation de conversion des pages_notes en #markdown vers du html puis en pdf avec #pandoc . Une fois généré le pdf est mis dans un dossier. Il est accessible depuis le web au niveau du fil d'ariane
+( ajout côté front-end TODO - intégrer au template généré en liquid)
+J'ai trouvé un juste milieu en métant les notes de bas de page #ndbp sur le côté droit des pdf avec la mise en page <a href="https://liens.vincent-bonnefille.fr/?&#x26;searchtags=tufte+#9L_Imw">#tufte</a>. La génération de pdf n'est pas parfaite mais suffisante pour le moment.</p>
+<blockquote>
+<p>TODO : Les liens entre ls pdf n'est pas clair. Les liens entre crochets indiquent la référence_dendron du fichier et non son nom / id (retenu pour le moment)</p>
+<blockquote>
+<p>une prise de notes sur le côté ( #tufte ) plutôt qu'en scroll en bas de page. Bien repensé-étudié dans <a href="https://www.arthurperret.fr/semantique-et-mise-en-forme.html">cet article</a>.</p>
+</blockquote>
+</blockquote>
 </blockquote>
 </li>
-<li>
-<p>Ajout d'une <em>mini-map</em> (front-end)</p>
+</ul>
+<p>TODO::</p>
+<ul>
+<li>Ajout d'une <em>mini-map</em> (front-end)
 <blockquote>
 <p><a href="https://larsjung.de/pagemap/">https://larsjung.de/pagemap/</a></p>
 </blockquote>
@@ -420,10 +452,27 @@ en citant ici <a href="https://fr.wikipedia.org/wiki/Dendrite_(biologie)">Wikip�
 </blockquote>
 </blockquote>
 <hr>
+<h4 id="articles-de-référence-"><a aria-hidden="true" class="anchor-heading" href="#articles-de-référence-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Articles de référence :</h4>
+<p><strong>Une alternative à Word : écrire en RMarkdown</strong>
+<a href="https://data.hypotheses.org/1144">https://data.hypotheses.org/1144</a>
+Par Alexandre Hobeika, le 25/02/2017
+Docteur en sociologie politique de l'EHESS, CMH-ETT
+( écrit avec Florent Bédécarrats ) </p>
+<p>Dennis Tenen et Grant Wythoff, «<strong>Rédaction durable avec Pandoc et Markdown</strong>» traduction par Marie-Christine Boucher, <em>The Programming Historian</em> en français 2 (2020), <a href="https://doi.org/10.46430/phfr0013">https://doi.org/10.46430/phfr0013</a>.
+<a href="https://programminghistorian.org/fr/lecons/redaction-durable-avec-pandoc-et-markdown">https://programminghistorian.org/fr/lecons/redaction-durable-avec-pandoc-et-markdown</a></p>
+<p>...</p>
+<p>Pour en savoir plus je conseille cet article en français autour de la prise de note : <a href="https://organisologie.com/prise-de-note/">https://organisologie.com/prise-de-note/</a>.</p>
+<p>Et <a href="https://www.arthurperret.fr/visualisation-documentation-personnelle-reticulaire.html">celui-ci (en français)</a> :
+(( site de référence sur la mise en page avec pandoc / LaTeX ))
+<a href="https://www.arthurperret.fr/semantique-et-mise-en-forme.html">https://www.arthurperret.fr/semantique-et-mise-en-forme.html</a> au sujet de #tufte (notes manuscrites en marges de la page).</p>
+<p>...</p>
+<p>D'autres liens 'en vrac', sur mon log / blog, au fil de mes recherches sur cet outil ( liens_bulles <a href="https://liens.vincent-bonnefille.fr/?searchterm=&#x26;searchtags=dendron">#dendron</a> )</p>
+<hr>
 <h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
 <ul>
 <li><a href="https://bonnebulle.github.io/dendron/notes/68d19dc8-0c01-4c8e-a2b6-3f96fdf5164a.html">Introduction</a></li>
 <li><a href="https://bonnebulle.github.io/dendron/notes/05148060-0f18-44e9-84ea-4b6b3891358e.html">Darknets</a></li>
+<li><a href="https://bonnebulle.github.io/dendron/notes/c398a240-e8a5-42ac-8ba1-5c48976f246f.html">auto-critique</a></li>
 <li><a href="https://bonnebulle.github.io/dendron/notes/1806f712-bdb7-4db0-9425-52ebfe3b4f6f.html">frag - Tests dendron</a></li>
 </ul><span id="navId" data="README"></span>
 

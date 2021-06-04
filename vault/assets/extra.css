@@ -12,7 +12,7 @@
 --main-font-size: 1.55em;
 --main-font-size-less: 1.45em;
 --main-font-size-lessless: 0.55em;
---main-font-size-more: 1.55em;
+--main-font-size-more: 1.65em;
 --main-font-size-neg: -0em;
 --main-font-size-neg_less: -0.5em;
 --main-trans-time: 0s;
@@ -152,7 +152,7 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"]:hover 
 .main-content a[href*="bonnebulle"],
 .main-content a[href*="localhost"] {
     text-decoration-color: var(--main-bkg-link);
-    font-size:0.9em !important;
+    /* font-size:0.9em !important; */
 }
 .breadcrumb-nav-list-item a:hover,
 #site-nav a>*:hover,
