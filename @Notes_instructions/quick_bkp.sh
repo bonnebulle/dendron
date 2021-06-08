@@ -4,12 +4,18 @@ cd /home/pi/Dendron/
 sudo cp /home/pi/.config/VSCodium/User/settings.json /home/pi/Dendron/@Config_vsc/ && sudo cp /home/pi/.config/VSCodium/User/keybindings.json /home/pi/Dendron/@Config_vsc/
 echo "\n settings.json + keybindings.json ok\n"
 
+cp /home/pi/.mume/style.less /home/pi/Dendron/@Config_vsc/dendron-markdown-preview-enhanced/
+
+
+
 cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md
 echo "\nReadMe ( Dendron_Vault -> root-Dendron )\n"
 
 rsync -a /home/pi/Dendron/vault/assets/* /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')/
 rsync -a --exclude="js" --exclude="css" /home/pi/Dendron/build/site/assets/* /home/pi/Dendron/vault/assets/
 echo "\nRsynch - Assets ( siteBuild -> Dendron_Vault )\n"
+
+
 
 # cp /home/pi/Dendron/vault/assets/* /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')_extra_sh_vaultassets.css 
 

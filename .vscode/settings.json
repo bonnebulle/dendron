@@ -32,5 +32,6 @@
         "editor.hover.delay": 99900,
     },
     "cSpell.maxNumberOfProblems": 10,
-    "breadcrumbs.symbolSortOrder": "type"
+    "breadcrumbs.symbolSortOrder": "type",
+    "editor.minimap.maxColumn": 40
 }

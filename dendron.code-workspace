@@ -17,7 +17,7 @@
         "editor.tabCompletion": "on",
         "terminal.integrated.cursorBlinking": true,
         "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
-        "editor.minimap.maxColumn": 70,
+        "editor.minimap.maxColumn": 40,
         "ShortcutMenuBar.userButton02Command": "dendron.sitePreview",
         "ShortcutMenuBar.userButton01Command": "dendron.siteBuild",
         "workbench.editor.centeredLayoutAutoResize": false,
@@ -50,7 +50,8 @@
         ],
         "files.autoSaveDelay": 10000,
         "editor.wordWrapColumn": 70,
-        "explorer.sortOrder": "modified"
+        "explorer.sortOrder": "modified",
+        "dendron.dendronDir": "/home/pi/Dendron/"
     },
     "extensions": {
         "recommendations": [

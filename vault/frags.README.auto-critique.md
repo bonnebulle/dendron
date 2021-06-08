@@ -2,7 +2,7 @@
 id: c398a240-e8a5-42ac-8ba1-5c48976f246f
 title: auto-critique
 desc: 'Usine à gaz, peur de la page blanche ?'
-updated: 1622815141888
+updated: 1623164281351
 created: 1622813230428
 ---
 
