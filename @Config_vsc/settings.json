@@ -304,7 +304,7 @@
                 "color": "yellow"
             },
             "args": {
-                "text": "notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 1000 -u low 'PDF pandoc 64' 'Création des pdf depuis md dans vault' && echo 'Création des pdf depuis md dans vault' \r ds64-shell /home/pi/Dendron/@Notes_instructions/@pandoc/bash_md_exclude_daily.sh"
+                "text": "notify-send-all --icon='/home/pi/Dendron/vault/assets/images/logo.png' -t 1000 -u low 'PDF pandoc 64' 'Création des pdf depuis md dans vault' && echo 'Création des pdf depuis md dans vault' \r ds64-shell /home/pi/Dendron/@Notes_instructions/@pandoc/bash_md_exclude_daily.sh \r"
             }
         },
         // NB:HELLO

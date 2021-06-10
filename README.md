@@ -2,7 +2,7 @@
 id: README
 title: Sources
 desc: Écriture-recherche en Thèse
-updated: 1622815021682
+updated: 1623315313192
 created: 1595961348801
 stub: false
 nav_order: 10
@@ -52,9 +52,11 @@ Côté serveur, Dendron se produit avec node.js ce qui rend sa mise en ligne ass
 ---
 
 #### Remonter le fil de sa pensée 
-Par le passé j'avais déjà essayé de retranscire mon système personnel de prise de notes arborécentes (indentées par marges successives en fonction d'un écoignement du sujet central (tronc de la pensée dispercée)). 
+Par le passé j'avais déjà essayé de retranscrire mon système personnel de prise de notes arborescentes (indentées par marges successives en fonction d'un éloignement du sujet central (tronc de la pensée dispersée)). 
 
-[Un exemple par ici](https://vincent-bonnefille.fr/index/about/read_more/).
+
+
+[Un exemple par ici](https://vincent-bonnefille.fr/index/about/read_more/).     
      
 >> Mais mes années d'écriture (thérapeutique ou de recherche) se sont éparpillées entre plusieurs ordinateurs-supports. Dendron semble offrir une pseudo-centralité qui pourrait m'aider à faire le tri, à intentionaliser ces moments d'adresse variables. De lier, de mettre de côté sans jetter trop vite.     
 On retrouve {ici} cette déconcentration (ou hors-propos, doute, chemin de traversse) par ce jeu de couleurs graduelle (et encore mal assumé).    
@@ -75,7 +77,7 @@ Pour en savoir plus je conseille cet article en français autour de la prise de 
 Et [celui-ci (en français)](https://www.arthurperret.fr/visualisation-documentation-personnelle-reticulaire.html) :
 > "Il s’agit d’une pratique de la fiche érudite. adossée à un système de liens internes et d’indexation par mots-clés."
 
-
+![dendron-vscodium-interface-tree-root.png](assets/images/dendron-vscodium-interface-tree-root.png)
 
 ### Auto-critique
 [[frags.README.auto-critique]]

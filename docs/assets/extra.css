@@ -8,8 +8,8 @@
     --main-font-size-neg: -1.3em;
     --main-font-size-neg_less: -0.5em;
      */
-     --main-generale-font-size: 19.5px;
---main-font-size: 1.55em;
+--main-generale-font-size: 19.3px;
+--main-font-size: 19.3px;
 --main-font-size-less: 1.45em;
 --main-font-size-lessless: 0.55em;
 --main-font-size-more: 1.65em;
@@ -18,13 +18,60 @@
 --main-trans-time: 0s;
 }
 
+@font-face {
+  font-family: 'Charter';
+  src:
+    local('Charter'),
+    url('./fonts/charter_regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Charter-italic';
+  src:
+    local('Charter Italic'),
+    url('./fonts/charter_italic.woff') format('woff');
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Charter-bold';
+  src:
+    local('Charter Bold'),
+    url('./fonts/charter_bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Charter-italic-bold';
+  src:
+    local('Charter Bold Italic'),
+    url('./fonts/charter_bold_italic.woff') format('woff');
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+html,
 html body * {
+    zoom: 1;
     transition:none;
 }
 
 body {
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: none;
+ -webkit-text-size-adjust:none;
+ -ms-text-size-adjust:none;
+ -moz-text-size-adjust:none;
+ text-size-adjust:none;
 }
 
 html,
@@ -72,7 +119,7 @@ html .page__inner-wrap a:not([class]):hover {
         margin-bottom: 0.25rem;
     }
     .search-input {
-        /* font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif; */
+        /* font-family: Charter, Georgia, serif; */
         font-size: 17.5px;
     }
     .search-active .search-input {
@@ -255,12 +302,25 @@ ul.nav-list ul li.nav-list-item a.nav-list-link.active {
     line-height: 1.9em !important;
     line-height: 1.82em !important;
     line-height:  var(--main-font-size-more) !important;
-    font-weight: 400;
+    font-weight: 450;
     color: var(--main-general_color);
     font-family: Open sans;
-        font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-family: Charter, Georgia, serif;
         font-size:  var(--main-generale-font-size);
     }
+
+.page__inner-wrap strong {
+    font-family: Charter-bold, Georgia, serif;
+}
+.page__inner-wrap em {
+    font-family: Charter-italic, Georgia, serif;
+}
+
+.page__inner-wrap strong em,
+.page__inner-wrap em strong {
+    font-family: Charter-italic-bold, Georgia, serif;
+}
+
 
 
 .page__inner-wrap ul,
@@ -347,7 +407,7 @@ vertical-align: text-top;
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Charter, Georgia, serif;
     font-weight: 600;
 }
 
@@ -1026,7 +1086,7 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li a:link,
 html body .table-of-contents-sidebar-fixed-sidebar ul li a:visited {
     color: var(--main-light) !important;
     text-decoration: none !important;
-    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Charter, Georgia, serif;
 }
 
 html body .table-of-contents-sidebar-fixed-sidebar ul li a:visited {
@@ -1135,7 +1195,7 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:firs
 .page__inner-wrap del {
     text-decoration-color: var(--main-bkg);
     text-decoration-style: solid;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 6px;
     border-bottom: none !important;
 }
 .page__inner-wrap del a {
@@ -1143,6 +1203,7 @@ html body .table-of-contents-sidebar-fixed-sidebar ul li[class^="ANCHOR"] a:firs
     filter: grayscale(0.4);
     text-decoration: none !important;
     border: none !important;
+    vertical-align: middle;
 }
 .page__inner-wrap del:hover {
     text-decoration: none;
@@ -1327,7 +1388,7 @@ border: 1px solid var(--main-border-alt);
 .search-result-previews {
     font-weight: 300 !important;
     color: var(--main-light) !important;
-    /* font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif; */
+    /* font-family: Charter, Georgia, serif; */
     font-size: 13px !important;
     width: 70%;
 }

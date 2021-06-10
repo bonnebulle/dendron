@@ -2,7 +2,7 @@
 id: c398a240-e8a5-42ac-8ba1-5c48976f246f
 title: auto-critique
 desc: 'Usine à gaz, peur de la page blanche ?'
-updated: 1623164281351
+updated: 1623310682156
 created: 1622813230428
 ---
 
@@ -16,11 +16,13 @@ Si cet appareillage n'est pas une usine à gaz. Si, sa complexité ne m'éloigne
 
 ----
 
-En étoffant découvrant le marché des outils de publication scientifique-recherche, je découvre d'autres alternatives de publication modulaire/programmatique ( tel <https://bookdown.org/> [bulle](https://liens.vincent-bonnefille.fr/?2kqw2Q) ).
+En étoffant découvrant le marché des outils de publication scientifique-recherche, je découvre d'autres alternatives de publication modulaire/programmatique ( tel <https://bookdown.org/> [bulle](https://liens.vincent-bonnefille.fr/?2kqw2Q) )...
+Ou encore <https://www.bookstackapp.com>, un *wiki-like* avec une interface très fluide, ample_large, sous-parties variées : des "étagères", "chapitres".... 
 
 
 Lié à :
 [[Interrogations.doutes]]
+[[tags.doutes]]
 
 Fragment retiré, extrait-extra de :
 [[README]]

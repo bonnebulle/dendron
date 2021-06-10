@@ -17,3 +17,4 @@ vault/log.*
 vault/assets/pdf/*
 vault/assets/pdf/README.pdf
 vault/assets/pdf/root.pdf
+node_modules00/

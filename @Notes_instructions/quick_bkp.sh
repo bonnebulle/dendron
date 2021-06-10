@@ -11,8 +11,11 @@ cp /home/pi/.mume/style.less /home/pi/Dendron/@Config_vsc/dendron-markdown-previ
 cp /home/pi/Dendron/vault/README.md /home/pi/Dendron/README.md
 echo "\nReadMe ( Dendron_Vault -> root-Dendron )\n"
 
+
 rsync -a /home/pi/Dendron/vault/assets/* /home/pi/Dendron/bkp/$(date +'%Y-%m-%d-%H%M')/
+
 rsync -a --exclude="js" --exclude="css" /home/pi/Dendron/build/site/assets/* /home/pi/Dendron/vault/assets/
+rsync -a --exclude="js" --exclude="css" /home/pi/Dendron/build/site/assets/* /home/pi/Dendron/docs/assets/
 echo "\nRsynch - Assets ( siteBuild -> Dendron_Vault )\n"
 
 
