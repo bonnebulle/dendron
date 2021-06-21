@@ -2,7 +2,7 @@
 id: 26362514-6161-4c2f-a4f1-2cf2676a07b3
 title: Doutes
 desc: ''
-updated: 1621500444051
+updated: 1624311149827
 created: 1620502059669
 ---
 
@@ -23,7 +23,7 @@ Le devoir de vérité et le trouble de l'art ( sur un corps pensant (ou oublié 
 
 
 #### Problème dans le fait du sujet lui-même "Darknet"
-Qui produit un appel au sensationnel, qui chari un fort imaginaire
+Qui produit un appel au sensationnel, qui charie un fort imaginaire
 
 > Problème d'en faire des sujets divertissants { positif : de luxure-hubris, de liberté-auto.nomie } ou { négatif : criminalité-illégalismes, outrage, cathartique } 
 
