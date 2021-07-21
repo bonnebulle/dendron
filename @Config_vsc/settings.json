@@ -123,13 +123,18 @@
         "[GitHub Dark]": {
             "scrollbarSlider.activeBackground": "#000",
             "scrollbarSlider.hoverBackground": "#3E84BB",
-            "scrollbarSlider.background": "#9CC0DE",
+            "scrollbarSlider.background": "#89b4d8",
             "breadcrumb.focusForeground": "#eff1f3",
             "breadcrumb.foreground": "#72a0c1",
             "descriptionForeground": "#b284be",
             "editorCursor.foreground": "#adff2f",
             "editor.selectionBackground": "#414517",
-            "editor.lineHighlightBorder": "#1D3F34"
+            "editor.lineHighlightBorder": "#1D3F34",
+            "editor.background": "#191c20",
+            "editor.foreground": "#d8dce1",
+            "tab.unfocusedActiveBackground": "#111111",
+            "tab.activeBackground": "#1a1a1a",
+            "tab.hoverBackground": "#191c20"
         }
     },
     "workbench.editor.highlightModifiedTabs": true,
@@ -504,9 +509,9 @@
     "todohighlight.maxFilesForSearch": 5120,
     "todohighlight.toggleURI": false,
     "editor.autoClosingOvertype": "never",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
     "resmon.show.battery": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.tokenColorCustomizations": {
@@ -542,5 +547,6 @@
                 }
             }
         ]
-    }
+    },
+    "editor.lineHeight": 0
 }
