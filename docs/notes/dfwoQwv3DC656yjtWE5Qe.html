@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>du_bruit - DarkNetArt</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://bonnebulle.github.io/dendron/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://bonnebulle.github.io/dendron/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://bonnebulle.github.io/dendron/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  /><!-- QUICKFIX ToDo TD : localhost // github root folder diferrent -->
+<link type="text/css" rel="stylesheet" href="/assets/extra_black.css" />
+<!-- For Github -->
+<link type="text/css" rel="stylesheet" href="/dendron/assets/extra_black.css" />
+<!-- -- -->
+<link type="text/css" rel="preload" href="/assets/extra_light.css" />
+<!-- For Github -->
+<link type="text/css" rel="preload" href="/dendron/assets/extra_light.css" />
+<link type="text/css" rel="preload" href="/assets/normalize.css" />
+<!-- For Github -->
+<link type="text/css" rel="preload" href="/dendron/assets/normalize.css" />
+
+
+
+<!-- ---------  -->
+<link type="text/css" rel="stylesheet" href="/assets/extra.css" />
+<!-- For Github -->
+<link type="text/css" rel="stylesheet" href="/dendron/assets/extra.css" />
+
+<link type="text/css" rel="preload" href="/assets/tufte.css" />
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
+
+<script type="text/javascript" src="/assets/app_js.js"></script>
+<!-- For Github -->
+<script type="text/javascript" src="/dendron/assets/app_js.js"></script>
+
+
+
+
+<div id="go_black"></div>
+
+<script>
+let preference = localStorage.getItem('the_switch') || 'blacked';
+
+
+	if (preference=="blacked") {
+    black();
+    // console.log("0");
+                // $(this).text("0").addClass("black");
+                // $("body, head").addClass("blacked");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 10);
+	} else {
+    light();
+    // console.log("1111");
+                // $(this).text("1").addClass("light");
+                // $("body, head").addClass("ligthed");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 10);
+	}
+
+
+
+
+
+function light(){
+// LIGHT
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link = document.createElement('link'); 
+	        link.rel = 'stylesheet';  
+	        link.type = 'text/css'; 
+		//    $("body, head").toggleClass("blacked").toggleClass("ligthed");
+             if (window.location.href.indexOf('localhost') > 0) {   
+	        link.href = '/assets/extra_light.css';  
+	        head.appendChild(link);  
+                $("link[href='/assets/extra_black.css']").remove();
+              } else {
+	          link.href = '/dendron/assets/extra_light.css';  
+	          head.appendChild(link);  
+              $("link[href='/dendron/assets/extra_black.css']").remove();
+              }
+}
+function black(){
+// BLACK
+	       var head = document.getElementsByTagName('HEAD')[0];  
+	        var link1 = document.createElement('link'); 
+	        link1.rel = 'stylesheet'; 
+		// $("body, head").toggleClass("blacked").toggleClass("ligthed");
+          if (window.location.href.indexOf('localhost') > 0) {   
+	        link1.href = '/assets/extra_black.css';  
+	        head.appendChild(link1);  
+            $("link[href='/asset/extra_light.css']").remove();
+          } else {
+	          link1.href = '/dendron/assets/extra_black.css';  
+	          head.appendChild(link1);  
+              $("link[href='/dendron/assets/extra_light.css']").remove();
+          }
+}
+
+
+
+$("#go_black").click(function() {
+	$(this).toggleClass("on");
+    let preference = localStorage.getItem('the_switch');
+	console.log("black " +preference);
+
+
+   
+	if (preference!="blacked") {
+    black();
+    // console.log("0");
+                // $(this).text("0");
+                setTimeout(function(){ 
+                    localStorage.setItem('the_switch', "blacked");
+                    preference="blacked";
+                }, 100);
+	} else {
+    light();
+    // console.log("1111");
+                // $(this).text("1");
+                setTimeout(function(){ 
+                        localStorage.setItem('the_switch', "ligthed");
+                        preference="ligthed";
+                }, 100);
+	}
+ 
+
+});
+
+
+</script>
+  <script
+    type="text/javascript"
+    src="https://bonnebulle.github.io/dendron/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+  
+<meta name="description" content="Arts et Darknets">
+<meta name="author" content="Vincent Bonnefille">
+
+<link rel="canonical" href="https://bonnebulle.github.io/dendron/notes/dfwoQwv3DC656yjtWE5Qe.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bonnebulle.github.io/dendron/notes/dfwoQwv3DC656yjtWE5Qe.html">
+<meta property="og:description" content="Arts et Darknets">
+<meta property="og:image" content="https://bonnebulle.github.io/dendronundefined">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://bonnebulle.github.io/dendron/notes/dfwoQwv3DC656yjtWE5Qe.html">
+<meta name="twitter:description" content="Arts et Darknets">
+<meta name="twitter:image" content="https://bonnebulle.github.io/dendronundefined">
+
+
+  <meta property="og:title" content="du_bruit - DarkNetArt" />
+  <meta name="twitter:title" content="du_bruit - DarkNetArt" />
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://bonnebulle.github.io/dendron" class="site-title lh-tight">
+  DarkNetArt
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search DarkNetArt" aria-label="Search DarkNetArt" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron">Racine</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/d3cb3b9a-3855-46b2-83f2-35da2a1b9e66.html">Interrogations</a></li><li class="breadcrumb-nav-list-item"><a href="https://bonnebulle.github.io/dendron/notes/26362514-6161-4c2f-a4f1-2cf2676a07b3.html">Doutes</a></li><li class="breadcrumb-nav-list-item">du_bruit</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="du_bruit">
+    
+    <meta itemprop="datePublished" content="2021-06-22T00:11:08+00:00">
+    <meta itemprop="dateModified" content="2021-06-22T01:14:15+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="du_bruit"><a aria-hidden="true" class="anchor-heading" href="#du_bruit"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>du_bruit</h1>
+<p>Je suis désolé d'avoir tout lâché d'un coup. À peine nous avions commencé la reprise de contact. Comme très souvent je me suis réfugié derrière mon écran. J'ai paniqué à l'idée de devoir le quitter. J'ai retrouvé le plaisir de coder et d'apprendre encore une nouvelle constellation technique. Quelques briques toutes neuves à mon arc. </p>
+<p>Je me suis employé à mettre en place un environnement de travail adéquat pour l'écriture rapide mais offrant les qualités du www web (à commencé par les liens hypertextes). Je suis très satisfait de cet outil qui me permet d'échapper à la page blanche sous Word. J'ai écris longuement sur les avantages de cet outil : <a href="https://bonnebulle.github.io/dendron/notes/README.html">Sources</a> (ses principes et philosophie).</p>
+<p>Je me suis recroquevillé sur un ensemble de problèmes secondaires en évitant les aspects prioritaires : contacter untel unetelle.  Je me suis toute suite mis à écrire sans véritable direction ou intention. Comme je le fais à chaque fois.</p>
+<p>L'objectif était de pourvoir assez simplement publier mes textes-ébauches. D'avoir une mise en page qui me permette de me rendre compte du rapport du texte à la page web (en diminuant la part d'écriture de code html ou autre). </p>
+<p>C'est avec ce constat mitigé que j'ai arrêté d'écrire début juin. Date à laquelle je me projetais d'en fin contacter untel unetelle. J'ai procrastiné en avançant comme je pouvais. Un constat mitigé parce que ce travail n'est pas perdu.</p>
+<p>Mais comme souvent, il m'aura donc servi à ne pas lever le pieds, à ne pas réfléchir à mes envies profondes. </p>
+<p>J'ai mis en place d'autres outils qui me servent quotidiennement dans mes pérégrinations sur le web, à charrier des contenus d'une actualité en vue d'en faire un corpus, d'en solidifier un sujet, une intrigue. Un outil de d'archivage de sites web (<em>archivebox</em> qui complète la sauvegarde d'articles avec <em>Wallabag</em> et celui de marques-pages/liens/ressources commenté.e.s ainsi que, pour finir, un agrégateur de flux RSS pour compléter une veille décentralisée). </p>
+<p>Cet écosystème complet me permet enfin de lier avec plus de finesse les ressources entre elles, tout en les préservant de l'érosion du web.</p>
+<p>Un ouvrage colossale qui me demande beaucoup de temps et réduit d'autant celui que j'alloue pour démarcher des clients ou produire des projets. Et je sais depuis longtemps que cette boulimie ne trouve pas de fin. Enfin si, j'ai l'impression d'enfin parvenir, d'avoir tous les outils dont il me semble avoir besoin.</p>
+<hr>
+<blockquote>
+<p>Ce que j'ignore vraiment c'est si c'est du web d'hier ou de demain que je veux parler
+En me mettant à nouveau en promenade sur le www j'ai retrouvé ce plaisir simple de la recherche de pépite
+Je suis de plus en plus fan des Webrings et autres annuaires : de l'indie web et autres résistances pour la confection et le maintien d'espaces de publication auto-gérés : des espaces intimes, propres à leurs auteurs et autrices.
+Des espaces d'existence numérique dont la curation, le reportage, est une tache elle aussi infinie mais perfective.</p>
+<blockquote>
+<p>J'en reviens à cette chose simple autour des croyances heureuses du web. Un peu plus en surface, du côté des productions qui font la part belle à des réflexions et formes originales.
+J'ai retrouvé ce grain des années 90-2000, ce refuge nostalgique d'un web désué-poussiéreux que l'on ressent quand on cherche son chemin parmi les annuaires hébergés sur des serveurs aux origines protégées : les sites du Darkweb.
+La préoccupation en définitive d'un web auto-produit, de moindre facture, souvent modeste. Un web des blogs et zines conscient de ce que ces espaces ont perdu avant de disparaître (tout autant que l'importance d'un espace à soi par lequel et d'où exister).</p>
+</blockquote>
+</blockquote>
+<p>J'ai retrouvé un atré pour le contenu, cette couche supérieure peut-être moins abstraite et concrète que la technique dans laquelle je me réffugie. J'ai retrouvé des désirabilités humaines, des encapacitations hereuses et désirables : celui de l'ouvrage de communautés humaines faisant réseau.</p>
+<hr>
+<p>La transformation du paysage artistique chamboulé par les NFT.
+L'essor d'une spéculation financière sur des objets numériques. La liberté capitaliste de posséder et d'empécher d'autres de posséder ou de vivre sur ce même principe et loi de l'accès par l'argent.</p>
+<p>Je me sens rrès préoccupé par l'avenir climatique, l'abération des régimes reproductifs de nos sociétés qui externalisent et cachent les effets délétaires de nos modes de vie consuméristes.</p>
+<p>Je suis tout autant abassourdi par la violence commune, celle des pouvoirs et des dominations quotidiennes. De ce qu'il est dur de vivre dans ce monde si ses codes jouent contre soi à la naissance. </p>
+<p>Je suis épuisé de l'esthétique guerriere de ce monde. De cette pragmatique, de cette thèse viriliste et des altruismes perdus. De la médiocrité esthétique de ce monde qui ne m'enchante plus (et dont j'aimerais trouver les moyens de mieux participer à la création de reffuges). </p>
+<p>Je reviens encore une fois au fait que ces utopies numériques ne vont jamais assez loin. Et qu'à mon sens ces réseaux n'ont d'intérêt que du fait de leur radicalité technique. Que ces canaux servent un contre pouvoir informationel (dont les héros et héroïnes modernes sont aujourd'hui en prison ou en exile). Des outils offrant l'impunité des sources et donc la fin des silencialisations. </p><span id="navId" data="dfwoQwv3DC656yjtWE5Qe"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>
